@@ -1,9 +1,9 @@
 <meta>
-Republican Candidates Debate in Cleveland, Ohio
-August 6, 2015
-Campaign 2016
-Cleveland, Ohio, United States
-The American Presidency Project
+<title>Republican Candidates Debate in Cleveland, Ohio</title>
+<date>August 6, 2015</date>
+<race>Campaign 2016</race>
+<loc>Cleveland, Ohio, United States</loc>
+<source>The American Presidency Project</source>
 /<meta>
 
 <participants>
@@ -263,17 +263,17 @@ Everybody has a right to their God-given purpose.
 
 And finally, our Medicaid is growing at one of the lowest rates in the country. And, finally, we went from $8 billion in the hole to $2 billion in the black. We've cut $5 billion in taxes... [timer sounds] ...and we've grown 350,000 jobs. [applause]
 
-WALLACE: Gentlemen, we're turning to a new subject that all of you have been talking about and some of you have been disagreeing about, and that is the issue of immigration.
+WALLACE: Gentlemen, we're turning to a new subject that all of you have been talking about and some of you have been disagreeing about, and that is the issue of <imm>immigration</imm>.
 
-Governor Bush, you released a new plan this week on illegal immigration focusing on enforcement, which some suggest is your effort to show that you're not soft on that issue.
+Governor Bush, you released a new plan this week on <imm status="illegal">illegal immigration</imm> focusing on enforcement, which some suggest is your effort to show that you're not soft on that issue.
 
-I want to ask you about a statement that you made last year about illegal immigrants. And here's what you said. "They broke the law, but it's not a felony, it's an act of love. It's an act of commitment to your family."
+I want to ask you about a statement that you made last year about illegal immigrants. And here's what you said. <imm status="illegal" att="pos">"They broke the law, but it's not a felony, it's an act of love. It's an act of commitment to your family."</imm>
 
 Do you stand by that statement and do you stand by your support for earned legal status?
 
-BUSH: I do. I believe that the great majority of people coming here illegally have no other option. They want to provide for their family.
+BUSH: I do. <imm status="ilegal" term="people" att="pos">I believe that the great majority of people coming here illegally have no other option. They want to provide for their family.</imm>
 
-But we need to control our border. It's not -- it's our responsibility to pick and choose who comes in. So I -- I've written a book about this and yet this week, I did come up with a comprehensive strategy that -- that really mirrored what we said in the book, which is that we need to deal with E-Verify, we need to deal with people that come with a legal visa and overstay.
+But we need to control our <border>border</border>. It's not -- it's our responsibility to pick and choose who comes in. So I -- I've written a book about this and yet this week, I did come up with a comprehensive strategy that -- that really mirrored what we said in the book, which is that we need to deal with E-Verify, we need to deal with people that come with a legal visa and overstay.
 
 We need to be much more strategic on how we deal with border enforcement, border security. We need to eliminate the sanctuary cities in this country. It is ridiculous and tragic...[applause]...that people are dying because of the fact that -- that local governments are not following the federal law. There's much to do. And I think rather than talking about this as a wedge issue, which Barack Obama has done now for six long years, the next president -- and I hope to be that president -- will fix this once and for all so that we can turn this into a driver for high sustained economic growth.
 
