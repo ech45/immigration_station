@@ -11,8 +11,8 @@ loc = element loc {text}
 
 ref = attribute ref {text}
 
-body = element body {mixed{(loc|trope|platform|anecdote|immigration|immigrant|fact_check|key_word|p|speaker)*}}
-p = element p {mixed{(loc|trope|platform|anecdote|immigration|immigrant|fact_check|key_word)*}}
+body = element body {speech*}
+speech = element speech { who, mixed{(trope | anecdote | platform | immigrant | immigration | key_word )*}}
 
 platform = element platform {type, subtype, attitude*, mixed{(key_word|immigration|immigrant|trope)*}}
 trope = element trope {type, subtype, attitude*, mixed {(immigrant|immigration|key_word|fact_check)*}}
@@ -21,17 +21,16 @@ subtype = attribute subtype {text}
 type = attribute type {text}
 
 
-fact_check = element fact_check {mixed{(trope|immigration|platform|key_word|loc)*}}
 
 
 key_word = element key_word {term,text}
 immigration = element immigration {status,term,text}
 immigrant = element immigrant {status,term,text}
 
-status = attribute status {text}
+status = attribute status {"legal" | "illegal" | "ambig"}
 term = attribute term {text}
-attitude = attribute attitude {text}
+attitude = attribute attitude {"pro" | "anti" | "ambig"}
 
-speaker = element speaker { who, mixed{(trope | anecdote | platform | immigrant | immigration | key_word )*}}
+
 
 
