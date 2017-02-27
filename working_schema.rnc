@@ -1,0 +1,37 @@
+start = debate
+
+debate = element debate {meta,body}
+
+meta = element meta {mixed{(loc|date|candidate| moderator)*}}
+candidate = element candidate {who,text}
+moderator = element moderator {who,text}
+who= attribute who {text}
+date = element date {text}
+loc = element loc {text}
+
+ref = attribute ref {text}
+
+body = element body {mixed{(loc|trope|platform|anecdote|immigration|immigrant|fact_check|key_word|p|speaker)*}}
+p = element p {mixed{(loc|trope|platform|anecdote|immigration|immigrant|fact_check|key_word)*}}
+
+platform = element platform {type, subtype, attitude*, mixed{(key_word|immigration|immigrant|trope)*}}
+trope = element trope {type, subtype, attitude*, mixed {(immigrant|immigration|key_word|fact_check)*}}
+anecdote = element anecdote {type, subtype, attitude, mixed {(immigrant|immigration|key_word)*}}
+subtype = attribute subtype {text}
+type = attribute type {text}
+
+
+fact_check = element fact_check {mixed{(trope|immigration|platform|key_word|loc)*}}
+
+
+key_word = element key_word {term,text}
+immigration = element immigration {status,term,text}
+immigrant = element immigrant {status,term,text}
+
+status = attribute status {text}
+term = attribute term {text}
+attitude = attribute attitude {text}
+
+speaker = element speaker { who, mixed{(trope | anecdote | platform | immigrant | immigration | key_word )*}}
+
+
