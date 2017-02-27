@@ -17,7 +17,7 @@ guestworker
 illegal immigration
 legal immigration
 
-<key_word>
+<key_word term="---">
 
 amnesty
 asylum
