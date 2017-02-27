@@ -1,17 +1,36 @@
-<illegal_immigrant>
-illegal aliens, migrant worker as <illegal_immigrant>
 
-immigrant, migrant as <immigrant>
+
+<immigrant status="---" term="---" attitude="---">
+
 illegal alien
 illegals
-criminal
-<immigration status = "illegal" term = "----">
-they as case-by-case
+illegal immigrant
+undocumented ______
+dreamer
+asylum-seeker
+refugee
+migrant
+guestworker
 
-Others: amnesty, asylum, asylum-seeker(s), undocumented, migrant(s), dreamer(s),
-worker(s), aliens(?), border, refugee(s)
+<immigration status="---" attitude="---">
 
-Collocation for: criminal(s), drug dealers, rapists
+illegal immigration
+legal immigration
+
+<key_word>
+
+amnesty
+asylum
+e-verify    
+ aliens(?)
+ border
+ wall
+ path to citizenship
+ visa overstay
+ sanctuary city 
+ reform
+
+
 
 
 Put in mark-down and put into Github (Google it)
