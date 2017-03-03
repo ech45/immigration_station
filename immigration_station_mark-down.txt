@@ -30,7 +30,16 @@ e-verify
  sanctuary city 
  reform
 
+attitude = "pro" "anti"
+Trope Types = "value" "secure" "crime" 
+*Substitute "nation" trope with "value" trope*
+value subtypes = "naturalization" "sovereignty" "nation?" 
 
+i.e. <trope type="values" subtype="naturalization"> We need a pathway to citizenship, it's time to bring people out of the shadows </trope>
+
+secure = "crime" "terrorism" "drugs" 
+
+Don't be afraid to use "ambig" for platform elements! 
 
 
 Put in mark-down and put into Github (Google it)
