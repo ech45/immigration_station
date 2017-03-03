@@ -1,22 +1,23 @@
-<?xml-model href="schema1.rnc" type="application/relax-ng-compact-syntax"?>
+<!--<?xml-model href="schema1.rnc" type="application/relax-ng-compact-syntax"?>
+-->
 <debate>
-<meta>
-    <date>13 October 2015</date>
-    <loc type="debate">Las Vegas, NA</loc>
-    <participant>
-        <moderator>Anderson Cooper</moderator>
-        <moderator>Dana Bash</moderator>
-        <moderator>Juan Carlos Lopez</moderator>
-        <moderator>Don Lemon</moderator>
-        <candidate>Lincoln Chafee</candidate>
-        <candidate>Hillary Clinton</candidate>
-        <candidate>Bernie Sanders</candidate>
-        <candidate>Martin O'Malley</candidate>
-        <candidate>Jim Webb</candidate>
-    </participant>
-</meta>
+    <meta>
+        <date>13 October 2015</date>
+        <loc type="debate">Las Vegas, NA</loc>
+        <participant>
+            <moderator xml:id="COOPER">Anderson Cooper</moderator>
+            <moderator xml:id="BASH">Dana Bash</moderator>
+            <moderator xml:id="LOPEZ">Juan Carlos Lopez</moderator>
+            <moderator xml:id="LEMON">Don Lemon</moderator>
+            <candidate xml:id="CHAFEE">Lincoln Chafee</candidate>
+            <candidate xml:id="CLINTON">Hillary Clinton</candidate>
+            <candidate xml:id="SANDERS">Bernie Sanders</candidate>
+            <candidate xml:id="O'MALLEY">Martin O'Malley</candidate>
+            <candidate xml:id="WEBB">Jim Webb</candidate>
+        </participant>
+    </meta>
     <body>
-COOPER: I'm Anderson Cooper. Thanks for joining us. We've already welcomed the candidates on stage. They are in place at their podiums. Before we dive into the issues, I want to quickly explain some of the groundrules tonight.
+        <!--COOPER: I'm Anderson Cooper. Thanks for joining us. We've already welcomed the candidates on stage. They are in place at their podiums. Before we dive into the issues, I want to quickly explain some of the groundrules tonight.
 
 As the moderator, I'll ask questions, followups and guide the discussion. I'll be joined in the questioning by CNN's Juan Carlos Lopez and Dana Bash, a well as Don Lemon who will share questions from Democrats around the country. Each candidate will get one minute to answer questions, and 30 seconds for followups and rebuttals. I'll give candidates time to respond if they have been singled out for criticism.
 
@@ -992,90 +993,301 @@ SANDERS: When the Republicans — when the Republicans in the Congress and some 
 
 My view is that when you have millions of seniors in this country trying to get by — and I don't know how they do on $11,000, $12,000, $13,000 a year — you don't cut Social Security, you expand it. And the way you expand it is by lifting the cap on taxable incomes so that you do away with the absurdity of a millionaire paying the same amount into the system as somebody making $118,000. You do that, Social Security is solvent until 2061 and you can expand benefits.
 
-[crosstalk]
-<p>
-COOPER: Senator Sanders, I want to bring it over to Juan Carlos Lopez from CNN en Espanol. We're obviously in Nevada. It's had the highest percentage of <immigration status="illegal" term="undocumented_immigrant">undocumented immigrants</immigration> of any state in the country as of last year. Juan Carlos?
+[crosstalk]-->
+        <p>
+            <speech speaker="COOPER">
+                <sentence>Senator Sanders, I want to bring it over to Juan Carlos Lopez from CNN en
+                    Espanol.</sentence>
+                <sentence>We're obviously in Nevada.</sentence>
+                <sentence>It's had the highest percentage of <immigration status="illegal"
+                        term="undocumented_immigrant">undocumented immigrants</immigration> of any
+                    state in the country as of last year.</sentence>
+                <sentence>Juan Carlos?</sentence>
+            </speech>
 
-LOPEZ: Gracias, Anderson. Senator Sanders, in 2013, you voted for <immigration_reform>immigration reform</immigration_reform>. But in 2007, when Democrats controlled Congress and the Bush White House was onboard, you voted against it. Why should Latino voters trust you now when you left them at the altar at the moment when reform was very close?
+            <speech speaker="LOPEZ">
+                <sentence>Gracias, Anderson.</sentence>
+                <sentence>Senator Sanders, in 2013, you voted for <immigration_reform>immigration
+                        reform</immigration_reform>.</sentence>
+                <sentence>But in 2007, when Democrats controlled Congress and the Bush White House
+                    was onboard, you voted against it.</sentence>
+                <sentence>Why should Latino voters trust you now when you left them at the altar at
+                    the moment when reform was very close?</sentence>
+            </speech>
 
-SANDERS: I didn't leave anybody at the altar. I voted against that piece of legislation because it had guest-worker provisions in it which the Southern Poverty Law Center talked about being semi-slavery. <trope type="econ" subtype="jobs"><immigration status="ambig" term="guest_worker">Guest workers</immigration> are coming in, they're working under terrible conditions, but if they stand up for their rights, they're thrown out of the country.</trope> I was not the only progressive to vote against that legislation for that reason. Tom Harkin, a very good friend of Hillary Clinton's and mine, one of the leading labor advocates, also voted against that.
+            <speech speaker="SANDERS">
+                <sentence>I didn't leave anybody at the altar.</sentence>
+                <sentence>I voted against that piece of legislation because it had guest-worker
+                    provisions in it which the Southern Poverty Law Center talked about being
+                    semi-slavery.</sentence>
+                <sentence>
+                    <trope type="econ" subtype="jobs"><immigration status="ambig"
+                            term="guest_worker">Guest workers</immigration> are coming in, they're
+                        working under terrible conditions, but if they stand up for their rights,
+                        they're thrown out of the country.</trope>
+                </sentence>
+                <sentence>I was not the only progressive to vote against that legislation for that
+                    reason.</sentence>
+                <sentence>Tom Harkin, a very good friend of Hillary Clinton's and mine, one of the
+                    leading labor advocates, also voted against that.</sentence>
+            </speech>
 
-LOPEZ: Tom Harkin isn't running for president. You are.
+            <speech speaker="LOPEZ">
+                <sentence>Tom Harkin isn't running for president.</sentence>
+                <sentence>You are.</sentence>
+            </speech>
 
-SANDERS: I know that. But point being is that progressives did vote against that for that reason. My view right now — and always has been — is that when you have 11 million <immigration status="illegal" term="undocumented_people">undocumented people</immigration> in this country, <!--<trope type="nation" subtype="assimilation">we need comprehensive immigration reform, we need a path toward citizenship, we need to take people out of the shadows.</trope> -->
+            <speech speaker="SANDERS">
+                <sentence>I know that.</sentence>
+                <sentence>But point being is that progressives did vote against that for that
+                    reason.</sentence>
+                <sentence>My view right now — and always has been — is that when you have 11 million
+                        <immigration status="illegal" term="undocumented_people">undocumented
+                        people</immigration> in this country, <trope type="nation"
+                        subtype="assimilation">we need comprehensive immigration reform, we need a
+                        path toward citizenship, we need to take people out of the
+                    shadows.</trope></sentence>
+            </speech>
 
-O'MALLEY: And Juan Carlos — Juan Carlos...
+            <speech speaker="O'MALLEY">
+                <sentence>And Juan Carlos — Juan Carlos.</sentence>
+                <sentence>..</sentence>
+            </speech>
 
-LOPEZ: Secretary Clinton — Secretary Clinton, Governor O'Malley wants to open up Obamacare to millions of <immigration status="illegal" term="undocumented_immigrant">undocumented immigrants</immigration> and their children, including almost 90,000 people right here in Nevada. Do you?
+            <speech speaker="LOPEZ">
+                <sentence>Secretary Clinton — Secretary Clinton, Governor O'Malley wants to open up
+                    Obamacare to millions of <immigration status="illegal"
+                        term="undocumented_immigrant">undocumented immigrants</immigration> and
+                    their children, including almost 90,000 people right here in Nevada.</sentence>
+                <sentence>Do you?</sentence>
+            </speech>
 
-CLINTON: <trope type="econ" subtype="welfare">Well, first of all, I want to make sure every child gets health care. That's why I helped to create the Children's Health Insurance Program, and I want to support states that are expanding health care and including <immigration status="illegal" term="undocumented_child">undocumented children</immigration> and others.</trope>
+            <speech speaker="CLINTON">
+                <sentence>
+                    <trope type="econ" subtype="welfare">Well, first of all, I want to make sure
+                        every child gets health care.</trope>
+                </sentence>
+                <sentence>
+                    <trope type="econ" subtype="welfare">That's why I helped to create the
+                        Children's Health Insurance Program, and I want to support states that are
+                        expanding health care and including <immigration status="illegal"
+                            term="undocumented_child">undocumented children</immigration> and
+                        others.</trope>
+                </sentence>
+                <sentence>I want to open up the opportunity for <immigration status="ambig"
+                        term="immigrant">immigrants</immigration> to be able to buy in to the
+                    exchanges under the Affordable Care Act.</sentence>
+                <sentence>I think to go beyond that, as I understand what Governor O'Malley has
+                    recommended, so that they would get the same subsidies.</sentence>
+                <sentence>I think that is — it raises so many issues.</sentence>
+                <sentence>It would be very difficult to administer, it needs to be part of a
+                    comprehensive <immigration_reform>immigration reform</immigration_reform>, when
+                    we finally do get to it.</sentence>
+            </speech>
 
-I want to open up the opportunity for <immigration status="ambig" term="immigrant">immigrants</immigration> to be able to buy in to the exchanges under the Affordable Care Act. I think to go beyond that, as I understand what Governor O'Malley has recommended, so that they would get the same subsidies.
+            <speech speaker="LOPEZ">
+                <sentence>Governor O'Malley?</sentence>
+            </speech>
 
-I think that is — it raises so many issues. It would be very difficult to administer, it needs to be part of a comprehensive <immigration_reform>immigration reform</immigration_reform>, when we finally do get to it.
+            <speech speaker="O'MALLEY">
+                <sentence>Juan Carlos, I think what you've heard up here is some of the old thinking
+                    on <immigration_reform>immigration reform</immigration_reform>, and that's why
+                    it's gridlocked.</sentence>
+                <sentence>
+                    <trope type="nation" subtype="values">We need to understand that our country is
+                        stronger in every generation by the arrival of new <immigration
+                            status="ambig" term="american_immigrant">American
+                            immigrants</immigration>.</trope>
+                </sentence>
+                <sentence>
+                    <trope type="nation" subtype="values">That is why I have put out a policy for
+                        comprehensive <immigration_reform>immigration reform</immigration_reform>,
+                        that is why I would go further than President Obama has on DACA, and
+                        DAPA.</trope>
+                </sentence>
+                <sentence><trope type="nation" subtype="values">I mean, we are a nation of
+                            <immigration status="ambig" term="immigrant">immigrants</immigration>,
+                        we are made stronger by <immigration status="ambig" term="immigrant"
+                            >immigrants</immigration></trope>.</sentence>
+                <sentence>
+                    <trope type="nation" subtype="values">Do you think for a second that simply
+                        because somebody's standing in a broken que on naturalization they're not
+                        going to go to the hospital, and that care isn't going to fall on to our
+                        insurance rates?</trope>
+                </sentence>
+                <sentence>
+                    <trope type="nation" subtype="values">I am for a generous, compassionate America
+                        that says we're all in this together.</trope>
+                </sentence>
+                <sentence>
+                    <trope type="nation" subtype="values">We need comprehensive</trope>
+                </sentence>
+            </speech>
 
-LOPEZ: Governor O'Malley?
+            <speech speaker="COOPER">
+                <sentence>Senator Webb.</sentence>
+            </speech>
 
-O'MALLEY: Juan Carlos, I think what you've heard up here is some of the old thinking on <immigration_reform>immigration reform</immigration_reform>, and that's why it's gridlocked. <!--<trope type="nation" subtype="values">We need to understand that our country is stronger in every generation by the arrival of new <immigration status="ambig" term="american_immigrant">American immigrants</immigration>. That is why I have put out a policy for comprehensive <immigration_reform>immigration reform</immigration_reform>, that is why I would go further than President Obama has on DACA, and DAPA.
-I mean, we are a nation of <immigration status="ambig" term="immigrant">immigrants</immigration>, we are made stronger by <immigration status="ambig" term="immigrant">immigrants</immigration>. Do you think for a second that simply because somebody's standing in a broken que on naturalization they're not going to go to the hospital, and that care isn't going to fall on to our insurance rates? I am for a generous, compassionate America that says we're all in this together. We need comprehensive</trope>-->
+            <speech speaker="O'MALLEY">
+                <sentence>.</sentence>
+                <sentence>..</sentence>
+                <sentence><immigration_reform>immigration reform</immigration_reform>.</sentence>
+                <sentence>It'll make wages go up in America $250 for every year.</sentence>
+            </speech>
 
-COOPER: Senator Webb...
+            <speech speaker="LOPEZ">
+                <sentence>Senator Webb, do you support the <immigration status="illegal"
+                        term="undocumented_immigrant">undocumented immigrants</immigration> getting
+                    Obamacare?</sentence>
+            </speech>
 
-O'MALLEY: ...<immigration_reform>immigration reform</immigration_reform>. It'll make wages go up in America $250 for every year...
+            <speech speaker="WEBB">
+                <sentence>I wouldn't have a problem with that.</sentence>
+                <anecdote type="nation" subtype="values">
+                    <sentence>Let me start by saying my wife is an <immigration status="ambig"
+                            term="immigrant">immigrant</immigration>.</sentence>
+                    <sentence>She was a refugee, her family escaped from Vietnam on a boat-- her
+                        entire extended family, after the communists took over, when hundreds of
+                        thousands of people were out there and thousands of them were
+                        dying.</sentence>
+                    <sentence>Went to two refugee camps, she never spoke English in her home, and
+                        she ended, as I said, graduating from Cornell Law School.</sentence>
+                    <sentence>That's not only American dream, that's a value that we have with a
+                        good <immigration>immigration</immigration> system in place.</sentence>
+                </anecdote>
+                <sentence>No country has — is a country without defining its borders.</sentence>
+                <sentence>We need to resolve this issue.</sentence>
+                <sentence>I actually introduced an amendment in the 2007
+                        <immigration>immigration</immigration> bill.</sentence>
+            </speech>
 
-LOPEZ: Senator Webb, do you support the <immigration status="illegal" term="undocumented_immigrant">undocumented immigrants</immigration> getting Obamacare?
+            <speech speaker="LOPEZ">
+                <sentence>Thank you, Senator.</sentence>
+            </speech>
 
-WEBB: I wouldn't have a problem with that. <anecdote type="nation" subtype="values">Let me start by saying my wife is an <immigration status="ambig" term="immigrant">immigrant</immigration>. She was a refugee, her family escaped from Vietnam on a boat-- her entire extended family, after the communists took over, when hundreds of thousands of people were out there and thousands of them were dying. Went to two refugee camps, she never spoke English in her home, and she ended, as I said, graduating from Cornell Law School. That's not only American dream, that's a value that we have with a good <immigration>immigration</immigration> system in place.</anecdote> No country has — is a country without defining its borders. We need to resolve this issue. I actually introduced an amendment in the 2007 <immigration>immigration</immigration> bill...
+            <speech speaker="WEBB">
+                <sentence>Come back to this!</sentence>
+                <sentence>!!</sentence>
+                <sentence>!!</sentence>
+                <sentence>Giving a pathway to citizenship to those people who had come here, and put
+                    down their roots, and met as a series of standards.</sentence>
+                <sentence>..</sentence>
+            </speech>
 
-LOPEZ: ...Thank you, Senator.
+            <speech speaker="COOPER">
+                <sentence>Thank you, Senator.</sentence>
+            </speech>
 
-WEBB: ...<!--Come back to this!!!!! Giving a pathway to citizenship to those people who had come here, and put down their roots, and met as a series of standards...-->
+            <speech speaker="WEBB">
+                <sentence>.</sentence>
+                <sentence>..</sentence>
+                <sentence>lost (ph) — I introduced that in 2007 — We need a comprehensive reform,
+                    and we need to be able to define our borders.</sentence>
+            </speech>
 
-COOPER: ...Thank you, Senator.
+            <speech speaker="COOPER">
+                <sentence>Secretary Clinton?</sentence>
+            </speech>
 
-WEBB: ...lost (ph) — I introduced that in 2007 — We need a comprehensive reform, and we need to be able to define our borders.
+            <speech speaker="CLINTON"><sentence>I want to follow up because I think underneath Juan
+                    Carlos' important questions, there is such a difference between everything
+                    you're hearing here on this stage, and what we hear from the
+                    Republicans.</sentence> [applause]</speech>
 
-COOPER: Secretary Clinton?
+            <speech speaker="O'MALLEY">
+                <sentence>Here.</sentence>
+                <sentence>Here.</sentence>
+            </speech>
 
-CLINTON: I want to follow up because I think underneath Juan Carlos' important questions, there is such a difference between everything you're hearing here on this stage, and what we hear from the Republicans. [applause]
 
-O'MALLEY: Here. Here.
 
-(CHEERING) (APPLAUSE)
+            <speech speaker="CLINTON">
+                <sentence>Demonize hard-working <immigration status="ambig" term="immigrant"
+                        >immigrants</immigration> who have insulted them.</sentence>
+                <sentence>You know, I came to Las Vegas in, I think, May.</sentence>
+                <sentence>Early may.</sentence>
+                <sentence>Met with a group of DREAMers, I wish everybody in America could meet with
+                    this young people, to hear their stories, to know their incredible talent, their
+                    determination, and that's why I would go further.</sentence>
+            </speech>
+            <speech speaker="COOPER">
+                <sentence>Secretary.</sentence>
+            </speech>
+            <speech speaker="CLINTON">
+                <sentence>than even the executive orders that President Obama has signed when I'm
+                    president.</sentence>
+            </speech>
 
-CLINTON: <!--Demonize hard-working <immigration status="ambig" term="immigrant">immigrants</immigration> who have insulted them. You know, I came to Las Vegas in, I think, May. Early may. Met with a group of DREAMers, I wish everybody in America could meet with this young people, to hear their stories, to know their incredible talent, their determination, and that's why I would go further...
-COOPER: ...Secretary...
-CLINTON: ...than even the executive orders that President Obama has signed when I'm president.-->
 
-(CROSS TALK)
 
-COOPER: Secretary Clinton, let me ask you. Two of your rivals from your left, Governor O'Malley, and Senator Sanders, want to provide instate college tuition to <immigration status="illegal" term="undocumented_immigrant">undocumented immigrants</immigration>. Where do you stand on that?
+            <speech speaker="COOPER">
+                <sentence>Secretary Clinton, let me ask you.</sentence>
+                <sentence>Two of your rivals from your left, Governor O'Malley, and Senator Sanders,
+                    want to provide instate college tuition to <immigration status="illegal"
+                        term="undocumented_immigrant">undocumented
+                    immigrants</immigration>.</sentence>
+                <sentence>Where do you stand on that?</sentence>
+            </speech>
 
-CLINTON: My plan would support any state that takes that position, and would work with those states and encourage more states to do the same thing.
+            <speech speaker="CLINTON">
+                <sentence>My plan would support any state that takes that position, and would work
+                    with those states and encourage more states to do the same thing.</sentence>
+            </speech>
 
-COOPER: So, on the record, you believe that <immigration status="illegal" term="undocumented_immigrant">undocumented immigrants</immigration> should get instate college tuition.
+            <speech speaker="COOPER">
+                <sentence>So, on the record, you believe that <immigration status="illegal"
+                        term="undocumented_immigrant">undocumented immigrants</immigration> should
+                    get instate college tuition.</sentence>
+            </speech>
 
-CLINTON: If their states agree, then we want more states to do the same thing.
+            <speech speaker="CLINTON">
+                <sentence>If their states agree, then we want more states to do the same
+                    thing.</sentence>
+            </speech>
 
-COOPER: Governor O'Malley?
+            <speech speaker="COOPER">
+                <sentence>Governor O'Malley?</sentence>
+            </speech>
 
-O'MALLEY: Anderson, we actually did this in my state of Maryland. We passed... [applause]
+            <speech speaker="O'MALLEY"><sentence>Anderson, we actually did this in my state of
+                    Maryland.</sentence>
+                <sentence>We passed.</sentence>
+                <sentence>..</sentence> [applause]</speech>
 
-O'MALLEY: We passed a state version of the DREAM Act...
+            <speech speaker="O'MALLEY">
+                <sentence>We passed a state version of the DREAM Act.</sentence>
+                <sentence>..</sentence>
+            </speech>
 
-(CHEERING)
 
-O'MALLEY: ...And a lot of the xenophobes, the immigrant haters like some that we've heard like, Donald Trump, that carnival barker in the Republican party...
 
-(CHEERING) (APPLAUSE)
+            <speech speaker="O'MALLEY">
+                <sentence>And a lot of the xenophobes, the immigrant haters like some that we've
+                    heard like, Donald Trump, that carnival barker in the Republican
+                    party.</sentence>
+            </speech>
 
-O'MALLEY: Tried to mischaracterize it as free tuition for <immigration status="illegal" term="illegal_immigrant">illegal immigrants</immigration>. But, we took our case to the people when it was petitioned to referendum, and we won with 58 percent of the vote. The more our children learn, the more they will earn, and that's true of children who have yet to be naturalized...
 
-COOPER: ...Senator...
 
-O'MALLEY: ...but will become American citizens...
-</p>
+            <speech speaker="O'MALLEY">
+                <sentence>Tried to mischaracterize it as free tuition for <immigration
+                        status="illegal" term="illegal_immigrant">illegal
+                    immigrants</immigration>.</sentence>
+                <sentence>But, we took our case to the people when it was petitioned to referendum,
+                    and we won with 58 percent of the vote.</sentence>
+                <sentence>The more our children learn, the more they will earn, and that's true of
+                    children who have yet to be naturalized.</sentence>
+            </speech>
 
+            <speech speaker="COOPER">
+                <sentence>... Senator ...</sentence>
+            </speech>
+
+            <speech speaker="O'MALLEY">
+                <sentence>but will become American citizens.</sentence>
+            </speech>
+        </p>
+        <!--
 COOPER: Senator Sanders, you talked about your record on the Veteran affairs committee. You served on that committee for the last eight years, including two years as its chairman while veterans died waiting for health care. You and Senator McCain ultimately addressed the issue with bi-partisan legislation. Why did it take 18 Inspector General reports, and a CNN investigation, and others, before you and your colleagues took action?
 
 SANDERS: Well, I was chairman for two years, and when I was chairman we did take action. What we did is pass a $15 billion dollar piece of legislation which brought in many, many new doctors, and nurses into the V.A. so that veterans in this country could get the health care when they needed it, and not be on long waiting lines.
@@ -1481,6 +1693,6 @@ My mission as president will be to raise incomes for hard-working middle-class f
 Please join me in this campaign. Please come and make it clear that America's best days are still ahead. Thank you very much. [applause]
 
 COOPER: Well, that does it for this Democratic presidential debate. On behalf of everyone at CNN, we want to thank the candidates, our debate partners at Facebook, the Wynn Resort, and the Democratic National Committee. Thanks also to Dana Bash, Juan Carlos Lopez, and Don Lemon. We'll be back in Las Vegas December 15th, when CNN hosts our next Republican presidential debate. That will be moderated by my colleague, Wolf Blitzer.
-</body>
+-->
+    </body>
 </debate>
-
