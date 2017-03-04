@@ -224,8 +224,8 @@
                         <!-- $word-string is all nodes() in the speeches of interest except <immigration> elements -->
                         <!--<xsl:variable name="word-string" as="node()+"
                         select="current-group()//node() except current-group()//node()[ancestor-or-self::immigration]"/>-->
-                        <xsl:variable name="word-string" as="node()+"
-                            select="current-group()//node()"/>
+                        <xsl:variable name="word-string" as="element(sentence)+"
+                            select="current-group()"/>
                         <!-- $words is a sequence of all words from speeches by the candidate of interest -->
                         <xsl:variable name="words" as="xs:string+"
                             select="tokenize(lower-case(normalize-space(replace(string-join($word-string, ' '), '\p{P}', ''))), '\s+')"/>
