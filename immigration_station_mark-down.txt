@@ -3,7 +3,7 @@
 <immigrant status="---" term="---" attitude="---">
 
 illegal alien
-illegals
+illegal
 illegal immigrant
 undocumented ______
 dreamer
@@ -11,6 +11,7 @@ asylum-seeker
 refugee
 migrant
 guestworker
+
 
 <immigration status="---" attitude="---">
 
@@ -22,7 +23,7 @@ legal immigration
 amnesty
 asylum
 e-verify    
- aliens(?)
+ alien(?)
  border
  wall
  path to citizenship
