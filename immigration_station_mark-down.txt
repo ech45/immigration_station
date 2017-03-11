@@ -32,13 +32,14 @@ e-verify
  reform
 
 attitude = "pro" "anti"
-Trope Types = "value" "secure" "crime" 
+Trope Types = "value" "secure" "econ" 
 *Substitute "nation" trope with "value" trope*
 value subtypes = "naturalization" "sovereignty" "nation?" "family" "culture"
 
 i.e. <trope type="values" subtype="naturalization"> We need a pathway to citizenship, it's time to bring people out of the shadows </trope>
 
 secure = "crime" "terrorism" "drugs" 
+econ = "welfare" "jobs"
 
 Don't be afraid to use "ambig" for platform elements! 
 
