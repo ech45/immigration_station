@@ -1,6 +1,11 @@
 This document is for submission of utterances that seem textually important or relevent but whose specific
 qualities are unclear! Feel free to use and comment thoughts.
 
+From debate_gen_101916.xml
+<!--Should "deportation" be a keyword?-->
+<sentence> He said as recently as a few weeks ago in Phoenix that every
+            <immigrant status="illegal" term="undocumented person">undocumented person</immigrant> would be subject to deportation.
+            
 From debate_repub_080615.xml
 <!--What should we do about quotes from other sources?-->
     <speech speaker="WALLACE">I want to ask you about a statement that you made last year about <immigrant status="illegal" term="illegal immigrant">illegal immigrants</immigrant>. And here's what you said. "They broke the law, but it's not a felony, it's an
