@@ -2,6 +2,27 @@ This document is for submission of utterances that seem textually important or r
 qualities are unclear! Feel free to use and comment thoughts.
 
 From debate_repub_080615.xml
+<!--What should we do about quotes from other sources?-->
+    <speech speaker="WALLACE">I want to ask you about a statement that you made last year about <immigrant status="illegal" term="illegal immigrant">illegal immigrants</immigrant>. And here's what you said. "They broke the law, but it's not a felony, it's an
+        act of love. It's an act of commitment to your family." Do you stand by that statement and
+        do you stand by your support for earned legal status?</speech>
+ <!--And later:-->
+     <speech speaker="WALLACE">Thank you, sir. [applause] Mr. Trump, it has not escaped anybody's
+        notice that you say that the Mexican government, the Mexican government is sending criminals
+        ... rapists, drug dealers, across the <key_word term="border">border</key_word>. Governor Bush has called those remarks, quote,
+        "extraordinarily ugly."
+        
+From debate_repub_080615.xml
+<!--Should each utterance have an attitude? Later in this example, we note Bush has a "pro" immigration attitude but right here it seems like he has an "anti" one.-->
+<speech speaker="BUSH">I do. <trope type="values" subtype="family">I believe that the great majority of people coming here illegally
+        have no other option. They want to provide for their family.</trope>
+        
+From debate_repub_080615.xml
+<!--Should "fence" be tagged as "wall" or another keyword?-->
+<speech speaker="RUBIO">Those countries are the source
+        of the people that are now coming in its majority. I also believe we need a fence.
+        
+From debate_repub_080615.xml
 <trope>Our politicians are stupid. And the Mexican government is much smarter, much
         sharper, much more cunning. And they send the bad ones over because they don't want to pay
         for them. They don't want to take care of them. Why should they when the stupid leaders of
