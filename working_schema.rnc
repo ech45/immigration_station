@@ -1,36 +1,47 @@
 start = debate
-
-debate = element debate {meta,body}
-
-meta = element meta {mixed{(loc|date|candidate| moderator)*}}
-candidate = element candidate {who,text}
-moderator = element moderator {who,text}
-who= attribute who {text}
-date = element date {text}
-loc = element loc {text}
-
-ref = attribute ref {text}
-
-body = element body {speech*}
-speech = element speech { who, mixed{(trope | anecdote | platform | immigrant | immigration | keyword )*}}
-
-platform = element platform {type, subtype, attitude*, mixed{(keyword|immigration|immigrant|trope)*}}
-trope = element trope {type, subtype, attitude*, mixed {(immigrant|immigration|keyword|fact_check)*}}
-anecdote = element anecdote {type, subtype, attitude, mixed {(immigrant|immigration|keyword)*}}
-subtype = attribute subtype {text}
-type = attribute type {text}
-
-
-
-
-keyword = element keyword {term,text}
-immigration = element immigration {status,term,text}
-immigrant = element immigrant {status,term,text}
-
-status = attribute status {"legal" | "illegal" | "ambig"}
-term = attribute term {text}
-attitude = attribute attitude {"pro" | "anti" | "ambig"}
-
-
-
-
+debate = element debate { meta, body }
+meta =
+    element meta {
+        mixed { (loc | date | candidate | moderator)* }
+    }
+candidate = element candidate { who, text }
+moderator = element moderator { who, text }
+who = attribute who { text }
+date = element date { text }
+loc = element loc { text }
+ref = attribute ref { text }
+body = element body { speech* }
+speech =
+    element speech {
+        who,
+        mixed { (trope | anecdote | platform | immigrant | immigration | keyword)* }
+    }
+platform =
+    element platform {
+        type,
+        subtype,
+        attitude*,
+        mixed { (keyword | immigration | immigrant | trope)* }
+    }
+trope =
+    element trope {
+        type,
+        subtype,
+        attitude*,
+        mixed { (immigrant | immigration | keyword)* }
+    }
+anecdote =
+    element anecdote {
+        type,
+        subtype,
+        attitude,
+        mixed { (immigrant | immigration | keyword)* }
+    }
+subtype = attribute subtype { text }
+type = attribute type { text }
+keyword = element keyword { term, text }
+immigration = element immigration { status, term, text }
+immigrant = element immigrant { status, term, text }
+status = attribute status { "legal" | "illegal" | "ambig" }
+term = attribute term { text }
+attitude = attribute attitude { "pro" | "anti" | "ambig" }
