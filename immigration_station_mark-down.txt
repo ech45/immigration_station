@@ -43,6 +43,4 @@ econ = "welfare" "jobs"
 
 Don't be afraid to use "ambig" for platform elements! 
 
-
-Put in mark-down and put into Github (Google it)
 For comments: <!-- blah blah blah -->
