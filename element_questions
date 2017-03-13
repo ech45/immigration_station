@@ -2,6 +2,12 @@ This document is for submission of utterances that seem textually important or r
 qualities are unclear! Feel free to use and comment thoughts.
 
 From debate_gen_101916.xml
+<!--Should lines 671-end be put in comments?-->
+
+From debate_gen_101916.xml
+<!--Subtype "culture" may be too unclear.-->
+
+From debate_gen_101916.xml
 <!--Should "deportation" be a keyword?-->
 <sentence> He said as recently as a few weeks ago in Phoenix that every
             <immigrant status="illegal" term="undocumented person">undocumented person</immigrant> would be subject to deportation.
