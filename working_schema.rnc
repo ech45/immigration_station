@@ -12,18 +12,18 @@ loc = element loc {text}
 ref = attribute ref {text}
 
 body = element body {speech*}
-speech = element speech { who, mixed{(trope | anecdote | platform | immigrant | immigration | key_word )*}}
+speech = element speech { who, mixed{(trope | anecdote | platform | immigrant | immigration | keyword )*}}
 
-platform = element platform {type, subtype, attitude*, mixed{(key_word|immigration|immigrant|trope)*}}
-trope = element trope {type, subtype, attitude*, mixed {(immigrant|immigration|key_word|fact_check)*}}
-anecdote = element anecdote {type, subtype, attitude, mixed {(immigrant|immigration|key_word)*}}
+platform = element platform {type, subtype, attitude*, mixed{(keyword|immigration|immigrant|trope)*}}
+trope = element trope {type, subtype, attitude*, mixed {(immigrant|immigration|keyword|fact_check)*}}
+anecdote = element anecdote {type, subtype, attitude, mixed {(immigrant|immigration|keyword)*}}
 subtype = attribute subtype {text}
 type = attribute type {text}
 
 
 
 
-key_word = element key_word {term,text}
+keyword = element keyword {term,text}
 immigration = element immigration {status,term,text}
 immigrant = element immigrant {status,term,text}
 
