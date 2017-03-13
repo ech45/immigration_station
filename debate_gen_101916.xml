@@ -1,7 +1,7 @@
 
 <debate>
     <meta>
-        <loc>  Las Vegas, Nevada</loc>
+        <loc>Las Vegas, Nevada</loc>
         <date>19 October 2016</date>
         <participant>
             <moderator xml:id="wallace">Chris Wallace</moderator>
@@ -76,33 +76,31 @@ TRUMP:  <sentence> And, honestly, nobody has business doing what I just said, do
 <speech speaker="wallace"> <sentence> All right. </sentence>  <sentence> Let's move on to the subject of <immigration status="ambig" term="immigration">immigration</immigration>. </sentence>  <sentence> And there
             is almost no issue that separates the two of you more than the issue of immigration. </sentence>
              <sentence> Actually, there are a lot of issues that separate the two of you. </sentence>  <sentence> Mr. Trump, you want to
-            build a wall. </sentence>  <sentence> Secretary Clinton, you have offered no specific plan for how you want to
-            secure our southern border. </sentence>  <sentence> Mr. Trump, you are calling for major deportations. </sentence>  <sentence> Secretary
+            build a <key_word term="wall">wall</key_word>. </sentence>  <sentence> Secretary Clinton, you have offered no specific plan for how you want to
+    secure our southern <key_word term="border">border</key_word>. </sentence>  <sentence> Mr. Trump, you are calling for major deportations. </sentence>  <sentence> Secretary
             Clinton, you say that within your first 100 days as president you're going to offer a
-            package that includes a pathway to citizenship. </sentence>  <sentence> The question, really, is, why are you
+            package that includes a <key_word term="path to citizenship">pathway to citizenship</key_word>. </sentence>  <sentence> The question, really, is, why are you
             right and your opponent wrong? Mr. </sentence>  <sentence> Trump, you go first in this segment. </sentence>  <sentence> You have two
             minutes. </sentence></speech>
 
         
 <speech speaker="trump"> <sentence> Well, first of all, she wants to give <amnesty>amnesty</amnesty>, which is a disaster
             and very unfair to all of the people that are waiting on line for many, many years. </sentence>  <sentence> We
-            need strong borders. </sentence> <trope type="secure" subtype="violent" attitude="anti"> <sentence> In the audience tonight, we have four mothers of—I mean, these are
+    need strong <key_word term="borders">borders</key_word>. </sentence> <trope type="secure" subtype="violent" attitude="anti"> <sentence> In the audience tonight, we have four mothers of—I mean, these are
             unbelievable people that I've gotten to know over a period of years whose children have
-            been killed, brutally killed by people that came into the country illegally. </sentence>  <sentence> You have
+            been killed, brutally killed by people that came into the country <immigration status="illegal" term="illegal immigration">illegally</immigration>. </sentence>  <sentence> You have
             thousands of mothers and fathers and relatives all over the country. </sentence></trope> <trope type="secure" subtype="drugs" attitude="anti"> <sentence> They're coming in
-            illegally. </sentence>  <sentence> Drugs are pouring in through the border. </sentence></trope> <trope type="nation" subtype="sovereignty" attitude="anti"> <sentence> We have no country if we have no
-            border. </sentence></trope>  <sentence> Hillary wants to give <amnesty>amnesty</amnesty>. </sentence>  <sentence> She wants to have <open_border>open borders</open_border>. </sentence>  <sentence> The border—as you
+            illegally. </sentence>  <sentence> Drugs are pouring in through the border. </sentence></trope> <trope type="nation" subtype="sovereignty" attitude="anti"> <sentence>We have no country if we have no
+            <key_word term="border">border<key_word>.</sentence> </trope>  <sentence> Hillary wants to give <amnesty>amnesty</amnesty>. </sentence>  <sentence> She wants to have <key_word term="open border">open borders</key_word>. </sentence>  <sentence> The border—as you
             know, the Border Patrol agents, 16,500-plus ICE last week, endorsed me. </sentence>  <sentence> First time
             they've ever endorsed a candidate. </sentence>  <sentence> It means their job is tougher. </sentence>  <sentence> But they know what's
             going on. </sentence>  <sentence> They know it better than anybody. </sentence>  <sentence> They want strong borders. </sentence>  <sentence> They feel we have
             to have strong borders. </sentence> <anecdote type="secure" subtype="drugs" attitude="anti"> <sentence> I was up in <loc>New Hampshire</loc> the other day. </sentence>  <sentence> The biggest complaint
             they have—it's with all of the problems going on in the world, many of the problems
-            caused by Hillary Clinton and by Barack Obama. </sentence>  <sentence> All of the problems—the single biggest
-            problem is heroin that pours across our southern border. </sentence>  <sentence> It's just pouring and
-            destroying their youth. </sentence>  <sentence> It's poisoning the blood of their youth and plenty of other
+            caused by Hillary Clinton and by Barack Obama. </sentence>  <sentence> <trope type="secure" subtype="crime">All of the problems—the single biggest problem is heroin that pours across our southern border</trope>.</sentence>  <sentence> It's just pouring and destroying their youth. </sentence>  <sentence> It's poisoning the blood of their youth and plenty of other
             people. </sentence></anecdote>  <sentence> We have to have strong borders. </sentence>  <sentence> We have to keep the drugs out of our country. </sentence>  <sentence> We
             are—right now, we're getting the drugs, they're getting the cash. </sentence>  <sentence> We need strong
-            borders. </sentence>  <sentence> We need absolute—we cannot give <amnesty>amnesty</amnesty>. </sentence> <platform type="secure"> <sentence> Now, I want to build the wall. </sentence></platform>  <sentence> We need
+            borders. </sentence>  <sentence> We need absolute—we cannot give <amnesty>amnesty</amnesty>. </sentence> <platform type="secure"> <sentence> Now, I want to build the <key_word term="wall">wall</key_word>. </sentence></platform>  <sentence> We need
             the wall. </sentence>  <sentence> And the Border Patrol, ICE, they all want the wall. </sentence>  <sentence> We stop the drugs. </sentence>  <sentence> We
             shore up the border. </sentence> <platform type="secure" subtype="drugs" attitude="anti"> <sentence> One of my first acts will be to get all of the drug lords, all of
             the bad ones—we have some bad, bad people in this country that have to go out. </sentence>  <sentence> We're
@@ -112,7 +110,7 @@ TRUMP:  <sentence> And, honestly, nobody has business doing what I just said, do
 
         
 <speech speaker="wallace"> <sentence> Mr. Trump, thank you. </sentence>  <sentence> Same question to you, Secretary Clinton. </sentence>
-             <sentence> Basically, why are you right and Mr. </sentence>  <sentence> Trump is wrong? </sentence></speech>
+             <sentence> Basically, why are you right and Mr. Trump is wrong? </sentence></speech>
 
         
 <speech speaker="clinton"><anecdote type="econ" subtype="jobs" attitude="pro"> <sentence>Well, as he was talking, I was thinking about a young girl I met
@@ -127,18 +125,18 @@ TRUMP:  <sentence> And, honestly, nobody has business doing what I just said, do
             means you would have to have a massive law enforcement presence, where law enforcement
             officers would be going school to school, home to home, business to business, rounding
             up <immigrant status="illegal" term="undocumented person">people who are undocumented</immigrant>. </sentence>  <sentence> And we would then have to put them on trains, on buses
-            to get them out of our country. </sentence>  <sentence> I think that is an idea that is not in keeping with who
-            we are as a nation. </sentence>  <sentence> I think it's an idea that would rip our country apart. </sentence></trope>  <sentence> I have been
+            to get them out of our country. </sentence>  <sentence> <trope type="value" subtype="culture">I think that is an idea that is not in keeping with who
+    we are as a nation</trope>. </sentence>  <sentence> I think it's an idea that would rip our country apart. </sentence>  <sentence> I have been
             for border security for years. </sentence>  <sentence> I voted for border security in the United States Senate. </sentence>
             <platform type="secure" subtype="violent"> <sentence> And my comprehensive immigration reform plan of course includes border security. </sentence>  <sentence> But I
             want to put our resources where I think they're most needed: Getting rid of any violent
-            person. </sentence></platform>  <sentence> Anybody who should be deported, we should deport them. </sentence>  <sentence> When it comes to the wall
+            person. </sentence></platform>  <sentence> Anybody who should be deported, we should deport them. </sentence>  <sentence> When it comes to the <key_word term="wall">wall</key_word>
             that Donald talks about building, he went to Mexico, he had a meeting with the Mexican
             president. </sentence>  <sentence> Didn't even raise it. </sentence>  <sentence> He choked and then got into a Twitter war because the
             Mexican president said we're not paying for that wall. </sentence> <platform type="nation" subtype="naturalization" attitude="pro"><trope type="nation" subtype="values" attitude="pro"> <sentence> So I think we are both a nation
             of <immigrant status="ambig" term="immigrant">immigrants</immigrant> and we are a nation of laws and that we can act accordingly. </sentence></trope>  <sentence> And that's
             why I'm introducing comprehensive immigration reform within the first 100 days with the
-            path to citizenship. </sentence></platform></speech>
+            <key_word term="path to citizenship">path to citizenship</key_word>. </sentence></platform></speech>
 
         
 <speech speaker="wallace"> <sentence> Thank you, Secretary Clinton. </sentence>  <sentence> I want to follow up. </sentence>..</speech>
@@ -202,14 +200,14 @@ TRUMP:  <sentence> And, honestly, nobody has business doing what I just said, do
             it, nobody talks about it. </sentence>  <sentence> But under Obama, millions of people have been moved out of
             this country. </sentence>  <sentence> They've been deported. </sentence>  <sentence> She doesn't want to say that, but that's what's
             happened, and that's what happened big league. </sentence> <trope type="nation" subtype="sovereignty"> <sentence> As far as moving these people out and
-            moving—we either have a country or we don't. </sentence>  <sentence> We're a country of laws. </sentence>  <sentence> We either have a
+            moving—we either have a country or we don't. </sentence>  <sentence> <trope type="values" subtype="culture">We're a country of laws</trope>. </sentence>  <sentence> We either have a
             border or we don't. </sentence></trope>  <sentence> Now, you can come back in and you can become a citizen. </sentence>  <sentence> But it's
             very unfair. </sentence>  <sentence> We have millions of people that did it the right way. </sentence>  <sentence> They're on line. </sentence>
              <sentence> They're waiting. </sentence>  <sentence> We're going to speed up the process, big league, because it's very
             inefficient. </sentence>  <sentence> But they're on line and they're waiting to become citizens. </sentence>  <sentence> Very unfair
-            that somebody runs across the border, becomes a citizen, under her plan, you have <open_border>open
-            borders</open_border>. </sentence>-->  <sentence> You would have a disaster on trade, and you will have a disaster with your <open_border>open
-            borders</open_border>. </sentence></speech>
+            that somebody runs across the border, becomes a citizen, under her plan, you have <key_word term="open border">open
+            borders</key_word>. </sentence>-->  <sentence> You would have a disaster on trade, and you will have a disaster with your <key_word term="open border">open
+            borders</key_word>. </sentence></speech>
 
         
 <speech speaker="wallace"> <sentence> I want to. </sentence>..</speech>
@@ -222,7 +220,8 @@ TRUMP:  <sentence> And, honestly, nobody has business doing what I just said, do
 <speech speaker="clinton"> <sentence> Secretary Clinton, I want to. </sentence>..</speech>
 
         
-<speech speaker="clinton"> <sentence> We will not have open borders. </sentence>  <sentence> That is. </sentence>..</speech>
+<speech speaker="clinton"> <sentence> We will not have <key_word term="open border">open
+            borders</key_word>. </sentence>  <sentence> That is. </sentence>..</speech>
 
         
 <speech speaker="wallace"> <sentence> Well, let me—Secretary. </sentence>..</speech>
@@ -234,14 +233,15 @@ TRUMP:  <sentence> And, honestly, nobody has business doing what I just said, do
 <speech speaker="wallace"> <sentence> Secretary Clinton. </sentence>..</speech>
 
         
-<speech speaker="clinton">  <sentence> We will have secure borders, but we'll also have reform. </sentence>  <sentence> And this
+<speech speaker="clinton">  <sentence> We will have <key_word term="secure border">secure
+            borders</key_word>, but we'll also have reform. </sentence>  <sentence> And this
             used to be a bipartisan issue. </sentence>  <sentence> Ronald Reagan was the last president. </sentence>..</speech>
 
         
 <speech speaker="wallace"> <sentence> Secretary Clinton, excuse me. </sentence>  <sentence> Secretary Clinton. </sentence></speech>
 
         
-<speech speaker="clinton">... to sign immigration reform, and  <sentence> George W. </sentence>  <sentence> Bush supported it,
+    <speech speaker="clinton">... to sign <immigration_reform>immigration reform</immigration_reform>, and  <sentence> George W. </sentence>  <sentence> Bush supported it,
             as well. </sentence></speech>
 
         
@@ -256,11 +256,12 @@ TRUMP:  <sentence> And, honestly, nobody has business doing what I just said, do
 
         
 <speech speaker="wallace"> <sentence> That's the question. </sentence>  <sentence> Please quiet, everybody. </sentence>  <sentence> Is that your dream,
-            open borders?</sentence></speech>
+            <key_word term="open border">open
+            borders</key_word>?</sentence></speech>
 
         
 <speech speaker="clinton"><sentence> Well, if you went on to read the rest of the sentence, I was
-            talking about energy. </sentence>  <sentence> You know, we trade more energy with our neighbors than we trade
+            talking about energy. </sentence>  <!--<sentence> You know, we trade more energy with our neighbors than we trade
             with the rest of the world combined. </sentence>  <sentence> And I do want us to have an electric grid, an
             energy system that crosses borders. </sentence>  <sentence> I think that would be a great benefit to us. </sentence>  <sentence> But you
             are very clearly quoting from WikiLeaks. </sentence>  <sentence> And what's really important about WikiLeaks is
@@ -292,7 +293,7 @@ TRUMP:  <sentence> And, honestly, nobody has business doing what I just said, do
 <speech speaker="trump"> <sentence> So just to finish on the borders. </sentence>..</speech>
 
         
-<speech speaker="wallace"> <sentence> Yes?</sentence></speech>
+<speech speaker="wallace"> <sentence> Yes?</sentence></speech>-->
 
         
 <speech speaker="trump"><trope type="secure" subtype="terrorism" attitude="anti"><sentence>She wants open borders. </sentence>  <sentence> People are going to pour into our country. </sentence>
