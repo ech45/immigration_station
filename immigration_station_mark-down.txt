@@ -23,13 +23,14 @@ legal immigration
 amnesty
 asylum
 e-verify    
- alien(?)
- border
- wall
- path to citizenship
- visa overstay
- sanctuary city 
- reform
+alien(?)
+border
+wall
+path to citizenship
+visa overstay
+sanctuary city 
+reform
+deportation
 
 attitude = "pro" "anti"
 Trope Types = "value" "secure" "econ" 
