@@ -1,0 +1,47 @@
+body{background-image: url(stage3.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position:center;
+background-attachment:fixed;}
+
+*{
+    font-family: "Palatino Linotype";
+}
+.margin{
+    text-align: left;
+    color: white; 
+    font-size: 300%;
+    background: rgba(17,23,87,.85);
+padding-bottom: 30px;    
+}
+.menu{
+    margin: 0;
+    padding-top: 0;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+}
+
+.menubar{
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    background-color: #991817;
+    margin: auto;
+}
+
+.menulist{
+    display: inline;
+    margin: auto;
+    padding: 160px 5%;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+    font-size: 200%;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
