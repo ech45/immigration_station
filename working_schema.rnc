@@ -20,21 +20,21 @@ platform =
     element platform {
         type,
         subtype,
-        attitude*,
+        attitude?,
         mixed { (keyword | immigration | immigrant | trope)* }
     }
 trope =
     element trope {
         type,
         subtype,
-        attitude*,
+        attitude?,
         mixed { (immigrant | immigration | keyword)* }
     }
 anecdote =
     element anecdote {
         type,
         subtype,
-        attitude,
+        attitude?,
         mixed { (immigrant | immigration | keyword)* }
     }
 subtype = attribute subtype { text }
