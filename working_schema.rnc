@@ -48,6 +48,7 @@ subtype =
         | "culture"
         | "naturalization"
         | "ambig"
+        
     }
 keyword = element keyword { term, text }
 immigration = element immigration { status, term, text }
