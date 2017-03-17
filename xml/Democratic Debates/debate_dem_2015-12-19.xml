@@ -1,13 +1,11 @@
+<?xml-model href="working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <debate>
     <meta>
         <loc> Manchester, New Hampshire</loc>
         <date>December 19, 2015</date>
-
-
         <candidate who="CLINTON">Former Secretary of State Hillary Clinton;</candidate>
         <candidate who="O'MALLEY">Former Governor Martin O'Malley (MD);</candidate>
         <candidate who="SANDERS">Senator Bernie Sanders (VT);</candidate>
-
         <moderator who="RADDATZ">Martha Raddatz (ABC News)</moderator>
         <moderator who="MUIR">David Muir (ABC News)</moderator>
     </meta>
@@ -213,11 +211,12 @@
             believe in action in which we put together a strong coalition of forces, major powers
             and the Muslim nations. I think one of the heroes in a real quagmire out there, in a
             dangerous and difficult world; one of the heroes who we should recognize in the Middle
-            East is King Abdullah II of Jordan. This small country has welcomed in many <immigrant status="legal" term="refugee">refugees</immigrant>.
-            And Abdullah said something recently, very important. He said, "Yes, international
-            terrorism is by definition an international issue, but it is primarily an issue of the
-            Muslim nations who are fighting for the soul of Islam. We the Muslims should lead the
-            effort on the ground." And I believe he is absolutely right. </speech>
+            East is King Abdullah II of Jordan. This small country has welcomed in many <immigrant
+                status="legal" term="refugee">refugees</immigrant>. And Abdullah said something
+            recently, very important. He said, "Yes, international terrorism is by definition an
+            international issue, but it is primarily an issue of the Muslim nations who are fighting
+            for the soul of Islam. We the Muslims should lead the effort on the ground." And I
+            believe he is absolutely right. </speech>
         <speech who="MUIR"> Senator, thank you. </speech>
         <speech who="RADDATZ"> Secretary Clinton, in the wake of the San Bernardino attack, you all
             emphasized gun control. But our latest poll shows that more Americans believe arming
@@ -461,14 +460,18 @@
             promise of greater security; especially from someone as untried and as incompetent as
             Donald Trump. </speech>
         <speech who="RADDATZ"> Thank you, Governor O'Malley. </speech>
-        <speech who="MUIR"> Martha, we're going to turn now to <immigrant status="legal" term="refugee">refugees</immigrant> coming to America. And on
-            the subject of <immigrant status="legal" term="reguee">refugees</immigrant>, more than half of all Americans now say they oppose taking in
-            <immigrant status="status" term="refugee">refugees</immigrant> from Syria and across the Middle East. Secretary Clinton, you have said that it
-            would undermine who we are as Americans, shutting our doors. But New Hampshire's
-            governor, where we are right here tonight, a democrat and a supporter of yours, is among
-            more than 30 governors who are now concerned. Governor Maggie Hassan says, "we should
-            halt acceptance of <immigrant status="legal" term="Syrian_refugee">Syrian refugees</immigrant> until U.S. authorities can assure the vetting
-            process, halt <immigrant status="legal" term="Syrian_refugee">Syrian refugees</immigrant>." Is she wrong? </speech>
+        <speech who="MUIR"> Martha, we're going to turn now to <immigrant status="legal"
+                term="refugee">refugees</immigrant> coming to America. And on the subject of
+                <immigrant status="legal" term="reguee">refugees</immigrant>, more than half of all
+            Americans now say they oppose taking in <immigrant status="status" term="refugee"
+                >refugees</immigrant> from Syria and across the Middle East. Secretary Clinton, you
+            have said that it would undermine who we are as Americans, shutting our doors. But New
+            Hampshire's governor, where we are right here tonight, a democrat and a supporter of
+            yours, is among more than 30 governors who are now concerned. Governor Maggie Hassan
+            says, "we should halt acceptance of <immigrant status="legal" term="Syrian_refugee"
+                >Syrian refugees</immigrant> until U.S. authorities can assure the vetting process,
+            halt <immigrant status="legal" term="Syrian_refugee">Syrian refugees</immigrant>." Is
+            she wrong? </speech>
         <speech who="CLINTON"> Well, I agree that we have to have the toughest screening and
             vetting... </speech>
         <speech who="MUIR"> But a halt? </speech>
@@ -479,32 +482,39 @@
             going to happen overnight and everything that can be done should be done. But the
             process should move forward while we are also taking on ISIS, putting together the kind
             of strategy that I've advocated for, and making sure that the vetting and the screening
-            is as tough as possible. <trope type="values" subtype="ambig">Because I do believe that we have a history and a tradition,
-            that is part of our values system and we don't want to sacrifice our values. We don't
-            want to make it seem as though we are turning into a nation of fear instead of a nation
-            of resolve. So I want us to have a very tough screening process but I want that process
-            to go forward.</trope> And if at the end of 18 months, 24 months there are people who have been
-            cleared, and I would prioritize widows, and orphans, and the elderly, people who may
-            have relatives, families, or have nowhere else to go. I would prioritize them. And that
-            would I think give the American public a bit more of a sense of security about who is
-            being processed and who might end up coming as <immigrant status="legal" term="refugee">refugees</immigrant>. </speech>
+            is as tough as possible. <trope type="values" subtype="ambig">Because I do believe that
+                we have a history and a tradition, that is part of our values system and we don't
+                want to sacrifice our values. We don't want to make it seem as though we are turning
+                into a nation of fear instead of a nation of resolve. So I want us to have a very
+                tough screening process but I want that process to go forward.</trope> And if at the
+            end of 18 months, 24 months there are people who have been cleared, and I would
+            prioritize widows, and orphans, and the elderly, people who may have relatives,
+            families, or have nowhere else to go. I would prioritize them. And that would I think
+            give the American public a bit more of a sense of security about who is being processed
+            and who might end up coming as <immigrant status="legal" term="refugee"
+                >refugees</immigrant>. </speech>
         <speech who="MUIR"> Governor O'Malley, obviously you were governor yourself at one time.
             What would you say to New Hampshire's governor tonight? Is she wrong on this? </speech>
         <speech who="O'MALLEY"> No, what I would say is this is look, I was the first of the three
-            of us to call for America to accept the 65,000 <immigrant status="legal" term="refugee">refugees</immigrant> we were asked to accept. And if
-            this humanitarian crisis increases, we should accept more. </speech>
+            of us to call for America to accept the 65,000 <immigrant status="legal" term="refugee"
+                >refugees</immigrant> we were asked to accept. And if this humanitarian crisis
+            increases, we should accept more. </speech>
         <speech who="MUIR"> So the idea of a halt or a pause? [applause] </speech>
         <speech who="O'MALLEY"> David, there are wider vulnerabilities than when it comes to
-            <immigrant status="legal" term="refugee">refugees</immigrant>. I met recently with some members of the Chaldean Christian communities and the
-            wait times are a year, 18 months, 24 months. There is a pretty excruciating process that
-            <immigrant status="legal" term="refugee">refugees</immigrant> go through. We need to invest more in terms of the other sort of visas and the
-            other sort of waivers. </speech>
-        <speech who="O'MALLEY"> <anecdote type="values" subtype="ambig" attitude="pro">What these Chaldean families told me was that their families in
-            Syria, when ISIS moves into their town, they actually paint a red cross across the door
-            and mark their homes for demolition, and that tells the family you'd better get out now.
-            The sort of genocide and brutality that the victims are suffering, these are not the
-            perpetrators. We need to be the nation whose enduring symbol is the Statue of Liberty,
-            and we need to act like the great country we are, according to our values.</anecdote> </speech>
+                <immigrant status="legal" term="refugee">refugees</immigrant>. I met recently with
+            some members of the Chaldean Christian communities and the wait times are a year, 18
+            months, 24 months. There is a pretty excruciating process that <immigrant status="legal"
+                term="refugee">refugees</immigrant> go through. We need to invest more in terms of
+            the other sort of visas and the other sort of waivers. </speech>
+        <speech who="O'MALLEY">
+            <anecdote type="values" subtype="ambig" attitude="pro">What these Chaldean families told
+                me was that their families in Syria, when ISIS moves into their town, they actually
+                paint a red cross across the door and mark their homes for demolition, and that
+                tells the family you'd better get out now. The sort of genocide and brutality that
+                the victims are suffering, these are not the perpetrators. We need to be the nation
+                whose enduring symbol is the Statue of Liberty, and we need to act like the great
+                country we are, according to our values.</anecdote>
+        </speech>
         <speech who="MUIR"> Governor, thank you. </speech>
         <speech who="RADDATZ"> Senator Sanders -- Senator Sanders, we're going to move on. We're
             going to move on. </speech>
@@ -623,7 +633,8 @@
             agreement at the Security Council, which embodies actually an agreement that I
             negotiated back in Geneva in June of 2012, we're going to get a diplomatic effort in
             Syria to begin to try to make a transition. A no-fly zone would prevent the outflow of
-            <immigrant status="legal" term="refugee">refugees</immigrant> and give us a chance to have some safe spaces. </speech>
+                <immigrant status="legal" term="refugee">refugees</immigrant> and give us a chance
+            to have some safe spaces. </speech>
         <speech who="RADDATZ"> Secretary Clinton, I'd like to go back to that if I could. ISIS
             doesn't have aircraft, Al Qaida doesn't have aircraft. So would you shoot down a Syrian
             military aircraft or a Russian airplane? </speech>
@@ -1505,16 +1516,21 @@
         <speech who="MUIR"> Welcome back tonight. It's been an evening of lively discussion among
             the candidates and it's time for closing statements. We began in alphabetical order, so
             we'll reverse the order at the end and begin with you, Senator Sanders. </speech>
-        <speech who="SANDERS"> <anecdote type="values" subtype="american_dream">Well, thank you very much for hosting this debate, and let me applaud
-            my colleagues up here. Because I think frankly, maybe I'm wrong, but on our worst day, I
-            think we have a lot more to offer the American people than the right wing's extremists.
-            [applause] My father came to this country from Poland at the age of 17 without a nickel
-            in his pocket, which sparked my interest in the need for <immigration status="ambig" term="immigration_reform">immigration reform</immigration> because I
-            know what it's like to be the <immigrant status="legal" term="son_of_a_immigrant">son of an immigrant</immigrant>. We grew up in a
-            three-and-a-half-room, rent controlled apartment in Brooklyn, New York. My mother's
-            dream -- and she died very young, but my mother's dream for her whole life was to be
-            able to get out of that rent-controlled apartment and own a home of her own. She never
-            lived to see that.</anecdote> </speech>
+        <speech who="SANDERS">
+            <anecdote type="values" subtype="american_dream">Well, thank you very much for hosting
+                this debate, and let me applaud my colleagues up here. Because I think frankly,
+                maybe I'm wrong, but on our worst day, I think we have a lot more to offer the
+                American people than the right wing's extremists. [applause] My father came to this
+                country from Poland at the age of 17 without a nickel in his pocket, which sparked
+                my interest in the need for <immigration status="ambig" term="immigration_reform"
+                    >immigration reform</immigration> because I know what it's like to be the
+                    <immigrant status="legal" term="son_of_a_immigrant">son of an
+                    immigrant</immigrant>. We grew up in a three-and-a-half-room, rent controlled
+                apartment in Brooklyn, New York. My mother's dream -- and she died very young, but
+                my mother's dream for her whole life was to be able to get out of that
+                rent-controlled apartment and own a home of her own. She never lived to see
+                that.</anecdote>
+        </speech>
         <speech who="SANDERS"> But what my parents did accomplish is they were able to send both of
             their sons to college. We were the first in the family. So I know something about
             economic anxiety and living in a family does not have sufficient income. And that is why
@@ -1534,19 +1550,21 @@
             world, to take actions that include more of our people more fully in the economic,
             social and political life of our country. When you listened to the Republican debate the
             other night, you heard a lot of anger and you had a lot of fear. Well, they can have
-            their anger and they can have their fear, but anger and fear never built America. <trope type="values" subtype="naturalization">We
-            build our country by adopting wage and labor policies, including <immigrant status="ambig" term="comprehensive_immigration_reform">comprehensive
-            immigration reform</immigrant> with a pathway of citizenship for all.</trope> We do it by investing in our
-            country, by investing in infrastructure, by investing in the skills and the talents of
-            our people with debt-free college, and we can do it again. And we also create a better
-            future for our kids when we square our shoulders to the great challenges of our times,
-            whether it's terror trying to undermine our values or Republican presidential candidates
-            trying to get us to surrender our freedoms and our values in the face of this threat.
-            The other big challenge we have is climate change. The greatest business opportunity to
-            come to the United States of America in 100 years. We need to embrace this. I have put
-            forward a plan that does this, that moves us to 100 percent clean electric grid by 2050.
-            Join this campaign for the future. New leadership is what our country needs to move us
-            out of these divided and polarized times. Thank you. </speech>
+            their anger and they can have their fear, but anger and fear never built America. <trope
+                type="values" subtype="naturalization">We build our country by adopting wage and
+                labor policies, including <immigrant status="ambig"
+                    term="comprehensive_immigration_reform">comprehensive immigration
+                    reform</immigrant> with a pathway of citizenship for all.</trope> We do it by
+            investing in our country, by investing in infrastructure, by investing in the skills and
+            the talents of our people with debt-free college, and we can do it again. And we also
+            create a better future for our kids when we square our shoulders to the great challenges
+            of our times, whether it's terror trying to undermine our values or Republican
+            presidential candidates trying to get us to surrender our freedoms and our values in the
+            face of this threat. The other big challenge we have is climate change. The greatest
+            business opportunity to come to the United States of America in 100 years. We need to
+            embrace this. I have put forward a plan that does this, that moves us to 100 percent
+            clean electric grid by 2050. Join this campaign for the future. New leadership is what
+            our country needs to move us out of these divided and polarized times. Thank you. </speech>
         <speech who="MUIR"> Governor, thank you. [applause] Secretary Clinton? </speech>
         <speech who="CLINTON"> On January 20th, 2017, the next president of the United States will
             walk into the White House. If, heaven forbid, that next president is a Republican, I

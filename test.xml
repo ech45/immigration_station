@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<debate>
+    <meta>
+        <loc>Pittsburgh</loc>
+        <date>Today</date>
+        <participants>
+            <candidate>Curly</candidate>
+            <candidate>Larry</candidate>
+            <moderator>Moe</moderator>
+        </participants>
+    </meta>
+    <body>
+        <speech speaker="Curly">Hi, <trope type="econ" subtype="culture" attitude="pro"
+            >Mom</trope>!</speech>
+        <speech speaker="Moe">Sup?</speech>
+    </body>
+</debate>
