@@ -2,20 +2,22 @@ start = debate
 debate = element debate { meta, body }
 meta =
     element meta {
-        mixed { (loc | date | candidate | moderator)* }
+        mixed { (loc|date|participants) }
     }
-candidate = element candidate { who, text }
-moderator = element moderator { who, text }
-who = attribute who { text }
+candidate = element candidate {  text }
+moderator = element moderator {  text }
+
 date = element date { text }
 loc = element loc { text }
 ref = attribute ref { text }
+participants = element participants {candidate|moderator}
 body = element body { speech* }
 speech =
     element speech {
-        who,
+    speaker,
         mixed { (trope | anecdote | platform | immigrant | immigration | keyword)* }
     }
+    speaker= attribute speaker {text}
 platform =
     element platform {
         type,
@@ -37,11 +39,11 @@ anecdote =
         attitude,
         mixed { (immigrant | immigration | keyword)* }
     }
-subtype = attribute subtype { text }
-type = attribute type { text }
+subtype = attribute subtype {"welfare"|"jobs"|"crime"|"drugs"|"terrorism"|"sovereignty"|"empathy"|"culture"|"naturalization"|"ambig"}
+type = attribute type { "econ"|"secure"|"value" }
 keyword = element keyword { term, text }
 immigration = element immigration { status, term, text }
 immigrant = element immigrant { status, term, text }
-status = attribute status { "legal" | "illegal" | "ambig" }
+status = attribute status { "legal" | "illegal" |"refugee"| "ambig"}
 term = attribute term { text }
 attitude = attribute attitude { "pro" | "anti" | "ambig" }
