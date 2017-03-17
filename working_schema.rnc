@@ -1,35 +1,31 @@
 start = debate
 debate = element debate { meta, body }
-meta =
-    element meta {
-        mixed { (loc|date|participants) }
-    }
-candidate = element candidate {  text }
-moderator = element moderator {  text }
-
+meta = element meta { loc, date, participants }
+candidate = element candidate { text }
+moderator = element moderator { text }
 date = element date { text }
 loc = element loc { text }
 ref = attribute ref { text }
-participants = element participants {candidate|moderator}
-body = element body { speech* }
+participants = element participants { candidate+, moderator+ }
+body = element body { speech+ }
 speech =
     element speech {
-    speaker,
+        speaker,
         mixed { (trope | anecdote | platform | immigrant | immigration | keyword)* }
     }
-    speaker= attribute speaker {text}
+speaker = attribute speaker { text }
 platform =
     element platform {
         type,
         subtype,
-        attitude*,
+        attitude,
         mixed { (keyword | immigration | immigrant | trope)* }
     }
 trope =
     element trope {
         type,
         subtype,
-        attitude*,
+        attitude,
         mixed { (immigrant | immigration | keyword)* }
     }
 anecdote =
@@ -39,11 +35,23 @@ anecdote =
         attitude,
         mixed { (immigrant | immigration | keyword)* }
     }
-subtype = attribute subtype {"welfare"|"jobs"|"crime"|"drugs"|"terrorism"|"sovereignty"|"empathy"|"culture"|"naturalization"|"ambig"}
-type = attribute type { "econ"|"secure"|"value" }
+type = attribute type { "econ" | "secure" | "value" }
+subtype =
+    attribute subtype {
+        "welfare"
+        | "jobs"
+        | "crime"
+        | "drugs"
+        | "terrorism"
+        | "sovereignty"
+        | "empathy"
+        | "culture"
+        | "naturalization"
+        | "ambig"
+    }
 keyword = element keyword { term, text }
 immigration = element immigration { status, term, text }
 immigrant = element immigrant { status, term, text }
-status = attribute status { "legal" | "illegal" |"refugee"| "ambig"}
+status = attribute status { "legal" | "illegal" | "refugee" | "ambig" }
 term = attribute term { text }
 attitude = attribute attitude { "pro" | "anti" | "ambig" }
