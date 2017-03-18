@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
-    <sch:let name="econ_subtypes" value="'welfare', 'jobs', 'ambig'"/>
+    <sch:let name="econ_subtypes" value="'welfare', 'jobs', 'ambig','growth','skills'"/>
     <sch:let name="secure_subtypes" value="'crime', 'drugs', 'terrorism', 'ambig'"/>
     <sch:let name="value_subtypes"
-        value="'sovereignty', 'empathy', 'culture', 'naturalization', 'ambig'"/>
+        value="'sovereignty', 'empathy', 'culture', 'naturalization', 'ambig','america_first'"/>
     <sch:pattern>
         <sch:rule context="@type[. eq 'econ']">
             <sch:assert test="../@subtype = $econ_subtypes">When @type = 'econ', @subtype must equal

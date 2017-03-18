@@ -1,8 +1,9 @@
 start = debate
 debate = element debate { meta, body }
 meta = element meta { loc, date, participants }
-candidate = element candidate { text }
-moderator = element moderator { text }
+candidate = element candidate {who, text }
+who= attribute who {text}
+moderator = element moderator {who, text }
 date = element date { text }
 loc = element loc { text }
 ref = attribute ref { text }
@@ -39,7 +40,7 @@ type = attribute type { "econ" | "secure" | "value" }
 subtype =
     attribute subtype {
         "welfare"
-        | "jobs"
+        | "jobs"|"growth"|"skills"
         | "crime"
         | "drugs"
         | "terrorism"
@@ -47,7 +48,7 @@ subtype =
         | "empathy"
         | "culture"
         | "naturalization"
-        | "ambig"
+        | "ambig"|"america_first"
         
     }
 keyword = element keyword { term, text }

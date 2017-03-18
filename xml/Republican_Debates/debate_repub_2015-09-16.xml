@@ -1,7 +1,9 @@
+<?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <debate>
     <meta>
-        <date>16 Septemer 2015</date>
         <loc>Simi Valley, CA</loc>
+        <date>16 Septemer 2015</date>
+       
         <participants>
             <candidate>Jeb Bush</candidate>
             <candidate>Ben Carson</candidate>
@@ -925,14 +927,14 @@ Please give some applause to the candidates. [applause]
             enforcement officers — local, county, state and federal combined — to forcibly deport 11
             to 12 million people." Tell Governor Christie how much your plan will cost, and how you
             will get it done. </speech>
-        <speech speaker="TRUMP"> Correct. First of all, I want to build a <key_word term="wall"
-                >wall</key_word>, a <key_word term="wall">wall</key_word> that works. So important,
+        <speech speaker="TRUMP"> Correct. First of all, I want to build a <keyword term="wall"
+                >wall</keyword>, a <keyword term="wall">wall</keyword> that works. So important,
             and it's a big part of it. Second of all, we have a lot of really bad dudes in this
             country from outside, and I think Chris knows that, maybe as well as anybody. <trope
                 type="secure" subtype="crime" attitude="anti">They go, if I get elected, first day
                 they're gone. Gangs all over the place. Chicago, Baltimore, no matter where you
                 look.</trope>
-            <trope type="value" subtype="sovereignty">We have a country based on laws. I will make
+            <trope type="value" subtype="sovereignty" attitude="anti">We have a country based on laws. I will make
                 sure that those laws are adhered to.</trope> These are <immigrant status="illegal"
                 term="illegal immigrant">illegal immigrants</immigrant>. <anecdote type="secure"
                 subtype="crime" attitude="anti">I don't think you'd even be asking this question if
@@ -941,16 +943,16 @@ Please give some applause to the candidates. [applause]
                 out with the killing of Katie, from San Francisco, and so many other crimes, they
                 found out that I was right. And, most people, many people, apologized to
                 me.</anecdote> I don't think you'd even be talking about illegal immigration if it
-            weren't for me. <trope type="value" subtype="soverignty" attitude="anti"> So, we have a
+            weren't for me. <trope type="value" subtype="sovereignty" attitude="anti"> So, we have a
                 country of laws, they're going to go out, and they'll come back if they deserve to
                 come back. If they've had a bad record, if they've been arrested, if they've been in
                 jail, they're never coming back. We're going to have a country again. Right now, we
-                don't have a country, we don't have a <key_word term="border">border</key_word>, and
+                don't have a country, we don't have a <keyword term="border">border</keyword>, and
                 we're going to do something about it, and it can be done with proper management, and
                 it can be done with heart.</trope>
         </speech>
         <speech speaker="TAPPER"> Governor Christie, you and I have talked about this in an
-            interview. You say that his big <key_word term="wall">wall</key_word>, his plan to
+            interview. You say that his big <keyword term="wall">wall</keyword>, his plan to
             deport 11 to 12 million <immigrant status="illegal" term="undocumented immigrant"
                 >undocumented immigrants</immigrant>, it sounds great, but it's never going to
             happen. Tell him why you're skeptical of his plans? </speech>
@@ -960,9 +962,9 @@ Please give some applause to the candidates. [applause]
             people a day to be deported every day for two years is an undertaking that almost none
             of us could accomplish given the current levels of funding, and the current number of
             law enforcement officers. Here's what we need to do, and I think this is where Donald is
-            absolutely right. What we need to do is to secure our <key_word term="border"
-                >border</key_word>, and we need to do it with more than just a <key_word term="wall"
-                >wall</key_word>. We need to use electronics, we need to use drones, we need to use
+            absolutely right. What we need to do is to secure our <keyword term="border"
+                >border</keyword>, and we need to do it with more than just a <keyword term="wall"
+                >wall</keyword>. We need to use electronics, we need to use drones, we need to use
             FBI, DEA, and ATF, and yes, we need to take the fingerprint of every person who comes
             into this country on a visa, and when they overstay their visa, we need to tap them on
             the shoulder, and say, "You have overstayed your welcome, you're taking advantage of the
@@ -978,13 +980,13 @@ Please give some applause to the candidates. [applause]
         <speech speaker="CARSON"> Well, first of all, I recognize that we have an incredible
                 <immigration status="illegal" term="illegal immigration">illegal
                 immigration</immigration> problem. I was down in Arizona a few weeks ago at the
-                <key_word term="border">border</key_word>. I mean, the fences that were there were
+                <keyword term="border">border</keyword>. I mean, the fences that were there were
             not manned, and those are the kind of fences when I was a kid that would barely slow us
             down. So, I don't see any purpose in having that. Now, what we need to do is look at
             something that actually works. Yuma County, Arizona. They stop 97 percent of the
                 <immigrant status="illegal" term="illegal immigrant">illegal immigrants</immigrant>
             through there. They put in a double fence with a road so that there was quick access by
-            the enforcement people. If we don't seal the <key_word term="border">border</key_word>,
+            the enforcement people. If we don't seal the <keyword term="border">border</keyword>,
             the rest of this stuff clearly doesn't matter. It's kind of ridiculous all the other
             things we talk about. We have the ability to do it, we don't have the will to do it.
             There was one area where they had cut a hole in the fence, and to repair it, they put a
@@ -1023,10 +1025,10 @@ Please give some applause to the candidates. [applause]
         <speech speaker="TRUMP"> No, I won't do that, because I've said nothing wrong. </speech>
         <speech speaker="BUSH"> Yeah. </speech>
         <speech speaker="TRUMP"> But I do hear she's a lovely woman. </speech>
-        <speech speaker="BUSH"> So, here's the deal. <anecdote type="value" subtype="nation"
+        <speech speaker="BUSH"> So, here's the deal. <anecdote type="value" subtype="culture"
                 attitude="pro">My wife is a Mexican-American. She's an American by choice. She loves
-                this country as much as anybody in this room, and she wants a secure <key_word
-                    term="border">border</key_word>. But she wants to embrace the traditional
+                this country as much as anybody in this room, and she wants a secure <keyword
+                    term="border">border</keyword>. But she wants to embrace the traditional
                 American values that make us special and make us unique. We're at a crossroads right
                 now. Are we going to take the Reagan approach, the hopeful optimistic approach, the
                 approach that says that, you come to our country legally, you pursue your dreams
@@ -1054,9 +1056,9 @@ Please give some applause to the candidates. [applause]
             said. </speech>
         <speech speaker="BUSH"> Look, first of all, I wrote a book about this, three — four years
             ago, now. And I laid out a comprehensive, conservative approach for immigration reform.
-            And it does require securing the <key_word term="border">border</key_word>. No one
-            disagrees with that. <trope type="value" subtype="nation" attitude="pro">But to build a
-                    <key_word term="wall">wall</key_word>, and to deport people — half a million a
+            And it does require securing the <keyword term="border">border</keyword>. No one
+            disagrees with that. <trope type="value" subtype="ambig" attitude="pro">But to build a
+                    <keyword term="wall">wall</keyword>, and to deport people — half a million a
                 month — would cost hundreds of billions of dollars, Donald. Hundreds of billions of
                 dollars. It would destroy community life, it would tear families apart. And it would
                 send a signal to the rest of the world that the United States values that are so
@@ -1107,8 +1109,8 @@ Please give some applause to the candidates. [applause]
         <speech speaker="CARSON"> Not exactly what I said. </speech>
         <speech speaker="TAPPER"> Well, how would you say it, sir? I was just reading the Wall
             Street Journal quote, but please tell us. </speech>
-        <speech speaker="CARSON"> Well, what I said, after we seal the <key_word term="border"
-                >borders</key_word>, after we turn off the spigot that dispenses all the goodies so
+        <speech speaker="CARSON"> Well, what I said, after we seal the <keyword term="border"
+                >borders</keyword>, after we turn off the spigot that dispenses all the goodies so
             we don't have people coming in here, including employment, that people who had a
             pristine record, we should consider allowing them to become <immigrant status="legal" term="guest worker">guest workers</immigrant>, primarily in
             the agricultural sphere, because that's the place where Americans don't seem to want to
@@ -1116,7 +1118,7 @@ Please give some applause to the candidates. [applause]
             it within that time period, then they become illegal, and as <immigrant status="illegal" term="illegal">illegals</immigrant>, they will be
             treated as such. </speech>
         <speech speaker="TAPPER"> OK, from the horse's mouth, Senator Cruz, does that fit your
-            definition of <key_word term="amnesty">amnesty</key_word>? </speech>
+            definition of <keyword term="amnesty">amnesty</keyword>? </speech>
         <speech speaker="CRUZ"> Well, Jake, you know, I'm — I'm very glad that Donald Trump's being
             in this race has forced the mainstream media finally to talk about <immigration status="illegal" term="illegal immigration">illegal immigration</immigration>.
             I think that's very important. I like and respect Ben Carson. I'll let him talk about
@@ -1124,14 +1126,14 @@ Please give some applause to the candidates. [applause]
             asking, after we focus on <immigration status="illegal" term="illegal immigration">illegal immigration</immigration> is, okay, what are the records of the
             various candidates? And this is an issue on which there are stark differences. A
             majority of the men and women on this stage have previously and publicly embraced
-                <key_word term="amnesty">amnesty</key_word>. I am the only candidate on this stage
-            who has never supported <key_word term="amnesty">amnesty</key_word> and, in fact, who
-            helped lead the fight to stop a massive <key_word term="amnesty">amnesty</key_word>
+                <keyword term="amnesty">amnesty</keyword>. I am the only candidate on this stage
+            who has never supported <keyword term="amnesty">amnesty</keyword> and, in fact, who
+            helped lead the fight to stop a massive <keyword term="amnesty">amnesty</keyword>
             plan. In 2013, when Barack Obama and Harry Reid joined the Washington Republicans in a
             massive, I stood shoulder to shoulder with Jeff Sessions helping lead the fight. You
-            know, folks here have talked about, how do you secure the <key_word term="border"
-                >borders</key_word>? Well, I've been leading the fight in the Senate to triple the
-            Border Patrol, to put in place fencings and <key_word term="wall">wall</key_word>s, to
+            know, folks here have talked about, how do you secure the <keyword term="border"
+                >borders</keyword>? Well, I've been leading the fight in the Senate to triple the
+            Border Patrol, to put in place fencings and <keyword term="wall">wall</keyword>s, to
             put in place a strong biometric exit/entry system... </speech>
         <speech speaker="TAPPER"> Thank you, Senator. Senator Rubio... </speech>
         <speech speaker="CARSON"> Can I — can I — can I just... </speech>
@@ -1139,7 +1141,7 @@ Please give some applause to the candidates. [applause]
         <speech speaker="CARSON"> Can I correct... </speech>
         <speech speaker="TAPPER"> We'll come back to you — we'll come back to you in one second,
             sir. But Senator Rubio, I'm not sure exactly whose plan he's — he's saying is —
-            constitutes <key_word term="amnesty">amnesty</key_word>, but I know he has said it about
+            constitutes <keyword term="amnesty">amnesty</keyword>, but I know he has said it about
             your plan in the past, so I want to give you a chance to respond, then, Dr. Carson,
             we'll come to you. </speech>
         <speech speaker="CARSON"> OK. </speech>
@@ -1156,12 +1158,12 @@ Please give some applause to the candidates. [applause]
             decade who are already here illegally. And we must deal with all three of these
             problems. We cannot deal with all three of these problems in one massive piece of
             legislation. I learned that. We tried it that way. Here's the way forward: First, we
-            must — we must secure our <key_word term="border">border</key_word>, the physical
-                <key_word term="border">border</key_word>, with — with a <key_word term="wall"
-                >wall</key_word>, absolutely. But we also need to have an entry/exit tracking
+            must — we must secure our <keyword term="border">border</keyword>, the physical
+                <keyword term="border">border</keyword>, with — with a <keyword term="wall"
+                >wall</keyword>, absolutely. But we also need to have an entry/exit tracking
             system. 40 percent of the people who come here illegally come legally, and then they
-            overstay the visa. We also need a mandatory <key_word term="e-verify"
-                >e-verify</key_word> system. After we've done that, step two would be to modernize
+            overstay the visa. We also need a mandatory <keyword term="e-verify"
+                >e-verify</keyword> system. After we've done that, step two would be to modernize
             our legal immigration system so you come to America on the basis of what you can
             contribute economically, not whether or not simply you have a relative living here. And
             after we've done those two things, I believe the American people... </speech>
@@ -1171,9 +1173,9 @@ Please give some applause to the candidates. [applause]
             not be able to stay. </speech>
         <speech speaker="TAPPER"> Thank you, Senator. Senator — Dr. Carson... [applause] ... I want
             to give you 30 seconds. I'd like you to answer the question. Senator Cruz describes
-            plans such as yours as <key_word term="amnesty">amnesty</key_word>. Why is your plan not
-                <key_word term="amnesty">amnesty</key_word>? </speech>
-        <speech speaker="CARSON"> My plan is not <key_word term="amnesty">amnesty</key_word> for a
+            plans such as yours as <keyword term="amnesty">amnesty</keyword>. Why is your plan not
+                <keyword term="amnesty">amnesty</keyword>? </speech>
+        <speech speaker="CARSON"> My plan is not <keyword term="amnesty">amnesty</keyword> for a
             number of reasons. Number one, you know, I've talked to farmers, and they said they
             cannot hire Americans to do the kind of job that I'm talking about. And the second
             reason is because the individuals who register as <immigrant status="legal" term="guest worker">guest workers</immigrant>, they don't get to vote,
@@ -1193,8 +1195,8 @@ Please give some applause to the candidates. [applause]
         <speech speaker="TRUMP"> Well, first of all, the — the 14th Amendment says very, very
             clearly to a lot of great legal scholars — not television scholars, but legal scholars —
             that it is wrong. It can be corrected with an act of Congress, probably doesn't even
-            need that. A woman gets pregnant. She's nine months, she walks across the <key_word
-                term="border">border</key_word>, she has the baby in the United States, and we take
+            need that. A woman gets pregnant. She's nine months, she walks across the <keyword
+                term="border">border</keyword>, she has the baby in the United States, and we take
             care of the baby for 85 years. I don't think so. And by the way, Mexico and almost every
             other country anywhere in the world doesn't have that. We're the only ones dumb enough,
             stupid enough to have it. And people — and by the way, this is not just with respect to
@@ -1226,9 +1228,9 @@ Please give some applause to the candidates. [applause]
             continue to go on is what has gone on for 25 years. With all due respect, Mr. Trump,
             we've been talking about illegal immigration for 25 years. San Francisco has been a
             sanctuary city since 1989. There are 300 of them. And meanwhile, what has happened?
-            Nothing. The <key_word term="border">border</key_word> remains insecure. The legal
-            immigration system remains broken. Look, we know what it takes to secure a <key_word
-                term="border">border</key_word>. We've heard a lot of great ideas here. Money,
+            Nothing. The <keyword term="border">border</keyword> remains insecure. The legal
+            immigration system remains broken. Look, we know what it takes to secure a <keyword
+                term="border">border</keyword>. We've heard a lot of great ideas here. Money,
             manpower, technology... </speech>
         <speech speaker="TAPPER"> Thank you, Ms. Fiorina. </speech>
         <speech speaker="FIORINA"> ...mostly, apparently, leadership... </speech>
@@ -2541,7 +2543,7 @@ My wife says, "You'll never be Unite One, I'm Unite One. You're Unit Two."
 </speech>
 <speech speaker="TAPPER"> That's a mouthful, but OK. [laughter]
 
-OK, here's the more serious question, Ronald Reagan, the 40th President, used the plane behind you to accomplish a great many things. Perhaps, most notably, to challenge Mikhail Gorbachev to tear down the <key_word term="wall">wall</key_word>, and ultimately, to make peace with the USSR.
+OK, here's the more serious question, Ronald Reagan, the 40th President, used the plane behind you to accomplish a great many things. Perhaps, most notably, to challenge Mikhail Gorbachev to tear down the <keyword term="wall">wall</keyword>, and ultimately, to make peace with the USSR.
 
 How will the world look different once your Air Force One is parked in the hangar of your presidential library?
 

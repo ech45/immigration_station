@@ -1,5 +1,31 @@
+<?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
-   <!-- <speech who="BLITZER"> Welcome to the CNN-Facebook Republican presidential debate here at
+    <meta>
+        <loc>
+          Las Vegas, Nevada  
+        </loc>
+        <date>
+            December 15th, 2012
+        </date>
+        <participants>
+            <candidate>Rand Paul</candidate>
+            <candidate>Chris Christie</candidate>
+            <candidate>Jeb Bush</candidate>
+            <candidate>Ted Cruz</candidate>
+            <candidate>Donald Trump</candidate>
+            <candidate>Ben Carson</candidate>
+            <candidate>Marco Rubio</candidate>
+            <candidate>Carly Fiorina</candidate>
+            <candidate> John Kasich</candidate>
+            
+            <moderator>Wolf Blitzer</moderator>
+            <moderator>Dana Bash</moderator>
+            <moderator> Hugh Hewitt</moderator>
+        </participants>
+    </meta>
+<body>
+   <!-- <speech speaker="BLITZER"> Welcome to the CNN-Facebook Republican presidential debate here at
         the Venetian Las Vegas. We have a very enthusiastic audience. Everyone is here. They're
         looking forward to a serious and spirited discussion about the security of this nation. I'm
         Wolf Blitzer, your moderator tonight. This debate is airing on CNN networks here in the
@@ -15,7 +41,7 @@
         together on the stage. Now, everyone, please rise for the national anthem sung by Ayla
         Brown. [national anthem] [applause]</speech>
 
-    <speech who="BLITZER"> I know everyone is eager to get started. So, candidates, please take
+    <speech speaker="BLITZER"> I know everyone is eager to get started. So, candidates, please take
         your places while I explain the ground rules for tonight. As moderator, I'll guide the
         discussion, and I'll be joined in the questioning by Salem Radio Network talk show host Hugh
         Hewitt and CNN's chief political correspondent Dana Bash. We also asked Republicans and
@@ -33,7 +59,7 @@
         himself or herself to our audience. You'll have one minute. First to you, Senator
         Paul.</speech>
 
-    <speech who="PAUL"> The question is, how do we keep America safe from terrorism? Trump says
+    <speech speaker="PAUL"> The question is, how do we keep America safe from terrorism? Trump says
         we ought to close that Internet thing. The question really is, what does he mean by that?
         Like they do in North Korea? Like they do in China? Rubio says we should collect all
         Americans' records all of the time. The Constitution says otherwise. I think they're both
@@ -48,9 +74,9 @@
         the Bill of Rights' anniversary. I hope we will remember that and cherish that in the fight
         on terrorism.</speech>
 
-    <speech who="BLITZER"> Thank you, Senator. [applause] Governor Kasich?</speech>
+    <speech speaker="BLITZER"> Thank you, Senator. [applause] Governor Kasich?</speech>
 
-    <speech who="KASICH"> Thank you, Wolf. Just last weekend, just last week, a friend asked one
+    <speech speaker="KASICH"> Thank you, Wolf. Just last weekend, just last week, a friend asked one
         of my daughters, "Do you like politics?" And my daughter said, "No, I don't. And the reason
         I don't like it is because there's too much fighting, too much yelling. It's so loud, I
         don't like it." You know, I turned to my friend and I said, "You know, she's really on to
@@ -65,9 +91,9 @@
         secure it's place it world; for us, for our children, and for the next generation. Thank
         you. [applause]</speech>
 
-    <speech who="BLITZER"> Governor Christie?</speech>
+    <speech speaker="BLITZER"> Governor Christie?</speech>
 
-    <speech who="CHRISTIE"> Thank you Wolf. America has been betrayed. We've been betrayed by
+    <speech speaker="CHRISTIE"> Thank you Wolf. America has been betrayed. We've been betrayed by
         the leadership that Barack Obama and Hilary Clinton have provided to this country over the
         last number of years. Think about just what's happened today. The second largest school
         district in America in Los Angeles closed based on a threat. Think about the effect that,
@@ -82,9 +108,9 @@
         back in the White House we will fight terrorists and win again and America will be safe.
         [applause]</speech>
 
-    <speech who="BLITZER"> Ms. Fiorina?</speech>
+    <speech speaker="BLITZER"> Ms. Fiorina?</speech>
 
-    <speech who="FIORINA"> Like all of you I'm angry. I'm angry at what's happening to our
+    <speech speaker="FIORINA"> Like all of you I'm angry. I'm angry at what's happening to our
         nation. Citizens, it's time to take our country back. Bombastic insults wont take it back.
         Political rhetoric that promises a lot and delivers little, won't take it back. All of our
         problems can be solved. All of our wounds can be healed by a tested leader who is willing to
@@ -97,9 +123,9 @@
         media, from the liberal elite. It can be done, it must be done, join me and we will get it
         done. [applause]</speech>
 
-    <speech who="BLITZER"> Governor Bush?</speech>
+    <speech speaker="BLITZER"> Governor Bush?</speech>
 
-    <speech who="BUSH"> Our freedom is under attack. Our economy is under water. The leading
+    <speech speaker="BUSH"> Our freedom is under attack. Our economy is under water. The leading
         democrat is under investigation. And America is under the gun to lead the free world to
         protect our civilized way of life. Serious times require strong leadership, that's what at
         stake right now. Regarding national security, we need to restore the defense cuts of Barack
@@ -110,9 +136,9 @@
         take – we support our friends. As president, I will keep you and our country safe, secure,
         and free. Thank you.</speech>
 
-    <speech who="BLITZER"> Senator Rubio?</speech>
+    <speech speaker="BLITZER"> Senator Rubio?</speech>
 
-    <speech who="RUBIO"> Thank you Wolf. It's really amazing to be back in Las Vegas. I spent
+    <speech speaker="RUBIO"> Thank you Wolf. It's really amazing to be back in Las Vegas. I spent
         six years as a child growing not far from where we stand tonight. I use to sit on the porch
         of our home and listen to my grandfather tell stories as he smoked one of three daily
         cigars. One of the things my grandfather instilled in me, was that I was really blessed
@@ -128,9 +154,9 @@
         president, we will have a president that believes America is the greatest country in the
         world and we will have a president that acts like it. [applause]</speech>
 
-    <speech who="BLITZER"> Senator Cruz.</speech>
+    <speech speaker="BLITZER"> Senator Cruz.</speech>
 
-    <speech who="CRUZ"> Thank you, Wolf. America is at war. Our enemy is not violent extremism.
+    <speech speaker="CRUZ"> Thank you, Wolf. America is at war. Our enemy is not violent extremism.
         It is not some unnamed malevolent force. It is radical Islamic terrorist. We have a
         president who is unwilling to utter its name. The men and women on this stage, every one of
         us, is better prepared to keep this nation safe than is Barack Obama or Hillary Clinton. We
@@ -141,9 +167,9 @@
         is national security and we will not be admitting jihadists as refugees. We will keep
         America safe. [applause]</speech>
 
-    <speech who="BLITZER"> Dr. Carson.</speech>
+    <speech speaker="BLITZER"> Dr. Carson.</speech>
 
-    <speech who="CARSON"> Thank you, Wolf. Please join me for a moment of silence and
+    <speech speaker="CARSON"> Thank you, Wolf. Please join me for a moment of silence and
         remembrance of the San Bernardino victims. Thank you. You know, our country since its
         inception has been at war, every 15 or 20 years. But the war that we are fighting now
         against radical Islamist jihadists is one that we must win. Our very existence is dependent
@@ -156,9 +182,9 @@
         that cancer and begin the healing process, and bring peace, prosperity, and safety back to
         America. [applause]</speech>
 
-    <speech who="BLITZER"> Mr. Trump.</speech>
+    <speech speaker="BLITZER"> Mr. Trump.</speech>
 
-    <speech who="TRUMP"> Thank you. I began this journey six months ago. My total focus was on
+    <speech speaker="TRUMP"> Thank you. I began this journey six months ago. My total focus was on
         building up our military, building up our strength, building up our borders, making sure
         that China, Japan, Mexico, both at the border and in trade, no longer takes advantage of our
         country. Certainly would never have made that horrible, disgusting, absolutely incompetent
@@ -169,7 +195,7 @@
         in the past. People like what I say. People respect what I say. And we've opened up a very
         big discussion that needed to be opened up. Thank you very much. [applause]</speech>
 
-    <speech who="BLITZER"> Thank you. Since you last debated, Americans have witnessed terror
+    <speech speaker="BLITZER"> Thank you. Since you last debated, Americans have witnessed terror
         attacks in Paris and San Bernardino. The FBI director says the country now faces the
         greatest terror threat since 9/11. You all have different approaches to keeping the country
         safe. And that will be the focus of tonight's debate. Mr. Trump, as you mentioned in your
@@ -179,7 +205,7 @@
         wall off America's southern border. Is the best way to make America great again to isolate
         it from much of the rest of the world?</speech>
 
-    <speech who="TRUMP"> We are not talking about isolation. We're talking about security. We're
+    <speech speaker="TRUMP"> We are not talking about isolation. We're talking about security. We're
         not talking about religion. We're talking about security. Our country is out of control.
         People are pouring across the southern border. I will build a wall. It will be a great wall.
         People will not come in unless they come in legally. Drugs will not pour through that wall.
@@ -188,10 +214,10 @@
         coming to this country. And if I'm president and if Obama has brought some to this country,
         they are leaving. They're going. They're gone. [applause]</speech>
 
-    <speech who="BLITZER"> Governor Bush, you called Mr. Trump "unhinged" when he proposed
+    <speech speaker="BLITZER"> Governor Bush, you called Mr. Trump "unhinged" when he proposed
         banning non-American Muslims from the United States. Why is that unhinged?</speech>
 
-    <speech who="BUSH"> Well, first of all, we need to destroy ISIS in the caliphate. That's —
+    <speech speaker="BUSH"> Well, first of all, we need to destroy ISIS in the caliphate. That's —
         that should be our objective. The refugee issue will be solved if we destroy ISIS there,
         which means we need to have a no-fly zone, safe zones there for refugees and to build a
         military force. We need to embed our forces — our troops inside the Iraqi military. We need
@@ -204,9 +230,9 @@
         one-liners, but he's a chaos candidate. And he'd be a chaos president. He would not be the
         commander in chief we need to keep our country safe. [applause]</speech>
 
-    <speech who="BLITZER"> Mr. Trump?</speech>
+    <speech speaker="BLITZER"> Mr. Trump?</speech>
 
-    <speech who="TRUMP"> Jeb doesn't really believe I'm unhinged. He said that very simply
+    <speech speaker="TRUMP"> Jeb doesn't really believe I'm unhinged. He said that very simply
         because he has failed in this campaign. It's been a total disaster. Nobody cares. And
         frankly, I'm the most solid person up here. I built a tremendous company and all I want to
         do is make America great again. I don't want our country to be taken away from us, and
@@ -214,7 +240,7 @@
         disaster for our country. We want to make America great again. And Jeb, in all fairness, he
         doesn't believe that.</speech>
 
-    <speech who="BUSH"> Look, he mentioned me. I can bring — I can talk. This is — this is the
+    <speech speaker="BUSH"> Look, he mentioned me. I can bring — I can talk. This is — this is the
         problem. Banning all Muslims will make it harder for us to do exactly what we need to do,
         which is to destroy ISIS. We need a strategy. We need to get the lawyers off the back of the
         warfighters. Right now under President Obama, we've created this — this standard that is so
@@ -224,12 +250,12 @@
         dialogue with us. That's not a serious proposal. We need a serious leader to deal with this.
         And I believe I'm that guy. [applause]</speech>
 
-    <speech who="BLITZER"> Senator Rubio — I'm going to go to Senator Rubio and get his
+    <speech speaker="BLITZER"> Senator Rubio — I'm going to go to Senator Rubio and get his
         thoughts. You have said banning Muslims is unconstitutional. But according to a recent ABC
         News-Washington Post poll, a majority of Republicans support Mr. Trump's idea. Why are they
         wrong?</speech>
 
-    <speech who="RUBIO"> Well, I understand why they feel that way, because this president
+    <speech speaker="RUBIO"> Well, I understand why they feel that way, because this president
         hasn't kept us safe. The problem is we had an attack in San Bernardino. And we were paying
         attention to the most important issue we have faced in a decade since 9/11, and then all the
         talk was about this proposal, which isn't going to happen. But this is what's important to
@@ -247,15 +273,15 @@
         basically said was we are going to keep doing what we're doing now, and what we are doing
         now is not working. [applause]</speech>
 
-    <speech who="BLITZER"> Hugh Hewitt, you have a question.</speech>
+    <speech speaker="BLITZER"> Hugh Hewitt, you have a question.</speech>
 
-    <speech who="HEWITT"> Senator Cruz, you've said you disagree with Mr. Trump's policy. I
+    <speech speaker="HEWITT"> Senator Cruz, you've said you disagree with Mr. Trump's policy. I
         don't want a cage match; you've tweeted you don't want a cage match. But Republican primary
         voters deserve to know, with the kind of specificity and responsiveness you delivered in
         your nine Supreme Court arguments, how you disagree with Mr. Trump. Would you spell that out
         with us?</speech>
 
-    <speech who="CRUZ"> Well, listen, Hugh, everyone understands why Donald has suggested what
+    <speech speaker="CRUZ"> Well, listen, Hugh, everyone understands why Donald has suggested what
         he has. We're looking at a president who's engaged in this double-speak where he doesn't
         call radical Islamic terrorism by its name. Indeed, he gives a speech after the San
         Bernardino attack where his approach is to try to go after the constitutional rights of
@@ -267,10 +293,10 @@
         legislation would do is suspend all refugees for three years from countries where ISIS or Al
         Qaida control substantial territory.</speech>
 
-    <speech who="HEWITT"> So you're saying you disagree because he's too broad and you have a
+    <speech speaker="HEWITT"> So you're saying you disagree because he's too broad and you have a
         narrower focus? Why do you disagree with him?</speech>
 
-    <speech who="CRUZ"> Well, you know, I'm reminded of what FDR's grandfather said. He said,
+    <speech speaker="CRUZ"> Well, you know, I'm reminded of what FDR's grandfather said. He said,
         "All horse-thieves are Democrats, but not all Democrats are horse-thieves." [laughter] In
         this instance, there are millions of peaceful Muslims across the world, in countries like
         India, where there is not the problems we are seeing in nations that are controlled — have
@@ -278,13 +304,13 @@
         problem, and defeat radical Islamic terrorism. It's not a war on a faith; it's a war on a
         political and theocratic ideology that seeks to murder us.</speech>
 
-    <speech who="HEWITT"> Carly Fiorina... [applause] ... this is the Christmas dinner debate.
+    <speech speaker="HEWITT"> Carly Fiorina... [applause] ... this is the Christmas dinner debate.
         This will be the debate that Americans talk about at Christmas. And thus far, in the first
         10 minutes, we haven't heard a lot about Ronald Reagan's city on a hill. We've heard a lot
         about keeping Americans out or keeping Americans safe and everyone else out. Is this what
         you want the party to stand for?</speech>
 
-    <speech who="FIORINA"> What I think we need to stand for are solutions. I offer myself as a
+    <speech speaker="FIORINA"> What I think we need to stand for are solutions. I offer myself as a
         leader to the people of this country because I think they're looking for solutions, not
         lawyers arguing over laws or entertainers throwing out sound bites that draw media
         attention. We need to solve the problem. To solve the problem, we need to do something here
@@ -300,14 +326,14 @@
         private sector will help, just as I helped after 9/11. But they must be engaged, and they
         must be asked. I will ask them. I know them. [applause]</speech>
 
-    <speech who="BLITZER"> Governor Christie, Americans are clearly more afraid today than at
+    <speech speaker="BLITZER"> Governor Christie, Americans are clearly more afraid today than at
         any time since 9/11. As you mentioned in your opening statement, today in Los Angeles, 650
         schoolchildren didn't go to — 650,000 schoolchildren didn't go to school because of an
         e-mail threat, this two weeks after an attack killed 14 people in San Bernardino. Is this
         the new normal? And if so, what steps would you take as president of the United States to
         ensure that fear does not paralyze America?</speech>
 
-    <speech who="CHRISTIE"> Wolf, unfortunately, it's the new normal under Barack Obama and
+    <speech speaker="CHRISTIE"> Wolf, unfortunately, it's the new normal under Barack Obama and
         Hillary Clinton. The fact is that if you listen to Hillary Clinton the other day, what she
         said to the American people was, as regards to ISIS, my strategy would be just about the
         same as the president's. Just about the same as the president's? We have people across this
@@ -325,11 +351,11 @@
         Americans. As someone who has done it, I will make sure it gets done again.
         [applause]</speech>
 
-    <speech who="BLITZER"> Thank you. Governor Kasich, one of the killers in San Bernardino was
+    <speech speaker="BLITZER"> Thank you. Governor Kasich, one of the killers in San Bernardino was
         an American who was not on anyone's watch list. How are you going to find that radicalized
         person and stop another such attack?</speech>
 
-    <speech who="KASICH"> Well, first of all, Wolf, I said last February that we needed to have
+    <speech speaker="KASICH"> Well, first of all, Wolf, I said last February that we needed to have
         people on the ground, troops on the ground in a coalition similar to what we had in the
         first Gulf War. I remember when the Egyptian ambassador to the United States stood in the
         Rose Garden and pledged Arab commitment to removing Saddam Hussein from Kuwait. Before we
@@ -347,14 +373,14 @@
         these terrorist attacks before they occur. We can do this, but we've got to get moving. Pay
         me now or pay me a lot more later. This is the direction we need to go. [applause]</speech>
 
-    <speech who="BLITZER"> Thank you. Dana Bash, you have the next question.</speech>
+    <speech speaker="BLITZER"> Thank you. Dana Bash, you have the next question.</speech>
 
-    <speech who="BASH"> A crucial question is how to balance surveillance with privacy and
+    <speech speaker="BASH"> A crucial question is how to balance surveillance with privacy and
         keeping Americans safe. Senator Cruz, you voted for a bill that President Obama signed into
         law just this past June that made it harder for the government to access Americans' phone
         records. In light of the San Bernardino attack, was your vote a mistake?</speech>
 
-    <speech who="CRUZ"> Well, Dana, the premise of your question is not accurate. I'm very proud
+    <speech speaker="CRUZ"> Well, Dana, the premise of your question is not accurate. I'm very proud
         to have joined with conservatives in both the Senate and the House to reform how we target
         bad guys. And what the USA Freedom Act did is it did two things. Number one, it ended the
         federal government's bulk collection of phone metadata of millions of law-abiding citizens.
@@ -370,10 +396,10 @@
         bad guys. We need to focus on radical Islamic terrorists and we need to stop them before
         they carry out acts of terror. [applause]</speech>
 
-    <speech who="BASH"> Thank you. Senator Rubio, Senator Cruz is right there was bipartisan
-        support for that. But you voted against it. So, is Senator Cruz wrong?</speech>
+    <speech speaker="BASH"> Thank you. Senator Rubio, Senator Cruz is right there was bipartisan
+        support for that. But you voted against it. So, is Senator Cruz wrong?</speech>-->
 
-    <speech who="RUBIO"> He is and so are those that voted for it. There were some that voted
+    <speech speaker="RUBIO"> He is and so are those that voted for it. There were some that voted
         for it because they wanted to keep it alive and they were afraid the whole program would
         expire. Here's the world we live in. This is a radical jihadist group that is increasingly
         sophisticated in its ability, for example, to radicalize American citizens, in its inability
@@ -382,10 +408,10 @@
         the most capable, it is the most sophisticated terror threat we have ever faced. We are now
         at a time when we need more tools, not less tools. And that took we lost, the metadata
         program, was a valuable tool that we no longer have at our disposal.</speech>
+<!--
+    <speech speaker="BASH"> Senator Cruz?</speech>
 
-    <speech who="BASH"> Senator Cruz?</speech>
-
-    <speech who="CRUZ"> Well, you know, I would note that Marco knows what he's saying isn't
+    <speech speaker="CRUZ"> Well, you know, I would note that Marco knows what he's saying isn't
         true. You know, Mark Levin wrote a column last week that says that the attack ads his Super
         PAC is running that are saying the same thing, that they are knowingly false and they are,
         in fact, Alinsky-like attacks like Barack Obama. And the reason is simple. What he knows is
@@ -393,11 +419,11 @@
         terrorists. The new program covers nearly 100 percent. That gives us greater ability to stop
         acts of terrorism, and he knows that that's the case.</speech>
 
-    <speech who="RUBIO"> Dana, may I interject here?</speech>
+    <speech speaker="RUBIO"> Dana, may I interject here?</speech>
 
-    <speech who="BASH"> Senator — Senator — Senator Rubio, please respond.</speech>
+    <speech speaker="BASH"> Senator — Senator — Senator Rubio, please respond.</speech>
 
-    <speech who="RUBIO"> Let me be very careful when answering this, because I don't think
+    <speech speaker="RUBIO"> Let me be very careful when answering this, because I don't think
         national television in front of 15 million people is the place to discuss classified
         information. So let me just be very clear. There is nothing that we are allowed to do under
         this bill that we could not do before. This bill did, however, take away a valuable tool
@@ -408,12 +434,12 @@
         we know about it and why didn't we stop it? And the answer better not be because we didn't
         have access to records or information that would have allowed us to identify these killers
         before they attacked. [crosstalk] [applause]</speech>
-
-    <speech who="BASH"> Senator Paul, Senator Paul, I know this is — this has been a very big
+-->
+    <speech speaker="BASH"> Senator Paul, Senator Paul, I know this is — this has been a very big
         issue for you. You hear many of your colleagues are calling for increased surveillance by
-        law enforcement. You call that hogwash. Why is that hogwash?</speech> -->
+        law enforcement. You call that hogwash. Why is that hogwash?</speech> 
 
-    <speech who="PAUL"> You know, I think Marco gets it completely wrong. We are not any safer
+    <speech speaker="PAUL"> You know, I think Marco gets it completely wrong. We are not any safer
         through the bulk collection of all Americans' records. In fact, I think we're less safe. We
         get so distracted by all of the information, we're not spending enough time getting specific
         immigration — specific information on terrorists. The other thing is, is the one thing that
@@ -429,9 +455,9 @@
         who's coming in, and Marco is — has more of an allegiance to Chuck Schumer and to the
         liberals than he does to conservative policy. [applause]</speech> 
 
-   <!-- <speech who="BASH"> Senator Rubio?</speech>
+   <!-- <speech speaker="BASH"> Senator Rubio?</speech>
 
-    <speech who="RUBIO"> I want to thank Rand for another 30 seconds, because, number one, what
+    <speech speaker="RUBIO"> I want to thank Rand for another 30 seconds, because, number one, what
         he's pointing to is a bill last week that — amendment that he voted for that only 10 people
         voted for. You know why? Because it's not focused on terrorists. It would have banned anyone
         from coming here. Someone from Taiwan would not have been able to come here as a tourist.
@@ -443,14 +469,14 @@
         in this country. And I bet you we wish we would have had access to five years of his records
         so we could see who he was working with...[crosstalk]</speech>
 
-    <speech who="BASH"> Governor Christie, Governor Christie... [crosstalk] [applause]
+    <speech speaker="BASH"> Governor Christie, Governor Christie... [crosstalk] [applause]
         ...Governor Christie, I'll come to you in a minute. Go ahead, Senator Paul.</speech>
 
-    <speech who="PAUL"> If I was mentioned in the question, can I respond?</speech>
+    <speech speaker="PAUL"> If I was mentioned in the question, can I respond?</speech>
 
-    <speech who="BASH"> Go ahead, please.</speech> -->
+    <speech speaker="BASH"> Go ahead, please.</speech> -->
 
-    <speech who="PAUL"> Marco still misunderstands the immigration issue. What I put forward was
+    <speech speaker="PAUL"> Marco still misunderstands the immigration issue. What I put forward was
         an amendment that would have temporarily halted immigration from high-risk terrorist
         countries, but would have started it up, but I wanted them to go through Global Entry, which
         is a program where we do background checks. The thing is, is that every terrorist attack
@@ -458,16 +484,16 @@
         rules, more scrutiny, and to defend the country, you have to defend the border.
         [applause]</speech>
 
-    <speech who="BASH"> Senator, we're going to talk about immigration in a while. But, Governor
+    <speech speaker="BASH"> Senator, we're going to talk about immigration in a while. But, Governor
         Christie, just listening to this...</speech>
 
-   <!-- <speech who="RUBIO"> Do I get another 30 seconds? He mentioned me.</speech>
+   <!-- <speech speaker="RUBIO"> Do I get another 30 seconds? He mentioned me.</speech>
 
-    <speech who="BASH"> Listening to this, you talked — you heard Senator Paul, Senator Cruz
+    <speech speaker="BASH"> Listening to this, you talked — you heard Senator Paul, Senator Cruz
         talk about how important it is to protect Americans' privacy, even in a time of grave
         danger. Why — what's wrong with that?</speech>
 
-    <speech who="CHRISTIE"> Listen, I want to talk to the audience at home for a second. If your
+    <speech speaker="CHRISTIE"> Listen, I want to talk to the audience at home for a second. If your
         eyes are glazing over like mine, this is what it's like to be on the floor of the United
         States Senate. I mean, endless debates about how many angels on the head of a pin from
         people who've never had to make a consequential decision in an executive position. The fact
@@ -487,10 +513,10 @@
         debating it. Let's talk about how we do this, not about which bill, which one these guys
         like more. The American people don't care about that.</speech>
 
-    <speech who="BLITZER"> Thank you. Dr. Carson, you're in favor of monitoring mosques and
+    <speech speaker="BLITZER"> Thank you. Dr. Carson, you're in favor of monitoring mosques and
         schools where there is anti-America sentiment, what do you consider anti- America?</speech>
 
-    <speech who="CARSON"> First of all, let me just complain a little bit. This is the first
+    <speech speaker="CARSON"> First of all, let me just complain a little bit. This is the first
         time I've spoken and several people have had multiple questions so please try to pay
         attention to that. Now, as far as monitoring is concerned, what my point is, we need to make
         sure that any place – I don't care whether it's a mosque, a school, a supermarket, a
@@ -504,19 +530,19 @@
         take advantage of our PC attitude to get us. :" We have to be better than this. We have to
         be smarter than they are.</speech>
 
-    <speech who="BLITZER"> Dr. Carson, who was right in that little debate that we just heard
+    <speech speaker="BLITZER"> Dr. Carson, who was right in that little debate that we just heard
         between Senator Rubio and Senator Paul?</speech>
 
-    <speech who="CARSON"> I think you have to ask them about that. I don't want to get in
+    <speech speaker="CARSON"> I think you have to ask them about that. I don't want to get in
         between them. Let them fight. [crosstalk]</speech>
 
-    <speech who="BLITZER"> Hold on a sec, we have a lot more to come and everybody's going to
+    <speech speaker="BLITZER"> Hold on a sec, we have a lot more to come and everybody's going to
         have their full opportunity. Governor Bush, six days after 9/11 your brother visited a
         mosque and said quote, "Islam is peace." The conversation tonight is about banning Muslims
         and surveillance of mosques, are President Bush's words still relevant in today's Republican
         party?</speech>
 
-    <speech who="BUSH"> They are relevant if we want to destroy ISIS. If we want to destroy
+    <speech speaker="BUSH"> They are relevant if we want to destroy ISIS. If we want to destroy
         radical Islamic terrors, we can't disassociate ourselves from peace loving Muslims. If we
         expect to do this on our own, we will fail but if we do it in unison with people who are
         also are at risk and threatened by Islamic Radical terrorism, we'll be far more successful.
@@ -531,11 +557,11 @@
         and doing the job and making sure that we destroy ISIS there. That's how you keep America
         safe.</speech>
 
-    <speech who="BLITZER"> Ms. Fiorina, as you pointed out you were a CEO in Silicon Valley on
+    <speech speaker="BLITZER"> Ms. Fiorina, as you pointed out you were a CEO in Silicon Valley on
         9/11. Companies there, they say they won't help the FBI now crack encrypted communication
         from ISIS, should they be forced to.</speech>
 
-    <speech who="FIORINA"> You know, listening to this conversation, let me just say, we have a
+    <speech speaker="FIORINA"> You know, listening to this conversation, let me just say, we have a
         lot of argument about laws but none of it solves the problem. Let's examine what happened,
         why did we miss the Tsarnaev brothers, why did we miss the San Bernardino couple? It wasn't
         because we had stopped collected metadata it was because, I think, as someone who comes from
@@ -552,21 +578,21 @@
         dangerous. It is why we need a different kind of leadership in the White House that
         understands how to get bureaucracies competent again.</speech>
 
-    <speech who="BLITZER"> But my question was: Should these Silicon Valley companies be forced
+    <speech speaker="BLITZER"> But my question was: Should these Silicon Valley companies be forced
         to cooperate with the FBI?</speech>
 
-    <speech who="FIORINA"> They do not need to be forced. They need to be asked to bring the
+    <speech speaker="FIORINA"> They do not need to be forced. They need to be asked to bring the
         best and brightest, the most recent technology to the table. I was asked as a CEO. I
         complied happily. And they will as well. But they have not been asked. That's why it cost
         billions of dollars to build an Obama website that failed because the private sector wasn't
         asked. [applause]</speech>
 
-    <speech who="BLITZER"> Mr. Trump, you recently suggested closing that Internet up, those
+    <speech speaker="BLITZER"> Mr. Trump, you recently suggested closing that Internet up, those
         were your words, as a way to stop ISIS from recruiting online. Are you referring to closing
         down actual portions of the Internet? Some say that would put the U.S. in line with China
         and North Korea.</speech>
 
-    <speech who="TRUMP"> Well, look, this is so easy to answer. ISIS is recruiting through the
+    <speech speaker="TRUMP"> Well, look, this is so easy to answer. ISIS is recruiting through the
         Internet. ISIS is using the Internet better than we are using the Internet, and it was our
         idea. What I wanted to do is I wanted to get our brilliant people from Silicon Valley and
         other places and figure out a way that ISIS cannot do what they're doing. You talk freedom
@@ -579,17 +605,17 @@
         penetrate the Internet and find out exactly where ISIS is and everything about ISIS. And we
         can do that if we use our good people. [applause]</speech>
 
-    <speech who="BLITZER"> Let me follow up, Mr. Trump. So, are you open to closing parts of the
+    <speech speaker="BLITZER"> Let me follow up, Mr. Trump. So, are you open to closing parts of the
         Internet?</speech>
 
-    <speech who="TRUMP"> I would certainly be open to closing areas where we are at war with
+    <speech speaker="TRUMP"> I would certainly be open to closing areas where we are at war with
         somebody. I sure as hell don't want to let people that want to kill us and kill our nation
         use our Internet. Yes, sir, I am.</speech>
 
-    <speech who="BLITZER"> Thank you. Governor Kasich, is shutting down any part of the Internet
+    <speech speaker="BLITZER"> Thank you. Governor Kasich, is shutting down any part of the Internet
         a good idea?</speech>
 
-    <speech who="KASICH"> No, I don't think it is. And I want to go back to two other issues.
+    <speech speaker="KASICH"> No, I don't think it is. And I want to go back to two other issues.
         One is the metadata. We know we have to hold this data for a longer period of time. And, you
         know, in a lot of ways, Chris is right. Look, what a president has to do is take a position.
         We don't want to err on the side of having less. We want to err on the side of having more.
@@ -604,14 +630,14 @@
         and Congress has got to deal with this and so does the president to keep us safe.
         [applause]</speech>
 
-    <speech who="BLITZER"> Thank you, Governor. The fight against radical Islamic terrorists and
+    <speech speaker="BLITZER"> Thank you, Governor. The fight against radical Islamic terrorists and
         ISIS has been called the war of our time. So let's talk about how each of you, as commander
         in chief, would fight this war and win it. Senator Cruz, you have said you would, quote,
         "carpet bomb ISIS into oblivion," testing whether, quote, "sand can glow in the dark." Does
         that mean leveling the ISIS capital of Raqqa in Syria where there are hundreds of thousands
         of civilians?</speech>
 
-    <speech who="CRUZ"> What it means is using overwhelming air power to utterly and completely
+    <speech speaker="CRUZ"> What it means is using overwhelming air power to utterly and completely
         destroy ISIS. To put things in perspective, in the first Persian Gulf War, we launched
         roughly 1,100 air attacks a day. We carpet bombed them for 36 days, saturation bombing,
         after which our troops went in and in a day and a half mopped up what was left of the Iraqi
@@ -629,10 +655,10 @@
         everyone's cell phones and e-mails and not focus on the bad guys. And political correctness
         is killing people.</speech>
 
-    <speech who="BLITZER"> Thank you. To be clear, Senator Cruz, would you carpet bomb Raqqa,
+    <speech speaker="BLITZER"> Thank you. To be clear, Senator Cruz, would you carpet bomb Raqqa,
         the ISIS capital, where there are a lot of civilians, yes or no?</speech>
 
-    <speech who="CRUZ"> You would carpet bomb where ISIS is, not a city, but the location of the
+    <speech speaker="CRUZ"> You would carpet bomb where ISIS is, not a city, but the location of the
         troops. You use air power directed — and you have embedded special forces to direction the
         air power. But the object isn't to level a city. The object is to kill the ISIS terrorists.
         To make it — listen, ISIS is gaining strength because the perception is that they're
@@ -641,10 +667,10 @@
         death warrant, and we need a president who is focused on defeating every single ISIS
         terrorist and protecting the homeland, which should be the first priority.</speech>
 
-    <speech who="BLITZER"> Thank you. Thank you, Senator. Senator Rubio, you've been critical of
+    <speech speaker="BLITZER"> Thank you. Thank you, Senator. Senator Rubio, you've been critical of
         Senator Cruz's strategy. You say his voting record doesn't match his rhetoric. Why?</speech>
 
-    <speech who="RUBIO"> Well, let me begin by saying that we have to understand who ISIS is.
+    <speech speaker="RUBIO"> Well, let me begin by saying that we have to understand who ISIS is.
         ISIS is a radical Sunni group. They cannot just be defeated through air strikes. Air strikes
         are a key component of defeating them, but they must be defeated on the ground by a ground
         force. And that ground force must be primarily made up of Sunni Arabs themselves, Sunni
@@ -663,12 +689,12 @@
         going out and conducting these attacks and publicizing them to those who they
         recruit.</speech>
 
-    <speech who="BLITZER"> Because I asked the question, Senator, because you said this. You
+    <speech speaker="BLITZER"> Because I asked the question, Senator, because you said this. You
         said he, referring to Senator Cruz, voted against the Defense Authorization Act every year
         that it came up, and I assume that if he voted against it, he would veto it as president.
         That's the bill that funds our troops.</speech>
 
-    <speech who="RUBIO"> That is accurate. Three times he voted against the Defense
+    <speech speaker="RUBIO"> That is accurate. Three times he voted against the Defense
         Authorization Act, which is a bill that funds the troops. It also, by the way, funds the
         Iron Dome and other important programs. And I have to assume that if you vote against it in
         the Senate, you would also veto it as president. He has also supported, by the way, a budget
@@ -678,16 +704,16 @@
         not to mention additional cuts, we are going to be left with the oldest and the smallest Air
         Force this country has ever had, and that leaves us less safe.</speech>
 
-    <speech who="BLITZER"> Senator Cruz?</speech>
+    <speech speaker="BLITZER"> Senator Cruz?</speech>
 
-    <speech who="CRUZ"> Well, you know, Marco has continued these attacks, and he knows they're
+    <speech speaker="CRUZ"> Well, you know, Marco has continued these attacks, and he knows they're
         not true. Yes, it is true that I voted against the National Defense Authorization Act,
         because when I campaigned in Texas I told voters in Texas that I would oppose the federal
         government having the authority to detain U.S. citizens permanently with no due process. I
         have repeatedly supported an effort to take that out of that bill, and I honored that
         campaign commitment.</speech>
 
-    <speech who="CRUZ"> But more broadly, you know, the notion Marco is suggesting, that somehow
+    <speech speaker="CRUZ"> But more broadly, you know, the notion Marco is suggesting, that somehow
         — he also has tossed more than a few insults this direction — let's be absolutely clear.
         ISIS and radical Islamic terrorism will face no more determined foe than I will be. We will
         utterly destroy them by targeting the bad guys. And one of the problems with Marco's foreign
@@ -696,9 +722,9 @@
         on killing the bad guys, not getting stuck in Middle Eastern civil wars that don't keep
         America safe.</speech>
 
-    <speech who="BLITZER"> Senator Rubio.</speech>
+    <speech speaker="BLITZER"> Senator Rubio.</speech>
 
-    <speech who="RUBIO"> Yes, let me — three points of distinction. The first is, if you're an
+    <speech speaker="RUBIO"> Yes, let me — three points of distinction. The first is, if you're an
         American citizen and you decide to join up with ISIS, we're not going to read you your
         Miranda rights. You're going to be treated as an enemy combatant, a member of an army
         attacking this country. [applause] Number two, we do need our defense capabilities. It is a
@@ -709,24 +735,24 @@
         We cannot continue to outsource foreign policy. We must lead. We are the most powerful
         nation in the world. We need to begin to act like it, again. [applause]</speech>
 
-    <speech who="BLITZER"> We are going to have much more on this...</speech>
+    <speech speaker="BLITZER"> We are going to have much more on this...</speech>
 
-    <speech who="PAUL"> Wolf...</speech>
+    <speech speaker="PAUL"> Wolf...</speech>
 
-    <speech who="BLITZER"> We're going to have much more on this. But I want to move now back to
+    <speech speaker="BLITZER"> We're going to have much more on this. But I want to move now back to
         Mr. Trump.</speech>
 
-    <speech who="PAUL"> Wolf, this legislation...</speech>
+    <speech speaker="PAUL"> Wolf, this legislation...</speech>
 
-    <speech who="BLITZER"> Hold on. Hold on. Hold on.</speech>
+    <speech speaker="BLITZER"> Hold on. Hold on. Hold on.</speech>
 
-    <speech who="PAUL"> This legislation on indefinite detention...</speech>
+    <speech speaker="PAUL"> This legislation on indefinite detention...</speech>
 
-    <speech who="BLITZER"> We have a lot...</speech>
+    <speech speaker="BLITZER"> We have a lot...</speech>
 
-    <speech who="PAUL"> ... I think deserves a little more attention.</speech>
+    <speech speaker="PAUL"> ... I think deserves a little more attention.</speech>
 
-    <speech who="BLITZER"> We have a lot to discuss. I want to move to Mr. Trump right now. We
+    <speech speaker="BLITZER"> We have a lot to discuss. I want to move to Mr. Trump right now. We
         have a question on this war against ISIS and how you would fight and win this war. Here's
         the question from Facebook. Listen to this. [start video] JOSH JACOB, COLLEGE STUDENT: I'm
         Josh Jacob from Georgia Tech. Recently Donald Trump mentioned we must kill the families of
@@ -734,9 +760,9 @@
         combatants in international law. So my question is, how would intentionally killing innocent
         civilians set us apart from ISIS? [end video]</speech>
 
-    <speech who="BLITZER"> Mr. Trump.</speech>
+    <speech speaker="BLITZER"> Mr. Trump.</speech>
 
-    <speech who="TRUMP"> We have to be much tougher. We have to be much stronger than we've
+    <speech speaker="TRUMP"> We have to be much tougher. We have to be much stronger than we've
         been. We have people that know what is going on. You take a look at just the attack in
         California the other day. There were numerous people, including the mother, that knew what
         was going on. They saw a pipe bomb sitting all over the floor. They saw ammunition all over
@@ -748,11 +774,11 @@
         about their lives, but they do care, believe it or not, about their families' lives.
         [applause]</speech>
 
-    <speech who="BUSH"> Donald, this has got...</speech>
+    <speech speaker="BUSH"> Donald, this has got...</speech>
 
-    <speech who="BLITZER"> Governor Bush. Governor Bush.</speech>
+    <speech speaker="BLITZER"> Governor Bush. Governor Bush.</speech>
 
-    <speech who="BUSH"> This is another example of the lack of seriousness. Look, this is — this
+    <speech speaker="BUSH"> This is another example of the lack of seriousness. Look, this is — this
         is troubling because we're at war. They've declared war on us and we need to have a serious
         strategy to destroy ISIS. But the idea that that is a solution to this is just — is just
         crazy. It makes no sense to suggest this. Look, two months ago Donald Trump said that ISIS
@@ -761,45 +787,45 @@
         a serious kind of candidate. We need someone that thinks this through. That can lead our
         country to safety and security. [applause]</speech>
 
-    <speech who="BLITZER"> Mr. Trump.</speech>
+    <speech speaker="BLITZER"> Mr. Trump.</speech>
 
-    <speech who="TRUMP"> Look, the problem is we need toughness. Honestly, I think Jeb is a very
+    <speech speaker="TRUMP"> Look, the problem is we need toughness. Honestly, I think Jeb is a very
         nice person. He's a very nice person. But we need tough people. We need toughness. We need
         intelligence and we need tough. Jeb said when they come across the southern border they come
         as an act of love.</speech>
 
-    <speech who="BUSH"> You said on September 30th that ISIS was not a factor.</speech>
+    <speech speaker="BUSH"> You said on September 30th that ISIS was not a factor.</speech>
 
-    <speech who="TRUMP"> Am I talking or are you talking, Jeb?</speech>
+    <speech speaker="TRUMP"> Am I talking or are you talking, Jeb?</speech>
 
-    <speech who="BUSH"> I'm talking right now. I'm talking.</speech>
+    <speech speaker="BUSH"> I'm talking right now. I'm talking.</speech>
 
-    <speech who="TRUMP"> You can go back. You're not talking. You interrupted me.</speech>
+    <speech speaker="TRUMP"> You can go back. You're not talking. You interrupted me.</speech>
 
-    <speech who="BUSH"> September 30th you said...</speech>
+    <speech speaker="BUSH"> September 30th you said...</speech>
 
-    <speech who="TRUMP"> Are you going to apologize, Jeb? No. Am I allowed to finish?</speech>
+    <speech speaker="TRUMP"> Are you going to apologize, Jeb? No. Am I allowed to finish?</speech>
 
-    <speech who="BLITZER"> Just one at a time, go ahead...</speech>
+    <speech speaker="BLITZER"> Just one at a time, go ahead...</speech>
 
-    <speech who="TRUMP"> Excuse me, am I allowed to finish?</speech>
+    <speech speaker="TRUMP"> Excuse me, am I allowed to finish?</speech>
 
-    <speech who="BLITZER"> Go ahead, Mr. Trump.</speech>
+    <speech speaker="BLITZER"> Go ahead, Mr. Trump.</speech>
 
-    <speech who="TRUMP"> So...</speech>
+    <speech speaker="TRUMP"> So...</speech>
 
-    <speech who="BUSH"> A little of your own medicine there, Donald.</speech>
+    <speech speaker="BUSH"> A little of your own medicine there, Donald.</speech>
 
-    <speech who="TRUMP"> ... again... [crosstalk]</speech>
+    <speech speaker="TRUMP"> ... again... [crosstalk]</speech>
 
-    <speech who="BLITZER"> Governor Bush, please.</speech>
+    <speech speaker="BLITZER"> Governor Bush, please.</speech>
 
-    <speech who="TRUMP"> I know you're trying to build up your energy, Jeb, but it's not working
+    <speech speaker="TRUMP"> I know you're trying to build up your energy, Jeb, but it's not working
         very well. [laughter]</speech>
 
-    <speech who="BLITZER"> One at a time.</speech>
+    <speech speaker="BLITZER"> One at a time.</speech>
 
-    <speech who="TRUMP"> Look, look, look. We need a toughness. We need strength. We're not
+    <speech speaker="TRUMP"> Look, look, look. We need a toughness. We need strength. We're not
         respected, you know, as a nation anymore. We don't have that level of respect that we need.
         And if we don't get it back fast, we're just going to go weaker, weaker and just
         disintegrate. We can't allow that to happen. We need strength. We don't have it. When Jeb
@@ -808,9 +834,9 @@
         the same thing right now with radical Islam. And we can't have that in our country. It just
         won't work. We need strength.</speech>
 
-    <speech who="BLITZER"> Governor Bush.</speech>
+    <speech speaker="BLITZER"> Governor Bush.</speech>
 
-    <speech who="BUSH"> Donald, you're not going to be able to insult your way to the
+    <speech speaker="BUSH"> Donald, you're not going to be able to insult your way to the
         presidency. That's not going to happen. [applause] And I do have the strength. Leadership,
         leadership is not about attacking people and disparaging people. Leadership is about
         creating a serious strategy to deal with the threat of our time. And I laid out that
@@ -819,28 +845,28 @@
         in Syria, a safe zone. We need to focus on building a military that is
         second-to-none...</speech>
 
-    <speech who="BLITZER"> Thank you.</speech>
+    <speech speaker="BLITZER"> Thank you.</speech>
 
-    <speech who="BUSH"> ... so that we can destroy Islamic terrorism.</speech>
+    <speech speaker="BUSH"> ... so that we can destroy Islamic terrorism.</speech>
 
-    <speech who="TRUMP"> With Jeb's attitude, we will never be great again, that I can tell you.
+    <speech speaker="TRUMP"> With Jeb's attitude, we will never be great again, that I can tell you.
         We will never be great again.</speech>
 
-    <speech who="BLITZER"> All right. Hugh Hewitt and Dana Bash, Hugh, go ahead with the next
+    <speech speaker="BLITZER"> All right. Hugh Hewitt and Dana Bash, Hugh, go ahead with the next
         question.</speech>
 
-    <speech who="HEWITT"> Dr. Carson...[applause]... you mentioned in your opening remarks that
+    <speech speaker="HEWITT"> Dr. Carson...[applause]... you mentioned in your opening remarks that
         you're a pediatric neurologist surgeon...</speech>
 
-    <speech who="CARSON"> Neurosurgeon.</speech>
+    <speech speaker="CARSON"> Neurosurgeon.</speech>
 
-    <speech who="HEWITT"> Neurosurgeon. And people admire and respect and are inspired by your
+    <speech speaker="HEWITT"> Neurosurgeon. And people admire and respect and are inspired by your
         life story, your kindness, your evangelical core support. We're talking about ruthless
         things tonight — carpet bombing, toughness, war. And people wonder, could you do that? Could
         you order air strikes that would kill innocent children by not the scores, but the hundreds
         and the thousands? Could you wage war as a commander-in-chief?</speech>
 
-    <speech who="CARSON"> Well, interestingly enough, you should see the eyes of some of those
+    <speech speaker="CARSON"> Well, interestingly enough, you should see the eyes of some of those
         children when I say to them we're going to have to open your head up and take out this
         tumor. They're not happy about it, believe me. And they don't like me very much at that
         point. But later on, they love me. Sometimes you — I sound like him. [applause] You know,
@@ -848,23 +874,23 @@
         be able to look at the big picture and understand that it's actually merciful if you go
         ahead and finish the job, rather than death by 1,000 pricks.</speech>
 
-    <speech who="HEWITT"> So you are OK with the deaths of thousands of innocent children and
+    <speech speaker="HEWITT"> So you are OK with the deaths of thousands of innocent children and
         civilian? It's like...</speech>
 
-    <speech who="CARSON"> You got it. You got it.</speech>
+    <speech speaker="CARSON"> You got it. You got it.</speech>
 
-    <speech who="HEWITT"> That is what war — can you be as ruthless as Churchill was in
+    <speech speaker="HEWITT"> That is what war — can you be as ruthless as Churchill was in
         prosecuting the war against the Nazis?</speech>
 
-    <speech who="CARSON"> Ruthless is not necessarily the word I would use, but tough, resolute,
+    <speech speaker="CARSON"> Ruthless is not necessarily the word I would use, but tough, resolute,
         understanding what the problems are, and understanding that the job of the president of the
         United States is to protect the people of this country and to do what is necessary in order
         to get it done. [applause]</speech>
 
-    <speech who="BASH"> Senator Paul, you said ISIS grew stronger because of the hawks in your
+    <speech speaker="BASH"> Senator Paul, you said ISIS grew stronger because of the hawks in your
         party. Do you really think that Republicans have fueled the rise of ISIS?</speech>
 
-    <speech who="PAUL"> I think that by arming the allies of ISIS, the Islamic rebels against
+    <speech speaker="PAUL"> I think that by arming the allies of ISIS, the Islamic rebels against
         Assad, that we created a safe space or made that space bigger for ISIS to grow. I think
         those who have wanted regime change have made a mistake. When we toppled Gadhafi in Libya, I
         think that was a mistake. I think ISIS grew stronger, we had a failed state, and we were
@@ -877,7 +903,7 @@
         you're going to support Donald Trump, think, do you believe in the Constitution? Are you
         going to change the Constitution? [applause]</speech>
 
-    <speech who="TRUMP"> So, they can kill us, but we can't kill them? That's what you're
+    <speech speaker="TRUMP"> So, they can kill us, but we can't kill them? That's what you're
         saying. And as far as the Internet is concerned, we're not talking about closing the
         Internet. I'm talking about parts of Syria, parts of Iraq, where ISIS is, spotting it. Now,
         you could close it. What I like even better than that is getting our smartest and getting
@@ -887,12 +913,12 @@
         — you're objecting to us infiltrating their conversations? I don't think so. I don't think
         so. [applause]</speech>
 
-    <speech who="BASH"> Senator Paul, Senator Paul, I want to go back to my initial question,
+    <speech speaker="BASH"> Senator Paul, Senator Paul, I want to go back to my initial question,
         which is you saying that ISIS grew stronger because of hawks in your party. And do you think
         your own party, the people who you're describing, are responsible for the rise of
         ISIS?</speech>
 
-    <speech who="PAUL"> I think that if you believe in regime change, you're mistaken. In 2013,
+    <speech speaker="PAUL"> I think that if you believe in regime change, you're mistaken. In 2013,
         we put 600 tons of weapons — us, Saudi Arabia, and Qatar — into the war against Assad. By
         pushing Assad back, we did create a safe space. We had people coming to our Foreign
         Relations Committee and saying, "Oh, we need to arm the allies of Al Qaida." They are still
@@ -901,10 +927,10 @@
         on the stage, they want to topple Assad. And then there will be chaos, and I think ISIS will
         then be in charge of Syria.</speech>
 
-    <speech who="BASH"> Senator, we're going to talk about regime change in a bit. But Governor
+    <speech speaker="BASH"> Senator, we're going to talk about regime change in a bit. But Governor
         Kasich, would you like to respond to Senator Paul?</speech>
 
-    <speech who="KASICH"> Yeah, let me — let me just suggest to everybody, and I hear — last
+    <speech speaker="KASICH"> Yeah, let me — let me just suggest to everybody, and I hear — last
         February, I said we needed to have people on the ground in a coalition with Europe and our
         allies. This is not going to get done just by working with the Sunnis. And it is not going
         to get done if we just embed a few people. We have to go massively, like we did in the first
@@ -914,19 +940,19 @@
         years and we must lead, or the job won't get done, unfortunately, for our country
         [applause]</speech>
 
-    <speech who="BLITZER"> Thank you, Governor. Senator Rubio? Let's continue this conversation.
+    <speech speaker="BLITZER"> Thank you, Governor. Senator Rubio? Let's continue this conversation.
         This is a critically important issue.</speech>
 
-    <speech who="FIORINA"> I hope at some point you're going to ask me my strategy.</speech>
+    <speech speaker="FIORINA"> I hope at some point you're going to ask me my strategy.</speech>
 
-    <speech who="BLITZER"> We will get to — we have a lot of time, Ms. Fiorina. I want to get to
+    <speech speaker="BLITZER"> We will get to — we have a lot of time, Ms. Fiorina. I want to get to
         Senator Rubio right now. Let's talk about, one of the aspects of your strategy, you say the
         only way to defeat ISIS is with ground forces made up primarily of Sunni-Arab forces. Those
         Arab nations, though, as you well know, they've conducted less than five percent of the
         airstrikes and actually none since August. What makes you think they are willing to fight on
         the ground if they're not even willing to fight from the air?</speech>
 
-    <speech who="RUBIO"> Well, they most certainly will have to be worked on to provide more
+    <speech speaker="RUBIO"> Well, they most certainly will have to be worked on to provide more
         than what they are doing now. There's no doubt about it. And there's one — one major reason
         why they have not been willing to be a broader part of the coalition, and that is they have
         lost complete trust and confidence in this president. This president cut a deal with their
@@ -943,11 +969,11 @@
         the ground to be empowered, leaving ISIS with the prime operating space they needed to
         become the force they have now become. [crosstalk]</speech>
 
-    <speech who="BLITZER"> Thank you, Senator. Stand by. [applause] Ms. Fiorina, the former
+    <speech speaker="BLITZER"> Thank you, Senator. Stand by. [applause] Ms. Fiorina, the former
         defense secretary, Bob Gates, says the chances of getting Sunni-Arab forces on the ground to
         get the job done, his words, "chances very remote." What's your strategy?</speech>
 
-    <speech who="FIORINA"> Well, first I'll just point out that talking tough is not the same as
+    <speech speaker="FIORINA"> Well, first I'll just point out that talking tough is not the same as
         being strong. And to wage war, we need a commander in chief who has made tough calls in
         tough times and stood up to be held accountable over and over, not first-term senators
         who've never made an executive decision in their life. One of the things I would immediately
@@ -958,9 +984,9 @@
         and resolve. I'll just add that Margaret Thatcher once said, "If you want something talked
         about, ask a man; if you want something done, ask a woman." [applause]</speech>
 
-    <speech who="BLITZER"> Thank you. Governor Christie, what's your strategy?</speech>
+    <speech speaker="BLITZER"> Thank you. Governor Christie, what's your strategy?</speech>
 
-    <speech who="CHRISTIE"> Wolf, you sit up here and you listen to this stuff, and you think
+    <speech speaker="CHRISTIE"> Wolf, you sit up here and you listen to this stuff, and you think
         that so many of these people have had so much to do in this national debate, they talk like
         they were bystanders. You know, we talk about our military being degraded over time, and yet
         we've had folks on this stage who've been a part of Congress who have participated in
@@ -979,9 +1005,9 @@
         across from King Hussein of Jordan and I say to him, "You have a friend again sir, who will
         stand with you to fight this fight," he'll change his mind.</speech>
 
-    <speech who="BLITZER"> Dr. Carson, what is your strategy?</speech>
+    <speech speaker="BLITZER"> Dr. Carson, what is your strategy?</speech>
 
-    <speech who="CARSON"> First of all, I've been talking about this for over a year. We have to
+    <speech speaker="CARSON"> First of all, I've been talking about this for over a year. We have to
         destroy their caliphate because that gives them legitimacy to go ahead with the global
         Jihad. We have to take their energy because they are — ISIS is the richest terrorist
         organization there is. We have to take their oil, shut down all of the mechanisms whereby
@@ -996,11 +1022,11 @@
         ground and recognize that there will be boots on the ground and they'll be over here, and
         they'll be their boots if we don't get out of there now.</speech>
 
-    <speech who="BLITZER"> Thank you. Everyone stand by. We're only just beginning. Coming up,
+    <speech speaker="BLITZER"> Thank you. Everyone stand by. We're only just beginning. Coming up,
         which candidates on this stage tonight want to move foreign policy in a dramatically new
         direction? We'll be right back. [commercial break]</speech>
 
-    <speech who="BLITZER"> Welcome back to the CNN-Facebook Republican Presidential Debate here
+    <speech speaker="BLITZER"> Welcome back to the CNN-Facebook Republican Presidential Debate here
         at the Venetian, Las Vegas. The war against ISIS will pose many new challenges for the next
         commander-in-chief. The last two presidents pursued a Middle East policy that supported
         toppling dictators to try to promote democracy. Senator Cruz, you have said the world would
@@ -1008,7 +1034,7 @@
         and Hosni Mubarak ruled Egypt. So would it be your policy to preserve dictatorships, rather
         than promoting democracy in the Middle East?</speech>
 
-    <speech who="CRUZ"> Wolf, I believe in a America first foreign policy, that far too often
+    <speech speaker="CRUZ"> Wolf, I believe in a America first foreign policy, that far too often
         President Obama and Hillary Clinton — and, unfortunately, more than a few Republicans — have
         gotten distracted from the central focus of keeping this country safe. So let's go back to
         the beginning of the Obama administration, when Hillary Clinton and Barack Obama led NATO in
@@ -1026,17 +1052,17 @@
         interests. And the approach, instead of being a Woodrow Wilson democracy
         promoter...</speech>
 
-    <speech who="BLITZER"> Thank you.</speech>
+    <speech speaker="BLITZER"> Thank you.</speech>
 
-    <speech who="CRUZ"> ... we ought to hunt down our enemies and kill ISIS rather than creating
+    <speech speaker="CRUZ"> ... we ought to hunt down our enemies and kill ISIS rather than creating
         opportunities for ISIS to take control of new countries.</speech>
 
-    <speech who="BLITZER"> Thank you, Senator. Thank you, Senator. [applause] Senator Rubio, you
+    <speech speaker="BLITZER"> Thank you, Senator. Thank you, Senator. [applause] Senator Rubio, you
         supported the removal of Moammar Gadhafi in Libya. Now that country is in turmoil, as ISIS
         is clearly growing there. Senator Cruz says you haven't learned your lesson. Do you have any
         regrets for supporting President Obama's intervention in Libya?</speech>
 
-    <speech who="RUBIO"> To begin with, Moammar Gadhafi and the revolt against Gadhafi was not
+    <speech speaker="RUBIO"> To begin with, Moammar Gadhafi and the revolt against Gadhafi was not
         started by the United States. It was started by the Libyan people. And the reason why I
         argued we needed to get involved is because he was going to go one way or the other. And my
         argument then was proven true, and that is, the longer that civil war took, the more
@@ -1052,9 +1078,9 @@
         help Hezbollah, who helped get those IEDs into Iraq, if they go, I will not shed a
         tear.</speech>
 
-    <speech who="BLITZER"> Senator Cruz?</speech>
+    <speech speaker="BLITZER"> Senator Cruz?</speech>
 
-    <speech who="CRUZ"> Well, it's more than not shedding a tear. It's actively getting involved
+    <speech speaker="CRUZ"> Well, it's more than not shedding a tear. It's actively getting involved
         to topple a government. And we keep hearing from President Obama and Hillary Clinton and
         Washington Republicans that they're searching for these mythical moderate rebels. It's like
         a purple unicorn. They never exist. These moderate rebels end up being jihadists. And I'll
@@ -1064,10 +1090,10 @@
         Netanyahu doesn't want to see Syria governed by ISIS. And we need to focus on American
         interests, not on global aspirations... [crosstalk]</speech>
 
-    <speech who="BLITZER"> Standby. Everybody standby for a moment. Governor Kasich, go
+    <speech speaker="BLITZER"> Standby. Everybody standby for a moment. Governor Kasich, go
         ahead.</speech>
 
-    <speech who="KASICH"> I don't understand this thing about Assad. He has to go. Assad is
+    <speech speaker="KASICH"> I don't understand this thing about Assad. He has to go. Assad is
         aligned with Iran and Russia. The one thing we want to prevent is we want to prevent Iran
         being able to extend a Shia crescent all across the Middle East. Assad has got to go. And
         there are moderates there. There are moderates in Syria who we should be supporting. I do
@@ -1075,14 +1101,14 @@
         this. And let me tell you, at the end, the Saudis have agreed to put together a coalition
         inside of Syria to stabilize that country.</speech>
 
-    <speech who="BLITZER"> Thank you.</speech>
+    <speech speaker="BLITZER"> Thank you.</speech>
 
-    <speech who="KASICH"> He must go. It will be a blow to Iran and Russia.</speech>
+    <speech speaker="KASICH"> He must go. It will be a blow to Iran and Russia.</speech>
 
-    <speech who="BLITZER"> We're going to talk about Assad in a moment. Mr. Trump, are Americans
+    <speech speaker="BLITZER"> We're going to talk about Assad in a moment. Mr. Trump, are Americans
         safer with dictators running the world in the Middle East?</speech>
 
-    <speech who="TRUMP"> In my opinion, we've spent $4 trillion trying to topple various people
+    <speech speaker="TRUMP"> In my opinion, we've spent $4 trillion trying to topple various people
         that frankly, if they were there and if we could've spent that $4 trillion in the United
         States to fix our roads, our bridges, and all of the other problems; our airports and all of
         the other problems we've had, we would've been a lot better off. I can tell you that right
@@ -1093,7 +1119,7 @@
         wish it were spent right here in the United States, on our schools, hospitals, roads,
         airports, and everything else that are all falling apart. [applause]</speech>
 
-    <speech who="FIORINA"> That is exactly what President Obama said. I'm amazed to hear that
+    <speech speaker="FIORINA"> That is exactly what President Obama said. I'm amazed to hear that
         from a republican presidential candidate. But let's just start with, who got it wrong? Who
         really got it wrong? Hillary Clinton has gotten every foreign policy challenge wrong.
         Hitting the reset button with Vladimir Putin – recall that she called Bashar Al-Assad a
@@ -1103,9 +1129,9 @@
         people on the ground. And then of course, when she lied about the terrorist attack in
         Benghazi, she invited more terrorist attacks.</speech>
 
-    <speech who="BLITZER"> Thank you. Mr. Trump?</speech>
+    <speech speaker="BLITZER"> Thank you. Mr. Trump?</speech>
 
-    <speech who="TRUMP"> Well, there's nothing to respond to. Well, people feel differently. I
+    <speech speaker="TRUMP"> Well, there's nothing to respond to. Well, people feel differently. I
         mean, the fact is Benghazi was a disaster because of Libya, everything just fell into place.
         It could not have been worse. What do we have now? We have nothing. We've spent $3 trillion
         and probably much more – I have no idea what we've spent. Thousands and thousands of lives,
@@ -1116,22 +1142,22 @@
         said," take it and use it and distribute it so that the wounded warriors -" People, I've
         been saying this now for many years.</speech>
 
-    <speech who="BLITZER"> All right.</speech>
+    <speech speaker="BLITZER"> All right.</speech>
 
-    <speech who="TRUMP"> Now, all of a sudden everybody's saying, "take the oil." It wasn't so
+    <speech speaker="TRUMP"> Now, all of a sudden everybody's saying, "take the oil." It wasn't so
         fashionable to take the oil six months ago. I've been saying it for years.</speech>
 
-    <speech who="BLITZER"> Thank you.</speech>
+    <speech speaker="BLITZER"> Thank you.</speech>
 
-    <speech who="FIORINA"> We've mismanaged going into Iraq.</speech>
+    <speech speaker="FIORINA"> We've mismanaged going into Iraq.</speech>
 
-    <speech who="BLITZER"> Dr. Carson, is the Middle East...</speech>
+    <speech speaker="BLITZER"> Dr. Carson, is the Middle East...</speech>
 
-    <speech who="FIORINA"> We've mismanaged going out of Iraq.</speech>
+    <speech speaker="FIORINA"> We've mismanaged going out of Iraq.</speech>
 
-    <speech who="BLITZER"> Dr. Carson, is the Middle East better off with dictators?</speech>
+    <speech speaker="BLITZER"> Dr. Carson, is the Middle East better off with dictators?</speech>
 
-    <speech who="CARSON"> No one is ever better off with dictators but there comes a time you
+    <speech speaker="CARSON"> No one is ever better off with dictators but there comes a time you
         know, when you're on an airplane, they always say, "in case of an emergency oxygen masks
         will drop down. Put yours on first and then administer help to your neighbor." We need
         oxygen right now. And we need to start thinking about the needs of the American people
@@ -1140,17 +1166,17 @@
         in there and fix that with a couple of little bombs and a few little decorations is
         relatively foolish.</speech>
 
-    <speech who="FIORINA"> We actually...</speech>
+    <speech speaker="FIORINA"> We actually...</speech>
 
-    <speech who="BLITZER"> Governor Bush.</speech>
+    <speech speaker="BLITZER"> Governor Bush.</speech>
 
-    <speech who="BUSH"> I think we're focusing a whole...</speech>
+    <speech speaker="BUSH"> I think we're focusing a whole...</speech>
 
-    <speech who="BLITZER"> Hold on Governor Bush., here's the question. You said, "getting rid
+    <speech speaker="BLITZER"> Hold on Governor Bush., here's the question. You said, "getting rid
         of Saddam Hussein in your words was a pretty good deal." In light of what has happened in
         Iraq, do you still feel that way?</speech>
 
-    <speech who="BUSH"> I do. I think the lesson's learned are that we have to have to have a
+    <speech speaker="BUSH"> I do. I think the lesson's learned are that we have to have to have a
         strategy to get and a strategy to get out. Which means, that you create a stable situation.
         This president and this is what the focus ought to be, it's not the differences between us,
         it's Barack Obama does not believe America's leadership in the world is a force for good. He
@@ -1161,10 +1187,10 @@
         that because we're going to be in a place that is far less secure than it is today. Don't
         you all agree?</speech>
 
-    <speech who="BLITZER"> Senator Paul, was getting rid of Saddam Hussein a pretty good
+    <speech speaker="BLITZER"> Senator Paul, was getting rid of Saddam Hussein a pretty good
         deal?</speech>
 
-    <speech who="PAUL"> These are the fundamental questions of our time, these foreign policy
+    <speech speaker="PAUL"> These are the fundamental questions of our time, these foreign policy
         questions, whether or not regime change is a good idea or a bad idea. I don't think because
         I think the regime change was a bad idea it means that Hussein was necessarily a good idea.
         There is often variations of evil on both sides of the war. What we have to decide is
@@ -1176,41 +1202,41 @@
         terrorism and yet they're the problem because they allow terrorism to arise out of that
         chaos. [applause]</speech>
 
-    <speech who="BLITZER"> Thank you. [crosstalk] Hugh Hewitt, go ahead. [crosstalk] Hold on.
+    <speech speaker="BLITZER"> Thank you. [crosstalk] Hugh Hewitt, go ahead. [crosstalk] Hold on.
         Hold on. Hold on. Hold on. Hugh.</speech>
 
-    <speech who="CRUZ"> The question of whether we should toppling dictatorships is asking the
+    <speech speaker="CRUZ"> The question of whether we should toppling dictatorships is asking the
         wrong question. We should be defeating our enemies. So the problem with
         defeating...</speech>
 
-    <speech who="BLITZER"> Senator, Senator, we're going to get to you. Wait your turn. We have
+    <speech speaker="BLITZER"> Senator, Senator, we're going to get to you. Wait your turn. We have
         two hours of debate. We'll have plenty of time. Let Hugh ask his question.</speech>
 
-    <speech who="CRUZ"> Well, but let me explain, the focus should be...</speech>
+    <speech speaker="CRUZ"> Well, but let me explain, the focus should be...</speech>
 
-    <speech who="BLITZER"> Senator, please.</speech>
+    <speech speaker="BLITZER"> Senator, please.</speech>
 
-    <speech who="CRUZ"> ... on defeating our enemies. So, for example...</speech>
+    <speech speaker="CRUZ"> ... on defeating our enemies. So, for example...</speech>
 
-    <speech who="BLITZER"> Senator...</speech>
+    <speech speaker="BLITZER"> Senator...</speech>
 
-    <speech who="CRUZ"> ... a regime we should change is Iran...</speech>
+    <speech speaker="CRUZ"> ... a regime we should change is Iran...</speech>
 
-    <speech who="BLITZER"> You'll have plenty of opportunity. Hugh, go ahead.</speech>
+    <speech speaker="BLITZER"> You'll have plenty of opportunity. Hugh, go ahead.</speech>
 
-    <speech who="CRUZ"> ... because Iran has declared war on us. But we shouldn't be toppling
+    <speech speaker="CRUZ"> ... because Iran has declared war on us. But we shouldn't be toppling
         regimes...[crosstalk]... that are fighting radical Islamic terrorists that are
         helping...</speech>
 
-    <speech who="BLITZER"> These are the rules all of you agreed to. Hugh, go ahead with your
+    <speech speaker="BLITZER"> These are the rules all of you agreed to. Hugh, go ahead with your
         question.</speech>
 
-    <speech who="HEWITT"> Mr. Trump, we are talking about the most important thing, that's why
+    <speech speaker="HEWITT"> Mr. Trump, we are talking about the most important thing, that's why
         it's heated. And it's, you are OK with Mr. Assad staying in power, but you are also in favor
         of winning. If he stays in power, Iran is winning, Hezbollah is winning. Iran is winning in
         Yemen. They are winning everywhere. If they are winning how can we be winning?</speech>
 
-    <speech who="TRUMP"> I think Assad is a bad guy, a very bad guy, all right? Lots of people
+    <speech speaker="TRUMP"> I think Assad is a bad guy, a very bad guy, all right? Lots of people
         killed. I think we are backing people we have no idea who they are. The rebels, we call them
         the rebels, the patriotic rebels. We have no idea. A lot of people think, Hugh, that they
         are ISIS. We have to do one thing at a time. We can't be fighting ISIS and fighting Assad.
@@ -1223,10 +1249,10 @@
         you're fighting a lot of different groups. But we can't be fighting everybody at one
         time.</speech>
 
-    <speech who="HEWITT"> Governor Christie, is he right? Because if we step back, Iran goes
+    <speech speaker="HEWITT"> Governor Christie, is he right? Because if we step back, Iran goes
         nuclear. Is Donald Trump right?</speech>
 
-    <speech who="CHRISTIE"> Well, I think we have to focus, Hugh, on exactly what the priorities
+    <speech speaker="CHRISTIE"> Well, I think we have to focus, Hugh, on exactly what the priorities
         are. And to me, what I've always said is that the president has set up an awful situation
         through his deal with Iran, because what his deal with Iran has done is empower them and
         enrich them. And that's the way ISIS has been created and formed here. ISIS is created and
@@ -1237,10 +1263,10 @@
         our attention on Iran, because if you miss Iran, you are not going to get ISIS. The two are
         inextricably connected because one causes the other.</speech>
 
-    <speech who="HEWITT"> Senator Paul, let me ask you, you heard Governor Kasich say Assad must
+    <speech speaker="HEWITT"> Senator Paul, let me ask you, you heard Governor Kasich say Assad must
         go. Do you agree?</speech>
 
-    <speech who="PAUL"> No, I think it's a huge mistake. I think regime change in Syria, and
+    <speech speaker="PAUL"> No, I think it's a huge mistake. I think regime change in Syria, and
         this is what — I've been saying this for several years now. In 2013 when we first went in, I
         said, you are going to give arms to the allies of al Qaida, to radical jihadists? That's
         crazy. But the other thing I said is the great irony is you will be back fighting against
@@ -1250,7 +1276,7 @@
         everybody in the Middle East is going to love us. They are not going to love us. [applause]
         [crosstalk]</speech>
 
-    <speech who="KASICH"> The foreign policy, you have to know how to pick and choose. There's
+    <speech speaker="KASICH"> The foreign policy, you have to know how to pick and choose. There's
         no way, if Saddam had not had weapons of mass destruction, I would have gone, because I
         don't believe that the U.S. should be involved directly in civil wars. I opposed the U.S.
         involvement in Lebanon. We ended up having to withdraw our marines after our barracks were
@@ -1261,20 +1287,20 @@
         them, not just there, but also in Eastern Europe where they threaten some of our most
         precious allies.</speech>
 
-    <speech who="BLITZER"> Let's continue with Russia right now. We have another question from
+    <speech speaker="BLITZER"> Let's continue with Russia right now. We have another question from
         Facebook. Listen and watch. [start video]</speech>
 
-    <speech who="QUESTION"> My name is Ashley Tofil. Ms. Fiorina, in November, you said that you
+    <speech speaker="QUESTION"> My name is Ashley Tofil. Ms. Fiorina, in November, you said that you
         would not talk to Vladimir Putin after you were elected because you would be communicating
         from a position of weakness. Do you believe that it is feasible to not communicate with
         another world leader? And do you think that that also is a sign of weakness? [end
         video]</speech>
 
-    <speech who="BLITZER"> Ms. Fiorina, as you know, U.S. and Russian warplanes are flying all
+    <speech speaker="BLITZER"> Ms. Fiorina, as you know, U.S. and Russian warplanes are flying all
         over Syria right now. With so many lives on the line, is this a good time for the United
         States not to talk to Putin?</speech>
 
-    <speech who="FIORINA"> I didn't say I would cut off all communication with Putin. What I
+    <speech speaker="FIORINA"> I didn't say I would cut off all communication with Putin. What I
         said was as president of the United States, now is not the time to talk with him. Reagan
         walked away at Reykjavik. There is a time and a place for everything. There is a time and a
         place for talk. And there is a time and a place for action. I know Vladimir Putin. He
@@ -1292,11 +1318,11 @@
         single general and for political expediency. It's not these people up here. It's Hillary
         Clinton. [applause]</speech>
 
-    <speech who="BLITZER"> Thank you, Ms. Fiorina. Governor Christie, if the U.S. imposed a
+    <speech speaker="BLITZER"> Thank you, Ms. Fiorina. Governor Christie, if the U.S. imposed a
         no-fly zone over Syria and a Russian plane encroached, invaded that no-fly zone, would you
         be prepared to shoot down that Russian plane and risk war with Russia?</speech>
 
-    <speech who="CHRISTIE"> Not only would I be prepared to do it, I would do it. A no-fly zone
+    <speech speaker="CHRISTIE"> Not only would I be prepared to do it, I would do it. A no-fly zone
         means a no-fly zone, Wolf. That's what it means. [applause] See, maybe — maybe because I'm
         from New Jersey, I just have this kind of plain language hangup. But I would make very clear
         — I would not talk to Vladimir Putin. In fact, I would talk to Vladimir Putin a lot. But I'd
@@ -1305,11 +1331,11 @@
         stupid enough to think that this president was the same feckless weakling that the president
         we have in the Oval Office is right now. [applause]</speech>
 
-    <speech who="BLITZER"> Senator Paul — Senator Paul, I want you to respond to what we just
+    <speech speaker="BLITZER"> Senator Paul — Senator Paul, I want you to respond to what we just
         heard from Governor Christie. If there was a no-fly zone, you say that potentially could
         lead to World War III. Why?</speech>
 
-    <speech who="PAUL"> Well, I think if you're in favor of World War III, you have your
+    <speech speaker="PAUL"> Well, I think if you're in favor of World War III, you have your
         candidate. You know, here's...[applause]... the thing. My goodness, what we want in a leader
         is someone with judgment, not someone who is so reckless as to stand on the stage and say,
         "Yes, I'm jumping up and down; I'm going to shoot down Russian planes." Russia already flies
@@ -1325,9 +1351,9 @@
         bridge because they don't like their friends; they don't want to — you know, they want to
         [inaudible] a Democrat. So I think we need to be very careful.</speech>
 
-    <speech who="BLITZER"> Governor Christie?</speech>
+    <speech speaker="BLITZER"> Governor Christie?</speech>
 
-    <speech who="CHRISTIE"> Well, Wolf, I'll tell you what reckless is. What reckless is is
+    <speech speaker="CHRISTIE"> Well, Wolf, I'll tell you what reckless is. What reckless is is
         calling Assad a reformer. What reckless is allowing Russia to come into Crimea and Ukraine.
         What reckless is is inviting Russia into Syria to team with Iran. That is reckless. And the
         reckless people are the folks in the White House right now. Barack Obama and Hillary Clinton
@@ -1336,13 +1362,13 @@
         slaughtered; millions running around the world, running for their lives. It's not working.
         We need to try something else. And that is not reckless. [applause]</speech>
 
-    <speech who="BLITZER"> All right, let's go back — Hugh and Dana?</speech>
+    <speech speaker="BLITZER"> All right, let's go back — Hugh and Dana?</speech>
 
-    <speech who="HEWITT"> Governor Bush, a commander-in-chief question. You've said that Mr.
+    <speech speaker="HEWITT"> Governor Bush, a commander-in-chief question. You've said that Mr.
         Trump is not qualified to be president because he's not qualified to deal with Vladimir
         Putin. Why are you better qualified to deal with Vladimir Putin than Mr. Trump?</speech>
 
-    <speech who="BUSH"> Because I — first of all, I know what I don't know. I know what I don't
+    <speech speaker="BUSH"> Because I — first of all, I know what I don't know. I know what I don't
         know. I would seek out, as I have, the best advice that exists. I won't get my information
         from the shows. I don't know if that's Saturday morning or Sunday morning. I don't know
         which one. [laughter] I will seek out the best advice, and I will create a strategy and I
@@ -1357,9 +1383,9 @@
         a divider-in-chief, that I will lead this country in a way that will create greater security
         and greater safety.</speech>
 
-    <speech who="HEWITT"> Mr. Trump?</speech>
+    <speech speaker="HEWITT"> Mr. Trump?</speech>
 
-    <speech who="TRUMP"> I think it's very sad that CNN leads Jeb Bush, Governor Bush, down a
+    <speech speaker="TRUMP"> I think it's very sad that CNN leads Jeb Bush, Governor Bush, down a
         road by starting off virtually all the questions, "Mr. Trump this, Mister" — I think it's
         very sad. And, frankly, I watched — I think it's very sad. And, frankly, I watched the first
         debate, and the first long number of questions were, "Mr. Trump said this, Mr. Trump said
@@ -1368,72 +1394,72 @@
         very unfair that virtually the entire early portion of the debate was Trump this, Trump
         that, in order to get ratings, I guess. In order to get ratings, I guess.</speech>
 
-    <speech who="HEWITT"> But, Mr. Trump, it's not CNN — I was on CNN last night...</speech>
+    <speech speaker="HEWITT"> But, Mr. Trump, it's not CNN — I was on CNN last night...</speech>
 
-    <speech who="TRUMP"> I just think it's very — excuse me.</speech>
+    <speech speaker="TRUMP"> I just think it's very — excuse me.</speech>
 
-    <speech who="HEWITT"> ... watching...</speech>
+    <speech speaker="HEWITT"> ... watching...</speech>
 
-    <speech who="TRUMP"> Excuse me. I think it's very unprofessional.</speech>
+    <speech speaker="TRUMP"> Excuse me. I think it's very unprofessional.</speech>
 
-    <speech who="HEWITT"> But it wasn't — it wasn't CNN. It was me. I watched you last night for
+    <speech speaker="HEWITT"> But it wasn't — it wasn't CNN. It was me. I watched you last night for
         16 minutes. It's not CNN. [applause]</speech>
 
-    <speech who="TRUMP"> Well, I think it's very unprofessional.</speech>
+    <speech speaker="TRUMP"> Well, I think it's very unprofessional.</speech>
 
-    <speech who="HEWITT"> It's not CNN. It's America's watching you.</speech>
+    <speech speaker="HEWITT"> It's not CNN. It's America's watching you.</speech>
 
-    <speech who="TRUMP"> OK, fine.</speech>
+    <speech speaker="TRUMP"> OK, fine.</speech>
 
-    <speech who="HEWITT"> It's America's watching. [crosstalk]</speech>
+    <speech speaker="HEWITT"> It's America's watching. [crosstalk]</speech>
 
-    <speech who="BUSH"> So I was — I was — I was mentioned, so I can bring up something, I
+    <speech speaker="BUSH"> So I was — I was — I was mentioned, so I can bring up something, I
         think, right? Look, the simple fact is, if you think this is tough you're not being treated
         fairly...</speech>
 
-    <speech who="TRUMP"> This isn't tough and easy. I wish it...</speech>
+    <speech speaker="TRUMP"> This isn't tough and easy. I wish it...</speech>
 
-    <speech who="BUSH"> ... imagine what it's going to be like dealing with Putin or dealing
+    <speech speaker="BUSH"> ... imagine what it's going to be like dealing with Putin or dealing
         with President Xi.</speech>
 
-    <speech who="TRUMP"> I wish it was always this easy as you, Jeb.</speech>
+    <speech speaker="TRUMP"> I wish it was always this easy as you, Jeb.</speech>
 
-    <speech who="BUSH"> Or dealing with the Islamic terrorism that exists.</speech>
+    <speech speaker="BUSH"> Or dealing with the Islamic terrorism that exists.</speech>
 
-    <speech who="TRUMP"> Oh, yeah.</speech>
+    <speech speaker="TRUMP"> Oh, yeah.</speech>
 
-    <speech who="BUSH"> This is a tough business to run for president.</speech>
+    <speech speaker="BUSH"> This is a tough business to run for president.</speech>
 
-    <speech who="TRUMP"> Oh, I know. You're a tough guy, Jeb. I know.</speech>
+    <speech speaker="TRUMP"> Oh, I know. You're a tough guy, Jeb. I know.</speech>
 
-    <speech who="BUSH"> And it's — and we need...[laughter]... to have a leader that
+    <speech speaker="BUSH"> And it's — and we need...[laughter]... to have a leader that
         is...[crosstalk]</speech>
 
-    <speech who="TRUMP"> You're tough.</speech>
+    <speech speaker="TRUMP"> You're tough.</speech>
 
-    <speech who="BUSH"> You're never going to be president of the United States by insulting
+    <speech speaker="BUSH"> You're never going to be president of the United States by insulting
         your way to the presidency.</speech>
 
-    <speech who="TRUMP"> Well, let's see. I'm at 42, and you're at 3. So, so far, I'm doing
+    <speech speaker="TRUMP"> Well, let's see. I'm at 42, and you're at 3. So, so far, I'm doing
         better.</speech>
 
-    <speech who="BUSH"> Doesn't matter. Doesn't matter.</speech>
+    <speech speaker="BUSH"> Doesn't matter. Doesn't matter.</speech>
 
-    <speech who="TRUMP"> So far, I'm doing better. You know, you started off over here, Jeb.
+    <speech speaker="TRUMP"> So far, I'm doing better. You know, you started off over here, Jeb.
         You're moving over further and further. Pretty soon you're going to be off the
         end...[crosstalk]</speech>
 
-    <speech who="FIORINA"> This doesn't do a thing to solve the problems...It doesn't do a thing
+    <speech speaker="FIORINA"> This doesn't do a thing to solve the problems...It doesn't do a thing
         to solve the problems. [crosstalk]</speech>
 
-    <speech who="BLITZER"> One at a time. Hugh, go ahead.</speech>
+    <speech speaker="BLITZER"> One at a time. Hugh, go ahead.</speech>
 
-    <speech who="KASICH"> It sounds more and more what my daughter said that I said in the
+    <speech speaker="KASICH"> It sounds more and more what my daughter said that I said in the
         beginning, all the fighting and arguing is not advancing us.</speech>
 
-    <speech who="FIORINA"> It will not solve the problem.</speech>
+    <speech speaker="FIORINA"> It will not solve the problem.</speech>
 
-    <speech who="KASICH"> It is not the way we're going to strengthen our country. We will
+    <speech speaker="KASICH"> It is not the way we're going to strengthen our country. We will
         strengthen our country when we come together. [applause] And, look, you've got Rand Paul,
         you've got Ted Cruz, you've got Marco, you've got a lot of people on this stage that have
         studied these issues. You know what a leader does? A leader has a sound program, has a good
@@ -1445,17 +1471,17 @@
         people together in a room. We can fix this, ladies and gentlemen. [crosstalk] We don't have
         to fight all the time. It can be done, and we will be great...</speech>
 
-    <speech who="HEWITT"> Governor — thank you, Governor.</speech>
+    <speech speaker="HEWITT"> Governor — thank you, Governor.</speech>
 
-    <speech who="KASICH"> ... when we join together. Thank you, Hugh.</speech>
+    <speech speaker="KASICH"> ... when we join together. Thank you, Hugh.</speech>
 
-    <speech who="HEWITT"> Dr. Carson, commander-in-chief question again. You've been the head of
+    <speech speaker="HEWITT"> Dr. Carson, commander-in-chief question again. You've been the head of
         neurosurgery for a big hospital. You're on a lot of boards of a lot of companies. You've
         traveled the world. You're going traveling again next week. But does that prepare you to
         command troops from Djibouti to Japan, troops from Afghanistan to Iraq to be in charge of
         the men and women watching on Armed Services Network tonight?</speech>
 
-    <speech who="CARSON"> Well, you know, there's a false narrative that only the political
+    <speech speaker="CARSON"> Well, you know, there's a false narrative that only the political
         class has the wisdom and the ability to be commander-in- chief. But if you go back and you
         study the design of our country, it was really designed for the citizen statesman. And we
         need to be talking about where does your experience come from? You know, and I've had a lot
@@ -1466,14 +1492,14 @@
         boisterous and you're not rude. But the fact of the matter is, look and see what I've done.
         And that speaks volumes about strength.</speech> -->
 
-    <speech who="BASH"> Thank you, Dr. Carson. We've been talking tonight about programs and
+    <speech speaker="BASH"> Thank you, Dr. Carson. We've been talking tonight about programs and
         policy proposals that you all have to keep Americans safe and it's a big discussion on the
         campaign trail. Also about border security and immigration. So let's talk about immigration.
         Senator Rubio. You co-authored a bill with Democrats two years ago that allowed a path to
         citizenship for undocumented immigrants. Do you still support that path to citizenship,
         which means giving those immigrants rights, like the right to vote?</speech>
 
-    <speech who="RUBIO"> Yeah. Immigration is not an issue that I read about in the newspaper or
+    <speech speaker="RUBIO"> Yeah. Immigration is not an issue that I read about in the newspaper or
         watch a documentary on PBS or CNN. It's an issues I've lived around my whole life. My family
         are immigrants. My wife's family are immigrants. All of my neighbors are immigrants. I see
         every aspect of this problem. The good, the bad, and the ugly. And here's what we learned in
@@ -1493,10 +1519,10 @@
         learned in 2013. There is no trust that the Federal Government will enforce the law. They
         will not support you until you see it done first.</speech>
 
-    <speech who="BASH"> Senator, you haven't answered the question. You described a very long
+    <speech speaker="BASH"> Senator, you haven't answered the question. You described a very long
         path but does that path end at citizenship?</speech>
 
-    <speech who="RUBIO"> But I've answered that question repeatedly. I am personally open —
+    <speech speaker="RUBIO"> But I've answered that question repeatedly. I am personally open —
         after all that has happened and after ten years in that probationary status where all they
         have is a permit, I personally am open to allowing people to apply for a green card. That
         may not be a majority position in my party, but that's down the road. You can't even begin
@@ -1507,15 +1533,15 @@
         now, after all these executive orders the President has issued. More than ever we need
         to...</speech>
 
-    <speech who="BASH"> Thank you, senator.</speech>
+    <speech speaker="BASH"> Thank you, senator.</speech>
 
-    <speech who="RUBIO"> ... prove to people that illegal immigration is under control.</speech>
+    <speech speaker="RUBIO"> ... prove to people that illegal immigration is under control.</speech>
 
-    <speech who="BASH"> Thank you, senator. Senator Cruz. [applause] Senator Cruz, on the
+    <speech speaker="BASH"> Thank you, senator. Senator Cruz. [applause] Senator Cruz, on the
         campaign trail, Senator Rubio has said that his immigration plan is not that different from
         yours. Is that true?</speech>
 
-    <speech who="CRUZ"> Well, he — he has attempted to muddy the waters, but I think that anyone
+    <speech speaker="CRUZ"> Well, he — he has attempted to muddy the waters, but I think that anyone
         who watched the battle that we had. You know, there was a time for choosing as Reagan put
         it. Where there was a battle over amnesty and some chose, like Senator Rubio to stand with
         Barack Obama and Chuck Schumer and support a massive amnesty plan. Others chose to stand
@@ -1530,9 +1556,9 @@
         if I'm elected president, we will secure the border. We will triple the border patrol. We
         will build a wall that works and I'll get Donald Trump to pay for it. [applause]</speech>
 
-    <speech who="BASH"> Senator Rubio, please.</speech>
+    <speech speaker="BASH"> Senator Rubio, please.</speech>
 
-    <speech who="RUBIO"> Yeah, a couple points. In 2013 we had never faced a crisis like the
+    <speech speaker="RUBIO"> Yeah, a couple points. In 2013 we had never faced a crisis like the
         Syrian refugee crisis now. Up until that point, a refugee meant someone fleeing oppression,
         fleeing Communism like it is in my community. As far as Ted's record, I'm always puzzled by
         his attack on this issue. Ted, you support legalizing people who are in this country
@@ -1543,9 +1569,9 @@
         will begin by bringing illegal immigration under control and proving to the American
         people.</speech>
 
-    <speech who="BASH"> Senator Cruz?</speech>
+    <speech speaker="BASH"> Senator Cruz?</speech>
 
-    <speech who="CRUZ"> Look, I understand Marco wants to raise confusion, it is not accurate
+    <speech speaker="CRUZ"> Look, I understand Marco wants to raise confusion, it is not accurate
         what he just said that I supported legalization. Indeed, I led the fight against his
         legalization and amnesty. And you know, there was one commentator that put it this way that,
         for Marco to suggest our record's the same is like suggesting "the fireman and the arsonist
@@ -1554,58 +1580,58 @@
         listening on to campaign trails. Candidates all the time make promises. You know, Marco
         said," he learned that the American people didn't trust the federal government."</speech>
 
-    <speech who="BASH"> Senator Cruz?</speech>
+    <speech speaker="BASH"> Senator Cruz?</speech>
 
-    <speech who="RUBIO"> No, no, give him time.</speech>
+    <speech speaker="RUBIO"> No, no, give him time.</speech>
 
-    <speech who="CRUZ"> In Florida promising to...[crosstalk]</speech>
+    <speech speaker="CRUZ"> In Florida promising to...[crosstalk]</speech>
 
-    <speech who="RUBIO"> Ted, do you...</speech>
+    <speech speaker="RUBIO"> Ted, do you...</speech>
 
-    <speech who="CRUZ"> go in the fight against amnesty...</speech>
+    <speech speaker="CRUZ"> go in the fight against amnesty...</speech>
 
-    <speech who="RUBIO"> Did Ted Cruz fight to support legalizing people that are in this
+    <speech speaker="RUBIO"> Did Ted Cruz fight to support legalizing people that are in this
         country illegally?</speech>
 
-    <speech who="CRUZ"> He campaigned promising to lead the fight against amnesty.</speech>
+    <speech speaker="CRUZ"> He campaigned promising to lead the fight against amnesty.</speech>
 
-    <speech who="FIORINA"> Ladies and gentleman, this is why the American people are standing
+    <speech speaker="FIORINA"> Ladies and gentleman, this is why the American people are standing
         up.</speech>
 
-    <speech who="BASH"> Senator Cruz, can you answer that question please?</speech>
+    <speech speaker="BASH"> Senator Cruz, can you answer that question please?</speech>
 
-    <speech who="RUBIO"> Does Ted Cruz rule out ever legalizing people that are in this country
+    <speech speaker="RUBIO"> Does Ted Cruz rule out ever legalizing people that are in this country
         now?</speech>
 
-    <speech who="BASH"> Senator Cruz?</speech>
+    <speech speaker="BASH"> Senator Cruz?</speech>
 
-    <speech who="CRUZ"> I have never supported a legalization...</speech>
+    <speech speaker="CRUZ"> I have never supported a legalization...</speech>
 
-    <speech who="RUBIO"> Would you rule it out?</speech>
+    <speech speaker="RUBIO"> Would you rule it out?</speech>
 
-    <speech who="CRUZ"> I have never supported legalization, and I do not intend to support
+    <speech speaker="CRUZ"> I have never supported legalization, and I do not intend to support
         legalization. Let me tell you how you do this, what you do is you enforce the
         law...[crosstalk]</speech>
 
-    <speech who="FIORINA"> This is why the nation is fed up...</speech>
+    <speech speaker="FIORINA"> This is why the nation is fed up...</speech>
 
-    <speech who="BASH"> One at a time please.</speech>
+    <speech speaker="BASH"> One at a time please.</speech>
 
-    <speech who="CRUZ"> Watt you do is enforcement the law...</speech>
+    <speech speaker="CRUZ"> Watt you do is enforcement the law...</speech>
 
-    <speech who="FIORINA"> We have been talking about this...</speech>
+    <speech speaker="FIORINA"> We have been talking about this...</speech>
 
-    <speech who="BASH"> Ms. Fiorina, please wait your turn, we're going to get to you.</speech>
+    <speech speaker="BASH"> Ms. Fiorina, please wait your turn, we're going to get to you.</speech>
 
-    <speech who="FIORINA"> Sorry, but you haven't gotten to me. This is why...</speech>
+    <speech speaker="FIORINA"> Sorry, but you haven't gotten to me. This is why...</speech>
 
-    <speech who="CRUZ"> What you do...</speech>
+    <speech speaker="CRUZ"> What you do...</speech>
 
-    <speech who="BASH"> Senator Cruz go ahead.</speech>
+    <speech speaker="BASH"> Senator Cruz go ahead.</speech>
 
-    <speech who="FIORINA"> the people are fed up with the political class.</speech>
+    <speech speaker="FIORINA"> the people are fed up with the political class.</speech>
 
-    <speech who="CRUZ"> What you do is you enforce the law. I've laid out a very, very detailed
+    <speech speaker="CRUZ"> What you do is you enforce the law. I've laid out a very, very detailed
         immigration plan on my website, tedcruz.org. It's 11 pages of existing federal law and in
         particular the question of what to do with people who are here now? You enforce the law.
         That means you stop the Obama administration's policy of releasing criminal illegal aliens.
@@ -1614,15 +1640,15 @@
         border, that solves the problem. And as president I will solve this problem and secure the
         border.</speech>
 
-    <speech who="BASH"> Mr. Trump, you like to say that you restarted this conversation in the
+    <speech speaker="BASH"> Mr. Trump, you like to say that you restarted this conversation in the
         campaign.</speech>
 
-    <speech who="TRUMP"> I believe I did.</speech>
+    <speech speaker="TRUMP"> I believe I did.</speech>
 
-    <speech who="BASH"> So who do you side with? Who do you side with in this, Senator Rubio or
+    <speech speaker="BASH"> So who do you side with? Who do you side with in this, Senator Rubio or
         Senator Cruz?</speech>
 
-    <speech who="TRUMP"> I have a very hardline position, we have a country or we don't have a
+    <speech speaker="TRUMP"> I have a very hardline position, we have a country or we don't have a
         country. People that have come into our country illegally, they have to go. They have to
         come back into through a legal process. I want a strong border. I do want a wall. Walls do
         work, you just have to speak to the folks in Israel. Walls work if they're properly
@@ -1631,15 +1657,15 @@
         People can come into the country, we welcome people to come but they have to come in
         legally.</speech>
 
-    <speech who="BASH"> Thank you. Governor Bush?</speech>
+    <speech speaker="BASH"> Thank you. Governor Bush?</speech>
 
-    <speech who="BUSH"> Yes.</speech>
+    <speech speaker="BUSH"> Yes.</speech>
 
-    <speech who="BASH"> Listening to this, do you think this is the tone — this immigration
+    <speech speaker="BASH"> Listening to this, do you think this is the tone — this immigration
         debate that republicans need to take to win back Hispanics into our party especially states
         like where we are in Nevada that has a pretty Hispanic community?</speech>
 
-    <speech who="BUSH"> No it isn't but it is an important subject to talk about for sure. And I
+    <speech speaker="BUSH"> No it isn't but it is an important subject to talk about for sure. And I
         think people have good ideas on this. Clearly, we need to secure the border. Coming here
         legally needs to be a lot easier than coming here illegally. If you don't have that, you
         don't have the rule of law. We now have a national security consideration, public health
@@ -1656,12 +1682,12 @@
         maintain it as a wedge issue and so does Hillary Clinton. Republicans need to fix it and
         when we do, we'll be better off.</speech>
 
-    <speech who="BLITZER"> Governor, thank you very much. So, Dr. Carson, you recently visited a
+    <speech speaker="BLITZER"> Governor, thank you very much. So, Dr. Carson, you recently visited a
         refugee camp in Jordan and you deemed it your words, "really quite nice." Saying the people
         there didn't want to come to the United States. Do you think these camps are a long-term
         solution of the problem of Syrian refugees?</speech>
 
-    <speech who="CARSON"> Well, it was very interesting having an opportunity to talk to the
+    <speech speaker="CARSON"> Well, it was very interesting having an opportunity to talk to the
         Syrians themselves. And I asked them: What do you want? What is your supreme desire? Their
         supreme desire was to be settled back in their own country. I said, "What can Americans and
         other countries do?" They said, "Support the efforts of those who are trying to provide
@@ -1677,12 +1703,12 @@
         will be infiltrated with terrorists, I guarantee you. For them not to be would be terrorist
         malpractice. And we need to — to choose the right choice, not these false choices.</speech>
 
-    <speech who="BLITZER"> Senator Paul, you oppose letting in Syrian refugees at this time into
+    <speech speaker="BLITZER"> Senator Paul, you oppose letting in Syrian refugees at this time into
         the United States. The U.S. has already accepted 2,000 Syrian refugees, including 13 living
         here in Las Vegas right now. Would you send them back? What would you do with these
         people?</speech>
 
-    <speech who="PAUL"> You know, I think we need to set the record straight on this, because I
+    <speech speaker="PAUL"> You know, I think we need to set the record straight on this, because I
         think Marco misspoke about the bill. On the Gang of Eight bill, there was no provisions
         really for extra scrutiny or safety for refugees. At the time the bill came up, two Iraqi
         refugees came to my home town, Bowling Green, Kentucky. Their fingerprints were on a bomb
@@ -1696,9 +1722,9 @@
         defense. And if he wants to run as a national — national defense conservative, he's got to
         explain why he hasn't stepped up to support border security.</speech>
 
-    <speech who="BLITZER"> Senator Rubio? [applause]</speech>
+    <speech speaker="BLITZER"> Senator Rubio? [applause]</speech>
 
-    <speech who="RUBIO"> Well, he's just admitted — as he's just admitted, the reason why those
+    <speech speaker="RUBIO"> Well, he's just admitted — as he's just admitted, the reason why those
         refugees were allowed in was because they messed up in how they used the actual database.
         They should have know. They didn't because they didn't run the actual law as it exists now.
         It didn't work well. As far as the refugees are concerned, it's not that America doesn't
@@ -1709,11 +1735,11 @@
         national defense apparatus of this country that can guarantee you are going to be 100
         percent right. And that's why as president, I'll take this very seriously.</speech>
 
-    <speech who="BLITZER"> Senator Paul, you didn't answer the question about the 2,000 Syrian
+    <speech speaker="BLITZER"> Senator Paul, you didn't answer the question about the 2,000 Syrian
         refugees who are already here in the United States. Will you send them back or let them
         stay?</speech>
 
-    <speech who="PAUL"> What my bill would do would be only for refugees going forward. So I
+    <speech speaker="PAUL"> What my bill would do would be only for refugees going forward. So I
         haven't taken a position on sending anyone home. But I have taken the position that we have
         a lot of problems here in our country. And that one of the things that we do — charity is
         about giving your own money. Charity isn't giving someone else's money. To put everyone in
@@ -1724,19 +1750,19 @@
         doing anything. Saudi Arabia, Qatar, Kuwait — all the Gulf nations are doing nothing. They
         need to step up and take...[crosstalk] [applause]</speech>
 
-    <speech who="BLITZER"> We have another — we have another question. We have another question
+    <speech speaker="BLITZER"> We have another — we have another question. We have another question
         from Facebook. Let's listen. [start video]</speech>
 
-    <speech who="QUESTION"> My name is Carla Hernandez. I'm from the University of Texas at
+    <speech speaker="QUESTION"> My name is Carla Hernandez. I'm from the University of Texas at
         Austin. And my question is directed to all the candidates. If the Bible clearly states that
         we need to embrace those in need and not fear, how can we justify not accepting refugees?
         [end video]</speech>
 
-    <speech who="BLITZER"> Governor Christie, you say there should be a pause in allowing new
+    <speech speaker="BLITZER"> Governor Christie, you say there should be a pause in allowing new
         refugees to come into the United States, including orphans under the age of five. What do
         you say to Carla?</speech>
 
-    <speech who="CHRISTIE"> What I say to Carla is that the first job of the president of the
+    <speech speaker="CHRISTIE"> What I say to Carla is that the first job of the president of the
         United States is to protect your safety and your security and the security and safety of
         your family. And this debate stops with me in the discussions with the FBI director. Now,
         listen, I'm a former federal prosecutor, I know Jim Comey. We've worked together. He was the
@@ -1755,9 +1781,9 @@
         then we'll consider it and not a moment before because your safety and security is what's
         most important to me. [applause]</speech>
 
-    <speech who="BLITZER"> Governor Kasich.</speech>
+    <speech speaker="BLITZER"> Governor Kasich.</speech>
 
-    <speech who="KASICH"> You know, obviously, as president of the United States, we've got to
+    <speech speaker="KASICH"> You know, obviously, as president of the United States, we've got to
         keep the people safe. That's first and foremost. But as governor of Ohio, I have an
         obligation to keep the 11.5 million people in Ohio safe. And we have been very effective
         with our Joint Terrorism Task Force, being able to make busts. In fact, we just made one
@@ -1772,18 +1798,18 @@
         accused me at times of having too big of a heart. You know, that's OK. But I have to also to
         say I must keep the people of my state safe. So we take a pause.</speech>
 
-    <speech who="BLITZER"> Thank you, Governor. There is much more coming up. We are only just
+    <speech speaker="BLITZER"> Thank you, Governor. There is much more coming up. We are only just
         beginning. Coming up, what other global hot spots await the next president of the United
         States. [applause] [commercial break]</speech>
 
-    <speech who="BLITZER"> Welcome back to the CNN-Facebook Republican Presidential Debate.
+    <speech speaker="BLITZER"> Welcome back to the CNN-Facebook Republican Presidential Debate.
         We're here at the Venetian Las Vegas. Tonight we have been focusing on the Middle East, but
         let's turn to some other world threats that you will potentially face as Commander in Chief.
         Ms. Fiorina, candidates here have called the North Korean leader Kim Jong-Un a maniac who is
         mentally unstable. Last week he said he now has a hydrogen bomb. If you were elected
         president, what would you do about Kim Jong-Un?</speech>
 
-    <speech who="FIORINA"> Well, first, Kim Jong-Un is a dangerous leader, without a doubt. And
+    <speech speaker="FIORINA"> Well, first, Kim Jong-Un is a dangerous leader, without a doubt. And
         both Republican and Democrat administrations have been completely ineffective in dealing
         with him. So we must continue to isolate him. We will need China as part of that strategy.
         China is a rising adversary. So one of the things we have to do if we want China's support
@@ -1797,9 +1823,9 @@
         their support and their help with North Korea. Because believe it or not, China is as
         concerned about Kim Jong-Un as we are.</speech>
 
-    <speech who="BLITZER"> Dr. Carson, what would you do about Kim Jong-Un?</speech>
+    <speech speaker="BLITZER"> Dr. Carson, what would you do about Kim Jong-Un?</speech>
 
-    <speech who="CARSON"> Well, I definitely believe that he is unstable, and I do, in fact,
+    <speech speaker="CARSON"> Well, I definitely believe that he is unstable, and I do, in fact,
         believe that China has a lot more influence with him than we do. But we also recognize that
         North Korea is in severe financial straits, and they have decided to use their resources to
         build their military, rather than to feed their people and to take care of the various
@@ -1815,14 +1841,14 @@
         Our minuteman 3 missiles — they are 34 years old. Our B-52 bombers — 50 years old. You know,
         if we don't get the military right nothing else matters.</speech>
 
-    <speech who="BLITZER"> Thank you, Dr. Carson. Dana and Hugh you have questions as
+    <speech speaker="BLITZER"> Thank you, Dr. Carson. Dana and Hugh you have questions as
         well.</speech>
 
-    <speech who="BASH"> Governor Christie, you've said if China launches a cyber- attack against
+    <speech speaker="BASH"> Governor Christie, you've said if China launches a cyber- attack against
         the U.S. on your watch, "they're going to see cyber- warfare like they have never seen
         before." What exactly would that response look like?</speech>
 
-    <speech who="CHRISTIE"> Well, what it would like is, we have one of the great advantages of
+    <speech speaker="CHRISTIE"> Well, what it would like is, we have one of the great advantages of
         America being the open society that we are. It is, we are not hiding things from the
         American people, but China everyday is conducting business in a way that hides things from
         their people. So if they want to come in and attack all the personnel records in the federal
@@ -1841,12 +1867,12 @@
         eastern Europe, and has led — has led to significant problems in the Middle East as well,
         and the death and murder of lots of folks.</speech>
 
-    <speech who="BASH"> Governor Bush, what you just heard from Governor Christie, are you
+    <speech speaker="BASH"> Governor Bush, what you just heard from Governor Christie, are you
         concerned that that could really escalate with China, that they would retaliate? And, for
         example, as the NSA has said, attack the U.S. and maybe it's power grid, which the Chinese
         have the capability to do?</speech>
 
-    <speech who="BUSH"> I completely agree with Chris. And this administration has been so lax.
+    <speech speaker="BUSH"> I completely agree with Chris. And this administration has been so lax.
         Think about it. Hillary Clinton is using a private server for — where classified information
         go by. This is a — this is a serious administration? The president receives an inspector
         general's report that the Office of Personnel Management could be hacked into; they had
@@ -1863,13 +1889,13 @@
         Chinese, by the way. The Russians and rogue actors, including ISIS — this is a serious part
         of the 21st century security challenge that we face.</speech>
 
-    <speech who="HEWITT"> Mr. Trump...[applause]... Dr. Carson just referenced the single most
+    <speech speaker="HEWITT"> Mr. Trump...[applause]... Dr. Carson just referenced the single most
         important job of the president, the command, the control and the care of our nuclear forces.
         And he mentioned the triad. The B-52s are older than I am. The missiles are old. The
         submarines are aging out. It's an executive order. It's a commander-in-chief decision.
         What's your priority among our nuclear triad?</speech>
 
-    <speech who="TRUMP"> Well, first of all, I think we need somebody absolutely that we can
+    <speech speaker="TRUMP"> Well, first of all, I think we need somebody absolutely that we can
         trust, who is totally responsible; who really knows what he or she is doing. That is so
         powerful and so important. And one of the things that I'm frankly most proud of is that in
         2003, 2004, I was totally against going into Iraq because you're going to destabilize the
@@ -1883,15 +1909,15 @@
         having some maniac, having some madman go out and get a nuclear weapon. That's in my
         opinion, that is the single biggest problem that our country faces right now.</speech>
 
-    <speech who="HEWITT"> Of the three legs of the triad, though, do you have a priority? I want
+    <speech speaker="HEWITT"> Of the three legs of the triad, though, do you have a priority? I want
         to go to Senator Rubio after that and ask him.</speech>
 
-    <speech who="TRUMP"> I think — I think, for me, nuclear is just the power, the devastation
+    <speech speaker="TRUMP"> I think — I think, for me, nuclear is just the power, the devastation
         is very important to me.</speech>
 
-    <speech who="HEWITT"> Senator Rubio, do you have a response?</speech>
+    <speech speaker="HEWITT"> Senator Rubio, do you have a response?</speech>
 
-    <speech who="RUBIO"> I do. First, let's explain to people at home who the triad — what the
+    <speech speaker="RUBIO"> I do. First, let's explain to people at home who the triad — what the
         triad is. Maybe a lot of people haven't heard that terminology before. The triad is our
         ability of the United States to conduct nuclear attacks using airplanes, using missiles
         launched from silos or from the ground, and also from our nuclear subs' ability to attack.
@@ -1903,34 +1929,34 @@
         program as well on our silo-launched missiles. All three are critical for the defense of the
         country.</speech>
 
-    <speech who="BLITZER"> Thank you, Senator Rubio. Some of you on this stage have questioned
+    <speech speaker="BLITZER"> Thank you, Senator Rubio. Some of you on this stage have questioned
         whether your opponents have temperament, the right temperament, to be in control of the
         nuclear codes. Dana, you have a question on this?</speech>
 
-    <speech who="BASH"> Mr. Trump, just this weekend you said Senator Cruz is not qualified to
+    <speech speaker="BASH"> Mr. Trump, just this weekend you said Senator Cruz is not qualified to
         be president because he doesn't have the right temperament and acted like a maniac when he
         arrived in the Senate. But last month you said you were open to naming Senator Cruz as your
         running mate.</speech>
 
-    <speech who="TRUMP"> I did.</speech>
+    <speech speaker="TRUMP"> I did.</speech>
 
-    <speech who="BASH"> So why would you be willing to put somebody who's a maniac one heartbeat
+    <speech speaker="BASH"> So why would you be willing to put somebody who's a maniac one heartbeat
         away from the presidency?</speech>
 
-    <speech who="TRUMP"> Let me just say that I have gotten to know him over the last three or
+    <speech speaker="TRUMP"> Let me just say that I have gotten to know him over the last three or
         four days. He has a wonderful temperament. [laughter] He's just fine. Don't worry about it.
         [applause]</speech>
 
-    <speech who="BASH"> Okay. Senator Cruz. Senator Cruz, you have not been willing to attack
+    <speech speaker="BASH"> Okay. Senator Cruz. Senator Cruz, you have not been willing to attack
         Mr. Trump in public.</speech>
 
-    <speech who="TRUMP"> You better not attack...[laughter]</speech>
+    <speech speaker="TRUMP"> You better not attack...[laughter]</speech>
 
-    <speech who="BASH"> But you did question his judgment in having control of American's
+    <speech speaker="BASH"> But you did question his judgment in having control of American's
         nuclear arsenal during a private meeting with supporters. Why are you willing to say things
         about him in private and not in public?</speech>
 
-    <speech who="CRUZ"> Dana, what I said in private is exactly what I'll say here, which is
+    <speech speaker="CRUZ"> Dana, what I said in private is exactly what I'll say here, which is
         that the judgment that every voter is making of every one of us up here is who has the
         experience, who has the vision, who has the judgment to be commander in chief. That is the
         most important decision for the voters to make. That's a standard I'm held to. And it's a
@@ -1947,54 +1973,54 @@
         one, and says, we will defeat ISIS. And number two, says the greatest national security
         threat facing America is a nuclear Iran.</speech>
 
-    <speech who="BASH"> Senator, senator, I just...</speech>
+    <speech speaker="BASH"> Senator, senator, I just...</speech>
 
-    <speech who="CRUZ"> And we need to be focused on defeating...</speech>
+    <speech speaker="CRUZ"> And we need to be focused on defeating...</speech>
 
-    <speech who="BASH"> Senator, a lot of people have seen...</speech>
+    <speech speaker="BASH"> Senator, a lot of people have seen...</speech>
 
-    <speech who="CRUZ"> ... defeating radical Islamic terrorists.</speech>
+    <speech speaker="CRUZ"> ... defeating radical Islamic terrorists.</speech>
 
-    <speech who="BASH"> ... a lot of people have seen these comments you made in private. I just
+    <speech speaker="BASH"> ... a lot of people have seen these comments you made in private. I just
         want to clarify what you're saying right now is you do believe Mr. Trump has the judgment to
         be commander in chief?</speech>
 
-    <speech who="CRUZ"> What I'm saying, Dana, is that is a judgment for every voter to make.
+    <speech speaker="CRUZ"> What I'm saying, Dana, is that is a judgment for every voter to make.
         What I can tell you is all nine of the people here would make an infinitely better commander
         in chief than Barack Obama or Hillary Clinton. [applause]</speech>
 
-    <speech who="BLITZER"> Thank you, senator. Thank you.</speech>
+    <speech speaker="BLITZER"> Thank you, senator. Thank you.</speech>
 
-    <speech who="CRUZ"> And there is a real danger, Dana, when people get distracted. I'm
+    <speech speaker="CRUZ"> And there is a real danger, Dana, when people get distracted. I'm
         answering the question, Wolf. There's a real danger when people get distracted by peripheral
         issues. They get distracted by democracy building. They get distracted about military
         conflicts. We need to focus on defeating jihadism. ISIS and Iran have declared war on
         America, and we need a commander in chief who will do everything necessary to keep our
         children safe.</speech>
 
-    <speech who="BLITZER"> Thank you, Senator.</speech>
+    <speech speaker="BLITZER"> Thank you, Senator.</speech>
 
-    <speech who="CRUZ"> And I will do everything necessary to keep our children safe.</speech>
+    <speech speaker="CRUZ"> And I will do everything necessary to keep our children safe.</speech>
 
-    <speech who="BLITZER"> Thank you, Senator. We're a month and a half away now from the first
+    <speech speaker="BLITZER"> Thank you, Senator. We're a month and a half away now from the first
         real test who will be the Republican presidential nominee. Hugh, you have a
         question?</speech>
 
-    <speech who="HEWITT"> My listeners tell me again and again they are worried that Hillary
+    <speech speaker="HEWITT"> My listeners tell me again and again they are worried that Hillary
         Clinton will win the White House because you'll run as an independent. Are you ready to
         assure Republicans tonight that you will run as a Republican and abide by the decision of
         the Republicans?</speech>
 
-    <speech who="TRUMP"> I really am. I'll be honest, I really am. [applause] I mean, the people
+    <speech speaker="TRUMP"> I really am. I'll be honest, I really am. [applause] I mean, the people
         have been putting me...[applause] I really am. [applause]</speech>
 
-    <speech who="HEWITT"> Dr. Carson, last week...</speech>
+    <speech speaker="HEWITT"> Dr. Carson, last week...</speech>
 
-    <speech who="TRUMP"> Let me just. Can I just finish my...</speech>
+    <speech speaker="TRUMP"> Let me just. Can I just finish my...</speech>
 
-    <speech who="HEWITT"> Please.</speech>
+    <speech speaker="HEWITT"> Please.</speech>
 
-    <speech who="TRUMP"> I've gained great respect for the Republican leadership. I've gained
+    <speech speaker="TRUMP"> I've gained great respect for the Republican leadership. I've gained
         great respect for many — and I'm going to even say — I mean, in different forms for the
         people on the dais, in different forms. [laughter] In different forms. But I have great
         respect for the people I have met through this process. I've never done this process before.
@@ -2005,10 +2031,10 @@
         Hillary. I will do everything in my power to beat Hillary Clinton, I promise you.
         [applause]</speech>
 
-    <speech who="HEWITT"> Dr. Carson, Mr. Trump just committed to stay the distance regardless
+    <speech speaker="HEWITT"> Dr. Carson, Mr. Trump just committed to stay the distance regardless
         of the result. How about you?</speech>
 
-    <speech who="CARSON"> Well, you know, the statement that I made last week, that I would
+    <speech speaker="CARSON"> Well, you know, the statement that I made last week, that I would
         leave the party was contingent upon whether in fact the party acts like they have in the
         past with a lot of subterfuge and dishonesty, or like they're going act now because I spike
         to Reince Priebus, and he assured me that the Washington Post writer had it all wrong, and
@@ -2016,15 +2042,15 @@
         into this race, as a member of we the people, to try bring some honesty and integrity back
         to the process. [applause]</speech>
 
-    <speech who="BLITZER"> All right. Candidates, we have more coming up. When we come back,
+    <speech speaker="BLITZER"> All right. Candidates, we have more coming up. When we come back,
         everyone will have an opportunity to explain why this particular candidate, each of you on
         the stage, believes he or she should be the Republican presidential nominee. [applause]
         [commercial break]</speech>
 
-    <speech who="BLITZER"> Now it's time for the closing statements from the candidates. Each
+    <speech speaker="BLITZER"> Now it's time for the closing statements from the candidates. Each
         one has 30 seconds. Senator Paul.</speech>
 
-    <speech who="PAUL"> The greatest threat to our national security is our debt. We borrow a
+    <speech speaker="PAUL"> The greatest threat to our national security is our debt. We borrow a
         million dollars a minute. And whose fault is it? Well, frankly, it's both parties' fault.
         You have those on the right who clamor and say, oh, we will spend anything on the military,
         and those on the left who say the same for domestic welfare. But what most Americans don't
@@ -2035,9 +2061,9 @@
         on all spending. I hope you will consider me in the election. Thank you very much.
         [applause]</speech>
 
-    <speech who="BLITZER"> Governor Kasich.</speech>
+    <speech speaker="BLITZER"> Governor Kasich.</speech>
 
-    <speech who="KASICH"> No Republican has ever been elected president of the United States
+    <speech speaker="KASICH"> No Republican has ever been elected president of the United States
         without winning Ohio. Let me give you a little tip on how you win Ohio, it's reform, it's
         hope, it's growth, it's opportunity, and it's security. The people of Ohio are the people of
         America. The people of America are reflected in Ohio. Our message has to be big, and bold,
@@ -2045,9 +2071,9 @@
         If we do it, we will beat Hillary Clinton, and we will run the White House, and we will
         strengthen and fix America, I promise you. [applause]</speech>
 
-    <speech who="BLITZER"> Governor Christie.</speech>
+    <speech speaker="BLITZER"> Governor Christie.</speech>
 
-    <speech who="CHRISTIE"> On September 10th, 2001, I was named chief federal prosecutor in New
+    <speech speaker="CHRISTIE"> On September 10th, 2001, I was named chief federal prosecutor in New
         Jersey and on September 11th, 2001, my wife and my brother who are in the audience tonight
         went through the World Trade Center and to their offices just blocks away from the Trade
         Center. I lost touch with them for six hours that day and prayed that they were alive.
@@ -2059,9 +2085,9 @@
         your children and your families. If you give me the chance and give me your vote I will
         protect America from the wars that are being brought to our door step.</speech>
 
-    <speech who="BLITZER"> Ms. Fiorina.</speech>
+    <speech speaker="BLITZER"> Ms. Fiorina.</speech>
 
-    <speech who="FIORINA"> I too remember September 11th. I remember immediately putting into
+    <speech speaker="FIORINA"> I too remember September 11th. I remember immediately putting into
         place security procedures all throughout our company that did business in 170 countries
         where we thought corporate interests would be attacked next. To take our country back, to
         keep our nation safe, we have to begin by beating Hillary Clinton. We need to unify our
@@ -2073,18 +2099,18 @@
         Clinton to take our country back and keep our nation safe. I can. I am. And together, if you
         join me, we will take our country back.</speech>
 
-    <speech who="BLITZER"> Governor Bush.</speech>
+    <speech speaker="BLITZER"> Governor Bush.</speech>
 
-    <speech who="BUSH"> Ask yourself, which candidate will keep you and our country safer,
+    <speech speaker="BUSH"> Ask yourself, which candidate will keep you and our country safer,
         stronger and freer? Hillary Clinton has aligned herself with Barack Obama on ISIS, Iran and
         the economy. It's an alliance doomed to fail. My proven record suggests that — my detailed
         plans will fortify our national and economic security. And my proven record as governor
         makes — will give you a sense that I don't make false promises. I deliver real results. For
         America to be safe and sound, I ask for you support. Thank you all very much.</speech>
 
-    <speech who="BLITZER"> Senator Rubio.</speech>
+    <speech speaker="BLITZER"> Senator Rubio.</speech>
 
-    <speech who="RUBIO"> Thank you. As we near the end of this year, we enter one of the most
+    <speech speaker="RUBIO"> Thank you. As we near the end of this year, we enter one of the most
         important elections in a generation. For what's at stake in this election is not simply what
         party's going to be in charge. But our very identity as a people and as a nation. For over
         200 years this has been a special country. A unique place where anyone from anywhere can
@@ -2097,9 +2123,9 @@
         usher in a new American century — the greatest era in the history of this great
         land.</speech>
 
-    <speech who="BLITZER"> Senator Cruz.</speech>
+    <speech speaker="BLITZER"> Senator Cruz.</speech>
 
-    <speech who="CRUZ"> Judgment, strength, clarity and trust. Barack Obama has said he doesn't
+    <speech speaker="CRUZ"> Judgment, strength, clarity and trust. Barack Obama has said he doesn't
         believe in American leadership or America winning — he is wrong. America can win again and
         we will win again. Ronald Reagan reignited the American economy, rebuilt the Military,
         bankrupted the Soviet Union and defeated Soviet Communism. I will do the same thing. Cutting
@@ -2107,9 +2133,9 @@
         radical Islamic terrorism — our strategy is simple. We win, they lose. We've done it before
         and we can do it again.</speech>
 
-    <speech who="BLITZER"> Dr. Carson.</speech>
+    <speech speaker="BLITZER"> Dr. Carson.</speech>
 
-    <speech who="CARSON"> I've been fortunate enough to travel to 58 different countries and I
+    <speech speaker="CARSON"> I've been fortunate enough to travel to 58 different countries and I
         thank God everyday that I was born in this country. The most exceptional country that the
         world has ever known. And I want to make sure that we preserve that exceptionalism for the
         next generation. My mother told me if I work hard and I really believed in American
@@ -2117,7 +2143,7 @@
         why I'm not anxious to give away American values and principles for the sake of political
         correctness.</speech>
 
-    <speech who="TRUMP"> Our country doesn't win anymore. We don't win on trade. We don't win on
+    <speech speaker="TRUMP"> Our country doesn't win anymore. We don't win on trade. We don't win on
         the military. We can't defeat ISIS. We're not taking care of our great people, the veterans.
         We're not taking care of them. We have to change our whole way, our health care system is a
         disaster. It's going to implode in 2017, just like you're sitting there. It doesn't work.
@@ -2125,6 +2151,7 @@
         lot. And we're going to have a great, great country, greater than ever before. Thank you.
         [applause]</speech>
 
-    <speech who="BLITZER"> Thanks to all the Republican presidential candidates. That does it
+    <speech speaker="BLITZER"> Thanks to all the Republican presidential candidates. That does it
         for this Republican presidential debate.</speech>
+    </body>
 </debate>
