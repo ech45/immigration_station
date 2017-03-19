@@ -1,24 +1,26 @@
-<?xml-model href="working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <debate>
     <meta>
         <loc> Manchester, New Hampshire</loc>
         <date>December 19, 2015</date>
-        <candidate who="CLINTON">Former Secretary of State Hillary Clinton;</candidate>
+       <participants> <candidate who="CLINTON">Former Secretary of State Hillary Clinton;</candidate>
         <candidate who="O'MALLEY">Former Governor Martin O'Malley (MD);</candidate>
         <candidate who="SANDERS">Senator Bernie Sanders (VT);</candidate>
         <moderator who="RADDATZ">Martha Raddatz (ABC News)</moderator>
-        <moderator who="MUIR">David Muir (ABC News)</moderator>
+        <moderator who="MUIR">David Muir (ABC News)</moderator></participants>
     </meta>
     <body>
-        <speech who="RADDATZ"> Good evening to you all. The rules for tonight are very basic and
+        <speech speaker="RADDATZ"> Good evening to you all. The rules for tonight are very basic and
             have been agreed to by all three campaigns in advance. Candidates can take up to a
             minute-and-a-half to respond directly to a question. For a rebuttal, for a follow-up, 45
             seconds will be allowed. There are green, yellow, and red lights that each candidate
             will see to signal when time is running out and when they're supposed to be finished
             with their answers. </speech>
-        <speech who="MUIR"> We will be tackling many critical issues right here tonight, and we
+        <speech speaker="MUIR"> We will be tackling many critical issues right here tonight, and we
             begin with opening statements, in alphabetical order, and Secretary Clinton. </speech>
-        <speech who="CLINTON"> Well, thank you. And I'm delighted to be here in New Hampshire for
+        <speech speaker="CLINTON"> Well, thank you. And I'm delighted to be here in New Hampshire for
             this debate. You know, the American president has to both keep our families safe and
             make the economy grow in a way that helps everyone, not just those at the top. That's
             the job. I have a strategy to combat and defeat ISIS without getting us involved in
@@ -33,8 +35,8 @@
             campaign to make it clear where we stand in the Democratic Party, what we will do for
             our country, and I look forward to this evening's discussion of real issues that face
             the American people. Thank you. </speech>
-        <speech who="RADDATZ"> Thank you, Secretary Clinton. [applause] Governor O'Malley? </speech>
-        <speech who="O'MALLEY"> Martha, thank you. Tonight we have a different debate than the
+        <speech speaker="RADDATZ"> Thank you, Secretary Clinton. [applause] Governor O'Malley? </speech>
+        <speech speaker="O'MALLEY"> Martha, thank you. Tonight we have a different debate than the
             debates that we have been allowed to have so far, because tonight is different because
             of this reason, that in the course of this presidential campaign America has again been
             attacked by jihadi terrorists, American lives taken from us. So, yes, we must talk about
@@ -56,8 +58,8 @@
             country than this. Our enduring symbol is not the barbed wire fence, it is the Statue of
             Liberty. And America's best days are in front of us if we move forward together.
             [applause] </speech>
-        <speech who="MUIR"> Senator Sanders. </speech>
-        <speech who="SANDERS"> Good evening. I am running for president of the United States because
+        <speech speaker="MUIR"> Senator Sanders. </speech>
+        <speech speaker="SANDERS"> Good evening. I am running for president of the United States because
             it is too late for establishment politics and establishment economics. I'm running for
             president because our economy is rigged because working people are working longer hours
             for lower wages and almost all of new wealth and income being created is going to the
@@ -73,7 +75,7 @@
             in the quagmire of the Middle East but rather works around a major coalition of wealthy
             and powerful nations supporting Muslim troops on the ground. That's the kind of
             coalition we need and that's the kind of coalition I will put together. [applause] </speech>
-        <speech who="MUIR"> Senator Sanders thank you and thank you all. We do have a lot of
+        <speech speaker="MUIR"> Senator Sanders thank you and thank you all. We do have a lot of
             important issues to get here tonight and we want to address the controversy of the last
             24 hours right off the top because we heard some of the most heated rhetoric of the
             campaign so far between two of the campaigns on this stage tonight. Senator Sanders, you
@@ -82,7 +84,7 @@
             accessed data from another campaign." The Clinton campaign called this a very egregious
             breech of data of ethics and said, quote, "our data was stolen." Did they overstate this
             or were your staffers essentially stealing part of the Clinton playbook? </speech>
-        <speech who="SANDERS"> David, let me give you a little bit of background here. The DNC has
+        <speech speaker="SANDERS"> David, let me give you a little bit of background here. The DNC has
             hired vendors. On two occasions, there were breeches in information two months ago. Our
             staff found information on our computers from the Clinton campaign. And when our
             staffers said, "whoa, what's going here?" They went to the DNC quietly. They went to the
@@ -97,7 +99,7 @@
             arbitrarily without discussing it with us is shut off our access to our information
             crippling our campaign. That is an egregious act. I'm glad that late last night, that
             was resolved. </speech>
-        <speech who="SANDERS"> Fourthly, I work -- look forward to working with Secretary Clinton
+        <speech speaker="SANDERS"> Fourthly, I work -- look forward to working with Secretary Clinton
             for an investigation, an independent investigation, about all of the breaches that have
             occurred from day one in this campaign, because I am not convinced that information from
             our campaign may not have ended up in her campaign. Don't know that. But we need an
@@ -106,18 +108,18 @@
             media and make a big deal about it. And it bothers me very much that, rather than
             working on this issue to resolve it, it has become many press releases from the Clinton
             campaign later. </speech>
-        <speech who="MUIR"> But Senator, you do mention the DNC -- the vender. But you said of your
+        <speech speaker="MUIR"> But Senator, you do mention the DNC -- the vender. But you said of your
             staff that they did the wrong thing. </speech>
-        <speech who="SANDERS"> Absolutely. </speech>
-        <speech who="MUIR"> So, does Secretary Clinton deserve an apology tonight? </speech>
-        <speech who="SANDERS"> Yes, I apologize. </speech>
-        <speech who="MUIR"> Secretary Clinton... [applause] </speech>
-        <speech who="SANDERS"> Not only -- not only do I apologize to Secretary Clinton -- and I
+        <speech speaker="SANDERS"> Absolutely. </speech>
+        <speech speaker="MUIR"> So, does Secretary Clinton deserve an apology tonight? </speech>
+        <speech speaker="SANDERS"> Yes, I apologize. </speech>
+        <speech speaker="MUIR"> Secretary Clinton... [applause] </speech>
+        <speech speaker="SANDERS"> Not only -- not only do I apologize to Secretary Clinton -- and I
             hope we can work together on an independent investigation from day one -- I want to
             apologize to my supporters. This is not the type of campaign that we run. And if I find
             anybody else involved in this, they will also be fired. </speech>
-        <speech who="MUIR"> Secretary Clinton, he has apologized. How do your react? </speech>
-        <speech who="CLINTON"> I very much appreciate that comment, Bernie. It really is important
+        <speech speaker="MUIR"> Secretary Clinton, he has apologized. How do your react? </speech>
+        <speech speaker="CLINTON"> I very much appreciate that comment, Bernie. It really is important
             that we go forward on this. I know that you now have your data back, and that there has
             been an agreement for an independent inquiry into what did happen. Obviously, we were
             distressed when we learned of it, because we have worked very hard -- I said in the
@@ -127,7 +129,7 @@
             your data, we have agreed on an independent inquiry, we should move on. Because I don't
             think the American people are all that interested in this. [applause] I think they're
             more interested in what we have to say about all the big issues facing us. </speech>
-        <speech who="O'MALLEY"> Yeah, David, look, for crying out loud, our country has been
+        <speech speaker="O'MALLEY"> Yeah, David, look, for crying out loud, our country has been
             attacked, we have pressing issues involving how we're going to adapt to this changing
             era of warfare. Our economy -- people are working harder and being left behind. You want
             to know why things don't get done in Washington? Because for the last 24 hours, with
@@ -138,8 +140,8 @@
             security issues, we need to address the economic issues around the kitchen table. And if
             people want a more high-minded politics and want to move our country forward, go on to
             martinomalley.com and help my campaign move our country forward. [applause] </speech>
-        <speech who="MUIR"> (?): All three candidates are weighing in. </speech>
-        <speech who="SANDERS"> Let me agree with Governor O'Malley and let me agree with Secretary
+        <speech speaker="MUIR"> (?): All three candidates are weighing in. </speech>
+        <speech speaker="SANDERS"> Let me agree with Governor O'Malley and let me agree with Secretary
             Clinton. You know, we had this incident before, Secretary, with your famous e-mails.
             Right? And what I said and I think what Governor O'Malley is saying, and I hope you say,
             is when the middle class of this country is disappearing, when we have massive income
@@ -147,7 +149,7 @@
             health care to all people, all the issues that the governor talked about, the secretary
             talked about, those are the issues. Media notwithstanding. Those are the issues that the
             American people want discussed. I hope those are the issues we'll discuss. </speech>
-        <speech who="MUIR"> Good let's move on -- Senator Sanders, let's move on right to some of
+        <speech speaker="MUIR"> Good let's move on -- Senator Sanders, let's move on right to some of
             those issues. [applause] It is just six days before Christmas, as we all know in this
             country. It's typically a joyful time, as it is this year, as well. But it's also an
             anxious time. President Obama has acknowledged that what we saw in San Bernardino was an
@@ -158,7 +160,7 @@
             president again saying, late this week, no credible threat, Secretary Clinton, how
             confident should the American people be, that there aren't others like that couple right
             now in the U.S. going undetected? And what would you do as president to find them? </speech>
-        <speech who="CLINTON"> Well, first, the most important job of being president is obviously
+        <speech speaker="CLINTON"> Well, first, the most important job of being president is obviously
             to keep our country safe and to keep the families of America safe. I have a plan that
             I've put forward to go after ISIS. Not to contain them, but to defeat them. And it has
             three parts. First, to go after them and deprive them of the territory they occupy now
@@ -179,9 +181,9 @@
             what they're doing to try to stop radicalization. They will be our early warning signal.
             That's why we need to work with them, not demonize them, as the Republicans have been
             doing. </speech>
-        <speech who="O'MALLEY"> David, I am the very first... </speech>
-        <speech who="MUIR"> (inaudible) Thank you. [applause] </speech>
-        <speech who="O'MALLEY"> I am the very first post-9/11 mayor and the very first post-9/11
+        <speech speaker="O'MALLEY"> David, I am the very first... </speech>
+        <speech speaker="MUIR"> (inaudible) Thank you. [applause] </speech>
+        <speech speaker="O'MALLEY"> I am the very first post-9/11 mayor and the very first post-9/11
             governor. I understand, from the ground up, that when attacks like San Bernardino
             happen, when attacks like the attacks of 9/11 happen, that when people call 911, the
             first people to show up are the local first responders. Many of the things Secretary
@@ -195,12 +197,12 @@
             battle tempo. We have to increase the battle tempo, we have to bring a modern way of
             getting things done and forcing the sharing of information and do a much better job of
             acting on it in order to prevent these sorts of attacks in the future. </speech>
-        <speech who="MUIR"> And we're going to break down these issues tonight, but I do want to go
+        <speech speaker="MUIR"> And we're going to break down these issues tonight, but I do want to go
             to Senator Sanders because the concern going into Christmas is significant, as you know.
             A new ABC News poll shows 77 percent of Americans have little or no confidence in the
             government's ability to prevent a lone wolf attack. How would you specifically find
             would-be terrorist who are going undetected? </speech>
-        <speech who="SANDERS"> I'm one of the 77 percent. I think this is a very difficult issue.
+        <speech speaker="SANDERS"> I'm one of the 77 percent. I think this is a very difficult issue.
             Let me agree with much of what the secretary and the governor have said. Let me tell you
             what I think we have got to do. I think it's a two-pronged issue. Number one, our goal
             is to crush and destroy ISIS. What is the best way to do it? Well, I think there are
@@ -217,21 +219,21 @@
             international issue, but it is primarily an issue of the Muslim nations who are fighting
             for the soul of Islam. We the Muslims should lead the effort on the ground." And I
             believe he is absolutely right. </speech>
-        <speech who="MUIR"> Senator, thank you. </speech>
-        <speech who="RADDATZ"> Secretary Clinton, in the wake of the San Bernardino attack, you all
+        <speech speaker="MUIR"> Senator, thank you. </speech>
+        <speech speaker="RADDATZ"> Secretary Clinton, in the wake of the San Bernardino attack, you all
             emphasized gun control. But our latest poll shows that more Americans believe arming
             people, not stricter gun laws, is the best defense against terrorism. Are they wrong? </speech>
-        <speech who="CLINTON"> Well, I think you have to look at both the terrorism challenge that
+        <speech speaker="CLINTON"> Well, I think you have to look at both the terrorism challenge that
             we face abroad and certainly at home and the role that guns play in delivering the
             violence that stalks us. Clearly, we have to have a very specific set of actions to
             take. You know, when Senator Sanders talks about a coalition, I agree with him about
             that. We've got to build a coalition abroad. We also have to build a coalition at home.
             Abroad, we need a coalition that is going to take on ISIS. I know how hard that is. I
             know it isn't something you just hope people will do and I've worked on that... </speech>
-        <speech who="RADDATZ"> Secretary Clinton, can we stick to gun control? </speech>
-        <speech who="CLINTON"> Yes, I'm getting... </speech>
-        <speech who="RADDATZ"> Are they wrong? </speech>
-        <speech who="CLINTON"> ... I'm getting to that. Because I think if you only think about the
+        <speech speaker="RADDATZ"> Secretary Clinton, can we stick to gun control? </speech>
+        <speech speaker="CLINTON"> Yes, I'm getting... </speech>
+        <speech speaker="RADDATZ"> Are they wrong? </speech>
+        <speech speaker="CLINTON"> ... I'm getting to that. Because I think if you only think about the
             coalition abroad you're missing the main point, which is we need a coalition here at
             home. Guns, in and of themselves, in my opinion, will not make Americans safer. We lose
             33,000 people a year already to gun violence, arming more people to do what I think is
@@ -245,10 +247,10 @@
             believe fans the flames of radicalization. So guns have to be looked at as its own
             problem, but we also have to figure out how we're going to deal with the radicalization
             here in the United States. [crosstalk] </speech>
-        <speech who="RADDATZ"> Senator Sanders -- wait just a moment, please, Governor O'Malley.
+        <speech speaker="RADDATZ"> Senator Sanders -- wait just a moment, please, Governor O'Malley.
             Senator Sanders, we've seen those long lines of people buying guns in record numbers
             after the Paris attacks. Would you discourage people from buying a gun? </speech>
-        <speech who="SANDERS"> It's a country in which people choose to buy guns. I think half of
+        <speech speaker="SANDERS"> It's a country in which people choose to buy guns. I think half of
             the -- more than half of the people in my own state of Vermont, my guess here in New
             Hampshire, are gun owners. That's the right of people. But this is what I do believe. I
             believe that when we have some 300 million guns in this country, I believe that when we
@@ -264,15 +266,15 @@
             going to say that everybody is in agreement. It's a divided country on guns. But there
             is a broad consensus on sensible gun safety regulations that I, coming from a state that
             has virtually no gun control, will do my best to bring together. </speech>
-        <speech who="O'MALLEY"> Martha, if I may... </speech>
-        <speech who="RADDATZ"> Thank you, Senator Sanders. [crosstalk] I think we're going to go
+        <speech speaker="O'MALLEY"> Martha, if I may... </speech>
+        <speech speaker="RADDATZ"> Thank you, Senator Sanders. [crosstalk] I think we're going to go
             on... </speech>
-        <speech who="O'MALLEY"> Excuse me, no. </speech>
-        <speech who="MUIR"> Governor, we have to abide the rules here, we'll call on you here
+        <speech speaker="O'MALLEY"> Excuse me, no. </speech>
+        <speech speaker="MUIR"> Governor, we have to abide the rules here, we'll call on you here
             shortly, but... </speech>
-        <speech who="O'MALLEY"> I am the only person on this stage who has actually... </speech>
-        <speech who="MUIR"> But I do want pick up on something... </speech>
-        <speech who="O'MALLEY"> ... passed comprehensive gun safety legislation with a ban on combat
+        <speech speaker="O'MALLEY"> I am the only person on this stage who has actually... </speech>
+        <speech speaker="MUIR"> But I do want pick up on something... </speech>
+        <speech speaker="O'MALLEY"> ... passed comprehensive gun safety legislation with a ban on combat
             assault weapons, David. And, look, there are profound differences... [applause] Senator
             Sanders voted against the Brady Bill. Senator Sanders voted to give immunity to gun
             dealers. And Senator Sanders voted against even research dollars to look into this
@@ -283,17 +285,17 @@
             to get a combat assault weapon in the United States of America is at a gun show, then we
             should all be waking up. We need comprehensive gun safety legislation and a ban on
             assault weapons. </speech>
-        <speech who="RADDATZ"> Governor, now -- and let me stay with gun control for a minute, then.
+        <speech speaker="RADDATZ"> Governor, now -- and let me stay with gun control for a minute, then.
             You talk about assault weapons. Even if you were able to ban the purchase of assault
             weapons tomorrow, Americans already own an estimated 7 to 10 million semi-automatic
             rifles. Would you make it illegal to own those weapons, force people to turn them in?
             And if not, how would banning the sales really make a difference? </speech>
-        <speech who="O'MALLEY"> Because, Martha, it would prevent people like the guy that just got
+        <speech speaker="O'MALLEY"> Because, Martha, it would prevent people like the guy that just got
             charged yesterday perhaps from being able to buy combat assault weapons. You know, we
             are the only nation, only developed nation on the planet... </speech>
-        <speech who="RADDATZ"> But, again, I'm not talking about buying. Would you have them
+        <speech speaker="RADDATZ"> But, again, I'm not talking about buying. Would you have them
             confiscated? The ones that are already here? </speech>
-        <speech who="O'MALLEY"> No, Martha, I would not. And that's not what we did in Maryland. But
+        <speech speaker="O'MALLEY"> No, Martha, I would not. And that's not what we did in Maryland. But
             you know what we did in Maryland? We overcame the NRA's objections. We overcame all of
             the crowds that were coming down there. We did our own rallies. And at least if we enact
             these laws in a prospective way, we can address a major vulnerability in our country.
@@ -301,21 +303,21 @@
             combat assault weapon in America is at a gun show. And it's because of the
             flip-flopping, political approach of Washington that both of my two colleagues on this
             stage have represented there for the last forty years. </speech>
-        <speech who="SANDERS"> Whoa, whoa, whoa. Let's calm down a little bit, Martin. </speech>
-        <speech who="CLINTON"> Yes, let's tell the truth, Martin. </speech>
-        <speech who="O'MALLEY"> I am telling the truth. </speech>
-        <speech who="SANDERS"> First of all, let's have some rules here, commentators. </speech>
-        <speech who="MUIR"> We will. [laughter] </speech>
-        <speech who="SANDERS"> All right. </speech>
-        <speech who="MUIR"> But let me just establish that for you, senator. Really quickly
+        <speech speaker="SANDERS"> Whoa, whoa, whoa. Let's calm down a little bit, Martin. </speech>
+        <speech speaker="CLINTON"> Yes, let's tell the truth, Martin. </speech>
+        <speech speaker="O'MALLEY"> I am telling the truth. </speech>
+        <speech speaker="SANDERS"> First of all, let's have some rules here, commentators. </speech>
+        <speech speaker="MUIR"> We will. [laughter] </speech>
+        <speech speaker="SANDERS"> All right. </speech>
+        <speech speaker="MUIR"> But let me just establish that for you, senator. Really quickly
             governor, we are going to call on you tonight and it's very clear you have a lot to say
             but please wait until you're called upon. And senator, he invoked your record and I'll
             let you respond. </speech>
-        <speech who="SANDERS"> He sure did. </speech>
-        <speech who="MUIR"> I'll let you respond. </speech>
-        <speech who="CLINTON"> He invoked mine as well. </speech>
-        <speech who="MUIR"> And you will get some to as well. </speech>
-        <speech who="SANDERS"> Sure did. All right. First off, we can do all the great speeches we
+        <speech speaker="SANDERS"> He sure did. </speech>
+        <speech speaker="MUIR"> I'll let you respond. </speech>
+        <speech speaker="CLINTON"> He invoked mine as well. </speech>
+        <speech speaker="MUIR"> And you will get some to as well. </speech>
+        <speech speaker="SANDERS"> Sure did. All right. First off, we can do all the great speeches we
             want but you're not going to succeed unless there is a consensus. In 1988, just to set
             the record straight governor, I ran for the U.S. House. We have one House member from
             Vermont, three candidates in the race. One candidate said, you know what, I don't think
@@ -328,9 +330,9 @@
             not shown courage in standing up to the gun people, in voting to ban assault weapons,
             voting for instant background checks, voting to end the gun show loop hole and now we're
             in a position to create a consensus in America on gun safety. [applause] </speech>
-        <speech who="MUIR"> Senator, thank you. I want to move on here. Secretary Clinton, you
+        <speech speaker="MUIR"> Senator, thank you. I want to move on here. Secretary Clinton, you
             brought up Donald Trump a short time ago. </speech>
-        <speech who="CLINTON"> I do and this is an important issue and I know we'll get to a lot of
+        <speech speaker="CLINTON"> I do and this is an important issue and I know we'll get to a lot of
             other critical ones as well. I actually agree with Governor O'Malley about the need for
             common sense gun safety measures. And I applaud his record in Maryland. I just wish he
             wouldn't misrepresent mine. I have been for the Brady bill, I have been against assault
@@ -347,14 +349,14 @@
             Republican side will even admit there's a problem. And in whatever way the three of us
             can we need to move this agenda forward and begin to deal with the gun lobby and the
             intimidation that they present. [applause] </speech>
-        <speech who="MUIR"> Secretary Clinton, thank you. We're going to move on from guns here and
+        <speech speaker="MUIR"> Secretary Clinton, thank you. We're going to move on from guns here and
             go back to something you mentioned a short time ago. You brought up Donald Trump first
             here this evening. We've now seen the polling done well after his proposed ban on
             Muslims coming to America. Thirty-six percent of Americans, more than a third, agree
             with him. You have weighed in already on Donald Trump. You've weighed in on the proposed
             ban. But what would you say to the millions of Americans watching tonight who agree with
             him? Are they wrong? </speech>
-        <speech who="CLINTON"> Well I think a lot of people are understandably reacting out of fear
+        <speech speaker="CLINTON"> Well I think a lot of people are understandably reacting out of fear
             and anxiety about what they're seeing. First what they saw in Paris, now what they have
             seen in San Bernardino. And Mr. Trump has a great capacity to use bluster and bigotry to
             inflame people and to make think there are easy answers to very complex questions. So
@@ -362,7 +364,7 @@
             We need to have everybody in our country focused on watching what happens and reporting
             it if it's suspicious, reporting what you hear. Making sure that Muslim Americans don't
             feel left out or marginalized at the very moment when we need their help. </speech>
-        <speech who="CLINTON"> You know, I was a senator from New York after 9/11, and we spent
+        <speech speaker="CLINTON"> You know, I was a senator from New York after 9/11, and we spent
             countless hours trying to figure out how to protect the city and the state from perhaps
             additional attacks. One of the best things that was done, and George W. Bush did this
             and I give him credit, was to reach out to Muslim Americans and say, we're in this
@@ -372,20 +374,20 @@
             showing videos of Donald Trump insulting Islam and Muslims in order to recruit more
             radical jihadists. So I want to explain why this is not in America's interest to react
             with this kind of fear and respond to this sort of bigotry. </speech>
-        <speech who="MUIR"> Secretary, thank you. Senator Sanders, I did want to ask you about a
+        <speech speaker="MUIR"> Secretary, thank you. Senator Sanders, I did want to ask you about a
             neighbor in San Bernardino who reportedly witnessed packages being delivered to that
             couple's home, that it set off red flags, but they didn't report it because they were
             afraid to profile. What would you say to Americans afraid to profile? Is it ever
             acceptable? </speech>
-        <speech who="SANDERS"> Well, the answer is, obviously, if you see suspicious activity, you
+        <speech speaker="SANDERS"> Well, the answer is, obviously, if you see suspicious activity, you
             report it. That's kind of a no-brainer. You know, somebody is loading guns and
             ammunition into a house, I think it's a good idea to call 911. Do it. [laughter] </speech>
-        <speech who="MUIR"> But I'm asking about -- I'm asking about profiling. Because a lot of
+        <speech speaker="MUIR"> But I'm asking about -- I'm asking about profiling. Because a lot of
             people are afraid of that. </speech>
-        <speech who="SANDERS"> But I want to talk -- I want to talk about something else, because
+        <speech speaker="SANDERS"> But I want to talk -- I want to talk about something else, because
             Secretary Clinton I think made some interesting and good points. What you have now is a
             very dangerous moment in American history. The secretary is </speech>
-        <speech who="right"> Our people are fearful. They are anxious on a number of levels. They
+        <speech speaker="right"> Our people are fearful. They are anxious on a number of levels. They
             are anxious about international terrorism and the possibility of another attack on
             America. We all understand that. But you know what else they're anxious about? They're
             anxious about the fact that they are working incredibly long hours, they're worried
@@ -398,20 +400,20 @@
             enemies. We hate all the Muslims, because all of the Muslims are terrorists. We've got
             to hate the Muslims." Meanwhile, the rich get richer. So what I say to those people who
             go to Donald Trump's rallies, </speech>
-        <speech who="understand"> He thinks a low minimum wage in America is a good idea. He thinks
+        <speech speaker="understand"> He thinks a low minimum wage in America is a good idea. He thinks
             low wages are a good idea. I believe we stand together to address the real issues facing
             this country, not allow them to divide us by race or where we come from. Let's create an
             America that works for all of us, not the handful on top. [applause] </speech>
-        <speech who="MUIR"> Senator, thank you. </speech>
-        <speech who="RADDATZ"> I want to move to another... </speech>
-        <speech who="O'MALLEY"> Martha, may I -- Martha, may I... [crosstalk] </speech>
-        <speech who="RADDATZ"> No, no, not yet, Governor O'Malley. </speech>
-        <speech who="O'MALLEY"> Can I share this quick story? </speech>
-        <speech who="RADDATZ"> No, not yet, Governor O'Malley. </speech>
-        <speech who="O'MALLEY"> Oh. All right. </speech>
-        <speech who="RADDATZ"> I'll come to you when we call on you. Thank you very much. </speech>
-        <speech who="O'MALLEY"> When you come back to me, I'll share that story. </speech>
-        <speech who="RADDATZ"> You'll be happy. I'll let -- I'll let you talk then. Secretary
+        <speech speaker="MUIR"> Senator, thank you. </speech>
+        <speech speaker="RADDATZ"> I want to move to another... </speech>
+        <speech speaker="O'MALLEY"> Martha, may I -- Martha, may I... [crosstalk] </speech>
+        <speech speaker="RADDATZ"> No, no, not yet, Governor O'Malley. </speech>
+        <speech speaker="O'MALLEY"> Can I share this quick story? </speech>
+        <speech speaker="RADDATZ"> No, not yet, Governor O'Malley. </speech>
+        <speech speaker="O'MALLEY"> Oh. All right. </speech>
+        <speech speaker="RADDATZ"> I'll come to you when we call on you. Thank you very much. </speech>
+        <speech speaker="O'MALLEY"> When you come back to me, I'll share that story. </speech>
+        <speech speaker="RADDATZ"> You'll be happy. I'll let -- I'll let you talk then. Secretary
             Clinton, I want to talk about a new terrorist tool used in the Paris attacks,
             encryption. FBI Director James Comey says terrorists can hold secret communications
             which law enforcement cannot get to, even with a court order. You've talked a lot about
@@ -419,7 +421,7 @@
             removing encryption tools from our products altogether would only hurt law-abiding
             citizens who rely on us to protect their data. So would you force him to give law
             enforcement a key to encrypted technology by making it law? </speech>
-        <speech who="CLINTON"> I would not want to go to that point. I would hope that, given the
+        <speech speaker="CLINTON"> I would not want to go to that point. I would hope that, given the
             extraordinary capacities that the tech community has and the legitimate needs and
             questions from law enforcement, that there could be a Manhattan-like project, something
             that would bring the government and the tech communities together to see they're not
@@ -433,15 +435,15 @@
             questions, how do we prevent attacks -- well, if we can't know what someone is planning,
             we are going to have to rely on the neighbor or, you know, the member of the mosque or
             the teacher, somebody to see something. </speech>
-        <speech who="CLINTON"> I just think there's got to be a way, and I would hope that our tech
+        <speech speaker="CLINTON"> I just think there's got to be a way, and I would hope that our tech
             companies would work with government to figure that out. Otherwise, law enforcement is
             blind -- blind before, blind during, and, unfortunately, in many instances, blind after.
             So we always have to balance liberty and security, privacy and safety, but I know that
             law enforcement needs the tools to keep us safe. And that's what I hope, there can be
             some understanding and cooperation to achieve. </speech>
-        <speech who="RADDATZ"> And Governor O'Malley, where do you draw the line between national
+        <speech speaker="RADDATZ"> And Governor O'Malley, where do you draw the line between national
             security and personal security? </speech>
-        <speech who="O'MALLEY"> I believe that we should never give up our privacy; never should
+        <speech speaker="O'MALLEY"> I believe that we should never give up our privacy; never should
             give up our freedoms in exchange for a promise of security. We need to figure this out
             together. We need a collaborative approach. We need new leadership. The way that things
             work in the modern era is actually to gather people around the table and figure these
@@ -459,11 +461,11 @@
             expression. And we should never be convinced to give up those freedoms in exchange for a
             promise of greater security; especially from someone as untried and as incompetent as
             Donald Trump. </speech>
-        <speech who="RADDATZ"> Thank you, Governor O'Malley. </speech>
-        <speech who="MUIR"> Martha, we're going to turn now to <immigrant status="legal"
+        <speech speaker="RADDATZ"> Thank you, Governor O'Malley. </speech>
+        <speech speaker="MUIR"> Martha, we're going to turn now to <immigrant status="legal"
                 term="refugee">refugees</immigrant> coming to America. And on the subject of
                 <immigrant status="legal" term="reguee">refugees</immigrant>, more than half of all
-            Americans now say they oppose taking in <immigrant status="status" term="refugee"
+            Americans now say they oppose taking in <immigrant status="refugee" term="refugee"
                 >refugees</immigrant> from Syria and across the Middle East. Secretary Clinton, you
             have said that it would undermine who we are as Americans, shutting our doors. But New
             Hampshire's governor, where we are right here tonight, a democrat and a supporter of
@@ -472,17 +474,17 @@
                 >Syrian refugees</immigrant> until U.S. authorities can assure the vetting process,
             halt <immigrant status="legal" term="Syrian_refugee">Syrian refugees</immigrant>." Is
             she wrong? </speech>
-        <speech who="CLINTON"> Well, I agree that we have to have the toughest screening and
+        <speech speaker="CLINTON"> Well, I agree that we have to have the toughest screening and
             vetting... </speech>
-        <speech who="MUIR"> But a halt? </speech>
-        <speech who="CLINTON"> I don't think a halt is necessary. What we have to do is put all of
+        <speech speaker="MUIR"> But a halt? </speech>
+        <speech speaker="CLINTON"> I don't think a halt is necessary. What we have to do is put all of
             our resources through the Department of Homeland Security, through the State Department,
             through our intelligence agencies, and we have to have an increased vetting and
             screening. Now, this takes, David, 18 months to 24 months, two years. So I know it's not
             going to happen overnight and everything that can be done should be done. But the
             process should move forward while we are also taking on ISIS, putting together the kind
             of strategy that I've advocated for, and making sure that the vetting and the screening
-            is as tough as possible. <trope type="values" subtype="ambig">Because I do believe that
+            is as tough as possible. <trope type="value" subtype="ambig" attitude="pro">Because I do believe that
                 we have a history and a tradition, that is part of our values system and we don't
                 want to sacrifice our values. We don't want to make it seem as though we are turning
                 into a nation of fear instead of a nation of resolve. So I want us to have a very
@@ -493,21 +495,21 @@
             give the American public a bit more of a sense of security about who is being processed
             and who might end up coming as <immigrant status="legal" term="refugee"
                 >refugees</immigrant>. </speech>
-        <speech who="MUIR"> Governor O'Malley, obviously you were governor yourself at one time.
+        <speech speaker="MUIR"> Governor O'Malley, obviously you were governor yourself at one time.
             What would you say to New Hampshire's governor tonight? Is she wrong on this? </speech>
-        <speech who="O'MALLEY"> No, what I would say is this is look, I was the first of the three
+        <speech speaker="O'MALLEY"> No, what I would say is this is look, I was the first of the three
             of us to call for America to accept the 65,000 <immigrant status="legal" term="refugee"
                 >refugees</immigrant> we were asked to accept. And if this humanitarian crisis
             increases, we should accept more. </speech>
-        <speech who="MUIR"> So the idea of a halt or a pause? [applause] </speech>
-        <speech who="O'MALLEY"> David, there are wider vulnerabilities than when it comes to
+        <speech speaker="MUIR"> So the idea of a halt or a pause? [applause] </speech>
+        <speech speaker="O'MALLEY"> David, there are wider vulnerabilities than when it comes to
                 <immigrant status="legal" term="refugee">refugees</immigrant>. I met recently with
             some members of the Chaldean Christian communities and the wait times are a year, 18
             months, 24 months. There is a pretty excruciating process that <immigrant status="legal"
                 term="refugee">refugees</immigrant> go through. We need to invest more in terms of
             the other sort of visas and the other sort of waivers. </speech>
-        <speech who="O'MALLEY">
-            <anecdote type="values" subtype="ambig" attitude="pro">What these Chaldean families told
+        <speech speaker="O'MALLEY">
+            <anecdote type="value" subtype="ambig" attitude="pro">What these Chaldean families told
                 me was that their families in Syria, when ISIS moves into their town, they actually
                 paint a red cross across the door and mark their homes for demolition, and that
                 tells the family you'd better get out now. The sort of genocide and brutality that
@@ -515,24 +517,24 @@
                 whose enduring symbol is the Statue of Liberty, and we need to act like the great
                 country we are, according to our values.</anecdote>
         </speech>
-        <speech who="MUIR"> Governor, thank you. </speech>
-        <speech who="RADDATZ"> Senator Sanders -- Senator Sanders, we're going to move on. We're
+        <speech speaker="MUIR"> Governor, thank you. </speech>
+        <speech speaker="RADDATZ"> Senator Sanders -- Senator Sanders, we're going to move on. We're
             going to move on. </speech>
-        <speech who="SANDERS"> Excuse me. May I have a chance to respond to this issue? </speech>
-        <speech who="RADDATZ"> We're going to move on to the fight against ISIS. You're the one who
+        <speech speaker="SANDERS"> Excuse me. May I have a chance to respond to this issue? </speech>
+        <speech speaker="RADDATZ"> We're going to move on to the fight against ISIS. You're the one who
             told us we have to follow the rules and break it off. [laughter] </speech>
-        <speech who="SANDERS"> Yeah, but the rule includes equal -- got it. All right. [laughter] </speech>
-        <speech who="RADDATZ"> OK. Let's keep going. Thank you. </speech>
-        <speech who="SANDERS"> All right. Let's keep going. OK. </speech>
-        <speech who="RADDATZ"> Thank you. I do want to move to the fight against ISIS. </speech>
-        <speech who="SANDERS"> Yeah. </speech>
-        <speech who="RADDATZ"> For the people of New Hampshire, the brutality of ISIS is personal.
+        <speech speaker="SANDERS"> Yeah, but the rule includes equal -- got it. All right. [laughter] </speech>
+        <speech speaker="RADDATZ"> OK. Let's keep going. Thank you. </speech>
+        <speech speaker="SANDERS"> All right. Let's keep going. OK. </speech>
+        <speech speaker="RADDATZ"> Thank you. I do want to move to the fight against ISIS. </speech>
+        <speech speaker="SANDERS"> Yeah. </speech>
+        <speech speaker="RADDATZ"> For the people of New Hampshire, the brutality of ISIS is personal.
             James Foley grew up here. The first hostage, a journalist, brutally executed last year.
             You've all said ISIS is a ruthless enemy and must be stopped. Al Qaida as well. Senator
             Sanders, you voted to send U.S. ground forces to fight in the coalition to help destroy
             Al Qaida in Afghanistan. Can you then explain you why don't support sending U.S. combat
             troops to join a coalition to fight ISIS? </speech>
-        <speech who="SANDERS"> And I also voted and helped lead the effort against the war in Iraq,
+        <speech speaker="SANDERS"> And I also voted and helped lead the effort against the war in Iraq,
             which will go down in history as one of the worst foreign blunders -- foreign policy
             blunders in the history of our country. I voted against the first Gulf War, which set
             the stage, I believe, for the second Iraq war. And what I believe right now, and I
@@ -541,28 +543,28 @@
             all over the world, in France and in the U.K. Or -- hey, just call up the American
             military and the American taxpayers, they're going to send the troops. And if they have
             to be in the Middle East for 20 or 30 years no problem. </speech>
-        <speech who="RADDATZ"> But why Al Qaida, why not ISIS? </speech>
-        <speech who="SANDERS"> I have a problem with that, Martha. What I believe has got to happen
+        <speech speaker="RADDATZ"> But why Al Qaida, why not ISIS? </speech>
+        <speech speaker="SANDERS"> I have a problem with that, Martha. What I believe has got to happen
             is there must be an international coalition, including Russia, a well-coordinated
             effort. But I agree, as I mentioned a moment ago, with King Abdullah. This is a war for
             the soul of Islam. The troops on the ground should not be American troops. They should
             be Muslim troops. I believe that countries like Saudi Arabia and Qatar have got to step
             up to the plate, have got to contribute the money that we need, and the troops that we
             need, to destroy ISIS with American support. </speech>
-        <speech who="RADDATZ"> The administration has tried that over and over again. If it doesn't
+        <speech speaker="RADDATZ"> The administration has tried that over and over again. If it doesn't
             work and this threat is so great, what's your plan B? </speech>
-        <speech who="SANDERS"> My plan is to make it work, to tell Saudi Arabia that instead of
+        <speech speaker="SANDERS"> My plan is to make it work, to tell Saudi Arabia that instead of
             going to war in Yemen, they, one of the wealthiest countries on Earth, are going to have
             to go to war against ISIS. To tell Qatar, that instead of spending $200 billion on the
             World Cup, maybe they should pay attention to ISIS, which is at their doorstep.
             [applause] </speech>
-        <speech who="RADDATZ"> Secretary Clinton, you too have ruled out a large U.S. combat force,
+        <speech speaker="RADDATZ"> Secretary Clinton, you too have ruled out a large U.S. combat force,
             yet you support sending in special operations forces to Syria, and sending those 100 to
             200 troops to Iraq to do exploitation kill raids. We've already lost one Delta Force
             member in a raid. It has looked very much to me like we're already in ground combat on
             frequent trips I've made there. So, are you fooling Americans when you say, we're not
             putting American combat troops back into Syria or Iraq? </speech>
-        <speech who="CLINTON"> No. Not at all. I think that what we're facing with ISIS is
+        <speech speaker="CLINTON"> No. Not at all. I think that what we're facing with ISIS is
             especially complicated. It was a different situation in Afghanistan. We were attacked
             from Afghanistan. Al Qaida was based in Afghanistan. We went after those who had
             attacked us. What's happening in Syria and Iraq is that, because of the failures in the
@@ -582,7 +584,7 @@
             to put together a coalition in the region to take on the threat of ISIS you don't want
             to alienate the very countries and people you need to be part of the coalition. And so
             that is part of the reason why this is so difficult. [applause] </speech>
-        <speech who="RADDATZ"> Secretary Clinton, I want -- I want to follow up on that. You do
+        <speech speaker="RADDATZ"> Secretary Clinton, I want -- I want to follow up on that. You do
             support sending special operations forces there. You support what the president has done
             already. One of the lessons people draw from Vietnam and war since is that a little
             force can turn into a little more and a little more. President Obama certainly didn't
@@ -590,7 +592,7 @@
             presidency. Are you prepared to run the risk of a bigger war to achieve your goals to
             destroy ISIS, or are you prepared to give up on those goals if it requires a larger
             force? </speech>
-        <speech who="CLINTON"> Well, I just think you're asking a question with a false choice. I
+        <speech speaker="CLINTON"> Well, I just think you're asking a question with a false choice. I
             believe if we lead an air coalition, which we are now in the position of doing and
             intensify it, if we continue to build back up the Iraqi army, which has had some recent
             success in Ramadi, as you know, if we get back talking to the tribal sheiks in Anbar to
@@ -599,10 +601,10 @@
             Kurds, if we do put together the kind of coalition with the specific tasks that I am
             outlining, I think we can be successful in destroying ISIS. So that's what I'm focused
             on, that's what I've outlined and that's what I would do as president. </speech>
-        <speech who="RADDATZ"> Governor O'Malley. [applause] You've emphasized the need for more
+        <speech speaker="RADDATZ"> Governor O'Malley. [applause] You've emphasized the need for more
             human intelligence on the ground. What is it our intelligence community is not doing now
             that needs to be done? </speech>
-        <speech who="O'MALLEY"> Well, we have invested nowhere near what we should be investing in
+        <speech speaker="O'MALLEY"> Well, we have invested nowhere near what we should be investing in
             human intelligence on the ground. And what I'm talking about is not only the covert CIA
             intelligence; I'm also talking about diplomatic intelligence. I mean, we've seen time
             and time again, especially in this very troubled region of nation-state failures, and
@@ -623,9 +625,9 @@
             pay attention here in Central America as well. So this is the new type of threats that
             we're facing and we need to lead as a nation in confronting it and putting together new
             alliances and new coalitions. </speech>
-        <speech who="CLINTON"> Well, I just want to quickly add... </speech>
-        <speech who="RADDATZ"> Thank you. </speech>
-        <speech who="CLINTON"> Martha, that -- you know, one of the reasons why I have advocated for
+        <speech speaker="CLINTON"> Well, I just want to quickly add... </speech>
+        <speech speaker="RADDATZ"> Thank you. </speech>
+        <speech speaker="CLINTON"> Martha, that -- you know, one of the reasons why I have advocated for
             a no-fly zone is in order to create those safe refuges within Syria, to try to protect
             people on the ground both from Assad's forces, who are continuing to drop barrel bombs,
             and from ISIS. And of course, it has to be de-conflicted with the Russians, who are also
@@ -635,15 +637,15 @@
             Syria to begin to try to make a transition. A no-fly zone would prevent the outflow of
                 <immigrant status="legal" term="refugee">refugees</immigrant> and give us a chance
             to have some safe spaces. </speech>
-        <speech who="RADDATZ"> Secretary Clinton, I'd like to go back to that if I could. ISIS
+        <speech speaker="RADDATZ"> Secretary Clinton, I'd like to go back to that if I could. ISIS
             doesn't have aircraft, Al Qaida doesn't have aircraft. So would you shoot down a Syrian
             military aircraft or a Russian airplane? </speech>
-        <speech who="CLINTON"> I do not think it would come to that. We are already de-conflicting
+        <speech speaker="CLINTON"> I do not think it would come to that. We are already de-conflicting
             air space. We know... </speech>
-        <speech who="RADDATZ"> But isn't that a decision you should make now, whether... </speech>
-        <speech who="CLINTON"> No, I don't think so. I am advocating... </speech>
-        <speech who="RADDATZ"> ... if you're advocating this? </speech>
-        <speech who="CLINTON"> I am advocating the no-fly zone both because I think it would help us
+        <speech speaker="RADDATZ"> But isn't that a decision you should make now, whether... </speech>
+        <speech speaker="CLINTON"> No, I don't think so. I am advocating... </speech>
+        <speech speaker="RADDATZ"> ... if you're advocating this? </speech>
+        <speech speaker="CLINTON"> I am advocating the no-fly zone both because I think it would help us
             on the ground to protect Syrians; I'm also advocating it because I think it gives us
             some leverage in our conversations with Russia. Now that Russia has joined us in the
             Security Council, has adopted an agreement that we hashed out a long day in Geneva three
@@ -651,9 +653,9 @@
             would be also shared by Russia. If they will begin to turn their military attention away
             from going after the adversaries of Assad toward ISIS and put the Assad future on the
             political and diplomatic track, where it belongs. [crosstalk] </speech>
-        <speech who="MUIR"> I want to take this to Senator -- I'm going to take this to Senator
+        <speech speaker="MUIR"> I want to take this to Senator -- I'm going to take this to Senator
             Sanders next, because I think there... [crosstalk] </speech>
-        <speech who="SANDERS"> I have a difference of opinion with Secretary Clinton on this. Our
+        <speech speaker="SANDERS"> I have a difference of opinion with Secretary Clinton on this. Our
             differences are fairly deep on this issue. We disagreed on the war in Iraq. We both
             listened to the information from Bush and Cheney. I voted against the war. But I think
             -- and I say this with due respect -- that I worry too much that Secretary Clinton is
@@ -669,11 +671,11 @@
             -- toward democratic societies, in terms of Assad, a terrible dictator. But I think in
             Syria the primary focus now must be on destroying ISIS and working over the years to get
             rid of Assad. That's the secondary issue. </speech>
-        <speech who="CLINTON"> That is exactly... </speech>
-        <speech who="MUIR"> Senator, thank you. </speech>
-        <speech who="CLINTON"> That is exactly what I just said and what I just described. </speech>
-        <speech who="MUIR"> Yeah, but, Secretary Clinton -- Secretary Clinton... </speech>
-        <speech who="CLINTON"> And that is important, because now we have a U.N. Security Council
+        <speech speaker="CLINTON"> That is exactly... </speech>
+        <speech speaker="MUIR"> Senator, thank you. </speech>
+        <speech speaker="CLINTON"> That is exactly what I just said and what I just described. </speech>
+        <speech speaker="MUIR"> Yeah, but, Secretary Clinton -- Secretary Clinton... </speech>
+        <speech speaker="CLINTON"> And that is important, because now we have a U.N. Security Council
             that will enable us to do that. And, you know, with all due respect, Senator, you voted
             for regime change with respect to Libya. You joined the Senate in voting to get rid of
             Gadhafi, and you asked that there be a Security Council validation of that with a
@@ -684,8 +686,8 @@
             our Arab partners to assist the people in Libya, you would be looking at Syria. Now the
             Libyans are turning their attention to try to dislodge ISIS from its foothold and begin
             to try to move together to have a unified nation. </speech>
-        <speech who="SANDERS"> I was not the secretary of state... </speech>
-        <speech who="MUIR"> Senator Sanders, Senator Sanders, hold on. One moment, please. I'm going
+        <speech speaker="SANDERS"> I was not the secretary of state... </speech>
+        <speech speaker="MUIR"> Senator Sanders, Senator Sanders, hold on. One moment, please. I'm going
             to ask the secretary here, because there does appear to be some daylight here between
             the policies, at least in respect to when you take out Syrian President Bashar al-Assad.
             Right now or do you wait? Do you tackle ISIS first? You have said, Secretary Clinton,
@@ -693,11 +695,11 @@
             from the senator just this week that we must put aside the issue of how quickly we get
             rid of Assad and come together with countries, including Russia and Iran, to destroy
             ISIS first. Is he wrong? </speech>
-        <speech who="CLINTON"> I think we're missing the point here. We are doing both at the same
+        <speech speaker="CLINTON"> I think we're missing the point here. We are doing both at the same
             time. </speech>
-        <speech who="MUIR"> But that's what he's saying, we should put that aside for now and go
+        <speech speaker="MUIR"> But that's what he's saying, we should put that aside for now and go
             after ISIS. </speech>
-        <speech who="CLINTON"> Well, I don't agree with that, because we will not get the support on
+        <speech speaker="CLINTON"> Well, I don't agree with that, because we will not get the support on
             the ground in Syria to dislodge ISIS if the fighters there who are not associated with
             ISIS, but whose principal goal is getting rid of Assad, don't believe there is a
             political, diplomatic channel that is ongoing. We now have that. We have the U.N.
@@ -710,10 +712,10 @@
             proxy in Lebanon, would threaten Israel and would make it more difficult for us to move
             on a path to have a transition that at some point would deal with Assad's future.
             [crosstalk] </speech>
-        <speech who="SANDERS"> I happen to think... </speech>
-        <speech who="O'MALLEY"> I'd like to offer a... [applause] </speech>
-        <speech who="MUIR"> She says we have to proceed on both fronts at once. </speech>
-        <speech who="SANDERS"> Secretary Clinton is right. This is a complicated issue. I don't
+        <speech speaker="SANDERS"> I happen to think... </speech>
+        <speech speaker="O'MALLEY"> I'd like to offer a... [applause] </speech>
+        <speech speaker="MUIR"> She says we have to proceed on both fronts at once. </speech>
+        <speech speaker="SANDERS"> Secretary Clinton is right. This is a complicated issue. I don't
             think anyone has a magical solution. But this is what I do believe. Yes, of course Assad
             is a terrible dictator. But I think we have got to get our foreign policies and
             priorities right. The immediate -- it is not Assad who is attacking the United States.
@@ -722,10 +724,10 @@
             destruction of ISIS. [applause] And I think -- and I think we bring together that broad
             coalition, including Russia, to help us destroy ISIS. And work on a timetable to get rid
             of Assad, hopefully through Democratic elections. First priority, destroy ISIS. </speech>
-        <speech who="MUIR"> Senator Sanders, thank you. </speech>
-        <speech who="O'MALLEY"> May I offer a different generation's perspective on this? </speech>
-        <speech who="MUIR"> Governor O'Malley? </speech>
-        <speech who="O'MALLEY"> During the Cold War -- during the Cold War, we got into a bad habit
+        <speech speaker="MUIR"> Senator Sanders, thank you. </speech>
+        <speech speaker="O'MALLEY"> May I offer a different generation's perspective on this? </speech>
+        <speech speaker="MUIR"> Governor O'Malley? </speech>
+        <speech speaker="O'MALLEY"> During the Cold War -- during the Cold War, we got into a bad habit
             of always looking to see who was wearing the jersey of the communists, and who was
             wearing the U.S. jersey. We got into a bad habit of creating big bureaucracies, old
             methodologies, to undermine regimes that were not friendly to the United States. Look
@@ -737,9 +739,9 @@
             we didn't know what was happening next. And we fell into the same trap with Assad,
             saying -- as if it's our job to say, Assad must go. We have a role to play in this
             world. But we need to leave the Cold War and that sort of antiquated thinking behind. </speech>
-        <speech who="MUIR"> But -- you criticized -- you criticized Secretary Clinton for what came
+        <speech speaker="MUIR"> But -- you criticized -- you criticized Secretary Clinton for what came
             next. What's your proposal for what comes after Assad? </speech>
-        <speech who="O'MALLEY"> I believe that we need to focus on destroying ISIL. That is the
+        <speech speaker="O'MALLEY"> I believe that we need to focus on destroying ISIL. That is the
             clear and present danger. And I believe that we can springboard off of this new U.N.
             resolution, and we should create, as Secretary Clinton indicated, and I agree with that,
             that there should be a political process. But we shouldn't be the ones declaring that
@@ -747,8 +749,8 @@
             the job of the United States of America or its secretary of State to determine when
             dictators have to go? We have a role to play in this world. But it is not the world --
             the role of traveling the world looking for new monsters to destroy. [crosstalk] </speech>
-        <speech who="SANDERS"> David... </speech>
-        <speech who="CLINTON"> Since he has been making all kinds of comments. [laughter] I think
+        <speech speaker="SANDERS"> David... </speech>
+        <speech speaker="CLINTON"> Since he has been making all kinds of comments. [laughter] I think
             it's fair to say, Assad has killed, by last count, about 250,000 Syrians. The reason we
             are in the mess we're in, that ISIS has the territory it has, is because of Assad. I
             advocated arming the moderate opposition back in the day when I was still secretary of
@@ -758,26 +760,26 @@
             terrorists, more extremists by the minute. No. We now finally are where we need to be.
             We have a strategy and a commitment to go after ISIS, which is a danger to us as well as
             the region... SANDERS (?): Secretary... </speech>
-        <speech who="CLINTON"> And we finally have a U.N. Security Council Resolution bringing the
+        <speech speaker="CLINTON"> And we finally have a U.N. Security Council Resolution bringing the
             world together to go after a political transition in Syria. </speech>
-        <speech who="SANDERS"> Could I just say -- just say this... </speech>
-        <speech who="CLINTON"> If the United States does not lead, there is not another leader.
+        <speech speaker="SANDERS"> Could I just say -- just say this... </speech>
+        <speech speaker="CLINTON"> If the United States does not lead, there is not another leader.
             There is a vacuum. </speech>
-        <speech who="SANDERS"> Can I just say this... </speech>
-        <speech who="CLINTON"> And we have to lead, if we're going to be successful. [applause] </speech>
-        <speech who="MUIR"> Senator Sanders, please. Go ahead. Senator Sanders, a last word on this. </speech>
-        <speech who="SANDERS"> Of course the United States must lead. But the United States is not
+        <speech speaker="SANDERS"> Can I just say this... </speech>
+        <speech speaker="CLINTON"> And we have to lead, if we're going to be successful. [applause] </speech>
+        <speech speaker="MUIR"> Senator Sanders, please. Go ahead. Senator Sanders, a last word on this. </speech>
+        <speech speaker="SANDERS"> Of course the United States must lead. But the United States is not
             the policeman of the world. The United States must not be involved in perpetual warfare
             in the Middle East. The United States, at the same time, cannot successfully fight Assad
             and ISIS. ISIS, now, is the major priority. Let's get rid of Assad later. Let's have a
             Democratic Syria. But the first task is to bring countries together to destroy ISIS. </speech>
-        <speech who="MUIR"> Senator Sanders, thank you. When we come back here tonight, the other
+        <speech speaker="MUIR"> Senator Sanders, thank you. When we come back here tonight, the other
             major issues of this election jobs, the economy, health care. Which candidates will make
             the best case for the middle class, as our coverage of the Democratic debate, here in
             New Hampshire, continues right after this on ABC. </speech>
-        <speech who="ANNOUNCER"> ABC News coverage of the New Hampshire Democratic debate will
+        <speech speaker="ANNOUNCER"> ABC News coverage of the New Hampshire Democratic debate will
             continue in a moment. [COMMERCIAL BREAK] </speech>
-        <speech who="MUIR"> Welcome back tonight. As you can see, we have a packed audience here in
+        <speech speaker="MUIR"> Welcome back tonight. As you can see, we have a packed audience here in
             New Hampshire and we're going to continue. We've already had a spirited conversation
             here at the top of the broadcast about ISIS, about the concerns of terror here on the
             home front and as we await Secretary Clinton backstage, we're going to begin on the
@@ -788,13 +790,13 @@
             today's money. This year, it's $53,600. That's 20 more years on the job with just a 2
             percent raise. In a similar time-frame, raises for CEOs went up more than 200 percent.
             [applause] </speech>
-        <speech who="CLINTON"> Sorry. </speech>
-        <speech who="MUIR"> We're going to continue here, and Secretary, you'll get a chance on this
+        <speech speaker="CLINTON"> Sorry. </speech>
+        <speech speaker="MUIR"> We're going to continue here, and Secretary, you'll get a chance on this
             too. But as I pointed out the CEO pay, 200 percent of their time -- for that family of
             just 2 percent. You've all said, "you would raise the minimum wage." But Senator Sanders
             what else - speak to that household tonight. 20 years, just a 2 percent raise, how as
             president would you get them a raise right away? </speech>
-        <speech who="SANDERS"> First of all, we recognize that we have a rigged economy, as you've
+        <speech speaker="SANDERS"> First of all, we recognize that we have a rigged economy, as you've
             indicated. Middle class in this country for the last 40 years has been disappearing; are
             we better off today than we were when Bush left office? Absolutely. But as you've
             indicated for millions of American workers, people in New Hampshire -- all over America,
@@ -810,10 +812,10 @@
             competitive global economy, it is imperative that we have the best educated workforce in
             the world. That is why I'm going to have a tax on Wall Street speculation to make
             certain that public colleges and universities in America are tuition free. </speech>
-        <speech who="MUIR"> Senator Sanders, thank you. Governor O'Malley, what would propose that
+        <speech speaker="MUIR"> Senator Sanders, thank you. Governor O'Malley, what would propose that
             would be different, how would you get the middle class a raise and without waiting
             another 20 years for another 2 percent. </speech>
-        <speech who="O'MALLEY"> Look these are the things that we did in own state through the
+        <speech speaker="O'MALLEY"> Look these are the things that we did in own state through the
             recession. We actually passed a living wage. We raised the minimum wage. We actually
             raised it to the highest goals of any state in the nation also in minority and women
             participant goals because we understood that the way you reinvigorate and make fair
@@ -827,18 +829,18 @@
             era and that is moving our economy to a 100 percent clean electric energy future. We
             created 2,000 new jobs in the solar industry and we fought every single day to adopt
             more inclusive economic practices. </speech>
-        <speech who="O'MALLEY"> So David, the conclusion of all of those things is this; they
+        <speech speaker="O'MALLEY"> So David, the conclusion of all of those things is this; they
             weren't hopes, they weren't dreams, they weren't amorphous goals out there. We actually
             took action to do these things and as president, I have put forward 15 strategic goals
             that will make wages go up again for all American families. Universal national service
             is an option for every kid in America to cut youth employment. And I'm the only
             candidate on this stage to put forward a new agenda for America's cities so we can
             employ more people in the heart of great American cities and get them back to work. </speech>
-        <speech who="MUIR"> Governor, thank you. Secretary Clinton... [applause] As you were walking
+        <speech speaker="MUIR"> Governor, thank you. Secretary Clinton... [applause] As you were walking
             in, I was talking about the median American household getting a two percent raise over
             the last 20 years, that CEO pay in that same time frame has gone up 200 percent. So for
             those families watching tonight, how do you get them a raise if you're president? </speech>
-        <speech who="CLINTON"> Well, I've been talking to a lot of these families, and this is such
+        <speech speaker="CLINTON"> Well, I've been talking to a lot of these families, and this is such
             an outrage, both because it's bad for our economy, we're a 70 percent consumption
             economy, people need to feel optimistic and confident, they need to believe their hard
             work is going to be rewarded, and it's bad for our democracy. It's absolutely the case
@@ -858,20 +860,20 @@
             we can do in college affordability. I have debt-free tuition plans, free community
             college plans, getting student debt down. I also am very committed to getting the price
             of drugs down. And there's a lot. You can go to my website... </speech>
-        <speech who="MUIR"> Secretary... </speech>
-        <speech who="CLINTON"> ... hillaryclinton.com, and read about it. But I guess the final
+        <speech speaker="MUIR"> Secretary... </speech>
+        <speech speaker="CLINTON"> ... hillaryclinton.com, and read about it. But I guess the final
             thing that -- that I would say is this is the kind of debate we need to take to the
             Republicans in the fall. </speech>
-        <speech who="MUIR"> Secretary, thank you. [applause] </speech>
-        <speech who="CLINTON"> This is the election... </speech>
-        <speech who="MUIR"> We're going to -- we're going to... </speech>
-        <speech who="CLINTON"> ... issues they have to respond to. </speech>
-        <speech who="MUIR"> And we're going to talk about college education in a moment. But
+        <speech speaker="MUIR"> Secretary, thank you. [applause] </speech>
+        <speech speaker="CLINTON"> This is the election... </speech>
+        <speech speaker="MUIR"> We're going to -- we're going to... </speech>
+        <speech speaker="CLINTON"> ... issues they have to respond to. </speech>
+        <speech speaker="MUIR"> And we're going to talk about college education in a moment. But
             Secretary Clinton, I did want to ask you, the last time you ran for president, Fortune
             Magazine put you on its cover with the headline Business Loves Hillary, pointing out
             your support for many CEOs in corporate America. I'm curious, eight years later, should
             corporate America love Hillary Clinton? </speech>
-        <speech who="CLINTON"> Everybody should. [laughter and applause] Look, I have said I want to
+        <speech speaker="CLINTON"> Everybody should. [laughter and applause] Look, I have said I want to
             be the president for the struggling, the striving and the successful. I want to make
             sure the wealthy pay their fair share, which they have not been doing. I want the
             Buffett Rule to be in effect, where millionaires have to pay 30 percent tax rates
@@ -886,10 +888,10 @@
             because they are the kind of business leaders who understand that if we don't get the
             American economy moving and growing, we're not going to recognize our country and we're
             not going to give our kids the same opportunities that we had. </speech>
-        <speech who="MUIR"> Secretary, thank you. Senator Sanders... [applause] I want to stay on
+        <speech speaker="MUIR"> Secretary, thank you. Senator Sanders... [applause] I want to stay on
             this and ask you how big a role does corporate America play in a healthy economy and
             will corporate America love a President Sanders? </speech>
-        <speech who="SANDERS"> No, I think they won't. [laughter and applause] So Hillary and I have
+        <speech speaker="SANDERS"> No, I think they won't. [laughter and applause] So Hillary and I have
             a difference. The CEOs of large multinationals may like Hillary. They ain't going to
             like me and Wall Street is going to like me even less. [applause] And the reason for
             that is we've got to deal with the elephant in the room, which is the greed,
@@ -898,7 +900,7 @@
             the mortgages, when three out of four of them are larger today than when we bailed them
             out because they are too big to fail, we've got to re- establish Glass-Steagall, we have
             got to break the large financial institutions up. </speech>
-        <speech who="SANDERS"> So I don't think... [applause] ... having said that, I don't think
+        <speech speaker="SANDERS"> So I don't think... [applause] ... having said that, I don't think
             I'm going to get a whole lot of campaign contributions from Wall Street. I don't have a
             super PAC. I don't want campaign contributions from corporate America. And let me be
             clear While there are some great corporations creating jobs and trying to do the right
@@ -906,10 +908,10 @@
             class, the greed of Wall Street is destroying this economy and is destroying the lives
             of millions of Americans. We need an economy that works for the middle class, not just a
             handful of billionaires, and I will fight and lead to make that happen. </speech>
-        <speech who="MUIR"> Senator, thank you. I want to...[applause] [crosstalk] Governor, let me
+        <speech speaker="MUIR"> Senator, thank you. I want to...[applause] [crosstalk] Governor, let me
             just ask you, though, because it is an important question, how important a role do you
             think corporate America plays in a healthy economy here in the U.S.? </speech>
-        <speech who="O'MALLEY"> Look, I look at our economy as an ecosystem. And the fact of the
+        <speech speaker="O'MALLEY"> Look, I look at our economy as an ecosystem. And the fact of the
             matter is that the more fully people participate, the more our workers earn, the more
             they will spend, the more our economy will grow. And most heads of businesses -- large,
             medium and small -- understand that. But there is a better way forward than either of
@@ -931,19 +933,19 @@
             Glass- Steagall, like we had in late 1999, before it was repealed and led to the crash,
             where so many millions of families lost their jobs and their homes. And I was on the
             front lines of that, looking into the eyes of my neighbors... </speech>
-        <speech who="CLINTON"> OK... </speech>
-        <speech who="MUIR"> Governor O'Malley, thank you. [crosstalk] I do want to ask you,
+        <speech speaker="CLINTON"> OK... </speech>
+        <speech speaker="MUIR"> Governor O'Malley, thank you. [crosstalk] I do want to ask you,
             Secretary Clinton. Let me just ask you... </speech>
-        <speech who="CLINTON"> Let me respond... </speech>
-        <speech who="MUIR"> We did -- we did -- Secretary Clinton, let me just ask you...
+        <speech speaker="CLINTON"> Let me respond... </speech>
+        <speech speaker="MUIR"> We did -- we did -- Secretary Clinton, let me just ask you...
             [crosstalk] </speech>
-        <speech who="CLINTON"> Under the rules, I have been -- I have been invoked, David, so let me
+        <speech speaker="CLINTON"> Under the rules, I have been -- I have been invoked, David, so let me
             respond very quickly. Number one... </speech>
-        <speech who="MUIR"> And in particular... [crosstalk] </speech>
-        <speech who="CLINTON"> Number one, there are currently two hedge fund billionaires running
+        <speech speaker="MUIR"> And in particular... [crosstalk] </speech>
+        <speech speaker="CLINTON"> Number one, there are currently two hedge fund billionaires running
             ads against me here in New Hampshire. They started in Iowa. Now, you'd have to ask
             yourself, why are they running ads against me? And the answer </speech>
-        <speech who="is"> Because they know I will go right after them, that I will not let their
+        <speech speaker="is"> Because they know I will go right after them, that I will not let their
             agenda be America's agenda. Secondly, I think it's important to point out that about 3
             percent of my donations come from people in the finance and investment world. You can go
             to opensecrets.org and check that. I have more donations from students and teachers than
@@ -958,15 +960,15 @@
             derivatives, which actually contributed to the collapse of Lehman Brothers, and that was
             Senator Sanders. So if we're going to be talking like this, we can -- and maybe we can
             score some political points -- but the fact </speech>
-        <speech who="is"> Every one of us stands for the kind of economy that will work better for
+        <speech speaker="is"> Every one of us stands for the kind of economy that will work better for
             every American. And if that means taking on Wall Street, I have a plan that is tough and
             comprehensive and praised by a lot of folks who say it goes further than what both
             Senator Sanders and Governor O'Malley are proposing. </speech>
-        <speech who="SANDERS"> Let me just -- let me just... </speech>
-        <speech who="MUIR"> Secretary Clinton, thank you. </speech>
-        <speech who="SANDERS"> Let me just jump in. My name was invoked. </speech>
-        <speech who="MUIR"> Senator? </speech>
-        <speech who="SANDERS"> So with that invocation, let me say a few words. [laughter] Secretary
+        <speech speaker="SANDERS"> Let me just -- let me just... </speech>
+        <speech speaker="MUIR"> Secretary Clinton, thank you. </speech>
+        <speech speaker="SANDERS"> Let me just jump in. My name was invoked. </speech>
+        <speech speaker="MUIR"> Senator? </speech>
+        <speech speaker="SANDERS"> So with that invocation, let me say a few words. [laughter] Secretary
             Clinton, I don't have a super PAC. I don't get any money from Wall Street. You have
             gotten a whole lot of money over the years from Wall Street. But most importantly, when
             you look at what happened in the 1990s, go to berniesanders.com. I'll advertise my Web
@@ -980,18 +982,18 @@
             anti-monopoly activities. Wall Street today has too much political power. It has too
             much economic power. To get deregulated -- listen to this, they spent $5 billion in
             lobbying and campaign contributions over a 10-year period. </speech>
-        <speech who="MUIR"> Senator Sanders... </speech>
-        <speech who="SANDERS"> Wall Street is a threat to the economy. They've got to be broken up.
+        <speech speaker="MUIR"> Senator Sanders... </speech>
+        <speech speaker="SANDERS"> Wall Street is a threat to the economy. They've got to be broken up.
             [applause] </speech>
-        <speech who="MUIR"> Thank you, Senator. </speech>
-        <speech who="RADDATZ"> And we're going to move on to health care. Secretary Clinton, the
+        <speech speaker="MUIR"> Thank you, Senator. </speech>
+        <speech speaker="RADDATZ"> And we're going to move on to health care. Secretary Clinton, the
             Department of Health and Human Services says more than 17 million Americans who are not
             insured now have health coverage because of Obamacare. But for Americans who already had
             health insurance the cost has gone up 27 percent in the last five years while
             deductibles are up 67 percent, health care costs are rising faster than many Americans
             can manage. What's broken in Obamacare that needs to be fixed right now? And what would
             you do to fix it? </speech>
-        <speech who="CLINTON"> Well, I would certainly build on the successes of the Affordable Care
+        <speech speaker="CLINTON"> Well, I would certainly build on the successes of the Affordable Care
             Act and work to fix some of the glitches that you just referenced. Number one, we do
             have more people who have access to health care. We have ended the terrible situation
             that people with pre- existing conditions were faced with where they couldn't find at
@@ -1009,13 +1011,13 @@
             through and analyzing the points you were making, Martha. We don't have enough
             competition and we don't have enough oversight of what the insurance companies are
             charging everybody right now. [crosstalk] </speech>
-        <speech who="RADDATZ"> But you did say those were glitches. </speech>
-        <speech who="CLINTON"> Yes. </speech>
-        <speech who="RADDATZ"> Just glitches? </speech>
-        <speech who="CLINTON"> Well, they're glitches because... </speech>
-        <speech who="RADDATZ"> Twenty-seven percent in the last five years, deductibles up 67
+        <speech speaker="RADDATZ"> But you did say those were glitches. </speech>
+        <speech speaker="CLINTON"> Yes. </speech>
+        <speech speaker="RADDATZ"> Just glitches? </speech>
+        <speech speaker="CLINTON"> Well, they're glitches because... </speech>
+        <speech speaker="RADDATZ"> Twenty-seven percent in the last five years, deductibles up 67
             percent? </speech>
-        <speech who="CLINTON"> It is. Because part of this is the startup challenges that this
+        <speech speaker="CLINTON"> It is. Because part of this is the startup challenges that this
             system is facing. We have fought, as Democrats, for decades to get a health care plan. I
             know. I've got the scars to show from the effort back in the early '90s. We want to
             build on it and fix it. And I'm confident we can do that. And it will have effects in
@@ -1024,13 +1026,13 @@
             still going to get health care, thankfully, in emergency rooms, in hospitals. Those
             costs are then added to the overall cost, which does increase the insurance premiums for
             people in the private system. [crosstalk] </speech>
-        <speech who="RADDATZ"> Senator Sanders, I want you to respond to what she was saying, but
+        <speech speaker="RADDATZ"> Senator Sanders, I want you to respond to what she was saying, but
             you're instead calling for single-payer health care. </speech>
-        <speech who="SANDERS"> Yes, exactly, exactly. </speech>
-        <speech who="RADDATZ"> You note people won't have to pay deductibles or premiums but they
+        <speech speaker="SANDERS"> Yes, exactly, exactly. </speech>
+        <speech speaker="RADDATZ"> You note people won't have to pay deductibles or premiums but they
             will have to pay new taxes. Can you tell us specifically how much people will be
             expected to pay? </speech>
-        <speech who="SANDERS"> Yes, well, roughly. Let me say this. As a member of the Health
+        <speech speaker="SANDERS"> Yes, well, roughly. Let me say this. As a member of the Health
             Education Committee that helped write the Affordable Care Act, much of what Secretary
             Clinton said about what we have done, among other things, ending the obscenity of this
             pre-existing situation is a step forward. Seventeen more million more people have health
@@ -1040,41 +1042,41 @@
             care. Here is the bottom line. Why is it that the United States of America today is the
             only major country on earth that does not guarantee health care to all people as a
             right? Why is it... [applause] </speech>
-        <speech who="SANDERS"> Why is it that we are -- why is it that we spend almost three times
+        <speech speaker="SANDERS"> Why is it that we are -- why is it that we spend almost three times
             per capita as to what they spend in the U.K., 50 percent more than what they pay in
             France, countries that guarantee health care to all of their people and in many cases,
             have better health care outcomes. Bottom line. This ties into campaign finance reform.
             The insurance companies, the drug companies are bribing the United States Congress. We
             need to pass a Medicare for all single payer system. It will lower the cost of health
             care for a middle-class family by thousands of dollars a year. </speech>
-        <speech who="RADDATZ"> Senator Sanders, you didn't really tell us specifically how much
+        <speech speaker="RADDATZ"> Senator Sanders, you didn't really tell us specifically how much
             people will be expected to pay... </speech>
-        <speech who="SANDERS"> But they will not be paying, Martha, any private insurance. So it's
+        <speech speaker="SANDERS"> But they will not be paying, Martha, any private insurance. So it's
             unfair to say in total... </speech>
-        <speech who="RADDATZ"> But you can't tell us this specifically, even if you were... </speech>
-        <speech who="SANDERS"> I can tell you that adding up the fact you're not paying any private
+        <speech speaker="RADDATZ"> But you can't tell us this specifically, even if you were... </speech>
+        <speech speaker="SANDERS"> I can tell you that adding up the fact you're not paying any private
             insurance, businesses are not paying any private insurance. The average middle-class
             family will be saving thousands of dollars a year. </speech>
-        <speech who="RADDATZ"> OK. Let's go to talk about the high cost of college education and for
+        <speech speaker="RADDATZ"> OK. Let's go to talk about the high cost of college education and for
             that we turn to the executive director of the New Hampshire Institute of Politics, right
             here at Saint Anselm college, Neil Levesque. Neil? </speech>
-        <speech who="LEVESQUE"> Here to New Hampshire again. As you know, this auditorium is filled
+        <speech speaker="LEVESQUE"> Here to New Hampshire again. As you know, this auditorium is filled
             with many Saint Anselm college students. They know the outstanding student debt right
             now in America is $1.3 trillion. That private education costs have gone up in the last
             decade 26 percent, and 40 percent for public education. So knowing that, we know you
             want to make public education more affordable but how do you really lower the cost?
             Senator Sanders, you mentioned a few minutes ago that you want free tuition for public
             colleges. </speech>
-        <speech who="SANDERS"> And universities. </speech>
-        <speech who="LEVESQUE"> How does that really lower the cost other than just shifting the
+        <speech speaker="SANDERS"> And universities. </speech>
+        <speech speaker="LEVESQUE"> How does that really lower the cost other than just shifting the
             cost to taxpayers? </speech>
-        <speech who="SANDERS"> Well, Neil, I think we've got to work on a two-pronged approach. And
+        <speech speaker="SANDERS"> Well, Neil, I think we've got to work on a two-pronged approach. And
             your point is absolutely well taken. The cost of college education is escalating a lot
             faster than the cost of inflation. There are a lot of factors involved in that. And that
             is that we have some colleges and universities that are spending a huge amount of money
             on fancy dormitories and on giant football stadiums. Maybe we should focus on quality
             education with well-paid faculty members. But... [applause] </speech>
-        <speech who="SANDERS"> And I understand in many universities a heck of a lot of vice
+        <speech speaker="SANDERS"> And I understand in many universities a heck of a lot of vice
             presidents who earn a big salary. But, bottom line is this is the year 2015. If we are
             going to be competitive in the global economy we need the best educated workforce. It is
             insane to my mind, hundreds of thousands of young people today, bright qualified people,
@@ -1087,9 +1089,9 @@
             sense is that? So I think we need radical changes in the funding of higher education. We
             should look at college today the way high school was looked at 60 years ago. All young
             people who have the ability should be able to get a college education. [applause] </speech>
-        <speech who="LEVESQUE"> Governor O'Malley, how do you propose -- Governor O'Malley, how do
+        <speech speaker="LEVESQUE"> Governor O'Malley, how do you propose -- Governor O'Malley, how do
             you propose lowering some of these costs associated with higher education? </speech>
-        <speech who="O'MALLEY"> Yes, this one falls under the category of, I have actually done
+        <speech speaker="O'MALLEY"> Yes, this one falls under the category of, I have actually done
             this. As a governor we actually made the greater investments so that we could go four
             years in a row without a penny's increase to college tuition. My plan actually goes
             further than Senator Sanders because a big chunk of the cost is actually room and board
@@ -1110,11 +1112,11 @@
             to incorporate into hers. And in our party, unlike the Republican party, we actually
             believe that the more our people learn, the more they will earn and higher education
             should be a right for every kid. </speech>
-        <speech who="MUIR"> Secretary Clinton. </speech>
-        <speech who="CLINTON"> Right. </speech>
-        <speech who="MCELVEEN"> Secretary Clinton, how does your plan differentiate from your
+        <speech speaker="MUIR"> Secretary Clinton. </speech>
+        <speech speaker="CLINTON"> Right. </speech>
+        <speech speaker="MCELVEEN"> Secretary Clinton, how does your plan differentiate from your
             opponents? </speech>
-        <speech who="CLINTON"> Well, I have what I call the new college compact. Because I think
+        <speech speaker="CLINTON"> Well, I have what I call the new college compact. Because I think
             everybody has to have some skin in this game, you know. Number one, States have been
             dis-investing in higher education. In fact, I think New Hampshire, in state tuition for
             public colleges and universities, is among the highest if not the highest in the
@@ -1136,49 +1138,49 @@
             the states run. And I think we've got to be really thoughtful about how we're going to
             afford what we proposed, which is why everything that I have proposed I will tell you
             exactly how I'm going to pay for it; including college. </speech>
-        <speech who="MCELVEEN"> Thank you Secretary Clinton, thank you. </speech>
-        <speech who="SANDERS"> May I respond to the critique on the ... </speech>
-        <speech who="MCELVEEN"> Back to you David. </speech>
-        <speech who="MUIR"> We're going to get right into this Senator but I want to ask about taxes
+        <speech speaker="MCELVEEN"> Thank you Secretary Clinton, thank you. </speech>
+        <speech speaker="SANDERS"> May I respond to the critique on the ... </speech>
+        <speech speaker="MCELVEEN"> Back to you David. </speech>
+        <speech speaker="MUIR"> We're going to get right into this Senator but I want to ask about taxes
             next. This is included. </speech>
-        <speech who="SANDERS"> I would just... </speech>
-        <speech who="MUIR"> She was asking about that... </speech>
-        <speech who="SANDERS"> But Secretary Clinton is wrong. As you know, because I know you know
+        <speech speaker="SANDERS"> I would just... </speech>
+        <speech speaker="MUIR"> She was asking about that... </speech>
+        <speech speaker="SANDERS"> But Secretary Clinton is wrong. As you know, because I know you know
             a lot about health care. You know that the United States per capita pays far and away
             more than other country. And it is unfair simply to say how much more the program will
             cost without making sure that people know that, we are doing away with cost of private
             insurance and that the middle class will be paying substantially less for health care on
             the single payer than on the Secretary's Clinton proposal. </speech>
-        <speech who="CLINTON"> Well, the only thing - the only thing I can go on Senator Sanders... </speech>
-        <speech who="MUIR"> Are we back on health care - Secretary Clinton hold one moment. Senator
+        <speech speaker="CLINTON"> Well, the only thing - the only thing I can go on Senator Sanders... </speech>
+        <speech speaker="MUIR"> Are we back on health care - Secretary Clinton hold one moment. Senator
             Sanders... [crosstalk] </speech>
-        <speech who="CLINTON"> Your proposal is to go and send the health care system to the state. </speech>
-        <speech who="MUIR"> Secretary Clinton, please. </speech>
-        <speech who="CLINTON"> And my analysis is that you are going to get more taxes out of middle
+        <speech speaker="CLINTON"> Your proposal is to go and send the health care system to the state. </speech>
+        <speech speaker="MUIR"> Secretary Clinton, please. </speech>
+        <speech speaker="CLINTON"> And my analysis is that you are going to get more taxes out of middle
             class families. I'm the only person... </speech>
-        <speech who="MUIR"> So let's ask about it. Secretary Clinton, let's turn to the taxes. </speech>
-        <speech who="CLINTON"> ... saying, no middle class tax raises. That's off the table... </speech>
-        <speech who="MUIR"> This is where we are going next, we are going next to taxes here... </speech>
-        <speech who="SANDERS"> Now, this is getting to be fun. </speech>
-        <speech who="MUIR"> This is fun. applause]This is democracy at work. Secretary Clinton, let
+        <speech speaker="MUIR"> So let's ask about it. Secretary Clinton, let's turn to the taxes. </speech>
+        <speech speaker="CLINTON"> ... saying, no middle class tax raises. That's off the table... </speech>
+        <speech speaker="MUIR"> This is where we are going next, we are going next to taxes here... </speech>
+        <speech speaker="SANDERS"> Now, this is getting to be fun. </speech>
+        <speech speaker="MUIR"> This is fun. applause]This is democracy at work. Secretary Clinton, let
             me ask you about your tax plan because from the crushing cost of college education, the
             next question most families have; is will my taxes go up under the next president? You
             have said it's your goal not to raise taxes on families making under $200,000 a year a
             goal. But can you say that's a promise as you stand here tonight? </speech>
-        <speech who="CLINTON"> That is a pledge that I'm making. I made it when I ran in 2008. </speech>
-        <speech who="MUIR"> A promise? </speech>
-        <speech who="CLINTON"> Yes, and it was the same one that President Obama made. Because I
+        <speech speaker="CLINTON"> That is a pledge that I'm making. I made it when I ran in 2008. </speech>
+        <speech speaker="MUIR"> A promise? </speech>
+        <speech speaker="CLINTON"> Yes, and it was the same one that President Obama made. Because I
             don't think we should be imposing new big programs that are going to raise middle class
             families' taxes. We just heard that most families haven't had a wage increase since
             2001. Since, you know, the end of the last Clinton administration when incomes did go up
             for everybody. And we've got to get back to where people can save money again, where
             they can invest in their families, and I don't think a middle-class tax should be part
             of anybody's plan right now. </speech>
-        <speech who="SANDERS"> Let me respond to... [applause] </speech>
-        <speech who="MUIR"> Secretary Clinton... </speech>
-        <speech who="SANDERS"> Let me respond to... </speech>
-        <speech who="MUIR"> Please. </speech>
-        <speech who="SANDERS"> Number one, most important economic reality of today is that over the
+        <speech speaker="SANDERS"> Let me respond to... [applause] </speech>
+        <speech speaker="MUIR"> Secretary Clinton... </speech>
+        <speech speaker="SANDERS"> Let me respond to... </speech>
+        <speech speaker="MUIR"> Please. </speech>
+        <speech speaker="SANDERS"> Number one, most important economic reality of today is that over the
             last 30 years, there has been a transfer of trillions of dollars from the middle class
             to the top one-tenth of one percent who are seeing a doubling of the percentage of
             wealth that they own. Now, when Secretary Clinton says, "I'm not going raise taxes on
@@ -1190,24 +1192,24 @@
             the middle class. It will provide three months paid family and medical leave for the
             working families of this country. I think, Secretary Clinton, $1.61 a week is a pretty
             good investment. </speech>
-        <speech who="MUIR"> Senator, thank you. Let me bring in Governor O'Malley... </speech>
-        <speech who="CLINTON"> Senator, I have been -- I have been fighting for paid... </speech>
-        <speech who="MUIR"> You've heard... </speech>
-        <speech who="CLINTON"> ... family leave for a very long time... </speech>
-        <speech who="MUIR"> Secretary Clinton. </speech>
-        <speech who="SANDERS"> David, thank you. </speech>
-        <speech who="CLINTON"> I have a way to pay for it that actually makes the wealthiest pay for
+        <speech speaker="MUIR"> Senator, thank you. Let me bring in Governor O'Malley... </speech>
+        <speech speaker="CLINTON"> Senator, I have been -- I have been fighting for paid... </speech>
+        <speech speaker="MUIR"> You've heard... </speech>
+        <speech speaker="CLINTON"> ... family leave for a very long time... </speech>
+        <speech speaker="MUIR"> Secretary Clinton. </speech>
+        <speech speaker="SANDERS"> David, thank you. </speech>
+        <speech speaker="CLINTON"> I have a way to pay for it that actually makes the wealthiest pay for
             it... </speech>
-        <speech who="SANDERS"> Then (inaudible)... </speech>
-        <speech who="CLINTON"> ... not everybody else. </speech>
-        <speech who="SANDERS"> Every (inaudible) Democrat and senator in support of this proposal
+        <speech speaker="SANDERS"> Then (inaudible)... </speech>
+        <speech speaker="CLINTON"> ... not everybody else. </speech>
+        <speech speaker="SANDERS"> Every (inaudible) Democrat and senator in support of this proposal
             introduced by your good friend and my good friend, Kirsten Gillibrand, Rosa DeLauro,
             that is the legislation out there that will finally provide family and medical leave. </speech>
-        <speech who="MUIR"> Thank you. I want to bring in Governor O'Malley on this. We heard the
+        <speech speaker="MUIR"> Thank you. I want to bring in Governor O'Malley on this. We heard the
             promise from Secretary Clinton because people want to know about their taxes, will they
             go up. She has now promised here tonight not to raise them on families making $250,000
             or less. Can you make that same promise if you're elected? </speech>
-        <speech who="O'MALLEY"> No, I've never made a promise like that. But unlike either of these
+        <speech speaker="O'MALLEY"> No, I've never made a promise like that. But unlike either of these
             two fine people, I've actually balanced a budget every single year. I was one -- I was
             the only -- one of only seven states that had a AAA bond rating. By the time I left, the
             average tax burden on Maryland families was the same as when I started. But I did pass a
@@ -1226,20 +1228,20 @@
             unemployment in half, investing in our cities again. So the things I have done in office
             are the things that actually invest in growing our economy and making wages go up.
             That's the issue that we need to tackle as Americans, and we can do it and we know how. </speech>
-        <speech who="MUIR"> Governor O'Malley, thank you. A spirited debate on taxes. And there will
+        <speech speaker="MUIR"> Governor O'Malley, thank you. A spirited debate on taxes. And there will
             be more with the Democratic debate in New Hampshire, when we come back right here on
             ABC. More in a moment. [COMMERCIAL BREAK] </speech>
-        <speech who="MUIR"> Welcome back tonight to New Hampshire. The Democratic debate continues
+        <speech speaker="MUIR"> Welcome back tonight to New Hampshire. The Democratic debate continues
             here on ABC. And Secretary Clinton, we want to turn to race, now, in America. There is a
             real concern in this country from Black Lives Matter and from other community groups
             that we're just now seeing, with smartphones and cell phones, what many have been
             dealing with for years when they come in contact with police. But you also have many in
             law enforcement who now say there has been a so-called Ferguson effect, police holding
             back because they're afraid of backlash. </speech>
-        <speech who="MUIR"> In fact, the FBI director is calling it a chill wind blowing through
+        <speech speaker="MUIR"> In fact, the FBI director is calling it a chill wind blowing through
             American law enforcement. So, if elected president, how would you bridge the divide
             between the two? </speech>
-        <speech who="CLINTON"> Well, David, I think this is one of the most important challenges
+        <speech speaker="CLINTON"> Well, David, I think this is one of the most important challenges
             facing not just our next president but our country. We have systemic racism and
             injustice and inequities in our country and in particular, in our justice system that
             must be addressed and must be ended. I feel very strongly that we have to reform our
@@ -1256,9 +1258,9 @@
             the immediate problems within the criminal justice system, but more opportunities, more
             jobs, better education so that we can begin to rebuild that very valuable asset known as
             trust. </speech>
-        <speech who="MUIR"> Secretary, thank you. [applause] </speech>
-        <speech who="MUIR"> Governor O'Malley, how would you bridge the divide? </speech>
-        <speech who="O'MALLEY"> There is no issue in American public policy that I have worked on
+        <speech speaker="MUIR"> Secretary, thank you. [applause] </speech>
+        <speech speaker="MUIR"> Governor O'Malley, how would you bridge the divide? </speech>
+        <speech speaker="O'MALLEY"> There is no issue in American public policy that I have worked on
             more day in and day out than this painful issue of policing, of law enforcement,
             criminal justice and race in America. When I ran in 1999, David, for mayor of Baltimore,
             our city by that year had become the most addicted, violent, and abandoned in America.
@@ -1278,10 +1280,10 @@
             require police departments to report their discourtesy, brutality, excessive force.
             There's so much work that can be done, so much we've learned to do better. We need to do
             it now as a nation. This is our time and our opportunity to do that. </speech>
-        <speech who="MUIR"> Governor, thank you. [applause] And Senator Sanders, when you hear the
+        <speech speaker="MUIR"> Governor, thank you. [applause] And Senator Sanders, when you hear the
             FBI director calling it a chill wind blowing through American law enforcement, does that
             concern you as well when you -- </speech>
-        <speech who="SANDERS"> Well, this whole issue concerns me. And I agree with much of what the
+        <speech speaker="SANDERS"> Well, this whole issue concerns me. And I agree with much of what the
             secretary and the governor have said. But let's be clear. Today in America we have more
             people in jail than any other country on earth, 2.2 million people. Predominantly
             African-American and Hispanic. We are spending $80 billion a year locking up our fellow
@@ -1290,10 +1292,10 @@
             reforms of a very broken criminal justice system. Now, what does that mean? Well, for a
             start it means that police officers should not be shooting unarmed people, predominantly
             African-Americans. [applause] </speech>
-        <speech who="SANDERS"> It means that we have to rethink the so-called war on drugs which has
+        <speech speaker="SANDERS"> It means that we have to rethink the so-called war on drugs which has
             destroyed the lives of millions of people, which is why I have taken marijuana out of
             the Controlled Substance Act. So that it will not be a federal crime. </speech>
-        <speech who="SANDERS"> That is why we need to make... [applause] That is why we need to make
+        <speech speaker="SANDERS"> That is why we need to make... [applause] That is why we need to make
             police -- and I speak as a former mayor. I was a mayor for eight years, worked very
             closely with a great police department. And what we did is try to move that department
             toward community policing, so that the police officers become part of the community and
@@ -1301,17 +1303,17 @@
             look like the communities they serve in terms of diversity. We need to end minimal
             sentencing. We need, basically, to pledge that we're going to invest in this country, in
             jobs and education, not more jails and incarceration. [applause] </speech>
-        <speech who="MUIR"> Senator, thank you. We want to turn now to an issue. This next issue has
+        <speech speaker="MUIR"> Senator, thank you. We want to turn now to an issue. This next issue has
             destroyed so many families across the country, and in particular right here in New
             Hampshire, heroin. And there's a stunning new figure out. A recent poll -- 48 percent
             here, in this state alone, say they know someone who has abused heroin. We're going to
             turn tonight to Dan Tuohy of the New Hampshire Union Leader who has this question. </speech>
-        <speech who="QUESTION"> New Hampshire has been hard hit by the heroin epidemic, and we're on
+        <speech speaker="QUESTION"> New Hampshire has been hard hit by the heroin epidemic, and we're on
             track to have twice as many overdose deaths this year as in 2013. What specifically
             would you do to address this crisis? </speech>
-        <speech who="MUIR"> Senator Sanders, I'm going to take this to you first because you've seen
+        <speech speaker="MUIR"> Senator Sanders, I'm going to take this to you first because you've seen
             what's happened with heroin right on the border in your own state. </speech>
-        <speech who="SANDERS"> Yes. Look, this is a tragedy for New Hampshire. It is a tragedy for
+        <speech speaker="SANDERS"> Yes. Look, this is a tragedy for New Hampshire. It is a tragedy for
             my state of Vermont. It is a tragedy all over this country. The number of heroin deaths
             are growing very, very significantly. What do we do? Well, for a start, this may seem
             like a radical idea, but I think we have got to tell the medical profession and doctors
@@ -1325,8 +1327,8 @@
             should not have to wait three, four months in order to get that help. They should be
             able to walk in the door tomorrow and get a variety of treatments that work for them. So
             those are some of the areas that I think we've got to move on. </speech>
-        <speech who="MUIR"> Senator, thank you. Secretary Clinton? </speech>
-        <speech who="CLINTON"> You know, on my very first visit to New Hampshire in this campaign, I
+        <speech speaker="MUIR"> Senator, thank you. Secretary Clinton? </speech>
+        <speech speaker="CLINTON"> You know, on my very first visit to New Hampshire in this campaign, I
             was in Keene, and I was asked, "what are you going to do about the heroin epidemic?" And
             all over New Hampshire, I met grandmothers who are raising children because they lost
             the father or the mother to an overdose. I met young people who are desperately trying
@@ -1346,13 +1348,13 @@
             help, there's a place for them to go. And every law enforcement should carry the
             antidote to overdose, Naloxone, so that they can save lives that are on the brink of
             expiring. </speech>
-        <speech who="MUIR"> Secretary, thank you. </speech>
-        <speech who="O'MALLEY"> And you know, I actually know a great deal about this issue. And I
+        <speech speaker="MUIR"> Secretary, thank you. </speech>
+        <speech speaker="O'MALLEY"> And you know, I actually know a great deal about this issue. And I
             have a dear friend, played music with him for years, remember when his -- when he came
             home with his baby girl, and now she's no longer with us, because of addiction and
             overdose. The last time in New Hampshire, I had to take a break shortly after landing
             and call home and comfort a friend whose mother had died of an overdose. </speech>
-        <speech who="O'MALLEY"> Drugs have taken far too many of our citizens. It's a huge public
+        <speech speaker="O'MALLEY"> Drugs have taken far too many of our citizens. It's a huge public
             health challenge. In our own city, I mentioned before, we had become the most addicted
             city in America. But together, every single year, I expanded drug treatment funding
             within our city and then I expanded it in our state, and we were saving lives every
@@ -1370,14 +1372,14 @@
             pills, and yet, we refuse to act. There are thing that can be done. Go on to my website.
             My plan is there. It's one of 15 strategic goals I've set out to make our country a
             better place by cutting these sort of deaths in half in the next five years. </speech>
-        <speech who="MUIR"> Governor O'Malley, thank you. Martha? [applause] </speech>
-        <speech who="RADDATZ"> Secretary Clinton, I want to circle back to something that your
+        <speech speaker="MUIR"> Governor O'Malley, thank you. Martha? [applause] </speech>
+        <speech speaker="RADDATZ"> Secretary Clinton, I want to circle back to something that your
             opponents here have brought up. Libya is falling apart. The country is a haven for ISIS
             and jihadists with an estimated 2,000 ISIS fighters there today. You advocated for that
             2011 intervention and called it smart power at its best. And yet, even President Obama
             said the U.S. should have done more to fill the leadership vacuum left behind. How much
             responsibility do you bear for the chaos that followed elections? </speech>
-        <speech who="CLINTON"> Well, first, let's remember why we became part of a coalition to stop
+        <speech speaker="CLINTON"> Well, first, let's remember why we became part of a coalition to stop
             Gadhafi from committing massacres against his people. The United States was asked to
             support the Europeans and the Arab partners that we had and we did a lot of due
             diligence about whether we should or not, and eventually, yes, I recommended and the
@@ -1394,12 +1396,12 @@
             because the Libyans themselves had very strong feelings about what they wished to
             accept. But we're always looking for ways about what more we can do to try to give
             people a chance to be successful. </speech>
-        <speech who="RADDATZ"> Secretary Clinton, I want to go back. That -- government lacked
+        <speech speaker="RADDATZ"> Secretary Clinton, I want to go back. That -- government lacked
             institutions and experience. It had been a family business for 40 years. On the security
             side, we offered only a modest training effort and a very limited arms buy-back program.
             Let me ask you the question again. How much responsibility do you bear for the chaos
             that followed those elections? </speech>
-        <speech who="CLINTON"> Martha, we offered a lot more than they were willing to take. We
+        <speech speaker="CLINTON"> Martha, we offered a lot more than they were willing to take. We
             offered a lot more. We also got rid of their chemical weapons, which was a big help, and
             we also went after a lot of the shoulder-fired missiles to round them up. You know, we
             can't -- if we're not going to send American troops, which there was never any idea of
@@ -1410,14 +1412,14 @@
             do and it turned out that they were no match for some of the, you know, militaristic
             forces inside that country. But I'm not giving up on Libya and I don't think anybody
             should. We've been at this a couple of years. </speech>
-        <speech who="RADDATZ"> But were mistakes made? </speech>
-        <speech who="CLINTON"> Well, there's always a retrospective to say what mistakes were made.
+        <speech speaker="RADDATZ"> But were mistakes made? </speech>
+        <speech speaker="CLINTON"> Well, there's always a retrospective to say what mistakes were made.
             But I know that we offered a lot of help and I know it was difficult for the Libyans to
             accept help. What we could have done if they had said yes would have been a lot more
             than what we were able to have done. </speech>
-        <speech who="SANDERS"> But what... </speech>
-        <speech who="RADDATZ"> Senator Sanders. </speech>
-        <speech who="SANDERS"> Look, the secretary is right. This is a terribly complicated issue.
+        <speech speaker="SANDERS"> But what... </speech>
+        <speech speaker="RADDATZ"> Senator Sanders. </speech>
+        <speech speaker="SANDERS"> Look, the secretary is right. This is a terribly complicated issue.
             There are no simple solutions. But where we have a disagreement is that I think if you
             look at the history of regime changes, you go back to Mossadegh in Iran, you go back to
             Salvador Allende who we overthrew in Chile, you go back to overthrowing Saddam Hussein
@@ -1427,10 +1429,10 @@
             the instability that follows after you overthrow that dictator. So I think Secretary
             Clinton and I have a fundamental disagreement. I'm not quite the fan of regime change
             that I believe she is. </speech>
-        <speech who="O'MALLEY"> Martha -- I would just repeat that -- </speech>
-        <speech who="CLINTON"> Well, I would just repeat that. </speech>
-        <speech who="RADDATZ"> Secretary Clinton. </speech>
-        <speech who="CLINTON"> Wait a minute. I think it's only fair to put on the record, Senator
+        <speech speaker="O'MALLEY"> Martha -- I would just repeat that -- </speech>
+        <speech speaker="CLINTON"> Well, I would just repeat that. </speech>
+        <speech speaker="RADDATZ"> Secretary Clinton. </speech>
+        <speech speaker="CLINTON"> Wait a minute. I think it's only fair to put on the record, Senator
             Sanders voted in the Senate for a resolution calling for ending the Gadhafi regime and
             asking that the U.N. be brought in, either a congressional vote or a U.N. Security
             Council vote. We got a U.N. Security council vote. Now, I understand that this is very
@@ -1440,9 +1442,9 @@
             where the United States has tried to play two different approaches. One, work with the
             tough men, the dictators, for our own benefit and promote democracy. That's a hard road
             to walk. But I think it's the right road for us to try to travel. </speech>
-        <speech who="O'MALLEY"> And Martha... </speech>
-        <speech who="RADDATZ"> Quick Governor O'Malley. </speech>
-        <speech who="O'MALLEY"> ... and in this case, we probably let our lust for regime toppling
+        <speech speaker="O'MALLEY"> And Martha... </speech>
+        <speech speaker="RADDATZ"> Quick Governor O'Malley. </speech>
+        <speech speaker="O'MALLEY"> ... and in this case, we probably let our lust for regime toppling
             get ahead of the practical considerations for stability in that region. And I believe
             that one of the big failings in that region is a lack of human intelligence. We have not
             made the investments that we need to make to understand and to have relationships with
@@ -1452,7 +1454,7 @@
             potentially the next safe haven for ISIL. They go back and forth between Syria and this
             region. We have to stop contributing to the creation of vacuums that allow safe havens
             to develop. </speech>
-        <speech who="RADDATZ"> Thank you very much. Thank you. We're going to move on here. Governor
+        <speech speaker="RADDATZ"> Thank you very much. Thank you. We're going to move on here. Governor
             O'Malley, thank you very much for that. And we're going to make a very sharp turn as we
             wrap things up here. Secretary Clinton, first ladies, as you well know, have used their
             position to work on important causes like literacy and drug abuse. But they also
@@ -1460,7 +1462,7 @@
             you think you know where I'm going here. You have said that Bill Clinton is a great host
             and loves giving tours but may opt out of picking flower arrangements if you're elected.
             Bill Clinton aside, is it time to change the role of a president's spouse? </speech>
-        <speech who="CLINTON"> Well, the role has been defined by each person who's held it. And I
+        <speech speaker="CLINTON"> Well, the role has been defined by each person who's held it. And I
             am very grateful for all my predecessors and my successors because each of them not only
             did what she could to support her husband and our country but often chose to work on
             important issues that were of particular concern. Obviously, Mrs. Obama has been a
@@ -1472,11 +1474,11 @@
             that. But I will certainly turn to him as prior presidents have for special missions,
             for advice, and in particular, how we're going to get the economy working again for
             everybody, which he knows a little bit about. </speech>
-        <speech who="MUIR"> I do want to follow up here for each of you. And a similar line of
+        <speech speaker="MUIR"> I do want to follow up here for each of you. And a similar line of
             questioning. Senator Sanders, your wife Jane shares an office at your campaign
             headquarters in Burlington. We've seen the pictures, the desks right next to each other.
             Would she have a desk close by in the west wing? </speech>
-        <speech who="SANDERS"> Given the fact that she's a lot smarter than me, yes, she would.
+        <speech speaker="SANDERS"> Given the fact that she's a lot smarter than me, yes, she would.
             [laughter] And let me, by the way, take this moment to congratulate Hillary Clinton, who
             I thought not only did an outstanding job as our first lady, but redefined what that
             role could be. So, I thank you very much for that. [laughter] My wife, Jane, has been --
@@ -1492,11 +1494,11 @@
             for the children, for teenagers, for the little children, to deal with the dysfunctional
             child care system, and I think my wife would do a great job in helping me accomplish
             those goals. </speech>
-        <speech who="MUIR"> Senator, thank you. Governor O'Malley -- Governor O'Malley, you have
+        <speech speaker="MUIR"> Senator, thank you. Governor O'Malley -- Governor O'Malley, you have
             talked about your wife, Katie, here tonight. She's a district court judge. And the
             question for you is, would she have to give that up as first lady, or will she share an
             office in the west wing as well? </speech>
-        <speech who="O'MALLEY"> Well, that would be totally up to her. I mean, Katie has never been
+        <speech speaker="O'MALLEY"> Well, that would be totally up to her. I mean, Katie has never been
             a person who let her husband's professional choices get in the way of following her
             dreams. And I think she got that from her mother, actually. [applause] The -- and I
             readily admit that she is a far more accomplished lawyer than I was ever able to become,
@@ -1509,15 +1511,15 @@
             implementing anti-bullying things. So Katie O'Malley will do whatever Katie O'Malley
             wants to do, regardless of her husband's success in getting elected president.
             [applause] </speech>
-        <speech who="MUIR"> Governor O'Malley, thank you, (inaudible). </speech>
-        <speech who="O'MALLEY"> Thank you. </speech>
-        <speech who="MUIR"> Governor, thank you. We'll be back with much more from New Hampshire.
+        <speech speaker="MUIR"> Governor O'Malley, thank you, (inaudible). </speech>
+        <speech speaker="O'MALLEY"> Thank you. </speech>
+        <speech speaker="MUIR"> Governor, thank you. We'll be back with much more from New Hampshire.
             The Democratic debate continues right after this. [COMMERCIAL BREAK] </speech>
-        <speech who="MUIR"> Welcome back tonight. It's been an evening of lively discussion among
+        <speech speaker="MUIR"> Welcome back tonight. It's been an evening of lively discussion among
             the candidates and it's time for closing statements. We began in alphabetical order, so
             we'll reverse the order at the end and begin with you, Senator Sanders. </speech>
-        <speech who="SANDERS">
-            <anecdote type="values" subtype="american_dream">Well, thank you very much for hosting
+        <speech speaker="SANDERS">
+            <anecdote type="value" subtype="american_dream">Well, thank you very much for hosting
                 this debate, and let me applaud my colleagues up here. Because I think frankly,
                 maybe I'm wrong, but on our worst day, I think we have a lot more to offer the
                 American people than the right wing's extremists. [applause] My father came to this
@@ -1531,15 +1533,15 @@
                 rent-controlled apartment and own a home of her own. She never lived to see
                 that.</anecdote>
         </speech>
-        <speech who="SANDERS"> But what my parents did accomplish is they were able to send both of
+        <speech speaker="SANDERS"> But what my parents did accomplish is they were able to send both of
             their sons to college. We were the first in the family. So I know something about
             economic anxiety and living in a family does not have sufficient income. And that is why
             I am pledged, if elected president of the United States, to bring about a political
             revolution where millions of people begin to stand up and finally say enough is enough,
             this great country and our government belong to all of us, not just a handful of
             billionaires. Thank you very much. [applause] </speech>
-        <speech who="RADDATZ"> Governor O'Malley? </speech>
-        <speech who="O'MALLEY"> Martha, thank you. I want to thank all of the people who have tuned
+        <speech speaker="RADDATZ"> Governor O'Malley? </speech>
+        <speech speaker="O'MALLEY"> Martha, thank you. I want to thank all of the people who have tuned
             in tonight. I want to thank the great people of New Hampshire, where despite all of the
             cynicism about big money and big banks taking over our politics, here in New Hampshire,
             the individual matters. You know, my wife Katie and I have four terrific kids, and like
@@ -1550,11 +1552,11 @@
             world, to take actions that include more of our people more fully in the economic,
             social and political life of our country. When you listened to the Republican debate the
             other night, you heard a lot of anger and you had a lot of fear. Well, they can have
-            their anger and they can have their fear, but anger and fear never built America. <trope
-                type="values" subtype="naturalization">We build our country by adopting wage and
+            their anger and they can have their fear, but anger and fear never built America. <platform
+                type="value" subtype="naturalization" attitude="pro">We build our country by adopting wage and
                 labor policies, including <immigrant status="ambig"
                     term="comprehensive_immigration_reform">comprehensive immigration
-                    reform</immigrant> with a pathway of citizenship for all.</trope> We do it by
+                    reform</immigrant> with a pathway of citizenship for all.</platform> We do it by
             investing in our country, by investing in infrastructure, by investing in the skills and
             the talents of our people with debt-free college, and we can do it again. And we also
             create a better future for our kids when we square our shoulders to the great challenges
@@ -1565,8 +1567,8 @@
             embrace this. I have put forward a plan that does this, that moves us to 100 percent
             clean electric grid by 2050. Join this campaign for the future. New leadership is what
             our country needs to move us out of these divided and polarized times. Thank you. </speech>
-        <speech who="MUIR"> Governor, thank you. [applause] Secretary Clinton? </speech>
-        <speech who="CLINTON"> On January 20th, 2017, the next president of the United States will
+        <speech speaker="MUIR"> Governor, thank you. [applause] Secretary Clinton? </speech>
+        <speech speaker="CLINTON"> On January 20th, 2017, the next president of the United States will
             walk into the White House. If, heaven forbid, that next president is a Republican, I
             think it's pretty clear we know what will happen. A lot of the rights that have been won
             over years, from women's rights to voter rights to gay rights to worker rights, will be
@@ -1583,7 +1585,7 @@
             country because I want to make sure every single child has a chance to live up to his or
             her God-given potential. If you will join me in this campaign, we will make that a
             mission. Thank you, good night and may the force be with you. [applause] </speech>
-        <speech who="MUIR"> Thank you to the candidates tonight. Thank you to the audience here in
+        <speech speaker="MUIR"> Thank you to the candidates tonight. Thank you to the audience here in
             New Hampshire here at St. Anselm. And thank you to the audience at home. We wish all of
             you at home a happy and safe holiday week ahead and we wish all the candidates a happy
             and safe holiday with your families. </speech>

@@ -48,7 +48,7 @@ subtype =
         | "empathy"
         | "culture"
         | "naturalization"
-        | "ambig"|"america_first"
+        | "ambig"|"america_first"|"american_dream"
         
     }
 keyword = element keyword { term, text }
