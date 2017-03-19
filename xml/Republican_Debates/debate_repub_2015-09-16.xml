@@ -1,24 +1,25 @@
 <?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
         <loc>Simi Valley, CA</loc>
         <date>16 Septemer 2015</date>
        
         <participants>
-            <candidate>Jeb Bush</candidate>
-            <candidate>Ben Carson</candidate>
-            <candidate>Chris Christie</candidate>
-            <candidate>Ted Cruz</candidate>
-            <candidate>Carly Fiorina</candidate>
-            <candidate>Mike Huckabee</candidate>
-            <candidate>John Kasich</candidate>
-            <candidate>Rand Paul</candidate>
-            <candidate>Marco Rubio</candidate>
-            <candidate>Donald Trump</candidate>
-            <candidate>Scott Walker</candidate>
-            <moderator>Jake Tapper</moderator>
-            <moderator>Dana Bash</moderator>
-            <moderator>Hugh Hewitt</moderator>
+            <candidate who="BUSH">Jeb Bush</candidate>
+            <candidate who="CARSON">Ben Carson</candidate>
+            <candidate who="CHRISTIE">Chris Christie</candidate>
+            <candidate who="CRUZ">Ted Cruz</candidate>
+            <candidate who="FIORINA">Carly Fiorina</candidate>
+            <candidate who="HUCKABEE">Mike Huckabee</candidate>
+            <candidate who="KASICH">John Kasich</candidate>
+            <candidate who="PAUL">Rand Paul</candidate>
+            <candidate who="RUBIO">Marco Rubio</candidate>
+            <candidate who="TRUMP">Donald Trump</candidate>
+            <candidate who="WALKER">Scott Walker</candidate>
+            <moderator who="TAPPER">Jake Tapper</moderator>
+            <moderator who="BASH">Dana Bash</moderator>
+            <moderator who="HEWITT">Hugh Hewitt</moderator>
         </participants>
     </meta>
     <body>
@@ -1065,7 +1066,7 @@ Please give some applause to the candidates. [applause]
                 important for our long-term success no longer matter in this country.</trope>
             [applause] </speech>
         <speech speaker="TRUMP"> As I said, we are spending $200 billion — we are spending $200
-            billion a year on maintaining what we have. <trope type="secure" subtype="sovereignty" attitude="ambig">We will move them out. The great ones will
+            billion a year on maintaining what we have. <trope type="value" subtype="sovereignty" attitude="ambig">We will move them out. The great ones will
             come back, the good ones will come back. They'll be expedited, they'll be back, they'll
             come back legally. We'll have a country — they'll come back, legally.</trope> </speech>
         <speech speaker="BASH"> OK, on that note, you have criticized Governor Bush for speaking

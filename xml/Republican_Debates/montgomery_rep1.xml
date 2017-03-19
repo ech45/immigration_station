@@ -9,20 +9,20 @@
         <date>August 6, 2015</date>
 
         <participants>
-            <candidate>Former Governor Jeb Bush (FL);</candidate>
-            <candidate>Ben Carson;</candidate>
-            <candidate>Governor Chris Christie (NJ);</candidate>
-            <candidate>Senator Ted Cruz (TX);</candidate>
-            <candidate>Former Governor Mike Huckabee (AR);</candidate>
-            <candidate>Governor John Kasich (OH);</candidate>
-            <candidate>Senator Rand Paul (KY);</candidate>
-            <candidate>Senator Marco Rubio (FL);</candidate>
-            <candidate>Donald Trump;</candidate>
-            <candidate>Governor Scott Walker (WI); </candidate>
+            <candidate who="BUSH">Former Governor Jeb Bush (FL);</candidate>
+            <candidate who="CARSON">Ben Carson;</candidate>
+            <candidate who="CHRISTIE">Governor Chris Christie (NJ);</candidate>
+            <candidate who="CRUZ">Senator Ted Cruz (TX);</candidate>
+            <candidate who="HUCKABEE">Former Governor Mike Huckabee (AR);</candidate>
+            <candidate who="KASICH">Governor John Kasich (OH);</candidate>
+            <candidate who="PAUL">Senator Rand Paul (KY);</candidate>
+            <candidate who="RUBIO">Senator Marco Rubio (FL);</candidate>
+            <candidate who="TRUMP">Donald Trump;</candidate>
+            <candidate who="WALKER">Governor Scott Walker (WI); </candidate>
 
-            <moderator>Bret Baier (Fox News);</moderator>
-            <moderator>Megyn Kelly (Fox News); and</moderator>
-            <moderator>Chris Wallace (Fox News)</moderator>
+            <moderator who="BAIER">Bret Baier (Fox News);</moderator>
+            <moderator who="KELLY">Megyn Kelly (Fox News); and</moderator>
+            <moderator who="WALLACE">Chris Wallace (Fox News)</moderator>
         </participants>
     </meta>
 
@@ -188,15 +188,15 @@ You've called women you don't like "fat pigs, dogs, slobs, and disgusting animal
 
 </speech> <speech speaker="KELLY"> Your Twitter account has several disparaging comments about women's looks. You once told a contestant on Celebrity Apprentice it would be a pretty picture to see her on her knees. Does that sound to you like the temperament of a man we should elect as president, and how will you answer the charge from Hillary Clinton, who was likely to be the Democratic nominee, that you are part of the war on women?
 
-</speech> <speech speaker="TRUMP"> I think the big problem this country has is being politically correct. [applause]
+</speech> --><speech speaker="TRUMP"> I think the big problem this country has is being politically correct. [applause]
 
-I've been challenged by so many people, and I don't frankly have time for total political correctness. And to be honest with you, this country doesn't have time either. This country is in big trouble. We don't win anymore. We lose to China. We lose to Mexico both in trade and at the border. We lose to everybody.
+I've been challenged by so many people, and I don't frankly have time for total political correctness. And to be honest with you, this country doesn't have time either. This country is in big trouble. We don't win anymore. We lose to China. We lose to Mexico both in trade and at the <keyword term="border">border</keyword>. We lose to everybody.
 
 And frankly, what I say, and oftentimes it's fun, it's kidding. We have a good time. What I say is what I say. And honestly Megyn, if you don't like it, I'm sorry. I've been very nice to you, although I could probably maybe not be, based on the way you have treated me. But I wouldn't do that. [applause]
 
 But you know what, we ...we need strength, we need energy, we need quickness and we need brain in this country to turn it around. That, I can tell you right now.
 
-</speech> <speech speaker="WALLACE"> Senator Cruz, your colleague, Senator Paul, right there next to you, said a few months ago he agrees with you on a number of issues, but he says you do nothing to grow the party. He says you feed red meat to the base, but you don't reach out to minorities. You have a toxic relationship with GOP leaders in Congress. You even called the Republican Senate Leader Mitch McConnell a liar recently. [applause]
+</speech><!-- <speech speaker="WALLACE"> Senator Cruz, your colleague, Senator Paul, right there next to you, said a few months ago he agrees with you on a number of issues, but he says you do nothing to grow the party. He says you feed red meat to the base, but you don't reach out to minorities. You have a toxic relationship with GOP leaders in Congress. You even called the Republican Senate Leader Mitch McConnell a liar recently. [applause]
 
 How can you win in 2016 when you're such a divisive figure?
 
@@ -273,16 +273,16 @@ And finally, our Medicaid is growing at one of the lowest rates in the country. 
             focusing on enforcement, which some suggest is your effort to show that you're not soft
             on that issue. I want to ask you about a statement that you made last year about
                 <immigrant status="illegal" term="illegal immigrant">illegal immigrants</immigrant>.
-            And here's what you said. <trope type="value" subtype="empathy" attitude="pro">"They
+            And here's what you said.They
                 broke the law, but it's not a felony, it's an act of love. It's an act of commitment
-                to your family."</trope> Do you stand by that statement and do you stand by your
+                to your family." Do you stand by that statement and do you stand by your
             support for earned legal status? </speech>
         <speech speaker="BUSH">
             <trope type="value" subtype="empathy" attitude="pro">I do. I believe that the great
                 majority of people coming here illegally have no other option. They want to provide
                 for their family.</trope>
-            <trope type="value" subtype="sovereignty" attitude="anti">But we need to control our
-                border. It's not ...it's our responsibility to pick and choose who comes in.</trope>
+            <platform type="value" subtype="sovereignty" attitude="anti">But we need to control our
+                <keyword term="border">border</keyword>. It's not ...it's our responsibility to pick and choose who comes in.</platform>
             So I ...I've written a book about this and yet this week, I did come up with a
             comprehensive strategy that ...that really mirrored what we said in the book, which is
             that we need to deal with <keyword term="e-verify">E-Verify</keyword>, we need to deal
@@ -293,10 +293,10 @@ And finally, our Medicaid is growing at one of the lowest rates in the country. 
                 >sanctuary cities</keyword> in this country. <trope type="secure" subtype="crime"
                 attitude="anti">It is ridiculous and tragic...[applause]...that people are dying
                 because of the fact that ...that local governments are not following the federal
-                law.</trope> There's much to do. And I think rather than talking about this as a
+                law.</trope> <trope type="econ" subtype="growth" attitude="ambig">There's much to do. And I think rather than talking about this as a
             wedge issue, which Barack Obama has done now for six long years, the next president
             ...and I hope to be that president ...will fix this once and for all so that we can turn
-            this into a driver for high sustained economic growth. <platform type="value"
+            this into a driver for high sustained economic growth.</trope> <platform type="value"
                 subtype="naturalization" attitude="ambig">And there should be a path to earned legal
                 status...[timer sounds] ...for those that are here. Not ...<keyword term="amnesty"
                     >not amnesty</keyword>, earned legal status, which means you pay a fine and do
@@ -304,7 +304,7 @@ And finally, our Medicaid is growing at one of the lowest rates in the country. 
         </speech>
         <speech speaker="WALLACE"> Thank you, sir. [applause] Mr. Trump, it has not escaped
             anybody's notice that you say that the Mexican government, the Mexican government is
-            sending criminals ...rapists, drug dealers, across the border. Governor Bush has called
+            sending criminals ...rapists, drug dealers, across the <keyword term="border">border</keyword>. Governor Bush has called
             those remarks, quote, "extraordinarily ugly." I'd like you ...you're right next to him
             ...tell us ...talk to him directly and say how you respond to that and ...and you have
             repeatedly said that you have evidence that the Mexican government is doing this, but
@@ -317,23 +317,23 @@ And finally, our Medicaid is growing at one of the lowest rates in the country. 
             announcement. And I said, Mexico is sending. Except the reporters, because they're a
             very dishonest lot, generally speaking, in the world of politics, they didn't cover my
             statement the way I said it. <trope type="secure" subtype="ambig" attitude="anti">The
-                fact is, since then, many killings ,murders, crime, drugs pouring across the border,
+                fact is, since then, many killings ,murders, crime, drugs pouring across the <keyword term="border">border</keyword>,
                 are money going out and the drugs coming in.</trope> And I said we need to build a
                 <keyword term="wall">wall</keyword>, and it has to be built quickly. And I don't
-            mind having a big beautiful door in that wall so that people can come into this country
-            legally. But we need, Jeb, to build a wall, we need to keep <immigrant status="illegal"
+            mind having a big beautiful door in that <keyword term="wall">wall</keyword> so that people can come into this country
+            legally. But we need, Jeb, to build a <keyword term="wall">wall</keyword>, we need to keep <immigrant status="illegal"
                 term="illegals">illegals</immigrant> out. [cheering and applause] </speech>
         <speech speaker="WALLACE"> Mr. Trump, I'll give you 30 seconds ...I'll give you 30 seconds
             to answer my question, which was, what evidence do you have, specific evidence that the
-            Mexican government is sending criminals across the border? Thirty seconds. </speech>
-        <speech speaker="TRUMP"> Border Patrol, I was at the border last week. Border Patrol, people
+            Mexican government is sending criminals across the <keyword term="border">border</keyword>? Thirty seconds. </speech>
+        <speech speaker="TRUMP"> Border Patrol, I was at the <keyword term="boarder">border</keyword> last week. Border Patrol, people
             that I deal with, that I talk to, they say this is what's happening. Because our leaders
             are stupid. Our politicians are stupid. And the Mexican government is much smarter, much
-            sharper, much more cunning. <trope type="security econ" subtype="crime welfare">And they
-                send <immigrant status="illegal" term="the bad ones">the bad ones</immigrant> over
-                because they don't want to pay for them. They don't want to take care of them. Why
-                should they when the stupid leaders of the United States will do it for them? And
-                that's what is happening whether you like it or not. [cheering and applause]
+            sharper, much more cunning. <trope type="econ" subtype="welfare" attitude="anti">And
+                they send <immigrant status="illegal" term="the bad ones">the bad ones</immigrant>
+                over because they don't want to pay for them. They don't want to take care of them.
+                Why should they when the stupid leaders of the United States will do it for them?
+                And that's what is happening whether you like it or not. [cheering and applause]
             </trope>
         </speech>
         <speech speaker="WALLACE"> All right. Obviously there's a lot more to talk about this. We're
@@ -368,7 +368,7 @@ And finally, our Medicaid is growing at one of the lowest rates in the country. 
         <speech speaker="WALLACE"> Respectfully, can we talk about<immigration status="illegal"
                 term="illegal immigration"> illegal immigration</immigration>? </speech>
         <speech speaker="KASICH"> But the point is that we all have solutions. Mr. Trump is touching
-            a nerve because people want the wall to be built. They want to see an end to
+            a nerve because people want the <keyword term="wall">wall</keyword> to be built. They want to see an end to
                 <immigration status="illegal" term="illegal immigration">illegal
                 immigration</immigration>. They want to see it, and we all do. But we all have
             different ways of getting there. And you're going to hear from all of us tonight about
@@ -378,7 +378,7 @@ And finally, our Medicaid is growing at one of the lowest rates in the country. 
             these <immigrant status="illegal" term="illegal">illegals</immigrant> coming over are
             criminals? </speech>
         <speech speaker="RUBIO"> Let me set the record straight on a couple of things. The first is,
-            the evidence is now clear that the majority of people coming across the border are not
+            the evidence is now clear that the majority of people coming across the <keyword term="border">border</keyword> are not
             from Mexico. They're coming from Guatemala, El Salvador, Honduras. Those countries are
             the source of the people that are now coming in its majority. <platform type="secure"
                 subtype="ambig" attitude="anti">I also believe we need a fence. The problem is if El
@@ -411,10 +411,10 @@ And finally, our Medicaid is growing at one of the lowest rates in the country. 
             talked to border state governors and other elected officials. I look at how this
             president, particularly through last November, messed up the immigration system in this
             country. Most importantly, I listened to the people of America. <platform type="secure"
-                subtype="crime" attitude="anti">I believe we need to secure the border. I've been to
-                the border with Governor Abbott in Texas and others, seeing the problems that they
+                subtype="crime" attitude="anti">I believe we need to secure the <keyword term="border">border</keyword>. I've been to
+                the <keyword term="border">border</keyword> with Governor Abbott in Texas and others, seeing the problems that they
                 have there. There is international criminal organizations penetrating our southern
-                based borders, and we need to do something about it.</platform> Secure the border,
+                based borders, and we need to do something about it.</platform> Secure the <keyword term="border">border</keyword>,
             enforce the law, <keyword term="amnesty">no amnesty</keyword>, and <platform type="econ"
                 subtype="jobs" attitude="anti">go forward with the legal immigration system that
                 gives priority to American working families and wages.</platform> [applause] </speech>
@@ -424,23 +424,24 @@ And finally, our Medicaid is growing at one of the lowest rates in the country. 
             Kate Steinle in San Francisco, allegedly shot down by an illegal. Doug Bettencourt sent
             this question, "will you support Kate Steinle's Law," which would impose a mandatory
             five-year prison term for an illegal who is deported and then returns to this country?
-            "And will you defund sanctuary cities for violating federal law?" </speech>
+            "And will you defund <keyword term="sanctuary city">sanctuary cities</keyword> for violating federal law?" </speech>
         <speech speaker="CRUZ"> Chris, absolutely yes. And not only will I support
             it...[applause]...I have authored Kate's law in the United States Senate and filed that
             legislation. I tried to get the Senate to vote to pass Kate's law on the floor of the
             Senate just one week ago, and the leader of our own party blocked a vote on Kate's law.
             You know, there was reference made to our leaders being stupid. It's not a question of
-            stupidity. It's that they don't want to enforce the immigration laws. That there are far
-            too many in the Washington cartel that support <keyword term="amnesty"
-            >amnesty</keyword>. President Obama has talked about fundamentally transforming this
-            country. There's 7 billion people across the face of the globe, many of whom want to
-            come to this country. If they come legally, great. But if they come illegally and they
-            get <keyword term="amnesty">amnesty</keyword>, that is how we fundamentally change this
-            country, and it really is striking. A majority of the candidates on this stage have
-            supported <keyword term="amnesty">amnesty</keyword>. I have never supported <keyword
+            stupidity. It's that they don't want to enforce the <immigration status="illegal"
+                term="immigration laws">immigration laws</immigration>. That there are far too many
+            in the Washington cartel that support <keyword term="amnesty">amnesty</keyword>.
+            President Obama has talked about fundamentally transforming this country. There's 7
+            billion people across the face of the globe, many of whom want to come to this country.
+            If they come legally, great. But if they come illegally and they get <keyword
+                term="amnesty">amnesty</keyword>, that is how we fundamentally change this country,
+            and it really is striking. A majority of the candidates on this stage have supported
+                <keyword term="amnesty">amnesty</keyword>. I have never supported <keyword
                 term="amnesty">amnesty</keyword>, and I led the fight against Chuck Schumer's gang
-            of eight <keyword term="amnesty">amnesty legislation</keyword> in the Senate.
-            <!--
+            of eight <keyword term="amnesty">amnesty legislation</keyword> in the Senate.</speech>
+        <!--
 
 </speech> <speech speaker="KELLY"> Alright, gentlemen, we're gonna switch topics now and talk a bit about terror and national security.
 
@@ -850,7 +851,7 @@ That many jobs, 19 million, would be triple what your father and your brother ac
 
 The new normal of two percent that the left is saying you can't do anything about is so dangerous for our country. There's 6 million people living in poverty today, more than when Barack Obama got elected. 6.5 million people are working part-time, most of whom want to work full-time. We've created rules and taxes on top of every aspiration of people, and the net result is we're not growing fast, income's not growing. A four percent growth strategy means you fix a convoluted tax code. You get in and you change every aspect of regulations that are job killers. You get rid of Obamacare and replace it with something that doesn't suppress wages and kill jobs. [applause]
 
-You embrace the energy revolution in our country. This president and Hillary Clinton, who can't even say she's for the XL pipeline even after she's left? Give me a break. Of course we're for it. We should be for these things to create high sustained economic growth. And frankly, [timer sounds] fixing our immigration system and turning it into an economic driver is part of this as well. We can do this. [applause]
+You embrace the energy revolution in our country. This president and Hillary Clinton, who can't even say she's for the XL pipeline even after she's left? Give me a break. Of course we're for it. We should be for these things to create high sustained economic growth. And frankly, [timer sounds] fixing our <keyword term="immigration system">immigration system</keyword> and turning it into an economic driver is part of this as well. We can do this. [applause]
 
 </speech> <speech speaker="WALLACE"> Governor Walker. [applause] Governor Walker, when you ran for governor of Wisconsin back in 2010, you promised that you would create 250,000 jobs in your first term, first four years. In fact, Wisconsin added barely half that and ranked 35th in the country in job growth. Now you're running for president, and you're promising an economic plan in which everyone will earn a piece of the American dream.
 
@@ -1164,17 +1165,17 @@ We find steel.
 
 As commander in chief, how would you handle that?
 
-</speech> <speech speaker="HUCKABEE"> The military is not a social experiment. The purpose of the military is kill people and break things. [applause]
+</speech>--> <speech speaker="HUCKABEE"> The military is not a social experiment. The purpose of the military is kill people and break things. [applause]
 
 It's not to transform the culture by trying out some ideas that some people think would make us a different country and more diverse. The purpose is to protect America. I'm not sure how paying for transgender surgery for soldiers, sailors, airmen, marines makes our country safer.
 
-We've reduced the military by 25 percent... [applause] ... under President Obama. The disaster is that we've forgotten why we have a military. The purpose of it is to make sure that we protect every American, wherever that American is, and if an American is calling out for help, whether it's in Benghazi or at the border, then we ought to be able to answer it.
+We've reduced the military by 25 percent... [applause] ... under President Obama. The disaster is that we've forgotten why we have a military. The purpose of it is to make sure that we protect every American, wherever that American is, and if an American is calling out for help, whether it's in Benghazi or at the <keyword term="border">border</keyword>, then we ought to be able to answer it.
 
 We've not done that because we've decimated our military. We're flying B-52s. The most recent one that was put in service was November of 1962. A lot of the B-52s we're flying, we've only got 44 that are in service combat ready, and the fact is, most of them are older than me. And that's pretty scary.
 
 [laughter and applause]
 
-</speech> <speech speaker="BAIER"> Senator Paul, the first budget you proposed as senator cut all financial aid to Israel. You have since changed your view on that issue. What made you change your mind.
+</speech> <!--<speech speaker="BAIER"> Senator Paul, the first budget you proposed as senator cut all financial aid to Israel. You have since changed your view on that issue. What made you change your mind.
 
 </speech> <speech speaker="PAUL"> Well, let's be clear, I'm the only one on the stage who actually has a five-year budget that balances. I've put pencil to paper...
 
@@ -1222,7 +1223,7 @@ In our final moments here together, we're going to allow the candidates to offer
 
 Senator Cruz, start from you. Any word from God?
 
-</speech> <speech speaker="CRUZ"> Well, I am blessed to receive a word from God every day in receiving the scriptures and reading the scriptures. And God speaks through the Bible. [applause]
+</speech> --><speech speaker="CRUZ"> Well, I am blessed to receive a word from God every day in receiving the scriptures and reading the scriptures. And God speaks through the Bible. [applause]
 
 I'm the son of a pastor and evangelist and I've described many times how my father, when I was a child, was an alcoholic. He wasn't a Christian. And my father left my mother and left me when I was just three years old.
 
@@ -1230,9 +1231,9 @@ And someone invited him to Clay Road Baptist Church. And he gave his heart to Je
 
 I would also note that the scripture tells us, "you shall know them by their fruit." We see lots of "campaign conservatives." But if we're going to win in 2016, we need a consistent conservative, someone who has been a fiscal conservative, a social conservative, a national security conservative.
 
-There are real differences among the candidates on issues like amnesty, like Obamacare, like religious liberty, like life and marriage. And I have been proud to fight and stand for religious liberty, to stand against Planned Parenthood, to defend life for my entire career.
+There are real differences among the candidates on issues like <keyword term="amnesty">amnesty</keyword>, like Obamacare, like religious liberty, like life and marriage. And I have been proud to fight and stand for religious liberty, to stand against Planned Parenthood, to defend life for my entire career.
 
-And I will be proud to continue to do so as president of the United States.
+And I will be proud to continue to do so as president of the United States.</speech><!--
 
 [cheering and applause]
 
@@ -1360,15 +1361,19 @@ It wasn't too late for Wisconsin, and it's not too late for America. That's why 
 
 </speech> <speech speaker="WALLACE"> Governor Bush, closing statement, sir.
 
-</speech> <speech speaker="BUSH"> Here's what I believe. I believe we're at the verge of the greatest time to be alive in this world.
-
-But Washington is holding us back. How we tax, how we regulate. We're not embracing the energy revolution in our midst, a broken immigration system that has been politicized rather than turning it into an economic driver.
-
-We're not protecting and preserving our entitlement system or reforming for the next generation. All these things languish while we have politicians in Washington using these as wedge issues.
-
-Here's my commitment to you, because I did it as Florida. We can fix these things. We can grow economically and restore America's leadership in the world, so that everybody has a chance to rise up. I humbly ask for your vote, whenever you're gonna get to vote, whenever the primary is. Thank you all very much.
-
-</speech> <speech speaker="BAIER"> Mr. Trump, closing statement, sir.
+</speech> -->
+        <speech speaker="BUSH"> Here's what I believe. I believe we're at the verge of the greatest
+            time to be alive in this world. But Washington is holding us back. How we tax, how we
+            regulate. We're not embracing the energy revolution in our midst, a broken <keyword
+                term="immigration system">>immigration system</keyword> that has been politicized
+            rather than turning it into an economic driver. We're not protecting and preserving our
+            entitlement system or reforming for the next generation. All these things languish while
+            we have politicians in Washington using these as wedge issues. Here's my commitment to
+            you, because I did it as Florida. We can fix these things. We can grow economically and
+            restore America's leadership in the world, so that everybody has a chance to rise up. I
+            humbly ask for your vote, whenever you're gonna get to vote, whenever the primary is.
+            Thank you all very much. </speech>
+        <!--<speech speaker="BAIER"> Mr. Trump, closing statement, sir.
 
 </speech> <speech speaker="TRUMP"> Our country is in serious trouble. We don't win anymore.
 
@@ -1386,6 +1391,6 @@ Thank you.
 
 </speech> <speech speaker="KELLY"> Are you relieved? You were nervous before, they ...they don't look relieved. They look "get me outta here."
 
-Thank you all very much, and that will do it for the first Republican primary debate night of the 2016 presidential race. Our thanks to the candidates, who will now be joined by their families on stage.</speech>--></speech>
+Thank you all very much, and that will do it for the first Republican primary debate night of the 2016 presidential race. Our thanks to the candidates, who will now be joined by their families on stage.</speech>-->
     </body>
 </debate>

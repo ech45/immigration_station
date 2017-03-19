@@ -9,15 +9,15 @@
         
         <participants>
             
-            <candidate >Lincoln Chafee</candidate>
-            <candidate>Hillary Clinton</candidate>
-            <candidate >Bernie Sanders</candidate>
-            <candidate >Martin O'Malley</candidate>
-            <candidate >Jim Webb</candidate>
-            <moderator >Anderson Cooper</moderator>
-            <moderator>Dana Bash</moderator>
-            <moderator >Juan Carlos Lopez</moderator>
-            <moderator >Don Lemon</moderator>
+            <candidate who="CHAFEE" >Lincoln Chafee</candidate>
+            <candidate who="CLINTON">Hillary Clinton</candidate>
+            <candidate who="SANDERS">Bernie Sanders</candidate>
+            <candidate who="O'MALLEY">Martin O'Malley</candidate>
+            <candidate who="WEBB">Jim Webb</candidate>
+            <moderator who="COOPER">Anderson Cooper</moderator>
+            <moderator who="BASH">Dana Bash</moderator>
+            <moderator who="LOPEZ">Juan Carlos Lopez</moderator>
+            <moderator who="LEMON">Don Lemon</moderator>
         </participants>
     </meta>
     <body>

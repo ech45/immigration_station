@@ -5,18 +5,18 @@
         <loc> University of Colorado at Boulder </loc>
         <date> October 28th, 2015 </date>
         <participants>
-            <candidate>Mike Huckabee</candidate>
-            <candidate>Jeb Bush</candidate>
-            <candidate>Marco Rubio</candidate>
-            <candidate>Donald Trump</candidate>
-            <candidate>Ben Carson</candidate>
-            <candidate>Carly Fiorina</candidate>
-            <candidate>Ted Cruz</candidate>
-            <candidate>Chris Christie</candidate>
+            <candidate who="HUCKABEE">Mike Huckabee</candidate>
+            <candidate who="BUSH">Jeb Bush</candidate>
+            <candidate who="RUBIO">Marco Rubio</candidate>
+            <candidate who="TRUMP">Donald Trump</candidate>
+            <candidate who="CARSON">Ben Carson</candidate>
+            <candidate who="FIORINA">Carly Fiorina</candidate>
+            <candidate who="CRUZ">Ted Cruz</candidate>
+            <candidate who="CHRISTIE">Chris Christie</candidate>
 
-            <moderator> Carl Quintanilla </moderator>
-            <moderator>Becky Quick</moderator>
-            <moderator>John Harwood</moderator>
+            <moderator who="QUINTANILLA"> Carl Quintanilla </moderator>
+            <moderator who="QUICK">Becky Quick</moderator>
+            <moderator who="HARWOOD">John Harwood</moderator>
         </participants>
     </meta>
     <body>

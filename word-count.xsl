@@ -204,7 +204,7 @@
             <body>
                 <!-- find sentences with <immigration> descendants that contain the string 'immigrant' and group by speaker-->
                 <xsl:for-each-group
-                    select="//sentence[descendant::immigration[contains(., 'immigrant')]]"
+                    select="//sentence[contains(., 'immigrant')]"
                     group-by="ancestor::speech/@speaker">
                     <!-- sort by speaker -->
                     <xsl:sort select="current-grouping-key()"/>
