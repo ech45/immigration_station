@@ -55,5 +55,5 @@ keyword = element keyword { term, text }
 immigration = element immigration { status, term, text }
 immigrant = element immigrant { status, term, text }
 status = attribute status { "legal" | "illegal" | "refugee" | "ambig" }
-term = attribute term { "amnesty" | "asylum" | "e-verify" | "border" | "wall" | "path to citizenship" | "visa overstay" | "sanctuary city" | "immigration reform" | "deportation" }
+term = attribute term { text }
 attitude = attribute attitude { "pro" | "anti" | "ambig" }
