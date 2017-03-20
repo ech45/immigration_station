@@ -5,15 +5,15 @@
         <loc/>
         <date/>
         <participants>
-            <candidate>Former Secretary of State Hillary Clinton;</candidate>
-            <candidate>Senator Bernie Sanders (VT);</candidate>
-            <moderator> Wolf Blitzer (CNN</moderator>
-            <moderator>Dana Bash (CNN)</moderator>
-            <moderator> Errol Louis (NY1)</moderator>
+            <candidate who="CLINTON">Former Secretary of State Hillary Clinton;</candidate>
+            <candidate who="SANDERS">Senator Bernie Sanders (VT);</candidate>
+            <moderator who="BLITZER"> Wolf Blitzer (CNN</moderator>
+            <moderator who="BASH">Dana Bash (CNN)</moderator>
+            <moderator who="LOUIS"> Errol Louis (NY1)</moderator>
         </participants>
     </meta>
 <body>
-    <speech speaker="BLITZER"> Secretary Clinton and Senator Sanders, you can now move to your
+   <!-- <speech speaker="BLITZER"> Secretary Clinton and Senator Sanders, you can now move to your
         lecterns while I explain a few ground rules. As moderator, I'll guide the discussion, asking
         questions and follow-ups. You'll also get questions from Dana Bash and Errol Louis. You'll
         each have one minute and 15 seconds to answer questions, 30 seconds for follow- ups. Timing
@@ -801,7 +801,7 @@
         genocidal threats coming from Gadhafi, and whether we should go to the United Nations to
         seek Security Council support. Senator sanders voted for that, and that's exactly what we
         did. </speech>
-    <speech speaker="SANDERS"> No. [crosstalk] </speech>
+    <speech speaker="SANDERS"> No. [crosstalk] </speech>-->
     <speech speaker="CLINTON"> We went to the United Nations — yes, he did. We went to the United
         Nations Security Council. We got support from the Security Council. And we then supported
         the efforts of our European and Arab allies and partners. This was a request made to our
@@ -810,7 +810,7 @@
         inside but the people on the <keyword term="border">borders</keyword>, look at Syria. Nobody
         stood up to Assad and removed him, and we have had a far greater disaster in Syria than we
         are currently dealing with right now in Libya. [applause] [crosstalk] </speech>
-    <speech speaker="BLITZER"> Senator, go ahead. </speech>
+    <speech speaker="BLITZER"> Senator, go ahead. </speech><!--
     <speech speaker="SANDERS"> Secretary Clinton made this charge in previous debates and just
         repeating it doesn't make it truer. What you are talking about is what I think was what they
         call the unanimous consent, you know what that is, where basically, do we support Libya
@@ -1342,7 +1342,7 @@
         final pitches to New York voters right after this. [applause] [commercial break] </speech>
     <speech speaker="BLITZER"> Welcome back to the CNN presidential debate. It's time for the
         candidates' closing statements. Each candidate will have two minutes. Senator Sanders,
-        you're first. </speech>
+        you're first. </speech>-->
     <speech speaker="SANDERS"> I grew up in Brooklyn, New York...[applause]...the son of an
         <immigrant status="legal" term="immigrant">immigrant</immigrant> who came to this country from Poland at the age of 17 without a nickel in his
         pocket, never made a whole lot of money, but was a very proud American, because this country
