@@ -214,7 +214,7 @@
             and the Muslim nations. I think one of the heroes in a real quagmire out there, in a
             dangerous and difficult world; one of the heroes who we should recognize in the Middle
             East is King Abdullah II of Jordan. This small country has welcomed in many <immigrant
-                status="legal" term="refugee">refugees</immigrant>. And Abdullah said something
+                status="refugee" term="refugee">refugees</immigrant>. And Abdullah said something
             recently, very important. He said, "Yes, international terrorism is by definition an
             international issue, but it is primarily an issue of the Muslim nations who are fighting
             for the soul of Islam. We the Muslims should lead the effort on the ground." And I
@@ -462,17 +462,17 @@
             promise of greater security; especially from someone as untried and as incompetent as
             Donald Trump. </speech>
         <speech speaker="RADDATZ"> Thank you, Governor O'Malley. </speech>
-        <speech speaker="MUIR"> Martha, we're going to turn now to <immigrant status="legal"
+        <speech speaker="MUIR"> Martha, we're going to turn now to <immigrant status="refugee"
                 term="refugee">refugees</immigrant> coming to America. And on the subject of
-                <immigrant status="legal" term="reguee">refugees</immigrant>, more than half of all
+                <immigrant status="refugee" term="reguee">refugees</immigrant>, more than half of all
             Americans now say they oppose taking in <immigrant status="refugee" term="refugee"
                 >refugees</immigrant> from Syria and across the Middle East. Secretary Clinton, you
             have said that it would undermine who we are as Americans, shutting our doors. But New
             Hampshire's governor, where we are right here tonight, a democrat and a supporter of
             yours, is among more than 30 governors who are now concerned. Governor Maggie Hassan
-            says, "we should halt acceptance of <immigrant status="legal" term="Syrian_refugee"
+            says, "we should halt acceptance of <immigrant status="refugee" term="Syrian_refugee"
                 >Syrian refugees</immigrant> until U.S. authorities can assure the vetting process,
-            halt <immigrant status="legal" term="Syrian_refugee">Syrian refugees</immigrant>." Is
+            halt <immigrant status="refugee" term="Syrian_refugee">Syrian refugees</immigrant>." Is
             she wrong? </speech>
         <speech speaker="CLINTON"> Well, I agree that we have to have the toughest screening and
             vetting... </speech>
@@ -493,19 +493,19 @@
             prioritize widows, and orphans, and the elderly, people who may have relatives,
             families, or have nowhere else to go. I would prioritize them. And that would I think
             give the American public a bit more of a sense of security about who is being processed
-            and who might end up coming as <immigrant status="legal" term="refugee"
+            and who might end up coming as <immigrant status="refugee" term="refugee"
                 >refugees</immigrant>. </speech>
         <speech speaker="MUIR"> Governor O'Malley, obviously you were governor yourself at one time.
             What would you say to New Hampshire's governor tonight? Is she wrong on this? </speech>
         <speech speaker="O'MALLEY"> No, what I would say is this is look, I was the first of the three
-            of us to call for America to accept the 65,000 <immigrant status="legal" term="refugee"
+            of us to call for America to accept the 65,000 <immigrant status="refugee" term="refugee"
                 >refugees</immigrant> we were asked to accept. And if this humanitarian crisis
             increases, we should accept more. </speech>
         <speech speaker="MUIR"> So the idea of a halt or a pause? [applause] </speech>
         <speech speaker="O'MALLEY"> David, there are wider vulnerabilities than when it comes to
-                <immigrant status="legal" term="refugee">refugees</immigrant>. I met recently with
+                <immigrant status="refugee" term="refugee">refugees</immigrant>. I met recently with
             some members of the Chaldean Christian communities and the wait times are a year, 18
-            months, 24 months. There is a pretty excruciating process that <immigrant status="legal"
+            months, 24 months. There is a pretty excruciating process that <immigrant status="refugee"
                 term="refugee">refugees</immigrant> go through. We need to invest more in terms of
             the other sort of visas and the other sort of waivers. </speech>
         <speech speaker="O'MALLEY">
@@ -635,7 +635,7 @@
             agreement at the Security Council, which embodies actually an agreement that I
             negotiated back in Geneva in June of 2012, we're going to get a diplomatic effort in
             Syria to begin to try to make a transition. A no-fly zone would prevent the outflow of
-                <immigrant status="legal" term="refugee">refugees</immigrant> and give us a chance
+                <immigrant status="refugee" term="refugee">refugees</immigrant> and give us a chance
             to have some safe spaces. </speech>
         <speech speaker="RADDATZ"> Secretary Clinton, I'd like to go back to that if I could. ISIS
             doesn't have aircraft, Al Qaida doesn't have aircraft. So would you shoot down a Syrian
@@ -1524,9 +1524,9 @@
                 maybe I'm wrong, but on our worst day, I think we have a lot more to offer the
                 American people than the right wing's extremists. [applause] My father came to this
                 country from Poland at the age of 17 without a nickel in his pocket, which sparked
-                my interest in the need for <immigration status="ambig" term="immigration_reform"
-                    >immigration reform</immigration> because I know what it's like to be the
-                    <immigrant status="legal" term="son_of_a_immigrant">son of an
+                my interest in the need for <keyword term="immigration reform"
+                    >immigration reform</keyword> because I know what it's like to be the
+                    <immigrant status="legal" term="son of a immigrant">son of an
                     immigrant</immigrant>. We grew up in a three-and-a-half-room, rent controlled
                 apartment in Brooklyn, New York. My mother's dream -- and she died very young, but
                 my mother's dream for her whole life was to be able to get out of that
@@ -1554,9 +1554,8 @@
             other night, you heard a lot of anger and you had a lot of fear. Well, they can have
             their anger and they can have their fear, but anger and fear never built America. <platform
                 type="value" subtype="naturalization" attitude="pro">We build our country by adopting wage and
-                labor policies, including <immigrant status="ambig"
-                    term="comprehensive_immigration_reform">comprehensive immigration
-                    reform</immigrant> with a pathway of citizenship for all.</platform> We do it by
+                labor policies, including <keyword term="immigration reform">comprehensive immigration
+                    reform</keyword> with a pathway of citizenship for all.</platform> We do it by
             investing in our country, by investing in infrastructure, by investing in the skills and
             the talents of our people with debt-free college, and we can do it again. And we also
             create a better future for our kids when we square our shoulders to the great challenges
