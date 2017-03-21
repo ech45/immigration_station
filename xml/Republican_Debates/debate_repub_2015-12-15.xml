@@ -19,7 +19,7 @@
         </participants>
     </meta>
  <body>  
-     <!-- <speech speaker="BLITZER"> Welcome to the CNN-Facebook Republican presidential debate here at
+      <section key="other"> <speech speaker="BLITZER"> Welcome to the CNN-Facebook Republican presidential debate here at
         the Venetian Las Vegas. We have a very enthusiastic audience. Everyone is here. They're
         looking forward to a serious and spirited discussion about the security of this nation. I'm
         Wolf Blitzer, your moderator tonight. This debate is airing on CNN networks here in the
@@ -350,7 +350,7 @@
         they carry out acts of terror. [applause]</speech>
     <speech speaker="BASH"> Thank you. Senator Rubio, Senator Cruz is right there was bipartisan
         support for that. But you voted against it. So, is Senator Cruz wrong?</speech>
-    --><speech speaker="RUBIO"> He is and so are those that voted for it. There were some that voted
+    </section> <section key="imm"><speech speaker="RUBIO"> He is and so are those that voted for it. There were some that voted
         for it because they wanted to keep it alive and they were afraid the whole program would
         expire. Here's the world we live in. This is a radical jihadist group that is increasingly
         sophisticated in its ability, for example, to radicalize American citizens, in its inability
@@ -359,7 +359,7 @@
         the most capable, it is the most sophisticated terror threat we have ever faced. We are now
         at a time when we need more tools, not less tools. And that took we lost, the metadata
         program, was a valuable tool that we no longer have at our disposal.</speech>
-   <!-- <speech speaker="BASH"> Senator Cruz?</speech>
+   </section> <section key="other"> <speech speaker="BASH"> Senator Cruz?</speech>
     <speech speaker="CRUZ"> Well, you know, I would note that Marco knows what he's saying isn't
         true. You know, Mark Levin wrote a column last week that says that the attack ads his Super
         PAC is running that are saying the same thing, that they are knowingly false and they are,
@@ -382,7 +382,7 @@
         before they attacked. [crosstalk] [applause]</speech>
     <speech speaker="BASH"> Senator Paul, Senator Paul, I know this is — this has been a very big
         issue for you. You hear many of your colleagues are calling for increased surveillance by
-        law enforcement. You call that hogwash. Why is that hogwash?</speech> -->
+        law enforcement. You call that hogwash. Why is that hogwash?</speech> </section> <section key="imm">
 
     <speech speaker="PAUL"> You know, I think Marco gets it completely wrong. We are not any safer
         through the bulk collection of all Americans' records. In fact, I think we're less safe. We
@@ -400,7 +400,7 @@
         who's coming in, and Marco is — has more of an allegiance to Chuck Schumer and to the
         liberals than he does to conservative policy</trope>. [applause]</speech> 
 
-   <!-- <speech speaker="BASH"> Senator Rubio?</speech>
+   </section> <section key="other"> <speech speaker="BASH"> Senator Rubio?</speech>
     <speech speaker="RUBIO"> I want to thank Rand for another 30 seconds, because, number one, what
         he's pointing to is a bill last week that — amendment that he voted for that only 10 people
         voted for. You know why? Because it's not focused on terrorists. It would have banned anyone
@@ -415,7 +415,7 @@
     <speech speaker="BASH"> Governor Christie, Governor Christie... [crosstalk] [applause]
         ...Governor Christie, I'll come to you in a minute. Go ahead, Senator Paul.</speech>
     <speech speaker="PAUL"> If I was mentioned in the question, can I respond?</speech>
-    <speech speaker="BASH"> Go ahead, please.</speech> -->
+    <speech speaker="BASH"> Go ahead, please.</speech> </section> <section key="imm">
 
     <speech speaker="PAUL"> Marco still misunderstands the <immigration status="ambig" term="immigration">immigration</immigration> issue. What I put forward was
         an amendment that would have temporarily halted <immigration status="ambig" term="immigration">immigration</immigration> from high-risk terrorist
@@ -428,7 +428,7 @@
     <speech speaker="BASH"> Senator, we're going to talk about immigration in a while. But, Governor
         Christie, just listening to this...</speech>
 
-   <!-- <speech speaker="RUBIO"> Do I get another 30 seconds? He mentioned me.</speech>
+   </section> <section key="other"> <speech speaker="RUBIO"> Do I get another 30 seconds? He mentioned me.</speech>
     <speech speaker="BASH"> Listening to this, you talked — you heard Senator Paul, Senator Cruz
         talk about how important it is to protect Americans' privacy, even in a time of grave
         danger. Why — what's wrong with that?</speech>
@@ -1239,7 +1239,7 @@
         talking. I do a lot of doing. And really, it says more about a person than how much they
         talk. And then some people say you're weak because, you know, you're not loud and you're not
         boisterous and you're not rude. But the fact of the matter is, look and see what I've done.
-        And that speaks volumes about strength.</speech> -->
+        And that speaks volumes about strength.</speech> </section> <section key="imm">
 
     <speech speaker="BASH"> Thank you, Dr. Carson. We've been talking tonight about programs and
         policy proposals that you all have to keep Americans safe and it's a big discussion on the
@@ -1551,7 +1551,7 @@
         beginning. Coming up, what other global hot spots await the next president of the United
         States. [applause] [commercial break]</speech>
 
-   <!-- <speech speaker="BLITZER"> Welcome back to the CNN-Facebook Republican Presidential Debate.
+   </section> <section key="other"> <speech speaker="BLITZER"> Welcome back to the CNN-Facebook Republican Presidential Debate.
         We're here at the Venetian Las Vegas. Tonight we have been focusing on the Middle East, but
         let's turn to some other world threats that you will potentially face as Commander in Chief.
         Ms. Fiorina, candidates here have called the North Korean leader Kim Jong-Un a maniac who is
@@ -1901,6 +1901,6 @@
         [applause]</speech>
 
     <speech speaker="BLITZER"> Thanks to all the Republican presidential candidates. That does it
-        for this Republican presidential debate.</speech> -->
+        for this Republican presidential debate.</speech> </section> 
  </body>
 </debate>

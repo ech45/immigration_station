@@ -18,7 +18,7 @@
     </meta>
     <body>
 
-        <!-- <speech speaker="CAVUTO">It is 9:00 p.m. here at the North Charleston Coliseum and Performing Arts Center in South Carolina. Welcome to the sixth Republican presidential of the 2016 campaign, here on the Fox Business Network. I'm Neil Cavuto, alongside my friend and co-moderator Maria Bartiromo.</speech>
+         <section key="other"> <speech speaker="CAVUTO">It is 9:00 p.m. here at the North Charleston Coliseum and Performing Arts Center in South Carolina. Welcome to the sixth Republican presidential of the 2016 campaign, here on the Fox Business Network. I'm Neil Cavuto, alongside my friend and co-moderator Maria Bartiromo.</speech>
 
 <speech speaker="BARTIROMO">Tonight we are working with Facebook to ask the candidates the questions voters want answered. And according to Facebook, the U.S. election has dominated the global conversation, with 131 million people talking about the 2016 race. That makes it the number one issue talked about on Facebook last year worldwide.</speech>
 
@@ -280,7 +280,7 @@ This election has to be about reversing all of that damage. That's why I'm runni
 
 <speech speaker="BARTIROMO">Thank you, senator.
 
-Mr. Trump, South Carolina Governor Nikki Haley in her response to the State of the Union address...[applause]...appeared to choose sides within the party, saying Republicans should resist, quote, "the siren call of the angriest voices". She confirmed, she was referring to you among others. Was she out of line? And, how would a President Trump unite the party?</speech> -->
+Mr. Trump, South Carolina Governor Nikki Haley in her response to the State of the Union address...[applause]...appeared to choose sides within the party, saying Republicans should resist, quote, "the siren call of the angriest voices". She confirmed, she was referring to you among others. Was she out of line? And, how would a President Trump unite the party?</speech> </section> <section key="imm">
 
         <speech speaker="TRUMP">Okay. First of all, Nikki this afternoon said I'm a friend of hers.
             Actually a close friend. And wherever you are sitting Nikki, I'm a friend. We're
@@ -298,7 +298,7 @@ Mr. Trump, South Carolina Governor Nikki Haley in her response to the State of t
             that. I didn't find it offensive at all. I'm angry because our country is a mess.
             [applause]</speech>
 
-        <!-- <speech speaker="BARTIROMO">But what are you going to do about it?</speech>
+        </section> <section key="other"> <speech speaker="BARTIROMO">But what are you going to do about it?</speech>
 
 <speech speaker="CAVUTO">Marco Rubio. I'm sorry, it's the time constraints. You and Governor Christie have been exchanging some fairly nasty words of late, and I will allow the governor to respond as well.
 
@@ -608,7 +608,7 @@ We know to go ahead and shut off the supply routes, and send in our special ops 
 
 "The emir of Qatar said, 'I'll pay for the operation, but they are not going to fight ISIS and let Damascus fall into the hands of the Iranians. Assad has to go.'"
 
-Governor Christie, how important is it to remove Assad from power and how would you do it?</speech> -->
+Governor Christie, how important is it to remove Assad from power and how would you do it?</speech> </section> <section key="imm">
 
         <speech speaker="CHRISTIE">Maria, you look at what this president and his secretary of
             state, Secretary of State Clinton, has done to get us in this spot. You think about it —
@@ -830,7 +830,7 @@ Governor Christie, how important is it to remove Assad from power and how would 
 
         <speech speaker="BARTIROMO">Thank you governor.</speech>
 
-        <!-- <speech speaker="CAVUTO">Mr. Trump, sometimes maybe in the heat of the campaign, you say things and you have to dial them back. Last week, the New York Times editorial board quoted as saying that you would oppose, "up to 45 percent tariff on Chinese goods."</speech>
+        </section> <section key="other"> <speech speaker="CAVUTO">Mr. Trump, sometimes maybe in the heat of the campaign, you say things and you have to dial them back. Last week, the New York Times editorial board quoted as saying that you would oppose, "up to 45 percent tariff on Chinese goods."</speech>
 
 <speech speaker="TRUMP">That's wrong. They were wrong. It's the New York Times, they are always wrong.</speech>
 
@@ -1146,7 +1146,7 @@ So I would — I would be willing to do that.</speech>
 
 <speech speaker="CAVUTO">Governor Christie, going back to your U.S. Attorney days, you had been praised by both parties as certainly a tough law and order guy. So I wonder what you make of recent statistics that showed violent crimes that have been spiking sometimes by double digit ratings in 30 cities across the country. Milwaukee Police Chief Ed Flynn said, "most local law enforcement officials feel abandoned by Washington." Former NYC Police Chief Ray Kelly, says that, "police are being less proactive because they're being overly scrutinized and second guessed and they're afraid of being sued or thrown in jail."
 
-What would you do as president to address this?</speech> -->
+What would you do as president to address this?</speech> </section> <section key="imm">
 
         <speech speaker="CHRISTIE">Well, first off, let's face it, the FBI director James Comey was
             a friend of mine who I worked with as U.S. Attorney of New Jersey. He was the U.S.
@@ -1378,7 +1378,7 @@ What would you do as president to address this?</speech> -->
 
         <speech speaker="CAVUTO">Governor, thank you. [applause]</speech>
 
-        <!-- <speech speaker="BARTIROMO">When we come right back, closing statements. Stay with us.
+        </section> <section key="other"> <speech speaker="BARTIROMO">When we come right back, closing statements. Stay with us.
 
 [commercial break]</speech>
 
@@ -1460,6 +1460,6 @@ We will make America great again. We will win on everything we do. Thank you. [a
 
 <speech speaker="BARTIROMO">Candidates, thank you.</speech>
 
-<speech speaker="CAVUTO">Gentlemen, thank you all. All of you. That wraps up our debate. We went a little bit over here. But we wanted to make sure everyone was able to say their due. He's upset. All right. Thank you for joining us. Much more to come in the Spin Room ahead.</speech> -->
+<speech speaker="CAVUTO">Gentlemen, thank you all. All of you. That wraps up our debate. We went a little bit over here. But we wanted to make sure everyone was able to say their due. He's upset. All right. Thank you for joining us. Much more to come in the Spin Room ahead.</speech> </section> 
     </body>
 </debate>
