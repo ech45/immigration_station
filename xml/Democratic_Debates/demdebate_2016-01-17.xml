@@ -98,7 +98,7 @@
             doesn't take too much money out of the pockets of hard-working Americans. And third, I
             would be working, in every way that I knew, to bring our country together. We do have
             too much division, too much mean- spiritedness. There's a lot we have to do on
-            <immigrant status="ambig" term="immigration_reform">immigration reform</immigrant>, on voting rights, on campaign finance reform, but we need to do it
+            <keyword term="immigration reform">immigration reform</keyword>, on voting rights, on campaign finance reform, but we need to do it
             together. That's how we'll have the kind of country for the 21st century that we know
             will guarantee our children and grandchildren the kind of future they deserve.
             [applause] </speech>
@@ -1162,7 +1162,7 @@
         <speech speaker="O'MALLEY"> I believe there are many issues. I have 60 seconds for this? </speech>
         <speech speaker="HOLT"> Sixty seconds, we'd appreciate it. </speech>
         <speech speaker="O'MALLEY"> There are so many issues that we haven't been able to discuss here.
-            We have not fully discussed <immigrant status="illegal" term="immigration_reform">immigration reform</immigrant>, and the deplorable number of <immigrant status="illegal" term="immigrant_detention_camps">immigrant
+            We have not fully discussed <keyword term="immigration reform">immigration reform</keyword>, and the deplorable number of <immigrant status="illegal" term="immigrant detention camps">immigrant
             detention camps</immigrant> that our nation's now maintaining. We haven't discussed the shameful
             treatment that the people of Puerto Rico, our fellow Americans, are getting treated with
             by these hedge funds that are working them over. [applause] <trope type="secure" subtype="drugs" attitude="ambig" >We haven't discussed the

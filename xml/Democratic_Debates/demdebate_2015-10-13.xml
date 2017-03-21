@@ -123,7 +123,7 @@ All right. Let's begin. We're going to be discussing a lot of the issues, many o
 
 Secretary Clinton, I want to start with you. Plenty of politicians evolve on issues, but even some Democrats believe you change your positions based on political expediency.
 
-You were against same-sex marriage. Now you're for it. You defended President Obama's <immigration status="ambig" term="immigration policies">immigration policies</immigration>. Now you say they're too harsh. You supported his trade deal dozen of times. You even called it the "gold standard". Now, suddenly, last week, you're against it.
+You were against same-sex marriage. Now you're for it. You defended President Obama's <keyword term="immigration policiy">immigration policies</keyword>. Now you say they're too harsh. You supported his trade deal dozen of times. You even called it the "gold standard". Now, suddenly, last week, you're against it.
 
 Will you say anything to get elected?
 
@@ -1001,8 +1001,8 @@ My view is that when you have millions of seniors in this country trying to get 
 
         <speech speaker="COOPER"> Senator Sanders, I want to bring it over to Juan Carlos Lopez from
             CNN en Espanol. We're obviously in Nevada. It's had the highest percentage of
-                <immigration status="illegal" term="undocumented immigrant">undocumented
-                immigrants</immigration> of any state in the country as of last year. Juan Carlos? </speech>
+                <immigrant status="illegal" term="undocumented immigrant">undocumented
+                immigrants</immigrant> of any state in the country as of last year. Juan Carlos? </speech>
 
         <speech speaker="LOPEZ"> Gracias, Anderson. Senator Sanders, in 2013, you voted for <keyword
                 term="immigration reform">immigration reform</keyword>. But in 2007, when Democrats
@@ -1013,8 +1013,8 @@ My view is that when you have millions of seniors in this country trying to get 
         <speech speaker="SANDERS"> I didn't leave anybody at the altar. I voted against that piece
             of legislation because it had guest-worker provisions in it which the Southern Poverty
             Law Center talked about being semi-slavery. <trope type="econ" subtype="jobs"
-                attitude="pro"><immigration status="ambig" term="guest orker">Guest
-                    workers</immigration> are coming in, they're working under terrible conditions,
+                attitude="pro"><immigrant status="ambig" term="guest orker">Guest
+                    workers</immigrant> are coming in, they're working under terrible conditions,
                 but if they stand up for their rights, they're thrown out of the country.</trope> I
             was not the only progressive to vote against that legislation for that reason. Tom
             Harkin, a very good friend of Hillary Clinton's and mine, one of the leading labor
@@ -1024,8 +1024,8 @@ My view is that when you have millions of seniors in this country trying to get 
 
         <speech speaker="SANDERS"> I know that. But point being is that progressives did vote
             against that for that reason. My view right now — and always has been — is that when you
-            have 11 million <immigration status="illegal" term="undocumented people">undocumented
-                people</immigration> in this country, <trope type="value" subtype="naturalization"
+            have 11 million <immigrant status="illegal" term="undocumented people">undocumented
+                people</immigrant> in this country, <trope type="value" subtype="naturalization"
                 attitude="pro">we need comprehensive immigration reform, we need a path toward
                 citizenship, we need to take people out of the shadows.</trope>
         </speech>
@@ -1033,8 +1033,8 @@ My view is that when you have millions of seniors in this country trying to get 
         <speech speaker="O'MALLEY"> And Juan Carlos — Juan Carlos. .. </speech>
 
         <speech speaker="LOPEZ"> Secretary Clinton — Secretary Clinton, Governor O'Malley wants to
-            open up Obamacare to millions of <immigration status="illegal"
-                term="undocumented immigrant">undocumented immigrants</immigration> and their
+            open up Obamacare to millions of <immigrant status="illegal"
+                term="undocumented immigrant">undocumented immigrants</immigrant> and their
             children, including almost 90,000 people right here in Nevada. Do you? </speech>
 
         <speech speaker="CLINTON">
@@ -1042,9 +1042,9 @@ My view is that when you have millions of seniors in this country trying to get 
                 sure every child gets health care.</trope>
             <trope type="econ" subtype="welfare" attitude="pro">That's why I helped to create the
                 Children's Health Insurance Program, and I want to support states that are expanding
-                health care and including <immigration status="illegal" term="undocumented child"
-                    >undocumented children</immigration> and others.</trope> I want to open up the
-            opportunity for <immigration status="ambig" term="immigrant">immigrants</immigration> to
+                health care and including <immigrant status="illegal" term="undocumented child"
+                    >undocumented children</immigrant> and others.</trope> I want to open up the
+            opportunity for <immigrant status="ambig" term="immigrant">immigrants</immigrant> to
             be able to buy in to the exchanges under the Affordable Care Act. I think to go beyond
             that, as I understand what Governor O'Malley has recommended, so that they would get the
             same subsidies. I think that is — it raises so many issues. It would be very difficult
@@ -1057,13 +1057,13 @@ My view is that when you have millions of seniors in this country trying to get 
             old thinking on <keyword term="immigration reform">immigration reform</keyword>, and
             that's why it's gridlocked. <trope type="value" subtype="ambig" attitude="pro">We need
                 to understand that our country is stronger in every generation by the arrival of new
-                    <immigration status="ambig" term="american immigrant">American
-                    immigrants</immigration>.</trope> That is why I have put out a policy for
+                    <immigrant status="ambig" term="american immigrant">American
+                    immigrants</immigrant>.</trope> That is why I have put out a policy for
             comprehensive <keyword term="immigration reform">immigration reform</keyword>, that is
             why I would go further than President Obama has on DACA, and DAPA. <trope type="value"
-                subtype="ambig" attitude="pro">I mean, we are a nation of <immigration
-                    status="ambig" term="immigrant">immigrants</immigration>, we are made stronger
-                by <immigration status="ambig" term="immigrant">immigrants</immigration></trope>.
+                subtype="ambig" attitude="pro">I mean, we are a nation of <immigrant
+                    status="ambig" term="immigrant">immigrants</immigrant>, we are made stronger
+                by <immigrant status="ambig" term="immigrant">immigrants</immigrant></trope>.
                 <trope type="econ" subtype="welfare" attitude="pro">Do you think for a second that
                 simply because somebody's standing in a broken que on naturalization they're not
                 going to go to the hospital, and that care isn't going to fall on to our insurance
@@ -1077,13 +1077,13 @@ My view is that when you have millions of seniors in this country trying to get 
                 comprehensiveimmigration reform</keyword>. It'll make wages go up in America $250
             for every year. </speech>
 
-        <speech speaker="LOPEZ"> Senator Webb, do you support the <immigration status="illegal"
-                term="undocumented immigrant">undocumented immigrants</immigration> getting
+        <speech speaker="LOPEZ"> Senator Webb, do you support the <immigrant status="illegal"
+                term="undocumented immigrant">undocumented immigrants</immigrant> getting
             Obamacare? </speech>
 
         <speech speaker="WEBB"> I wouldn't have a problem with that. <anecdote type="value"
-                subtype="empathy" attitude="pro"> Let me start by saying my wife is an <immigration
-                    status="ambig" term="immigrant">immigrant</immigration>. She was a <immigrant status="refugee" term="refugee">refugee</immigrant>, her
+                subtype="empathy" attitude="pro"> Let me start by saying my wife is an <immigrant
+                    status="ambig" term="immigrant">immigrant</immigrant>. She was a <immigrant status="refugee" term="refugee">refugee</immigrant>, her
                 family escaped from Vietnam on a boat-- her entire extended family, after the
                 communists took over, when hundreds of thousands of people were out there and
                 thousands of them were dying. Went to two refugee camps, she never spoke English in
@@ -1114,8 +1114,8 @@ My view is that when you have millions of seniors in this country trying to get 
 
 
 
-        <speech speaker="CLINTON"> Demonize hard-working <immigration status="ambig"
-                term="immigrant">immigrants</immigration> who have insulted them. You know, I came
+        <speech speaker="CLINTON"> Demonize hard-working <immigrant status="ambig"
+                term="immigrant">immigrants</immigrant> who have insulted them. You know, I came
             to Las Vegas in, I think, May. Early may. Met with a group of DREAMers, I wish everybody
             in America could meet with this young people, to hear their stories, to know their
             incredible talent, their determination, and that's why I would go further. </speech>
@@ -1127,14 +1127,14 @@ My view is that when you have millions of seniors in this country trying to get 
 
         <speech speaker="COOPER"> Secretary Clinton, let me ask you. Two of your rivals from your
             left, Governor O'Malley, and Senator Sanders, want to provide instate college tuition to
-                <immigration status="illegal" term="undocumented immigrant">undocumented
-                immigrants</immigration>. Where do you stand on that? </speech>
+                <immigrant status="illegal" term="undocumented immigrant">undocumented
+                immigrants</immigrant>. Where do you stand on that? </speech>
 
         <speech speaker="CLINTON"> My plan would support any state that takes that position, and
             would work with those states and encourage more states to do the same thing. </speech>
 
-        <speech speaker="COOPER"> So, on the record, you believe that <immigration status="illegal"
-                term="undocumented immigrant">undocumented immigrants</immigration> should get
+        <speech speaker="COOPER"> So, on the record, you believe that <immigrant status="illegal"
+                term="undocumented immigrant">undocumented immigrants</immigrant> should get
             instate college tuition. </speech>
 
         <speech speaker="CLINTON"> If their states agree, then we want more states to do the same
@@ -1154,8 +1154,8 @@ My view is that when you have millions of seniors in this country trying to get 
 
 
 
-        <speech speaker="O'MALLEY"> Tried to mischaracterize it as free tuition for <immigration
-                status="illegal" term="illegal immigrant">illegal immigrants</immigration>. But, we
+        <speech speaker="O'MALLEY"> Tried to mischaracterize it as free tuition for <immigrant
+                status="illegal" term="illegal immigrant">illegal immigrants</immigrant>. But, we
             took our case to the people when it was petitioned to referendum, and we won with 58
             percent of the vote. The more our children learn, the more they will earn, and that's
             true of children who have yet to be naturalized. </speech>

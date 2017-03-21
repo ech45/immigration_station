@@ -333,7 +333,7 @@
             passports, that come back. So there's a lot of work we need to do and I want to be sure
             what's called the AUMF, has the authority that is needed going forward. </speech>
         <speech speaker="DICKERSON"> Senator, let me just -- let's add to whatever you've got to say.
-            <immigrant status="legal" term="refugee">Refugees</immigrant>. You've been a little vague on what you would do about the <immigrant status="legal" term="syrian_refugee">Syrian refugees</immigrant>.
+            <immigrant status="refugee" term="refugee">Refugees</immigrant>. You've been a little vague on what you would do about the <immigrant status="refugee" term="syrian_refugee">Syrian refugees</immigrant>.
             What's your view on them now? </speech>
         <speech speaker="SANDERS"> Let me do that but let me pick up on an issue, a very important issue
             that we have not yet discussed. This nation is the most powerful military in the world.
@@ -342,7 +342,7 @@
             hundreds of billions of dollars maintaining 5,000 nuclear weapons. I think we need major
             reform in the military, making it more cost effective, but also focusing on the real
             crisis that faces us. The Cold War is over. And our focus has got to be on intelligence,
-            increased manpower, fighting internationally targets. <trope type="value" subtype="empathy" attitude="pro">So, in terms of <immigrant status="legal" term="refugee">refugees</immigrant>, I
+            increased manpower, fighting internationally targets. <trope type="value" subtype="empathy" attitude="pro">So, in terms of <immigrant status="refugee" term="refugee">refugees</immigrant>, I
             believe that the United States has the moral responsibility with Europe, with Gulf
             countries like Saudi Arabia to make sure that when people leave countries like
             Afghanistan and Syria with nothing more than the clothing on their back that, of course,
@@ -352,9 +352,9 @@
         <speech speaker="DICKERSON"> Governor O'Malley, you have a magic number. I think it's 65,000.
             Does that number go up or down based on what happened yesterday? </speech>
         <speech speaker="O'MALLEY"> John, I was the first person on this stage to say that we should
-            accept the 65,000 <immigrant status="legal" term="syrian_refugee">Syrian refugees</immigrant> that were fleeing the sort of murder of ISIL, and I
+            accept the 65,000 <immigrant status="refugee" term="syrian_refugee">Syrian refugees</immigrant> that were fleeing the sort of murder of ISIL, and I
             believe that that needs to be done with proper screening. But accommodating 65,000
-            <immigrant status="legal" term="refugee">refugees</immigrant> in our country today, people of 320 million, is akin to making room for 6.5
+            <immigrant status="refugee" term="refugee">refugees</immigrant> in our country today, people of 320 million, is akin to making room for 6.5
             more people in a baseball stadium with 32,000. There are other ways to lead and to be a
             moral leader in this world, rather than at the opposite end of a drone strike. But I
             would want to agree with something that Senator Sanders says. The nature of warfare has
@@ -368,11 +368,11 @@
             alleviate this sort of death and the specter we saw of little kids' bodies washing up on
             a beach. </speech>
         <speech speaker="DICKERSON"> Secretary Clinton, let me ask you a question from twitter which has
-            come in and this is a question on this issue of <immigrant status="legal" term="refugee">refugees</immigrant>. The question is, with the U.S.
-            preparing to absorb <immigrant status="legal" term="Syrian_refugee">Syrian refugees</immigrant>, how do you propose we screen those coming in to
+            come in and this is a question on this issue of <immigrant status="refugee" term="refugee">refugees</immigrant>. The question is, with the U.S.
+            preparing to absorb <immigrant status="refugee" term="Syrian_refugee">Syrian refugees</immigrant>, how do you propose we screen those coming in to
             keep citizens safe? </speech>
         <speech speaker="CLINTON"> I think that is the number one requirement. I also said that we
-            should take increased numbers of <immigrant status="legal" term="refugee">refugees</immigrant>. The administration originally said 10. I said
+            should take increased numbers of <immigrant status="refugee" term="refugee">refugees</immigrant>. The administration originally said 10. I said
             we should go to 65, but only if we have as careful a screening and vetting process as we
             can imagine, whatever resources it takes because I do not want us to, in any way,
             inadvertently allow people who wish us harm to come into our country. But I want to say
@@ -523,42 +523,42 @@
             number 45. Joining my now to question them are Iowans Kevin Cooney of KCCI and Kathie
             Obradovich, of the Des Moines Register. Kevin? </speech>
         <speech speaker="COONEY"> Thanks, John. Candidates, we've already heard your answers on what you
-            would do with <immigrant status="legal" term="Syrian_refugee">Syrian refugees</immigrant>, but a crucial part of the <immigrant status="ambig" term="immigration_debate">immigration debate</immigrant> here at home
+            would do with <immigrant status="refugee" term="Syrian_refugee">Syrian refugees</immigrant>, but a crucial part of the <keyword term="immigration debate">immigration debate</keyword> here at home
             is control of our own borders. Republicans say the borders -- securing borders is a top
-            priority. Democrats say they want to plan for <immigrant status="ambig" term="comprehensive_immigration_reform">comprehensive immigration reform</immigrant>. So,
+            priority. Democrats say they want to plan for <keyword term="immigration reform">comprehensive immigration reform</keyword>. So,
             Governor O'Malley, are you willing to compromise on this particular issue to focus on
             border security first in favor of keeping the country safe? </speech>
         <speech speaker="O'MALLEY"> Well, Mr. Cooney, we've actually been focusing on <keyword term="border_security">border security</keyword> to
-            the exclusion of talking about <immigrant status="ambig" term="comprehensive_immigration_reform">comprehensive immigration reform</immigrant>. In fact, if more border
+            the exclusion of talking about <keyword term="immigration reform">comprehensive immigration reform</keyword>. In fact, if more border
             security and these -- and more and more deportations were going to bring our Republican
             brothers and sisters to the table, it would have happened long ago. The fact of the
             matter is -- and let's say it in our debate, because you'll never hear this from that
-            <immigrant status="ambig" term="immigration_bashing">immigration-bashing</immigrant> carnival barker, Donald Trump, the truth of the matter is...
-            [applause] The truth of the matter is, <immigrant status="ambig" term="net_immigration">net immigration</immigrant> from Mexico last year was zero.
+            <keyword term="immigration-bashing">immigration-bashing</keyword> carnival barker, Donald Trump, the truth of the matter is...
+            [applause] The truth of the matter is, <immigration status="ambig" term="net_immigration">net immigration</immigration> from Mexico last year was zero.
             Fact check me. Go ahead. Check it out. <trope type="econ" subtype="jobs" attitude="pro">But the truth of the matter is, if we want wages
             to go up, we've got to get 11 million of our neighbors out of off the book shadow
             economy, and into the full light of an American economy. That's what our parents and
             grandparents always did. That's what we need to do as a nation.</trope> <trope type="value" subtype="naturalization" attitude="pro">Yes, we must protect our
-            borders. But there is no substitute for having <immigrant status="illegal" term="comprehensive_immigration_reform">comprehensive immigration reform</immigrant> with a
+            borders. But there is no substitute for having <keyword term="immigration reform">comprehensive immigration reform</keyword> with a
             pathway to citizenship for 11 million people, many of whom have known no other country
             but the United States of America. Our symbol is the Statue of Liberty. It is not a
             barbed wire fence.</trope> </speech>
         <speech speaker="COONEY"> Thank you. Now, Secretary Clinton said you would go further than the
-            President when it comes to taking executive action to implement <immigrant status="ambig" term="immigration_reform">immigration reforms</immigrant>. But
+            President when it comes to taking executive action to implement <keyword term="immigration reform">immigration reforms</keyword>. But
             the President's already facing legal trouble on this. We've seen it more just in the
             past week. Realistically, how could you go further with executive action? </speech>
         <speech speaker="CLINTON"> Well, first of all, I know that the President has appealed the
             decision to the Supreme Court. And my reading of the law and the Constitution convinces
             me that the President has the authority that he is attempting to exercise with respect
             to dreamers and their parents, because I think all of us on this stage agree that we
-            need <immigrant status="illegal" term="comprehensive_immigration_reform">comprehensive immigration reform</immigrant> with a path to citizenship. Border security has
-            always been a part of that debate. And it is a fact that the <immigrant status="ambig" term="net_immigration">net immigration</immigrant> from Mexico
+            need <keyword term="immigration reform">comprehensive immigration reform</keyword> with a path to citizenship. Border security has
+            always been a part of that debate. And it is a fact that the <immigration status="ambig" term="net_immigration">net immigration</immigration> from Mexico
             and South has basically zeroed out. <trope type="value" subtype="naturalization" attitude="pro">So, what we want to do is to say, look, we have 11
             million people who have been here, many of them for decades. They have children who are
             doing so well, I've met and worked with dreamers. I think any parent would be so proud
             of them. So let's move toward what we should be doing as a nation and follow the values
             of our <immigrant status="ambig" term="immigration_history">immigration history</immigrant> and begin to make it possible for them to come out of the
-            shadows and to have a future that gives them a full chance of citizenship.</trope> [applause] </speech>
+            shadows and to have a future that gives them a full <keyword term="path to citizenship">chance of citizenship</keyword>.</trope> [applause] </speech>
         <speech speaker="COONEY"> Kathie. </speech>
         <speech speaker="OBRADOVICH"> Senator Sanders, you've actually talked about <immigrant status="ambig" term="immigration">immigration</immigrant> as being
             a wage issue in the United States. And I want to actually go directly to the wage issue

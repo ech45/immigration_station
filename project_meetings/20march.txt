@@ -1,0 +1,25 @@
+today's topic: Analysis of debates -- what are we planning on doing?
+
+How do we orient graphics with analysis?
+   Side by side? Pop-up? NOT on different pages
+   
+Candidate analyses
+   index.xhtml/Candidates/Republicans(or Democrats)/page with photos
+   donne.obdurodon.org textual presentation might have some good ideas
+   radio buttons on the top of the screen to identify trope types with a list of subtypes associated with that type available to select
+   candidate section -- aggregate all candidate utterances and organize them semantically//debate section -- list of entire debates to better see context
+     link the utterances in each location???
+     html development: Wrap the relevent sections of debates in a div and write code that either shows or hides non-relevent parts of the debate
+     
+models and figures
+   use a dynamic bar graph to identify what words were used by candidates
+   percentage of total speech in debate and percentage of total speech pertaining to immigration by candidate
+   Tropes will be used mostly as navigation tools because of their subjective nature
+   
+Responsibilities
+   One person to make readable debate documents
+   Reformatting xml documents to ready them for html publishing
+   Write an xsl stylesheet to manipulate the debate content
+   **how will we divide the candidate's utterances?**
+   Start developing candidate and debate pages on site
+   
