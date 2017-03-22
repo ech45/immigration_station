@@ -930,7 +930,7 @@ Please give some applause to the candidates. [applause]
             will get it done. </speech>
         <speech speaker="TRUMP"> Correct. First of all, I want to build a <keyword term="wall"
                 >wall</keyword>, a <keyword term="wall">wall</keyword> that works. So important,
-            and it's a big part of it. Second of all, we have a lot of really bad dudes in this
+            and it's a big part of it. Second of all, we have a lot of <immigrant status="illegal" term="really bad dudes">really bad dudes</immigrant> in this
             country from outside, and I think Chris knows that, maybe as well as anybody. <trope
                 type="secure" subtype="crime" attitude="anti">They go, if I get elected, first day
                 they're gone. Gangs all over the place. Chicago, Baltimore, no matter where you
@@ -943,7 +943,7 @@ Please give some applause to the candidates. [applause]
                 Tower, I took heat like nobody has taken heat in a long time. And, then they found
                 out with the killing of Katie, from San Francisco, and so many other crimes, they
                 found out that I was right. And, most people, many people, apologized to
-                me.</anecdote> I don't think you'd even be talking about illegal immigration if it
+                me.</anecdote> I don't think you'd even be talking about <immigration status="illegal" term="illegal immigration">illegal immigration</immigration> if it
             weren't for me. <trope type="value" subtype="sovereignty" attitude="anti"> So, we have a
                 country of laws, they're going to go out, and they'll come back if they deserve to
                 come back. If they've had a bad record, if they've been arrested, if they've been in
@@ -967,7 +967,7 @@ Please give some applause to the candidates. [applause]
                 >border</keyword>, and we need to do it with more than just a <keyword term="wall"
                 >wall</keyword>. We need to use electronics, we need to use drones, we need to use
             FBI, DEA, and ATF, and yes, we need to take the fingerprint of every person who comes
-            into this country on a visa, and when they overstay their visa, we need to tap them on
+            into this country on a visa, and when they <keyword term="visa overstay">overstay their visa</keyword>, we need to tap them on
             the shoulder, and say, "You have overstayed your welcome, you're taking advantage of the
             American people. It's time for you to go." If we had that kind of system in place, we
             wouldn't have the 11 million people we have now. </speech>
@@ -1041,8 +1041,8 @@ Please give some applause to the candidates. [applause]
         <speech speaker="BUSH"> I'm on the Reagan side of this. </speech>
         <speech speaker="TRUMP"> ... that they come into our country as an act of love. With all of
             the problems we that we have, in so many instances — we have wonderful people coming in.
-            But with all of the problems — this is not an act of love. He's weak on immigration — by
-            the way, in favor of Common Core, which is also a disaster, but weak on immigration. He
+            But with all of the problems — this is not an act of love. He's weak on <immigration status="ambig" term="immigration">immigration</immigration> — by
+            the way, in favor of Common Core, which is also a disaster, but weak on <immigration status="ambig" term="immigration">immigration</immigration>. He
             doesn't get my vote. </speech>
         <speech speaker="BASH"> Mr. Trump... </speech>
         <speech speaker="FIORINA"> Dana, with all being said to Mr. Trump... </speech>
@@ -1056,7 +1056,7 @@ Please give some applause to the candidates. [applause]
             to come to you. I just want to give Governor Bush a chance to respond to what Mr. Trump
             said. </speech>
         <speech speaker="BUSH"> Look, first of all, I wrote a book about this, three — four years
-            ago, now. And I laid out a comprehensive, conservative approach for immigration reform.
+            ago, now. And I laid out a comprehensive, conservative approach for <keyword term="immigration reform">immigration reform</keyword>.
             And it does require securing the <keyword term="border">border</keyword>. No one
             disagrees with that. <trope type="value" subtype="ambig" attitude="pro">But to build a
                     <keyword term="wall">wall</keyword>, and to deport people — half a million a
@@ -1066,8 +1066,8 @@ Please give some applause to the candidates. [applause]
                 important for our long-term success no longer matter in this country.</trope>
             [applause] </speech>
         <speech speaker="TRUMP"> As I said, we are spending $200 billion — we are spending $200
-            billion a year on maintaining what we have. <trope type="value" subtype="sovereignty" attitude="ambig">We will move them out. The great ones will
-            come back, the good ones will come back. They'll be expedited, they'll be back, they'll
+            billion a year on maintaining what we have. <trope type="value" subtype="sovereignty" attitude="ambig">We will move them out. The <immigrant status="illegal" term="great ones">great ones</immigrant> will
+            come back, the <immigrant status="illegal" term="good ones">good ones</immigrant> will come back. They'll be expedited, they'll be back, they'll
             come back legally. We'll have a country — they'll come back, legally.</trope> </speech>
         <speech speaker="BASH"> OK, on that note, you have criticized Governor Bush for speaking
             Spanish on the campaign trail. You said, quote, "He should really set an example by
@@ -1150,10 +1150,10 @@ Please give some applause to the candidates. [applause]
             about in the newspaper. <immigration status="ambig" term="immigration">Immigration</immigration>, <immigration status="illegal" term="illegal immigration">illegal immigration</immigration>, all the good aspects of
             <immigration status="ambig" term="immigration">immigration</immigration> and all the negative ones as well, I live with. My family's <immigrant status="ambig" term="immigrant">immigrants</immigrant>. My
             neighbors are all <immigrant status="ambig" term="immigrant">immigrants</immigrant>. My in-laws are all <immigrant status="ambig" term="immigrant">immigrants</immigrant>. So I've seen every aspect
-            of it, and I can tell you America doesn't have one immigration problem, it has three.
+            of it, and I can tell you America doesn't have one <immigration status="ambig" term="immigration">immigration</immigration> problem, it has three.
             First, despite the fact that we are the most generous country in the history of the
             world in allowing people to come here legally, we have people still coming illegally.
-            Second, we have a legal immigration system that no longer works. It primary is built on
+            Second, we have a legal <keyword term="immigration system">immigration system</keyword> that no longer works. It primary is built on
             the basis of whether you have a relative living here instead of merit. And third, we
             have 11 million or 12 million people, many of whom have been here for longer than a
             decade who are already here illegally. And we must deal with all three of these
@@ -1163,9 +1163,9 @@ Please give some applause to the candidates. [applause]
                 <keyword term="border">border</keyword>, with — with a <keyword term="wall"
                 >wall</keyword>, absolutely. But we also need to have an entry/exit tracking
             system. 40 percent of the people who come here illegally come legally, and then they
-            overstay the visa. We also need a mandatory <keyword term="e-verify"
+            <keyword term="visa overstay">overstay the visa</keyword>. We also need a mandatory <keyword term="e-verify"
                 >e-verify</keyword> system. After we've done that, step two would be to modernize
-            our legal immigration system so you come to America on the basis of what you can
+            our legal <keyword term="immigration system">immigration system</keyword> so you come to America on the basis of what you can
             contribute economically, not whether or not simply you have a relative living here. And
             after we've done those two things, I believe the American people... </speech>
         <speech speaker="TAPPER"> Thank you, Senator. </speech>
@@ -1188,11 +1188,11 @@ Please give some applause to the candidates. [applause]
             wheel. All we have to do is look at things that work. All we have to do is use a little
             common sense. </speech>
         <speech speaker="TAPPER"> Thank you, Dr. Carson. I want to talk about the issue of
-            birthright citizenship, which — which has emerged since the first debate as — as an a —
+            <keyword term="birthright citizenship">birthright citizenship</keyword>, which — which has emerged since the first debate as — as an a —
             a major issue in this campaign. Mr. Trump, you say that babies born in the United States
             to <immigrant status="illegal" term="undocumented immigrant">undocumented immigrants</immigrant> should not any longer get automatic American citizenship. Ms.
             Fiorina says that you are pandering on this issue and acting like the politicians that
-            you rail against. What's your message to Ms. Fiorina on birthright citizenship? </speech>
+            you rail against. What's your message to Ms. Fiorina on <keyword term="birthright citizenship">birthright citizenship</keyword>? </speech>
         <speech speaker="TRUMP"> Well, first of all, the — the 14th Amendment says very, very
             clearly to a lot of great legal scholars — not television scholars, but legal scholars —
             that it is wrong. It can be corrected with an act of Congress, probably doesn't even
@@ -1208,29 +1208,29 @@ Please give some applause to the candidates. [applause]
             scholars that say that is not correct. And in my opinion, it makes absolutely no — we're
             the only — one of the only countries, we're going to take care of those babies for 70,
             75, 80, 90 years? I don't think so. </speech>
-        <speech speaker="TAPPER"> Ms. Fiorina, the vast majority of countries do not have birthright
-            citizenship... [applause] ...Donald Trump is right about that. Why is it pandering when
+        <speech speaker="TAPPER"> Ms. Fiorina, the vast majority of countries do not have <keyword term="birthright citizenship">birthright
+            citizenship</keyword>... [applause] ...Donald Trump is right about that. Why is it pandering when
             he's — he says this? </speech>
         <speech speaker="FIORINA"> First let me say, We have just spent a good bit of time
             discussing, as Republicans, how to solve this problem. I would ask your audience at home
             to ask a very basic question. Why have Democrats not solved this problem? President
-            Obama campaigned in 2007 and 2008 on solving the immigration problem. He entered
+            Obama campaigned in 2007 and 2008 on solving the <keyword term="immigration problem">immigration problem</keyword>. He entered
             Washington with majorities in the House and the Senate. He could have chosen to do
             anything to solve this pro — this problem. Instead, he chose to do nothing. Why? because
             the Democrats don't want this issue solved. </speech>
         <speech speaker="TAPPER"> Ms. Fiorina... </speech>
-        <speech speaker="FIORINA"> They want it to be an issue that they can use. As to birthright
-            citizenship... </speech>
+        <speech speaker="FIORINA"> They want it to be an issue that they can use. As to <keyword term="birthright citizenship">birthright
+            citizenship</keyword>... </speech>
         <speech speaker="TAPPER"> Please. </speech>
         <speech speaker="FIORINA"> ...the truth is, you can't just wave your hands and say "the 14th
             Amendment is gonna go away." It will take an extremely arduous vote in Congress,
             followed by two-thirds of the states, and if that doesn't work to amend the
             Constitution, then it is a long, arduous process in court. And meanwhile, what will
             continue to go on is what has gone on for 25 years. With all due respect, Mr. Trump,
-            we've been talking about illegal immigration for 25 years. San Francisco has been a
+            we've been talking about <immigration status="illegal" term="illegal immigration">illegal immigration</immigration> for 25 years. San Francisco has been a
             sanctuary city since 1989. There are 300 of them. And meanwhile, what has happened?
             Nothing. The <keyword term="border">border</keyword> remains insecure. The legal
-            immigration system remains broken. Look, we know what it takes to secure a <keyword
+            <keyword term="immigration system">immigration system</keyword> remains broken. Look, we know what it takes to secure a <keyword
                 term="border">border</keyword>. We've heard a lot of great ideas here. Money,
             manpower, technology... </speech>
         <speech speaker="TAPPER"> Thank you, Ms. Fiorina. </speech>
@@ -1251,7 +1251,7 @@ Please give some applause to the candidates. [applause]
         <speech speaker="TRUMP"> That's true, sure. </speech>
         <speech speaker="FIORINA"> OK. </speech>
         <speech speaker="TAPPER"> Senator Paul, I want to bring you in. Where — where do you stand
-            on the issue of birthright citizenship? </speech>
+            on the issue of <keyword term="birthright citizenship">birthright citizenship</keyword>? </speech>
         <speech speaker="PAUL"> Well, I hate to say it, but Donald Trump has a bit of a point here.
             The case that was decided around 1900 was, people had a green card, were here legally,
             and they said that their children were citizens. There's never been a direct Supreme
@@ -2599,7 +2599,8 @@ We were discussing disease, we were discussing all sorts of things tonight, many
 If I'm president, many of the things that we discussed tonight will not be forgotten. We'll find solutions. And the world will respect us. They will respect us like never before. And it will be actually a friendlier world.
 
 And I have to say, it is a great honor to be here tonight. [applause]
-</speech>
+</speech> --></speech>
+
 <speech speaker="BUSH"> Six million more people are living in poverty than the day that Barack Obama got elected president. Six million more people. The middle class has had declining income, workforce participation rates are lower than they were in 1977.
 
 For the first time in modern history, more businesses are failing than are being created. That is what the next president will have to deal with.
@@ -2612,7 +2613,8 @@ That should be the great challenge and the great opportunity for the next presid
 
 Without a high-growth strategy, our country will never have the resources or the optimism to be able to lead the world, which the world desperately needs our leadership. [applause]
 </speech>
-<speech speaker="WALKER"> Well, I turned 13 years old two days before Ronald Reagan was first elected. A lot of people forget this, but just a few days before that election 1980, he was behind in the polls.
+        
+<!-- <speech speaker="WALKER"> Well, I turned 13 years old two days before Ronald Reagan was first elected. A lot of people forget this, but just a few days before that election 1980, he was behind in the polls.
 
 And I think what changed things was people in America realized they didn't want to hear what was bad about America, they wanted to know how it was going to be better. Ronald Reagan wasn't just a conservative Republican, he was an eternal optimist in the American people.
 
@@ -2659,6 +2661,6 @@ It will be an America that be strong and resolute, and will once again be able t
 The next presidential debate will also be right here on CNN, among the Democratic candidates, who will face off for the first time on October the 13th. That debate, a partnership with Facebook, will be moderated by my colleague, Anderson Cooper.
  
 And Anderson picks up our coverage of tonight's debate right now. Before I throw to Anderson, let's have one final round of applause for the candidates.-->
-        </speech>
+
     </body>
 </debate>
