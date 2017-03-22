@@ -18,7 +18,7 @@
         </participants>
     </meta>
     <body>
-        <!-- <speech speaker="BAIER">Nine p.m. on the East Coast. Eight o'clock here in Des Moines, Iowa. Welcome to the seventh Republican presidential debate of the 2016 campaign. I'm Bret Baier, along with my comoderators Megyn Kelly and Chris Wallace.</speech>
+         <section key="other"> <speech speaker="BAIER">Nine p.m. on the East Coast. Eight o'clock here in Des Moines, Iowa. Welcome to the seventh Republican presidential debate of the 2016 campaign. I'm Bret Baier, along with my comoderators Megyn Kelly and Chris Wallace.</speech>
 
 <speech speaker="KELLY">Tonight, we are coming to you live from the Iowa Event Center in downtown Des Moines, in the shadow of the Iowa state capitol. In just four days, people here in the Hawkeye State will caucus and cast the first votes of the 2016 election.</speech>
 
@@ -398,7 +398,7 @@ We must keep America safe from this threat. And yes, when I am president of the 
 
 <speech speaker="PAUL">[inaudible].</speech>
 
-<speech speaker="KELLY">Senator Paul, do you agree with that? We're gonna close down mosques, we're gonna close down diners where we think radical thinking's occurring? [crosstalk]</speech> -->
+<speech speaker="KELLY">Senator Paul, do you agree with that? We're gonna close down mosques, we're gonna close down diners where we think radical thinking's occurring? [crosstalk]</speech> </section> <section key="imm">
 
         <speech speaker="PAUL">Yeah, no, I think that's a — that's a huge mistake, to be closing
             down mosques. But I would say that if you want to defend the country, it begins with
@@ -428,7 +428,7 @@ We must keep America safe from this threat. And yes, when I am president of the 
             face from ISIS is extraordinary and unprecedented... [bell rings] ... and when I'm
             president, we are keeping ISIS out of America.</speech>
 
-        <!-- <speech speaker="KELLY">Governor Christie, let's talk about profiling. [applause]
+        </section> <section key="other"> <speech speaker="KELLY">Governor Christie, let's talk about profiling. [applause]
 
 In December...</speech>
 
@@ -462,7 +462,7 @@ They're not supporting our law enforcement officers, it's making everybody nervo
 
 It's making people in neighborhoods nervous to go to law enforcement. As president, I will support law enforcement and we'll stop radical terrorist attacks in this country by supporting our intelligence community and law enforcement community. [applause]</speech>
 
-<speech speaker="KELLY">Dr. Carson, this week a female Muslim who served in the U.S. Air Force asked Hillary Clinton the question, she asked whether the United States is still the best place in which to raise her three Muslim children. Given what she perceives as a rise in Islamaphobia in this country. Do you think the GOP messaging on Muslims has stoked the flames of bias on this as the Democrats suggest, and how would you answer this veteran?</speech> -->
+<speech speaker="KELLY">Dr. Carson, this week a female Muslim who served in the U.S. Air Force asked Hillary Clinton the question, she asked whether the United States is still the best place in which to raise her three Muslim children. Given what she perceives as a rise in Islamaphobia in this country. Do you think the GOP messaging on Muslims has stoked the flames of bias on this as the Democrats suggest, and how would you answer this veteran?</speech> </section> <section key="imm">
 
         <speech speaker="CARSON">Well, I don't know about the GOP messaging, but I can tell you
             about my messaging. You know, need to stop allowing political correctness to dictate our
@@ -487,7 +487,7 @@ It's making people in neighborhoods nervous to go to law enforcement. As preside
             is going to cause more security problems than it would solve for everyday Americans. Are
             they wrong?</speech>
 
-        <!-- <speech speaker="KASICH">Well, look the Joint Terrorism Task Force needs resources and tools. And those are made up of the FBI, state and local law enforcement. And Megyn, it's best not to talk anymore about back doors and encryption, it will get solved, but it needs to be solved in the situation of the White House with the technology folks.</speech>
+        </section> <section key="other"> <speech speaker="KASICH">Well, look the Joint Terrorism Task Force needs resources and tools. And those are made up of the FBI, state and local law enforcement. And Megyn, it's best not to talk anymore about back doors and encryption, it will get solved, but it needs to be solved in the situation of the White House with the technology folks.</speech>
 
 <speech speaker="KELLY">But this is public testimony.</speech>
 
@@ -605,7 +605,7 @@ And I do not believe it's a good idea now. I do not believe that we have to dest
 
 When I am president of the United States of America, there will never be any cap-and-trade in the United States. [applause]</speech>
 
-<speech speaker="BAIER">Thanks, Senator.</speech> -->
+<speech speaker="BAIER">Thanks, Senator.</speech> </section> <section key="imm">
 
         <speech speaker="KELLY">All right. We're going to move on. Because coming up, <immigration
                 status="ambig" term="immigration">immigration</immigration>, and something you've
@@ -945,7 +945,7 @@ When I am president of the United States of America, there will never be any cap
             <immigration status="legal" term="immigration">immigration</immigration> system is in need of modernization. And we will always celebrate legal
             immigration like Dulce's great story.</speech>
 
-      <!--  <speech speaker="KELLY">All right. We're moving on. [applause]</speech>
+      </section> <section key="other">  <speech speaker="KELLY">All right. We're moving on. [applause]</speech>
 
         <speech speaker="WALLACE">Gentlemen, we're going to turn now to what we call electability,
             issues that you're either facing in the primaries or issues that you're certainly going
@@ -1294,6 +1294,6 @@ The central question in this race is trust. Who do you know will kill the terror
 
 <speech speaker="WALLACE">And don't forget, after all the talk, the first voting of the 2016 campaign happens in just four days. The first Americans to vote, the Iowa caucuses are Monday and Fox News will have complete coverage.</speech>
 
-<speech speaker="BAIER">And we have you covered from Iowa, all the way to the conventions and on to the general election. Thanks again for joining us. For all of us here in Des Moines, have a great evening. </speech> -->
+<speech speaker="BAIER">And we have you covered from Iowa, all the way to the conventions and on to the general election. Thanks again for joining us. For all of us here in Des Moines, have a great evening. </speech> </section> 
     </body>
 </debate>

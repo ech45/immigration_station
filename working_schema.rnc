@@ -8,7 +8,11 @@ date = element date { text }
 loc = element loc { text }
 ref = attribute ref { text }
 participants = element participants { candidate+, moderator+ }
-body = element body { speech+ }
+
+body = element body {section+}
+section= element section {key, speech+}
+key= attribute key {'imm'|'other'}
+
 speech =
     element speech {
         speaker,
@@ -57,3 +61,4 @@ immigrant = element immigrant { status, term, text }
 status = attribute status { "legal" | "illegal" | "refugee" | "ambig" }
 term = attribute term { text }
 attitude = attribute attitude { "pro" | "anti" | "ambig" }
+

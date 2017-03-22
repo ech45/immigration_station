@@ -27,7 +27,7 @@
     </meta>
 
     <body>
-        <!--
+         <section key="other">
      <speech speaker="KELLY"> Welcome to the first debate night of the 2016 presidential campaign, live from Quicken Loans Arena in Cleveland, Ohio.
 
 I'm Megyn Kelly... [applause]... along with my co-moderators, Brett Baier and Chris Wallace.
@@ -188,7 +188,7 @@ You've called women you don't like "fat pigs, dogs, slobs, and disgusting animal
 
 </speech> <speech speaker="KELLY"> Your Twitter account has several disparaging comments about women's looks. You once told a contestant on Celebrity Apprentice it would be a pretty picture to see her on her knees. Does that sound to you like the temperament of a man we should elect as president, and how will you answer the charge from Hillary Clinton, who was likely to be the Democratic nominee, that you are part of the war on women?
 
-</speech> --><speech speaker="TRUMP"> I think the big problem this country has is being politically correct. [applause]
+</speech> </section> <section key="imm"><speech speaker="TRUMP"> I think the big problem this country has is being politically correct. [applause]
 
 I've been challenged by so many people, and I don't frankly have time for total political correctness. And to be honest with you, this country doesn't have time either. This country is in big trouble. We don't win anymore. We lose to China. We lose to Mexico both in trade and at the <keyword term="border">border</keyword>. We lose to everybody.
 
@@ -196,7 +196,7 @@ And frankly, what I say, and oftentimes it's fun, it's kidding. We have a good t
 
 But you know what, we ...we need strength, we need energy, we need quickness and we need brain in this country to turn it around. That, I can tell you right now.
 
-</speech><!-- <speech speaker="WALLACE"> Senator Cruz, your colleague, Senator Paul, right there next to you, said a few months ago he agrees with you on a number of issues, but he says you do nothing to grow the party. He says you feed red meat to the base, but you don't reach out to minorities. You have a toxic relationship with GOP leaders in Congress. You even called the Republican Senate Leader Mitch McConnell a liar recently. [applause]
+</speech></section> <section key="other"> <speech speaker="WALLACE"> Senator Cruz, your colleague, Senator Paul, right there next to you, said a few months ago he agrees with you on a number of issues, but he says you do nothing to grow the party. He says you feed red meat to the base, but you don't reach out to minorities. You have a toxic relationship with GOP leaders in Congress. You even called the Republican Senate Leader Mitch McConnell a liar recently. [applause]
 
 How can you win in 2016 when you're such a divisive figure?
 
@@ -264,8 +264,8 @@ And do you know what?
 
 Everybody has a right to their God-given purpose.
 
-And finally, our Medicaid is growing at one of the lowest rates in the country. And, finally, we went from $8 billion in the hole to $2 billion in the black. We've cut $5 billion in taxes... [timer sounds] ...and we've grown 350,000 jobs. [applause]
--->
+And finally, our Medicaid is growing at one of the lowest rates in the country. And, finally, we went from $8 billion in the hole to $2 billion in the black. We've cut $5 billion in taxes... [timer sounds] ...and we've grown 350,000 jobs. [applause]</speech>
+</section> <section key="imm">
         <speech speaker="WALLACE"> Gentlemen, we're turning to a new subject that all of you have
             been talking about and some of you have been disagreeing about, and that is the issue of
             immigration. Governor Bush, you released a new plan this week on <immigration
@@ -441,9 +441,9 @@ And finally, our Medicaid is growing at one of the lowest rates in the country. 
                 <keyword term="amnesty">amnesty</keyword>. I have never supported <keyword
                 term="amnesty">amnesty</keyword>, and I led the fight against Chuck Schumer's gang
             of eight <keyword term="amnesty">amnesty legislation</keyword> in the Senate.</speech>
-        <!--
+        </section> <section key="other">
 
-</speech> <speech speaker="KELLY"> Alright, gentlemen, we're gonna switch topics now and talk a bit about terror and national security.
+<speech speaker="KELLY"> Alright, gentlemen, we're gonna switch topics now and talk a bit about terror and national security.
 
 Governor Christie. You've said that Senator Paul's opposition to the NSA's collection of phone records has made the United States weaker and more vulnerable, even going so far as to say that he should be called before Congress to answer for it if we should be hit by another terrorist attack.
 
@@ -1165,7 +1165,7 @@ We find steel.
 
 As commander in chief, how would you handle that?
 
-</speech>--> <speech speaker="HUCKABEE"> The military is not a social experiment. The purpose of the military is kill people and break things. [applause]
+</speech></section> <section key="imm"> <speech speaker="HUCKABEE"> The military is not a social experiment. The purpose of the military is kill people and break things. [applause]
 
 It's not to transform the culture by trying out some ideas that some people think would make us a different country and more diverse. The purpose is to protect America. I'm not sure how paying for transgender surgery for soldiers, sailors, airmen, marines makes our country safer.
 
@@ -1175,7 +1175,7 @@ We've not done that because we've decimated our military. We're flying B-52s. Th
 
 [laughter and applause]
 
-</speech> <!--<speech speaker="BAIER"> Senator Paul, the first budget you proposed as senator cut all financial aid to Israel. You have since changed your view on that issue. What made you change your mind.
+</speech> </section> <section key="other"><speech speaker="BAIER"> Senator Paul, the first budget you proposed as senator cut all financial aid to Israel. You have since changed your view on that issue. What made you change your mind.
 
 </speech> <speech speaker="PAUL"> Well, let's be clear, I'm the only one on the stage who actually has a five-year budget that balances. I've put pencil to paper...
 
@@ -1223,7 +1223,7 @@ In our final moments here together, we're going to allow the candidates to offer
 
 Senator Cruz, start from you. Any word from God?
 
-</speech> --><speech speaker="CRUZ"> Well, I am blessed to receive a word from God every day in receiving the scriptures and reading the scriptures. And God speaks through the Bible. [applause]
+</speech> </section> <section key="imm"><speech speaker="CRUZ"> Well, I am blessed to receive a word from God every day in receiving the scriptures and reading the scriptures. And God speaks through the Bible. [applause]
 
 I'm the son of a pastor and evangelist and I've described many times how my father, when I was a child, was an alcoholic. He wasn't a Christian. And my father left my mother and left me when I was just three years old.
 
@@ -1233,11 +1233,11 @@ I would also note that the scripture tells us, "you shall know them by their fru
 
 There are real differences among the candidates on issues like <keyword term="amnesty">amnesty</keyword>, like Obamacare, like religious liberty, like life and marriage. And I have been proud to fight and stand for religious liberty, to stand against Planned Parenthood, to defend life for my entire career.
 
-And I will be proud to continue to do so as president of the United States.</speech><!--
+And I will be proud to continue to do so as president of the United States.</speech></section> <section key="other">
 
-[cheering and applause]
 
-</speech> <speech speaker="KELLY"> Governor Kasich, same question.
+
+ <speech speaker="KELLY"> Governor Kasich, same question.
 
 </speech> <speech speaker="KASICH"> Well, Megyn, my father was a mailman. His father was a coal miner. My mother's mother could barely speak English. And their son today stands on this podium in the great state of Ohio not only as the governor, but a candidate for president of the United States. [cheering and applause]
 
@@ -1361,7 +1361,7 @@ It wasn't too late for Wisconsin, and it's not too late for America. That's why 
 
 </speech> <speech speaker="WALLACE"> Governor Bush, closing statement, sir.
 
-</speech> -->
+</speech> </section> <section key="imm">
         <speech speaker="BUSH"> Here's what I believe. I believe we're at the verge of the greatest
             time to be alive in this world. But Washington is holding us back. How we tax, how we
             regulate. We're not embracing the energy revolution in our midst, a broken <keyword
@@ -1373,7 +1373,7 @@ It wasn't too late for Wisconsin, and it's not too late for America. That's why 
             restore America's leadership in the world, so that everybody has a chance to rise up. I
             humbly ask for your vote, whenever you're gonna get to vote, whenever the primary is.
             Thank you all very much. </speech>
-        <!--<speech speaker="BAIER"> Mr. Trump, closing statement, sir.
+        </section> <section key="other"><speech speaker="BAIER"> Mr. Trump, closing statement, sir.
 
 </speech> <speech speaker="TRUMP"> Our country is in serious trouble. We don't win anymore.
 
@@ -1391,6 +1391,6 @@ Thank you.
 
 </speech> <speech speaker="KELLY"> Are you relieved? You were nervous before, they ...they don't look relieved. They look "get me outta here."
 
-Thank you all very much, and that will do it for the first Republican primary debate night of the 2016 presidential race. Our thanks to the candidates, who will now be joined by their families on stage.</speech>-->
+Thank you all very much, and that will do it for the first Republican primary debate night of the 2016 presidential race. Our thanks to the candidates, who will now be joined by their families on stage.</speech></section> 
     </body>
 </debate>
