@@ -13,7 +13,7 @@
         </participants>
     </meta>
     <body>
-      <!--  <speech speaker="RAMOS"> [Speaking in Spanish] </speech>
+       <section key="other">  <speech speaker="RAMOS"> [Speaking in Spanish] </speech>
         <speech speaker="SALINAS">[through translator]: This will be the first and only debate the
             candidates will do, taking into account the millions of [inaudible] voters [inaudible]
             Univision News, together with the Washington Post. </speech>
@@ -46,12 +46,12 @@
             tax, making them pay back any tax breaks they've gotten. But we also need to be having a
             positive agenda for manufacturing. for small businesses and entrepreneurs, for more
             clean energy jobs. And I also look forward to discussing comprehensive <keyword
-                term="immigration reform">immigration reform</keyword> with a path to citizenship
+                term="immigration reform">immigration reform</keyword> with a <keyword term="path to citizenship">path to citizenship</keyword>
             that will be one of my priorities in my first 100 days as president. And I will also be
             talking about education, every child deserves a good teacher and a good school. </speech>
         <speech speaker="SALINAS"> Thank you, Secretary. </speech>
         <speech speaker="CLINTON"> And so thank you for having us, and I look forward to the debate.
-            [applause] </speech>-->
+            [applause] </speech></section> <section key="imm">
         <speech speaker="SALINAS"> Thank you. Senator Sanders, your opening remarks. </speech>
         <speech speaker="SANDERS"> Thank you — thank you all very much. I'm running for president of
             the United States because given the crises facing our country, it is just too late for
@@ -65,8 +65,8 @@
                     toward citizenship</keyword>.</platform> And here in Miami...[applause]...here
             in Miami as much as any city in America, we know that we have got to combat climate
             change, transform our energy system, and leave this planet in a way that is healthy and
-            habitable for our kids and our grandchildren. </speech><!--
-        <speech speaker="SALINAS"> Thank you, Senator. First question, Secretary, you have been
+            habitable for our kids and our grandchildren. </speech></section>
+       <section key="other"> <speech speaker="SALINAS"> Thank you, Senator. First question, Secretary, you have been
             starting to sound like the nominee lately, but many voters are saying, not so fast.
             Where did you fail last night in Michigan? </speech>
         <speech speaker="CLINTON"> Well, look, I won one of the contests and lost another close one.
@@ -154,7 +154,7 @@
             president who couldn't decide whether or not to disavow the Ku Klux Klan and David Duke.
             So people can draw their own conclusions about him. I will just end by saying this. You
             don't make America great by getting rid of everything that made America great.
-            [applause] </speech>-->
+            [applause] </speech></section> <section key="imm">
         <speech speaker="TUMULTY"> Secretary Clinton, my question was about his character. And that
             is one of the primary things that Americans think about when they choose their next
             president. How would you describe the character of a person who has said the sorts of
@@ -290,11 +290,11 @@
         <speech speaker="SALINAS">[through translator]: [inaudible] Facebook page [inaudible]. Tell
             us what you think of the debate in the comment section. We will come back after the
             break.[commercial break] </speech>
-        <!--<speech speaker="RAMOS">[through translator]: We're back to the Democratic debate. Secretary
+        </section> <section key="other"><speech speaker="RAMOS">[through translator]: We're back to the Democratic debate. Secretary
             Clinton, the last time we talked in January, in Iowa, I asked you if you could be the
             next deporting chief. And you told me, no, that you wouldn't be the next deporter in
             chief. However, you refused two times to say you would not deport children. This is what
-            you said. [begin video clip] </speech>-->
+            you said. [begin video clip] </speech></section> <section key="imm">
         <speech speaker="RAMOS"> And can you promise that you won't deport <immigrant status="illegal" term="immigrant">immigrants</immigrant> who don't have
             a criminal record? </speech>
         <speech speaker="CLINTON"> Here's what I can promise Jorge, I can promise that I will do
@@ -340,7 +340,7 @@
         <speech speaker="CLINTON"> Yes. </speech>
         <speech speaker="RAMOS"> ... and those who don't have a criminal record. </speech>
         <speech speaker="CLINTON"> Of the people, the <immigrant status="illegal" term="undocumented people">undocumented people</immigrant> living in our country, I
-            do not want to see them deported. I want to see them on a path to citizenship. That is
+            do not want to see them deported. I want to see them on a <keyword term="path to citizenship">path to citizenship</keyword>. That is
             exactly what I will do. [applause] </speech>
         <speech speaker="RAMOS"> Senator Sanders, would you — can you promise us tonight that you
             won't deport children? </speech>
@@ -387,7 +387,7 @@
             absurd efforts to, quote, "hunt down <immigrant status="ambig" term="immigrant">immigrants</immigrant>. So look, I think the goal here is to
             elect a Democratic Senate, elect a Democratic president and get to work immediately to
             get <keyword term="immigration reform">comprehensive immigration reform</keyword>. [applause] </speech>
-       <!-- <speech speaker="RAMOS"> Did you support the Minutemen, Senator? Did you support the
+       </section> <section key="other"> <speech speaker="RAMOS"> Did you support the Minutemen, Senator? Did you support the
             Minutemen? </speech>
         <speech speaker="SANDERS"> I'm sorry? </speech>
         <speech speaker="RAMOS"> Did you support the Minutemen, as Secretary Clinton has said? </speech>
@@ -434,7 +434,7 @@
         <speech speaker="SALINAS"> Senator — your time is up, Senator. </speech>
         <speech speaker="SANDERS"> ...former senators said, no, this wasn't the automobile bailout.
             It was the bailout of Wall Street. </speech>
-        <speech speaker="RAMOS"> Thank you. </speech>-->
+        <speech speaker="RAMOS"> Thank you. </speech></section> <section key="imm">
         <speech speaker="SALINAS"> We have to move on. Senator, the time is up. We have to move on.
             [applause] Next question. Secretary Clinton, you recently said instead of building walls
             we need to tear down barriers. However, last November in New Hampshire, you openly said
@@ -514,7 +514,7 @@
             programs that President Obama has put into place, DACA and DAPA, because I will defend
             those and I will absolutely protect your children, yourself, and try to bring your
             family back together. [applause] </speech>
-       <!-- <speech speaker="QUESTION"> Secretary Clinton, thank you. Secretary Clinton, they are U.S.
+       </section> <section key="other"> <speech speaker="QUESTION"> Secretary Clinton, thank you. Secretary Clinton, they are U.S.
             citizens [inaudible]. [applause] Thank you. Now let's go back to Karen. </speech>
         <speech speaker="TUMULTY"> Thank you, Enrique. Secretary Clinton, a Washington Post poll
             just yesterday found that only 37 percent of Americans consider you honest and
@@ -688,7 +688,7 @@
             debate. </speech>
         <speech speaker="RAMOS">[through translator]: We remind you that you can download
             [inaudible] and we'll come back with the Democratic presidential debate. [commercial
-            break] </speech>-->
+            break] </speech></section> <section key="imm">
         <speech speaker="UNKNOWN">[through translator: And we continue now, connected with Univision
             for you to send us [inaudible] first Democratic debate focusing in Hispanic topics. I
             have [inaudible] that supported [inaudible]. Good evening, good evening. We heard a lot
@@ -710,7 +710,7 @@
             see that is happening, that Republicans are doing not — by not approving a <keyword term="immigration reform">migratory
             reform</keyword>, but also President Obama. So we need — we need not only words, but plans as
             well. And we need as a community to both stand up and support women as her. </speech>
-       <!-- <speech speaker="UNKNOWN">[through translator: Thank you, Gabby, and now the debate — the
+       </section> <section key="other"> <speech speaker="UNKNOWN">[through translator: Thank you, Gabby, and now the debate — the
             Democratic debate continues with Jorge Ramos and Maria Elena Salinas. Thank you. </speech>
         <speech speaker="SALINAS"> Thank you, [inaudible]. We'll continue with the debate now.
             Senator Sanders, you call your opponent Hillary Clinton an establishment politician. You
@@ -758,7 +758,7 @@
             guarantee equal pay for women. </speech>
         <speech speaker="SALINAS"> Secretary, what would you do... </speech>
         <speech speaker="CLINTON"> That will help Latinos as well as every other working person in
-            our country. [applause] </speech>-->
+            our country. [applause] </speech></section> <section key="imm">
         <speech speaker="SALINAS"> Secretary, you talked in general terms, but you haven't really
             said what you would specifically do to improve the living conditions of Latinos. </speech>
         <speech speaker="CLINTON"> Everything I just said will improve the living conditions, and
@@ -775,7 +775,7 @@
             unemployment in America being close to 10 percent, but youth unemployment in this
             country. If you look at Latino kids between 17 and 20 who graduated high school, 36
             percent of them are unemployed or underemployed... </speech>
-        <!--<speech speaker="SALINAS"> Your time is up. </speech>
+        </section> <section key="other"><speech speaker="SALINAS"> Your time is up. </speech>
         <speech speaker="SANDERS"> Oh wait a minute. Can I have... </speech>
         <speech speaker="RAMOS"> Go ahead. </speech>
         <speech speaker="SANDERS"> ... a little bit of time here please? African-American kids are
@@ -1190,6 +1190,6 @@
             House without the Hispanic vote. Remember, don't let others decide for you. The power is
             in your hands, you have to participate, you have to vote. Thank you for being with us
             this evening and thank you for trusting in Univision. Good evening. </speech>
-        <speech speaker="RAMOS"> Good evening.</speech>-->
+        <speech speaker="RAMOS"> Good evening.</speech></section> 
     </body>
 </debate>
