@@ -14,6 +14,7 @@
         <moderator who="MITCHELL">Andrea Mitchell (NBC News) </moderator></participants>
     </meta>
     <body>
+        <section key="other">
         <speech speaker="HOLT"> Good evening and welcome to the NBC News Youtube Democratic candidate's
             debate. After all the campaigning, soon, Americans will have their say with the first
             votes of the 2016 campaign just 15 days away in Iowa. And New Hampshire not far behind.
@@ -88,7 +89,7 @@
             campaign contributors. [applause] </speech>
         <speech speaker="HOLT"> Secretary Clinton, same question, my first 100 days in office, my top
             three priorities will be. </speech>
-        <speech speaker="CLINTON"> I would work quickly to present to the Congress my plans for creating
+        </section> <section key="imm"><speech speaker="CLINTON"> I would work quickly to present to the Congress my plans for creating
             more good jobs in manufacturing, infrastructure, clean and renewable energy, raising the
             minimum wage, and guaranteeing, finally, equal pay for women's work. I would
             also...[applause]...I would also be presenting my plans to build on the Affordable Care
@@ -101,9 +102,9 @@
             <keyword term="immigration reform">immigration reform</keyword>, on voting rights, on campaign finance reform, but we need to do it
             together. That's how we'll have the kind of country for the 21st century that we know
             will guarantee our children and grandchildren the kind of future they deserve.
-            [applause] </speech>
+            [applause] </speech></section> <section key="other">
         <speech speaker="HOLT"> Governor O'Malley, same question. </speech>
-        <speech speaker="O'MALLEY"> Thank you. First of all, I would lay out an agenda to make wages go
+        </section> <section key="imm"><speech speaker="O'MALLEY"> Thank you. First of all, I would lay out an agenda to make wages go
             up again for all Americans, rather than down. Equal pay for equal work, making it easier
             rather than harder for people to join labor unions and bargain collectively for better
             wages;<platform type="econ" subtype="ambig" attitude="pro"> getting 11 million of our neighbors out of the underground shadow economy by
@@ -111,7 +112,7 @@
             however we can, wherever we can. Secondly, I believe the greatest business opportunity
             to come to the United States of America in 100 years is climate change. And I put
             forward a plan to move us to a 100 percent clean electric energy grid by 2050 and create
-            5 million jobs along the way. [applause] </speech>
+            5 million jobs along the way. [applause] </speech></section> <section key="other">
         <speech speaker="HOLT"> Thank you. You've all... </speech>
         <speech speaker="O'MALLEY"> Finally — I'm sorry, that was second, Lester. And third and finally,
             we need a new agenda for America's cities. We have not had a new agenda for America's
@@ -510,7 +511,7 @@
             proud that in this campaign, we have seen an enormous amount of excitement from young
             people, from working people. We have received more individual contributions than any
             candidate in the history of this country up to this point. [applause] </speech>
-        <speech speaker="O'MALLEY"> Yes, but senator you never came to campaign for Vincent Sheheen when
+        </section> <section key="imm"><speech speaker="O'MALLEY"> Yes, but senator you never came to campaign for Vincent Sheheen when
             he was running for governor. In fact, neither of you came to campaign for Vincent
             Sheheen when he was running for governor. [applause] We can talk all we want about
             wanting to build a stronger Democratic party, but Lester, the question you answered,
@@ -522,7 +523,7 @@
             Republicans are our enemies or the war is all about being against millionaires or
             billionaires, or it's all against American Muslims, all against <immigrant status="ambig" term="immigrant">immigrants</immigrant>. Look, as
             Frederick Douglas said, we are one, our cause is one, and we must help each other if we
-            are going to succeed. </speech>
+            are going to succeed. </speech></section> <section key="other">
         <speech speaker="HOLT"> And that is right. </speech>
         <speech speaker="SANDERS"> And I respectfully disagree. </speech>
         <speech speaker="HOLT"> Secretary Clinton, our next question is for you. Here's another
@@ -1161,7 +1162,7 @@
         <speech speaker="MITCHELL"> ...too long. </speech>
         <speech speaker="O'MALLEY"> I believe there are many issues. I have 60 seconds for this? </speech>
         <speech speaker="HOLT"> Sixty seconds, we'd appreciate it. </speech>
-        <speech speaker="O'MALLEY"> There are so many issues that we haven't been able to discuss here.
+        </section> <section key="imm"><speech speaker="O'MALLEY"> There are so many issues that we haven't been able to discuss here.
             We have not fully discussed <keyword term="immigration reform">immigration reform</keyword>, and the deplorable number of <immigrant status="illegal" term="immigrant detention camps">immigrant
             detention camps</immigrant> that our nation's now maintaining. We haven't discussed the shameful
             treatment that the people of Puerto Rico, our fellow Americans, are getting treated with
@@ -1174,7 +1175,7 @@
             forward in these divided times, new leadership that can heal our divides here at home
             and bring our principles into alignment abroad. We're on the threshold of a new era of
             American progress and I believe we have only need to join forces together and cross that
-            threshold into a new era of American prosperity. </speech>
+            threshold into a new era of American prosperity. </speech></section> <section key="other">
         <speech speaker="HOLT"> And that's time. </speech>
         <speech speaker="O'MALLEY"> Thanks a lot. </speech>
         <speech speaker="HOLT"> Secretary Clinton? </speech>
@@ -1208,6 +1209,6 @@
             tonight shedding light on some of the differences as Americans get ready to vote. I also
             want to thank the Congressional Black Caucus Institute and certainly my friend and
             colleague, Andrea Mitchell. This has been great. It's been a great spirited conversation
-            and American people appreciate it. </speech>
+            and American people appreciate it. </speech></section>
     </body>
 </debate>

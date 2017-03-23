@@ -12,6 +12,7 @@
         <moderator who="MUIR">David Muir (ABC News)</moderator></participants>
     </meta>
     <body>
+        <section key="other">
         <speech speaker="RADDATZ"> Good evening to you all. The rules for tonight are very basic and
             have been agreed to by all three campaigns in advance. Candidates can take up to a
             minute-and-a-half to respond directly to a question. For a rebuttal, for a follow-up, 45
@@ -202,7 +203,7 @@
             A new ABC News poll shows 77 percent of Americans have little or no confidence in the
             government's ability to prevent a lone wolf attack. How would you specifically find
             would-be terrorist who are going undetected? </speech>
-        <speech speaker="SANDERS"> I'm one of the 77 percent. I think this is a very difficult issue.
+        </section> <section key="imm"><speech speaker="SANDERS"> I'm one of the 77 percent. I think this is a very difficult issue.
             Let me agree with much of what the secretary and the governor have said. Let me tell you
             what I think we have got to do. I think it's a two-pronged issue. Number one, our goal
             is to crush and destroy ISIS. What is the best way to do it? Well, I think there are
@@ -218,7 +219,7 @@
             recently, very important. He said, "Yes, international terrorism is by definition an
             international issue, but it is primarily an issue of the Muslim nations who are fighting
             for the soul of Islam. We the Muslims should lead the effort on the ground." And I
-            believe he is absolutely right. </speech>
+            believe he is absolutely right. </speech></section><section key="other">
         <speech speaker="MUIR"> Senator, thank you. </speech>
         <speech speaker="RADDATZ"> Secretary Clinton, in the wake of the San Bernardino attack, you all
             emphasized gun control. But our latest poll shows that more Americans believe arming
@@ -462,7 +463,7 @@
             promise of greater security; especially from someone as untried and as incompetent as
             Donald Trump. </speech>
         <speech speaker="RADDATZ"> Thank you, Governor O'Malley. </speech>
-        <speech speaker="MUIR"> Martha, we're going to turn now to <immigrant status="refugee"
+       </section> <section key="imm"> <speech speaker="MUIR"> Martha, we're going to turn now to <immigrant status="refugee"
                 term="refugee">refugees</immigrant> coming to America. And on the subject of
                 <immigrant status="refugee" term="reguee">refugees</immigrant>, more than half of all
             Americans now say they oppose taking in <immigrant status="refugee" term="refugee"
@@ -516,7 +517,7 @@
                 the victims are suffering, these are not the perpetrators. We need to be the nation
                 whose enduring symbol is the Statue of Liberty, and we need to act like the great
                 country we are, according to our values.</anecdote>
-        </speech>
+        </speech></section><section key="other">
         <speech speaker="MUIR"> Governor, thank you. </speech>
         <speech speaker="RADDATZ"> Senator Sanders -- Senator Sanders, we're going to move on. We're
             going to move on. </speech>
@@ -627,7 +628,7 @@
             alliances and new coalitions. </speech>
         <speech speaker="CLINTON"> Well, I just want to quickly add... </speech>
         <speech speaker="RADDATZ"> Thank you. </speech>
-        <speech speaker="CLINTON"> Martha, that -- you know, one of the reasons why I have advocated for
+        </section> <section key="imm"><speech speaker="CLINTON"> Martha, that -- you know, one of the reasons why I have advocated for
             a no-fly zone is in order to create those safe refuges within Syria, to try to protect
             people on the ground both from Assad's forces, who are continuing to drop barrel bombs,
             and from ISIS. And of course, it has to be de-conflicted with the Russians, who are also
@@ -636,7 +637,7 @@
             negotiated back in Geneva in June of 2012, we're going to get a diplomatic effort in
             Syria to begin to try to make a transition. A no-fly zone would prevent the outflow of
                 <immigrant status="refugee" term="refugee">refugees</immigrant> and give us a chance
-            to have some safe spaces. </speech>
+            to have some safe spaces. </speech></section><section key="other">
         <speech speaker="RADDATZ"> Secretary Clinton, I'd like to go back to that if I could. ISIS
             doesn't have aircraft, Al Qaida doesn't have aircraft. So would you shoot down a Syrian
             military aircraft or a Russian airplane? </speech>
@@ -1518,7 +1519,7 @@
         <speech speaker="MUIR"> Welcome back tonight. It's been an evening of lively discussion among
             the candidates and it's time for closing statements. We began in alphabetical order, so
             we'll reverse the order at the end and begin with you, Senator Sanders. </speech>
-        <speech speaker="SANDERS">
+        </section> <section key="imm"><speech speaker="SANDERS">
             <anecdote type="value" subtype="american_dream">Well, thank you very much for hosting
                 this debate, and let me applaud my colleagues up here. Because I think frankly,
                 maybe I'm wrong, but on our worst day, I think we have a lot more to offer the
@@ -1532,7 +1533,7 @@
                 my mother's dream for her whole life was to be able to get out of that
                 rent-controlled apartment and own a home of her own. She never lived to see
                 that.</anecdote>
-        </speech>
+        </speech></section><section key="other">
         <speech speaker="SANDERS"> But what my parents did accomplish is they were able to send both of
             their sons to college. We were the first in the family. So I know something about
             economic anxiety and living in a family does not have sufficient income. And that is why
@@ -1551,11 +1552,11 @@
             that, that which we have always proven, the capacity to do better than any nation in the
             world, to take actions that include more of our people more fully in the economic,
             social and political life of our country. When you listened to the Republican debate the
-            other night, you heard a lot of anger and you had a lot of fear. Well, they can have
+            other night, you heard a lot of anger and you had a lot of fear.</speech></section> <section key="imm"> <speech speaker="O'MALLEY">Well, they can have
             their anger and they can have their fear, but anger and fear never built America. <platform
                 type="value" subtype="naturalization" attitude="pro">We build our country by adopting wage and
                 labor policies, including <keyword term="immigration reform">comprehensive immigration
-                    reform</keyword> with a pathway of citizenship for all.</platform> We do it by
+                    reform</keyword> with a pathway of citizenship for all.</platform></speech></section><section key="other"> <speech speaker="O'MALLEY">We do it by
             investing in our country, by investing in infrastructure, by investing in the skills and
             the talents of our people with debt-free college, and we can do it again. And we also
             create a better future for our kids when we square our shoulders to the great challenges
@@ -1587,6 +1588,6 @@
         <speech speaker="MUIR"> Thank you to the candidates tonight. Thank you to the audience here in
             New Hampshire here at St. Anselm. And thank you to the audience at home. We wish all of
             you at home a happy and safe holiday week ahead and we wish all the candidates a happy
-            and safe holiday with your families. </speech>
+            and safe holiday with your families. </speech></section>
     </body>
 </debate>

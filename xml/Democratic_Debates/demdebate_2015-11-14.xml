@@ -13,6 +13,7 @@
         <moderator who="OBRADOVICH">Kathie Obradovich (The Des Moines Register)</moderator></participants>
     </meta>
     <body>
+        <section key="other"> 
         <speech speaker="DICKERSON"> Before we start the debate here are the rules. The candidates have
             one minute to respond to our questions and 30 seconds to respond to our follow-up. Any
             candidate who is attacked by another candidate gets 30 seconds for rebuttal. Here's how
@@ -331,7 +332,8 @@
             in a lot of these places, but we have to keep trying. And we have to do more to prevent
             the flood of foreign fighters that have gone to Syria, especially the ones with western
             passports, that come back. So there's a lot of work we need to do and I want to be sure
-            what's called the AUMF, has the authority that is needed going forward. </speech>
+            what's called the AUMF, has the authority that is needed going forward. </speech> </section>
+        <section key="imm">
         <speech speaker="DICKERSON"> Senator, let me just -- let's add to whatever you've got to say.
             <immigrant status="refugee" term="refugee">Refugees</immigrant>. You've been a little vague on what you would do about the <immigrant status="refugee" term="syrian_refugee">Syrian refugees</immigrant>.
             What's your view on them now? </speech>
@@ -384,7 +386,7 @@
             problems with Russia. Just the other day, Russia allowed a television camera to see the
             plans for a drone submarine that could carry a tactical nuclear weapon. So we've got to
             look at the full range and then come to some smart decisions about having more
-            streamlined and focused approach. </speech>
+            streamlined and focused approach. </speech></section> <section key="other">
         <speech speaker="DICKERSON"> Alright. Senator Sanders, I'm sorry. We're going to have to take a
             break now. We will have more of the Democratic debate here from Drake University in Des
             Moines, Iowa. [applause] [commercial break] </speech>
@@ -521,7 +523,7 @@
             first in the nation caucuses. Herbert Hoover was born in West Branch, and tonight, we
             are in Polk County, named for our 11th president, with three people who hope to be
             number 45. Joining my now to question them are Iowans Kevin Cooney of KCCI and Kathie
-            Obradovich, of the Des Moines Register. Kevin? </speech>
+            Obradovich, of the Des Moines Register. Kevin? </speech></section> <section key="imm">
         <speech speaker="COONEY"> Thanks, John. Candidates, we've already heard your answers on what you
             would do with <immigrant status="refugee" term="Syrian_refugee">Syrian refugees</immigrant>, but a crucial part of the <keyword term="immigration debate">immigration debate</keyword> here at home
             is control of our own borders. Republicans say the borders -- securing borders is a top
@@ -565,7 +567,7 @@
             now. You called for raising the minimum wage to $15 an hour everywhere in the country.
             But the President's former chair of the Council of Economic Advisers, Alan Krueger, has
             said a national increase of $15 could lead to undesirable and unintended consequences of
-            job loss. What level of job loss would you consider unacceptable? </speech>
+            job loss. What level of job loss would you consider unacceptable? </speech></section> <section key="other">
         <speech speaker="SANDERS"> Kathie, let me say this. You know, no public policy doesn't have, in
             some cases, negative consequences. But at the end of the day, what you have right now
             are millions of Americans working two or three jobs because their wages that they are
@@ -1230,6 +1232,6 @@
             [applause] [commercial break] </speech>
         <speech speaker="DICKERSON"> And the candidates are thanking each other for a good debate.
             Clinton, Sanders and O'Malley now two debates in the books, with four more to come. </speech>
-
+            </section>
     </body>
 </debate>

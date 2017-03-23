@@ -15,6 +15,7 @@
 <moderator who="Maddow">    Rachel Maddow (MSNBC)
 </moderator></participants></meta>
 <body>
+    <section key="other">
 <speech speaker="TODD"> Good evening, and welcome to the MSNBC Democratic candidates debate.
 
 </speech>
@@ -1054,7 +1055,7 @@ We're going to sneak in one more break here, and when we come back we'll squeeze
 <speech speaker="MADDOW"> The home stretch.
 
 </speech>
-<speech speaker="TODD"> The home stretch of this only Democratic debate in the final week before the primary.
+</section> <section key="imm"><speech speaker="TODD"> The home stretch of this only Democratic debate in the final week before the primary.
 
 Let me start with you, Secretary Clinton, on this question. Obviously, President Obama got a lot of ambitious stuff done in his first year and a half. You're going to have to make choices. And there's a lot of heavy lifts. And he made choices. He did healthcare and it came at the expense, arguably, of <keyword term="immigration reform">immigration reform</keyword>. Had he put <keyword term="immigration reformf">immigration reform</keyword> first, perhaps that gets done and healthcare doesn't.
 
@@ -1097,14 +1098,14 @@ No, you just can't negotiate with Mitch McConnell. Mitch is gonna have to look o
 
 And as president, that's what I will work hard on. [applause]
 
-</speech>
+</speech></section> <section key="other">
 <speech speaker="TODD"> OK. Thank you.
 
 </speech>
 <speech speaker="MADDOW"> Secretary Clinton, Republicans, particularly in campaign years, often talk about which departments of government—which agencies of government they would get rid of if they were elected president. The EPA, the Department of Education, the Commerce Department, oops—is—is there a department of government that you would get rid of? Or is there a whole new one that you would create?
 
 </speech>
-<speech speaker="CLINTON"> The answer to both of those is no. I'm interested in making what we have work better. I want to streamline programs that are duplicative and redundant. I want to have a top-to-bottom review about what works and what doesn't work, and be absolutely clear we're getting rid of what doesn't work.
+</section> <section key="imm"><speech speaker="CLINTON"> The answer to both of those is no. I'm interested in making what we have work better. I want to streamline programs that are duplicative and redundant. I want to have a top-to-bottom review about what works and what doesn't work, and be absolutely clear we're getting rid of what doesn't work.
 
 I have had the opportunity to run a big agency. I was very flattered when Henry Kissinger said I ran the State Department better—better than anybody had run it in a long time. So I have an idea of what it's going to take to make our government work more efficiently.
 
@@ -1114,7 +1115,7 @@ But I want to add something else, you know, because look, we have so much work t
 
 But we also need to have a very clear set of goals that we are going to achieve, and we need to level with the American people about what they are, what they will cost, what will be expected of our citizenry. So I see as president having a constant dialogue with Americans here's what we're trying to get done, here's why I need your help, here's why you may think comprehensive <keyword term="immigration reform">immigration reform</keyword> with a path to citizenship isn't something you care about, but I'm telling you it will help fix the labor market, it will bring people out of the shadows—
 
-</speech>
+</speech></section> <section key="other">
 <speech speaker="MADDOW"> Thank you, Secretary Clinton.
 
 </speech>
@@ -1189,5 +1190,6 @@ And we want to thank all of you for being here, and we want to thank the two can
 
 </speech>
 <speech speaker="MADDOW"> Thank you. [applause]</speech>
+</section>
 </body>
 </debate>

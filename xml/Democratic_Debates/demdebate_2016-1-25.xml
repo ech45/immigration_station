@@ -10,6 +10,7 @@
         <candidate who="SANDERS">Senator Bernie Sanders (VT);</candidate>
         <moderator who="CUOMO">Chris Cuomo, CNN</moderator></participants></meta>
     <body>
+        <section key="other">
         <speech speaker="CUOMO"> All right. We are live at Drake University in Des Moines, Iowa, to hear
             from the Democratic presidential candidates and the people who matter most in this
             election, the voters. Welcome to our viewers in the United States and around the world,
@@ -733,8 +734,8 @@
         <speech speaker="PLUMMER"> Hi. My question is, do you have any specific plans to grow the
             economy at a rate that will increase job growth for those - so that those who are
             long-term unemployed or have fallen out of the workforce will have an opportunity to get
-            back in? </speech>
-        <speech speaker="O'MALLEY"> Sure. Yes. The - let me talk a little bit about our economy. Prior
+            back in? </speech> </section>
+        <section key="imm"><speech speaker="O'MALLEY"> Sure. Yes. The - let me talk a little bit about our economy. Prior
             to President Obama's good work - and he's done great work. He saved us from a second
             Great Depression, from the recklessness and the greed on Wall Street. Our nation's
             creating jobs again and we're the only species on the planet without full employment, so
@@ -751,8 +752,8 @@
             harder. <platform type="econ" subtype="jobs" attitude="pro">And then... [applause] ...And here's another one to make wages go up instead of
             being a drag on wages, let's get 11 million of <immigrant status="illegal" term="our_neighbors">our neighbors</immigrant> out of the underground
             shadow economy by passing <keyword term="comprehensive immigration reform">comprehensive immigration reform</keyword>... [applause] ...with a
-            pathway to citizenship for all.</platform> </speech>
-        <speech speaker="CUOMO"> Governor, but there's... </speech>
+            pathway to citizenship for all.</platform> </speech></section>
+       <section key="other"> <speech speaker="CUOMO"> Governor, but there's... </speech>
         <speech speaker="O'MALLEY"> Chris, and two other brief ones on this. I'm the first candidate in
             either party to put forward a new agenda for America's cities. America's cities are
             where we have some of the worst problems of structural unemployment and where we can do
@@ -1394,6 +1395,6 @@
         <speech speaker="CUOMO"> We want to want thank Secretary Clinton, Governor O'Malley, and Senator
             Sanders, and everyone who made this town hall possible. [applause] Our thanks to our
             partners, the Iowa Democratic Party, and Drake University, of course. And thank you all,
-            our audience, for watching and participating. </speech>
+            our audience, for watching and participating. </speech></section>
     </body>
 </debate>

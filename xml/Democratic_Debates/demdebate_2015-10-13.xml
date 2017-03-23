@@ -21,7 +21,7 @@
         </participants>
     </meta>
     <body>
-        <!--<speech speaker="COOPER"> I'm Anderson Cooper. Thanks for joining us. We've already welcomed the candidates on stage. They are in place at their podiums. Before we dive into the issues, I want to quickly explain some of the groundrules tonight.
+        <section key="other"><speech speaker="COOPER"> I'm Anderson Cooper. Thanks for joining us. We've already welcomed the candidates on stage. They are in place at their podiums. Before we dive into the issues, I want to quickly explain some of the groundrules tonight.
 
 As the moderator, I'll ask questions, followups and guide the discussion. I'll be joined in the questioning by CNN's Juan Carlos Lopez and Dana Bash, a well as Don Lemon who will share questions from Democrats around the country. Each candidate will get one minute to answer questions, and 30 seconds for followups and rebuttals. I'll give candidates time to respond if they have been singled out for criticism.
 
@@ -53,7 +53,7 @@ Thank you [applause]
 
 Senator Webb, you have two minutes.
 
-</speech>--><speech speaker="WEBB"> Thank you.
+</speech></section><section key="imm"><speech speaker="WEBB"> Thank you.
 
 You know, people are disgusted with the way that money has corrupted our political process, intimidating incumbents and empowering Wall Street every day, the turnstile government that we see, and also the power of the financial sector in both parties.
 
@@ -69,7 +69,7 @@ My mother grew up in the poverty of east Arkansas chopping cotton, picking straw
 
 You may be sure that in a Webb administration, the highest priority will be the working people who every day go out and make this country stronger at home, and who give us the right reputation and security overseas under a common sense foreign policy. [cheering and applause]
 
-</speech><!--<speech speaker="COOPER"> Governor O'Malley, you have two minutes.
+</speech></section><section key="other"><speech speaker="COOPER"> Governor O'Malley, you have two minutes.
 
 O'</speech><speech speaker="MALLEY"> My name is Martin O'Malley, former Mayor of Baltimore, former governor of Maryland, a life long democrat, and most importantly, a husband, and a father.
 
@@ -115,7 +115,7 @@ And I want to do more to help us balance family and work. I believe in equal pay
 
 During the course of the evening tonight, I'll have a chance to lay out all of my plans and the work that I've done behind them. But for me, this is about bringing our country together again. And I will do everything I can to heal the divides — the divides economically, because there's too much inequality; the racial divides; the continuing discrimination against the LGBT community — so that we work together and, yes, finally, fathers will be able to say to their daughters, you, too, can grow up to be president. [applause]
 
-</speech>--><speech speaker="COOPER"> Thank you, all. It is time to start the debate.
+</speech></section><section key="imm"><speech speaker="COOPER"> Thank you, all. It is time to start the debate.
 
 Are you all ready? [applause]
 
@@ -1164,8 +1164,8 @@ My view is that when you have millions of seniors in this country trying to get 
 
         <speech speaker="O'MALLEY"> but will become American citizens. </speech>
 
-        <!--
-</speech><speech speaker="COOPER"> Senator Sanders, you talked about your record on the Veteran affairs committee. You served on that committee for the last eight years, including two years as its chairman while veterans died waiting for health care. You and Senator McCain ultimately addressed the issue with bi-partisan legislation. Why did it take 18 Inspector General reports, and a CNN investigation, and others, before you and your colleagues took action?
+        </section><section key="other">
+<speech speaker="COOPER"> Senator Sanders, you talked about your record on the Veteran affairs committee. You served on that committee for the last eight years, including two years as its chairman while veterans died waiting for health care. You and Senator McCain ultimately addressed the issue with bi-partisan legislation. Why did it take 18 Inspector General reports, and a CNN investigation, and others, before you and your colleagues took action?
 
 </speech><speech speaker="SANDERS"> Well, I was chairman for two years, and when I was chairman we did take action. What we did is pass a $15 billion dollar piece of legislation which brought in many, many new doctors, and nurses into the V.A. so that veterans in this country could get the health care when they needed it, and not be on long waiting lines.
 
@@ -1529,7 +1529,7 @@ I know how to lead. I did it in Vietnam, I did it in the Pentagon, I did it in t
 
 Governor O'Malley, you have 90 seconds.
 
-O'</speech>--><speech speaker="O'MALLEY"> Anderson, thank you.
+O'</speech></section><section key="imm"><speech speaker="O'MALLEY"> Anderson, thank you.
 
 I am very, very grateful to have been able to be on this stage with this distinguished group of candidates tonight. And what you heard tonight, Anderson, was a very, very — and all of you watching at home — was a very, very different debate than from the sort of debate you heard from the two presidential Republican debates. [applause]
 
@@ -1541,7 +1541,7 @@ I truly believe that we are standing on the threshold of a new era of American p
 
 That tells me we are moving to a more connected, generous, and compassionate place, and we need to speak to the goodness within our country. [applause]
 
-</speech><!--<speech speaker="COOPER"> Governor O'Malley, thank you very much.
+</speech></section><section key="other"><speech speaker="COOPER"> Governor O'Malley, thank you very much.
 
 Senator Sanders, final, closing thoughts, 90 seconds.
 
@@ -1570,6 +1570,6 @@ My mission as president will be to raise incomes for hard-working middle-class f
 Please join me in this campaign. Please come and make it clear that America's best days are still ahead. Thank you very much. [applause]
 
 </speech><speech speaker="COOPER"> Well, that does it for this Democratic presidential debate. On behalf of everyone at CNN, we want to thank the candidates, our debate partners at Facebook, the Wynn Resort, and the Democratic National Committee. Thanks also to Dana Bash, Juan Carlos Lopez, and Don Lemon. We'll be back in Las Vegas December 15th, when CNN hosts our next Republican presidential debate. That will be moderated by my colleague, Wolf Blitzer.</speech>
--->
+</section>
     </body>
 </debate>
