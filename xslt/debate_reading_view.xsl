@@ -27,7 +27,7 @@
     </xsl:template>
     <xsl:template match="speech">
         <br/>
-        <text>[<xsl:apply-templates select="@speaker"/>] </text>
+        [<xsl:apply-templates select="@speaker"/>] 
         <xsl:apply-templates/>
         <br/>
     </xsl:template>
@@ -38,7 +38,7 @@
             <xsl:apply-templates select="date"/>
         </h2>
         <h2>
-            <text>Candidates</text>
+           Candidates
         </h2>
         <br/>
         <ul>
@@ -46,7 +46,7 @@
         </ul>
         <ul>
             <h2>
-                <text>Moderator</text>
+               Moderator
             </h2>
             <xsl:apply-templates select="participants/moderator"/>
         </ul>
