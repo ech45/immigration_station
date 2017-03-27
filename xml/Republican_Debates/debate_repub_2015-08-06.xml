@@ -1,3 +1,5 @@
+<?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
         <loc> United States Ohio</loc>
@@ -20,7 +22,7 @@
         </participants>
     </meta>
     <body>
-        <!--
+         <section key="other">
      <speech speaker="KELLY"> Welcome to the first debate night of the 2016 presidential campaign, live from Quicken Loans Arena in Cleveland, Ohio.
 
 I'm Megyn Kelly... [applause]... along with my co-moderators, Brett Baier and Chris Wallace.
@@ -181,19 +183,19 @@ You've called women you don't like "fat pigs, dogs, slobs, and disgusting animal
 
 </speech> <speech speaker="KELLY"> Your Twitter account has several disparaging comments about women's looks. You once told a contestant on Celebrity Apprentice it would be a pretty picture to see her on her knees. Does that sound to you like the temperament of a man we should elect as president, and how will you answer the charge from Hillary Clinton, who was likely to be the Democratic nominee, that you are part of the war on women?
 
-</speech> -->
+</speech> </section> <section key="imm">
         <speech speaker="TRUMP">I think the big problem this country has is being politically
             correct. [applause] I've been challenged by so many people, and I don't frankly have
             time for total political correctness. And to be honest with you, this country doesn't
-            have time either. This country is in big trouble. <platform>We don't win anymore. We lose to
+            have time either. This country is in big trouble. We don't win anymore. We lose to
             China. We lose to Mexico both in trade and at the <keyword term="border"
-                >border</keyword>. We lose to everybody.</platform> And frankly, what I say, and oftentimes
+                >border</keyword>. We lose to everybody. And frankly, what I say, and oftentimes
             it's fun, it's kidding. We have a good time. What I say is what I say. And honestly
             Megyn, if you don't like it, I'm sorry. I've been very nice to you, although I could
             probably maybe not be, based on the way you have treated me. But I wouldn't do that.
             [applause] But you know what, we ...we need strength, we need energy, we need quickness
             and we need brain in this country to turn it around. That, I can tell you right now. </speech>
-        <!-- <speech speaker="WALLACE"> Senator Cruz, your colleague, Senator Paul, right there next to you, said a few months ago he agrees with you on a number of issues, but he says you do nothing to grow the party. He says you feed red meat to the base, but you don't reach out to minorities. You have a toxic relationship with GOP leaders in Congress. You even called the Republican Senate Leader Mitch McConnell a liar recently. [applause]
+        </section> <section key="other"> <speech speaker="WALLACE"> Senator Cruz, your colleague, Senator Paul, right there next to you, said a few months ago he agrees with you on a number of issues, but he says you do nothing to grow the party. He says you feed red meat to the base, but you don't reach out to minorities. You have a toxic relationship with GOP leaders in Congress. You even called the Republican Senate Leader Mitch McConnell a liar recently. [applause]
 
 How can you win in 2016 when you're such a divisive figure?
 
@@ -262,9 +264,9 @@ And do you know what?
 Everybody has a right to their God-given purpose.
 
 And finally, our Medicaid is growing at one of the lowest rates in the country. And, finally, we went from $8 billion in the hole to $2 billion in the black. We've cut $5 billion in taxes... [timer sounds] ...and we've grown 350,000 jobs. [applause]
--->
+</speech></section> <section key="imm">
         <speech speaker="WALLACE"> Gentlemen, we're turning to a new subject that all of you have
-            been talking about and some of you have been disagreeing about, and that is the issue of <immigration>
+            been talking about and some of you have been disagreeing about, and that is the issue of <immigration status="ambig" term="immigration">
                 immigration</immigration>. Governor Bush, you released a new plan this week on <immigration
                 status="illegal" term="illegal immigration">illegal immigration</immigration>
             focusing on enforcement, which some suggest is your effort to show that you're not soft
@@ -435,21 +437,21 @@ And finally, our Medicaid is growing at one of the lowest rates in the country. 
             legislation. I tried to get the Senate to vote to pass Kate's law on the floor of the
             Senate just one week ago, and the leader of our own party blocked a vote on Kate's law.
             You know, there was reference made to our leaders being stupid. It's not a question of
-            stupidity. <troupe type="values" subtype="sovereignty">It's that they don't want to enforce the <immigration status="illegal"
+            stupidity. <trope type="value" subtype="sovereignty" attitude="anti">It's that they don't want to enforce the <immigration status="illegal"
                 term="immigration laws">immigration laws</immigration>. That there are far too many
             in the Washington cartel that support <keyword term="amnesty">amnesty</keyword>.
-                President Obama has talked about fundamentally transforming this country</troupe>. There's 7
+                President Obama has talked about fundamentally transforming this country</trope>. There's 7
             billion people across the face of the globe, many of whom want to come to this country.
             If they <immigration status="legal" term="come legally">come legally</immigration>, great. But if they
-            <immigration status="ilegal" term="come ilegally">come ilegally</immigration> and they get <keyword
+            <immigration status="illegal" term="come ilegally">come ilegally</immigration> and they get <keyword
                 term="amnesty">amnesty</keyword>, that is how we fundamentally change this country,
             and it really is striking. A majority of the candidates on this stage have supported
-            <keyword term="amnesty">amnesty</keyword>. <platform type="secure" subtype="sovereignty" attitude="anti">I have never supported <keyword
-                    term="amnesty">amnesty</keyword></platform>, and I led the fight against Chuck Schumer's gang
+            <keyword term="amnesty">amnesty</keyword>. I have never supported <keyword
+                    term="amnesty">amnesty</keyword>, and I led the fight against Chuck Schumer's gang
             of eight <keyword term="amnesty">amnesty legislation</keyword> in the Senate.</speech>
-        <!--
+        </section> <section key="other">
 
-</speech> <speech speaker="KELLY"> Alright, gentlemen, we're gonna switch topics now and talk a bit about terror and national security.
+ <speech speaker="KELLY"> Alright, gentlemen, we're gonna switch topics now and talk a bit about terror and national security.
 
 Governor Christie. You've said that Senator Paul's opposition to the NSA's collection of phone records has made the United States weaker and more vulnerable, even going so far as to say that he should be called before Congress to answer for it if we should be hit by another terrorist attack.
 
@@ -1171,7 +1173,7 @@ We find steel.
 
 As commander in chief, how would you handle that?
 
-</speech>-->
+</speech></section> <section key="imm">
         <speech speaker="HUCKABEE"> The military is not a social experiment. The purpose of the
             military is kill people and break things. [applause] It's not to transform the culture
             by trying out some ideas that some people think would make us a different country and
@@ -1186,7 +1188,7 @@ As commander in chief, how would you handle that?
             of 1962. A lot of the B-52s we're flying, we've only got 44 that are in service combat
             ready, and the fact is, most of them are older than me. And that's pretty scary.
             [laughter and applause] </speech>
-        <!--<speech speaker="BAIER"> Senator Paul, the first budget you proposed as senator cut all financial aid to Israel. You have since changed your view on that issue. What made you change your mind.
+        </section> <section key="other"><speech speaker="BAIER"> Senator Paul, the first budget you proposed as senator cut all financial aid to Israel. You have since changed your view on that issue. What made you change your mind.
 
 </speech> <speech speaker="PAUL"> Well, let's be clear, I'm the only one on the stage who actually has a five-year budget that balances. I've put pencil to paper...
 
@@ -1234,7 +1236,7 @@ In our final moments here together, we're going to allow the candidates to offer
 
 Senator Cruz, start from you. Any word from God?
 
-</speech> -->
+</speech> </section> <section key="imm">
         <speech speaker="CRUZ"> Well, I am blessed to receive a word from God every day in receiving
             the scriptures and reading the scriptures. And God speaks through the Bible. [applause]
             I'm the son of a pastor and evangelist and I've described many times how my father, when
@@ -1250,11 +1252,11 @@ Senator Cruz, start from you. Any word from God?
             And I have been proud to fight and stand for religious liberty, to stand against Planned
             Parenthood, to defend life for my entire career. And I will be proud to continue to do
             so as president of the United States.</speech>
-        <!--
+        </section> <section key="other">
 
-[cheering and applause]
 
-</speech> <speech speaker="KELLY"> Governor Kasich, same question.
+
+ <speech speaker="KELLY"> Governor Kasich, same question.
 
 </speech> <speech speaker="KASICH"> Well, Megyn, my father was a mailman. His father was a coal miner. My mother's mother could barely speak English. And their son today stands on this podium in the great state of Ohio not only as the governor, but a candidate for president of the United States. [cheering and applause]
 
@@ -1378,7 +1380,7 @@ It wasn't too late for Wisconsin, and it's not too late for America. That's why 
 
 </speech> <speech speaker="WALLACE"> Governor Bush, closing statement, sir.
 
-</speech> -->
+</speech> </section> <section key="imm">
         <speech speaker="BUSH"> Here's what I believe. I believe we're at the verge of the greatest
             time to be alive in this world. But Washington is holding us back. How we tax, how we
             regulate. We're not embracing the energy revolution in our midst, a broken <keyword
@@ -1390,7 +1392,7 @@ It wasn't too late for Wisconsin, and it's not too late for America. That's why 
             restore America's leadership in the world, so that everybody has a chance to rise up. I
             humbly ask for your vote, whenever you're gonna get to vote, whenever the primary is.
             Thank you all very much. </speech>
-        <!--<speech speaker="BAIER"> Mr. Trump, closing statement, sir.
+        </section> <section key="other"><speech speaker="BAIER"> Mr. Trump, closing statement, sir.
 
 </speech> <speech speaker="TRUMP"> Our country is in serious trouble. We don't win anymore.
 
@@ -1408,6 +1410,6 @@ Thank you.
 
 </speech> <speech speaker="KELLY"> Are you relieved? You were nervous before, they ...they don't look relieved. They look "get me outta here."
 
-Thank you all very much, and that will do it for the first Republican primary debate night of the 2016 presidential race. Our thanks to the candidates, who will now be joined by their families on stage.</speech>-->
+Thank you all very much, and that will do it for the first Republican primary debate night of the 2016 presidential race. Our thanks to the candidates, who will now be joined by their families on stage.</speech></section> 
     </body>
 </debate>

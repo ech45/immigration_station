@@ -1,3 +1,5 @@
+<?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
         <loc>United States New Hampshire</loc>
@@ -9,13 +11,13 @@
             <candidate who="RUBIO">Marco Rubio</candidate>
             <candidate who="TRUMP">Donald Trump</candidate>
             <moderator who="BLITZER">Wolf Blitzer</moderator>
-            <panelist who="ARRARÁS">Maria Celeste Arrarás</panelist>
-            <panelist who="BASH">Dana Bash</panelist>
-            <panelist who="HEWITT">Hugh Hewitt</panelist>
+            <moderator who="ARRARÁS">Maria Celeste Arrarás</moderator>
+            <moderator who="BASH">Dana Bash</moderator>
+            <moderator who="HEWITT">Hugh Hewitt</moderator>
         </participants>
     </meta>
     <body>
-        <!--
+         <section key="other">
             <speech speaker="BLITZER"> We're live here at the University of Houston for the 10th Republican presidential debate. [applause]
 
 An enthusiastic crowd is on hand here in the beautiful opera house at the Moore School of Music. Texas is the biggest prize next Tuesday, Super Tuesday, when 11 states vote, a day that will go a long way towards deciding who wins the Republican nomination.
@@ -48,7 +50,6 @@ Thank you very much, Deana Carter. A beautiful, beautiful national anthem.
 
 The final debate before Super Tuesday begins right after this quick break.</speech>
 
-[commercial break]
 
 <speech speaker="BLITZER"> Welcome back to the University of Houston and the Republican presidential debate.
 
@@ -60,7 +61,7 @@ I want to tell you how tonight's debate will work. As moderator, I will guide th
 
 We know you all want to jump and debate these critically important issues, but please wait until you're called on. These are the rules all of the candidates have agreed to.
 
-It's time for the candidates to introduce themselves right now. You'll each have 30 seconds. Dr. Carson, you're first.</speech>-->
+It's time for the candidates to introduce themselves right now. You'll each have 30 seconds. Dr. Carson, you're first.</speech></section> <section key="imm">
 
 <speech speaker="CARSON">If someone had tried to describe today's America to you 30 years ago,
     you would have listened in disbelief. Americans know that our nation is heading off the abyss of destruction,
@@ -112,7 +113,7 @@ It's time for the candidates to introduce themselves right now. You'll each have
             and replaced. We just don't win.
             You look at our <keyword term="borders">borders</keyword>, they're like swiss cheese, everybody pours in.
             We're going to make a great country again. We're going to start winning again. We're going to win a lot,
-            it's going to be a big difference, believe me. It's going to be a big difference. [applause]
+            it's going to be a big difference, believe me. It's going to be a big difference. [applause]</speech>
 
         <speech speaker="BLITZER"> Thank you very much. It's now time to begin questions. Voters in the first four
         states have spoken, and Mr. Trump has emerged as the frontrunner, but in five days the
@@ -128,7 +129,7 @@ It's time for the candidates to introduce themselves right now. You'll each have
             Your words, "<immigrant status="illegal" term="the good ones">
                 the good ones</immigrant>", after they've been deported. Senator Cruz would not allow them
         to come back in. He says that's the biggest difference between the two of you. He calls your
-        plan <keyword term="amnesty">amnesty</keyword>. Is it?
+        plan <keyword term="amnesty">amnesty</keyword>. Is it? </speech>
             
        <speech speaker="TRUMP"> First of all, he was in charge of <keyword term="amnesty">amnesty</keyword>, he was the
            leader,
@@ -145,12 +146,12 @@ It's time for the candidates to introduce themselves right now. You'll each have
         through a process. [applause]</speech>
            <speech speaker="BLITZER"> Senator Cruz, what's wrong with letting what Mr.
         Trump calls, "the good ones" come back to the United States?</speech>
-            <speech speaker="CRUZ"> <troupe type="econ" subtype="jobs">You know, the people that
+            <speech speaker="CRUZ"> <trope type="econ" subtype="jobs" attitude="anti">You know, the people that
         get forgotten in this debate over <immigration status="ambig" term="immigration">
             immigration</immigration> are the hardworking men and women of this
         country — our millions of Americans who are losing their jobs. Millions of <immigrant status="legal"
             term="legal immigrants">legal immigrants</immigrant>
-        who are losing their jobs are seeing their wages driven down.</troupe> You know, in the past couple
+        who are losing their jobs are seeing their wages driven down.</trope> You know, in the past couple
         of weeks the Wall Street Journal had a very interesting article about the state of Arizona.
         Arizona put in very tough laws on <immigration status="illegal" term="illegal immigration">
             illegal immigration</immigration>, and the result was <immigrant status="illegal" term="illegal
@@ -183,8 +184,7 @@ It's time for the candidates to introduce themselves right now. You'll each have
         claims correct?</speech>
                 <speech speaker="RUBIO"> Well, first of all, and before we do anything, I've been abundantly
         clear on this. When I'm president of the United States, before we do anything on
-        <immigration status="ambig" term="immigration">immigration</immigration>, we are going to secure the <keywork
-            term="border">border</keywork>. And, that's not just the physical <keyword term="border">border</keyword>
+        <immigration status="ambig" term="immigration">immigration</immigration>, we are going to secure the <keyword term="border">border</keyword>. And, that's not just the physical <keyword term="border">border</keyword>
         with Mexico, it's <keyword term="visa overstay">Visa overstays</keyword>. That's 45 percent of the problem
                     right there. It also has
         to do — that's why we need <keyword term="e-verify">e-verify</keyword>, and entry-exit tracking system,
@@ -213,8 +213,8 @@ It's time for the candidates to introduce themselves right now. You'll each have
         absolute prime season, like Palm Beach and other locations, you could not get help. It's the
         up season. People didn't want to have part-time jobs. There were part-time jobs, very
         seasonal, 90-day jobs, 120-day jobs, and you couldn't get. Everybody agrees with me on that.
-        They were part-time jobs. <troupe type="econ" subtype="jobs" attitude="pro">You needed them, or we just might as well close the doors, because
-        you couldn't get help in those hot, hot sections of Florida.</troupe></speech>
+        They were part-time jobs. <trope type="econ" subtype="jobs" attitude="pro">You needed them, or we just might as well close the doors, because
+        you couldn't get help in those hot, hot sections of Florida.</trope></speech>
                 <speech speaker="RUBIO"> That — my point that I
         made was you had criticized Mitt Romney for self-deportation. You said that his strategy of
         self- deportation is why he lost the election. And I think people in Florida would be
@@ -251,7 +251,7 @@ It's time for the candidates to introduce themselves right now. You'll each have
         important.</speech>
             <speech speaker="TRUMP">You haven't hired one person, you liar.</speech>
             <speech speaker="RUBIO">He hired <immigrant status="illegal" term="workers">workers</immigrant> from
-        Poland. And he had to pay a million dollars or so in a judgment from...
+        Poland. And he had to pay a million dollars or so in a judgment from...</speech>
                 <speech speaker="TRUMP">That's wrong.
         That's wrong. Totally wrong.</speech>
                 <speech speaker="RUBIO">That's a fact. People can look it up. I'm sure people
@@ -273,7 +273,7 @@ It's time for the candidates to introduce themselves right now. You'll each have
             term="undocumented immigrants">undocumented
         immigrants</immigrant>, but you never want to allow them to come back to the United States. What would
         happen to the children who are U.S.- born citizens whose parent will be deported under your
-        plan?
+        plan? </speech>
             <speech speaker="CRUZ">Well, existing law provides that those who are deported cannot come back here
         legally. U.S. citizens can come back. That's existing law. But let me say, Wolf, I really
         find it amazing that Donald believes that he is the one who discovered the issue of <immigration status="illegal"
@@ -348,10 +348,10 @@ It's time for the candidates to introduce themselves right now. You'll each have
         Americans — the <immigrant status="illegal" term="illegal">illegals</immigrant> that are here,
             if they have not committed a crime since they've
         been here, I'd make them pay a fine, some back taxes, maybe some community service. And at
-        the end, I'd give them a path to legalization, but not a path to citizenship. <troupe type="secure"
+        the end, I'd give them a path to legalization, but not a <keyword term="path to citizenship">path to citizenship</keyword>. <platform type="value"
             subtype="sovereignty" attitude="ambig">I don't think
         we're going to tear families apart. I don't think we're going to ride around in people's
-        neighborhoods and grab people out of their homes.</troupe> I don't think — first of all, I don't
+        neighborhoods and grab people out of their homes.</platform> I don't think — first of all, I don't
         think it's practical and I don't think it reflects America. You know what happened? The
         problem with President Reagan is we didn't get in there and actually finish the <keyword term="border">border</keyword>.
             And
@@ -369,9 +369,9 @@ It's time for the candidates to introduce themselves right now. You'll each have
         be fair. And I've already described — you know, how we can secure the border. We need to
         secure all the <keyword term="border">borders</keyword>, because it's not just people coming in from South
             America and
-        Mexico, but <troupe type="secure" subtype="terrorism" attitude="anti">there are terrorists who want to destroy us,
+        Mexico, but <trope type="secure" subtype="terrorism" attitude="anti">there are terrorists who want to destroy us,
             who are getting across our <keyword term="borders">borders</keyword>
-        fairly easily. And we have to stop that.</troupe> But in terms of the people who are here already,
+        fairly easily. And we have to stop that.</trope> But in terms of the people who are here already,
         after we — after we stop the <immigration status="illegal" term="illegal immigration">illegal immigration
         </immigration>, we need to be reasonable. And I would give
         them a six-month period in which to get registered as a <immigrant status="legal" term="guest worker">
@@ -396,7 +396,7 @@ It's time for the candidates to introduce themselves right now. You'll each have
         I'm quoting him — he said, "I'm not going to pay for that," quote, "effing wall." [laughter]
         So if you don't get an actual check from the Mexican government for $8 billion or $10
         billion or $12 billion, whatever it will cost, how are you going to make them pay for the
-        <keyword term="wall">wall</keyword>?
+        <keyword term="wall">wall</keyword>?</speech>
            <speech speaker="TRUMP">I will, and the <keyword term="wall">wall</keyword> just got 10 feet taller,
                believe me. [applause] It just
         got 10 feet taller. I saw him make that — I saw him make the statement. I saw him use the
@@ -417,20 +417,20 @@ It's time for the candidates to introduce themselves right now. You'll each have
         will pay for it, because they are not doing us any favors. They could stop all of this
         illegal trade if they wanted to...[bell ringing]... immediately. Mexico will pay for the
         <keyword term="wall">wall</keyword>. It's a small portion of the kind of money that we lose and the deficits
-               that we have with Mexico. [applause]
+               that we have with Mexico. [applause]</speech>
                <speech speaker="BLITZER">If the — if the Mexicans don't pay for the wall, will you
                    start a trade war with Mexico?</speech>
                <speech speaker="TRUMP">Well, you know, I don't mind trade wars when we're
         losing $58 billion a year, you want to know the truth. We're losing so much. [applause]
         We're losing so much with Mexico and China — with China, we're losing $500 billion a year.
-        <troupe type="econ" subtype="growth" attitude="anti">And then people say, "don't we want to trade?"
+        <trope type="econ" subtype="growth" attitude="anti">And then people say, "don't we want to trade?"
             I don't mind trading, but I don't want to
-        lose $500 billion.</troupe> I don't want to lose $58 billion. Mexico just took Carrier Corporation,
+        lose $500 billion.</trope> I don't want to lose $58 billion. Mexico just took Carrier Corporation,
         maker of air conditioners. They just took Ford. They're building a $2.5 billion plant. They
         just took Nabisco out of Chicago. And I always say I'm not having Oreos anymore, which is
         true, by the way. But they just took a big plant from Nabisco into Mexico. They're taking
         our businesses. I don't mind.</speech>
-               <speech speaker="BLITZER">Thank you. Senator Rubio? [applause]
+               <speech speaker="BLITZER">Thank you. Senator Rubio? [applause]</speech>
                 <speech speaker="RUBIO">Yeah, a
         couple points. If he builds the <keyword term="wall">wall</keyword> the way he built Trump Towers,
                     he'll be using <immigrant status="illegal" term="illegal immigrant">illegal
@@ -581,7 +581,7 @@ It's time for the candidates to introduce themselves right now. You'll each have
                    <speech speaker="TRUMP"> I
         have to say, he lied this time. He lied. 100 percent. 100 percent.</speech> 
                    <speech speaker="RUBIO">You lied about the
-        Polish <immigrant status="ambig" term="workers">workers</immigrant>.
+        Polish <immigrant status="ambig" term="workers">workers</immigrant>.</speech>
                        <speech speaker="TRUMP">Yes, yes, yes. 38 years ago.</speech>
                        <speech speaker="RUBIO">You lied to the students at Trump
         University.</speech>
@@ -612,7 +612,7 @@ It's time for the candidates to introduce themselves right now. You'll each have
         have it now will not be able to renew it. New applicants will not be able to apply. That is
         the end of DACA. I am sympathetic to this cause, but once again, it cannot supersede the
         Constitution of the United States which this president habitually and routinely every single
-        day ignores and violates. [cheering and applause]
+        day ignores and violates. [cheering and applause] </speech>
                            <speech speaker="ARRARÁS">Senator Cruz, you and Senator
         Rubio are the two candidates of hispanic descent on this stage. As a matter of fact, you are
         the first hispanic candidate ever to win a caucus or primary. [applause] And yet, there is
@@ -643,7 +643,7 @@ It's time for the candidates to introduce themselves right now. You'll each have
         American dream.</speech>
                            <speech speaker="RUBIO">I'm sorry I was mentioned...</speech>
                            <speech speaker="ARRARÁS">... Governor Kasich.</speech>
-                           <speech speaker="RUBIO">Maria I was mentioned in that. I was mentioned in that statement.
+                           <speech speaker="RUBIO">Maria I was mentioned in that. I was mentioned in that statement.</speech>
                                <speech speaker="ARRARÁS">Governor Kasich,
         after the...</speech>
                                <speech speaker="RUBIO">... OK. I was mentioned — just because of the hispanic
@@ -673,18 +673,18 @@ It's time for the candidates to introduce themselves right now. You'll each have
         ought to move beyond that, about what they think. I'm going to tell you what I think. My
         position on this whole <immigration status="ambig" term="immigration">immigration</immigration> issue
                                    has been clear from the beginning. I haven't
-        changed anything with it. And, look, my view is, <troupe type="econ" subtype="growth" attitude="ambig">we
+        changed anything with it. And, look, my view is, <trope type="econ" subtype="growth" attitude="ambig">we
             need economic growth. Everything starts
-        with economic growth.</troupe> And how do you get it? Common sense regulations, lower taxes for both
+        with economic growth.</trope> And how do you get it? Common sense regulations, lower taxes for both
         business and individuals, and, of course, a fiscal plan that balances the budget. That gives
         you economic growth. I did it when I was in Washington, as the Budget Committee chairman,
         negotiating actually with Democrats, that gave us surpluses, economic growth, and the same
         thing in Ohio. But here's the thing that I believe. Economic growth is not an end unto
         itself. We have to make sure that everybody has a sense that they can rise. Of course, our
-        friends in the Hispanic community, our friends in the African-American community, <troupe type="value" subtype="american_dream"
+        friends in the Hispanic community, our friends in the African-American community, <trope type="value" subtype="american_dream"
             attitude="pro">the
         promise of America is that our system, when we follow the right formula, is going to give
-        opportunity for everyone</troupe>. It's what Jack Kemp used to say. A rising tide lifts all boats,
+        opportunity for everyone</trope>. It's what Jack Kemp used to say. A rising tide lifts all boats,
         not just some boats, but all boats. And you know what? With me and the Hispanic community, I
         think they like me. And I appreciate that, because I want them to have the same opportunity
         that I and my children and my wife and the people we love have had in this country. It's
@@ -767,7 +767,7 @@ It's time for the candidates to introduce themselves right now. You'll each have
         for the people on the stage, but I will do very well with Hispanics. But I'm telling you
         also, I'm bringing people, Democrats over and I'm bringing independents over, and we're
         building a much bigger, much stronger Republican Party.</speech>
-                               <!--<speech speaker="BLITZER"> Mr. Trump, thank you. I
+                               </section> <section key="other"><speech speaker="BLITZER"> Mr. Trump, thank you. I
         want to turn our attention now to another critically important issue for the American
         people, the United States Supreme Court, where filling the vacancy left by the late Justice
         Antonin Scalia has become a major campaign issue. I want to bring in Salem Radio Network
@@ -822,7 +822,7 @@ It's time for the candidates to introduce themselves right now. You'll each have
         Joe Biden, to Hillary Clinton, to Chuck Schumer, to Harry Reid. Nobody who supports far-left
         liberal Democrats who are fighting for judicial activists can possibly care about having
         principled constitutionalists on the court. And what Donald has told us is he will go to
-        Washington...[bell ringing]...and cut a deal.
+        Washington...[bell ringing]...and cut a deal.</speech>
                                        <speech speaker="HEWITT">Mr. Trump...</speech>
                                        <speech speaker="CRUZ">So that means on
         Supreme Court...</speech>
@@ -830,7 +830,7 @@ It's time for the candidates to introduce themselves right now. You'll each have
                                        <speech speaker="CRUZ">... he's going to look to cut a deal, rather
         than fight for someone who won't cut a deal on the Constitution, but will defend it
         faithfully. [applause]</speech>
-                                       <speech speaker="HEWITT"> Can I trust you on religious liberty?
+                                       <speech speaker="HEWITT"> Can I trust you on religious liberty?</speech>
                                            <speech speaker="TRUMP">Well, let — let
         me — let me just say — let me just say this. Look, I watched Ted — and I respected it, but
         he gets nowhere — stand on the Senate floor for a day or two days, and talk and talk and
@@ -1077,11 +1077,11 @@ It's time for the candidates to introduce themselves right now. You'll each have
                                            <speech speaker="BASH">... Senator
         Rubio...</speech>
                                            <speech speaker="RUBIO">... We're going to win, win win, he's winning
-                                               in the polls...
+                                               in the polls...</speech>
                                                <speech speaker="BASH">...
         Senator Rubio, please.</speech>
                                                <speech speaker="RUBIO">... And the lines around the state. [applause]...
-                                                   Every night.
+                                                   Every night.</speech>
                                                    <speech speaker="BASH">Senator Rubio. [cheering] </speech>
                                                    <speech speaker="TRUMP">I tell the truth, I tell the truth.</speech>
                                                    <speech speaker="BASH">Senator
@@ -2194,6 +2194,5 @@ It's time for the candidates to introduce themselves right now. You'll each have
                                                    <speech speaker="BLITZER">Mr. Trump, thank you. And thanks to each
         of the candidates, on behalf of everyone here at CNN and Telemundo. We also want to thank
         the Republican National Committee and the University of Houston. My thanks also to Hugh
-        Hewitt, Maria Celeste, and Dana Bash. Super Tuesday is only five days away.</speech>-->
-    </body>
+        Hewitt, Maria Celeste, and Dana Bash. Super Tuesday is only five days away.</speech></section> </body>
 </debate>

@@ -1,4 +1,5 @@
 <?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
         <loc>Manchester, NH</loc>
@@ -17,10 +18,10 @@
     </meta>
 
     <body>
-       <!-- A quirk in the code dealing with section tags that I will try to solve later... line -->
+       
         
         
-        <!-- <section key="other"><speech speaker="MUIR">Good evening, again, everyone. This is the first time since Iowa and the only time before the New Hampshire primary that the Republican candidates will have the opportunity to face each other.
+     <section key="other"><speech speaker="MUIR">Good evening, again, everyone. This is the first time since Iowa and the only time before the New Hampshire primary that the Republican candidates will have the opportunity to face each other.
 
 The people of Iowa have been heard. Now it's New Hampshire's turn. In just three days, voters here will decide who they think should be the Republican nominee for president.</speech>
 
@@ -64,7 +65,7 @@ Gentlemen, thank you for being here tonight, just days before voters here in New
 
 Mr. Trump, Senator Cruz has said about you right here in New Hampshire this week, quote, "I don't know anyone who would be comfortable with someone who behaves this way, having his finger on the button. We're liable to wake up one morning, and if he were president, he would nuke Denmark." Saying, quote, "That's temperament of a leader to keep this country safe."
 
-I wanted to give you the opportunity to respond to this and to tell the American people tonight why you do have the temperament to be commander-in-chief.</speech></section> -->
+I wanted to give you the opportunity to respond to this and to tell the American people tonight why you do have the temperament to be commander-in-chief.</speech></section>  
 
         <section key="imm">
             <speech speaker="TRUMP">I actually think I have the best temperament. I built a massive
@@ -85,7 +86,7 @@ I wanted to give you the opportunity to respond to this and to tell the American
                 [applause]</speech>
 
         </section>
-        <!-- <section key="other">
+         <section key="other"> 
 
 <speech speaker="MUIR">Mr. Trump, thank you. I want to bring this to Senator Cruz, then.
 
@@ -403,7 +404,7 @@ This is unacceptable. And this is why this president is so weak and why the secr
 
 David?</speech> 
 
-</section> -->
+ </section> 
 
         <section key="imm">
             <speech speaker="MUIR">Martha, we're going to turn to <immigration status="ambig" term="immigration">immigration</immigration> now. And I want to
@@ -517,7 +518,7 @@ David?</speech>
 
         </section>
 
-        <!-- <section key="other"><speech speaker="CHRISTIE">Yeah, David, I would just like you to listen, again, everybody.
+         <section key="other"><speech speaker="CHRISTIE">Yeah, David, I would just like you to listen, again, everybody.
 
 This is the difference between being a governor who actually has to be responsible for problems and not answering a question. The question was, "Did he fight for his legislation?" [applause]
 
@@ -994,7 +995,7 @@ But, here's the bigger problem with all this, we're not interrogating anybody ri
 
 <speech speaker="MUIR">Senator Rubio, thank you.
 
-We want to turn now to the topic of executive orders, and for that, we're going to turn back to Mary Katharine Ham. Mary Katharine?</speech> </section> -->
+We want to turn now to the topic of executive orders, and for that, we're going to turn back to Mary Katharine Ham. Mary Katharine?</speech> </section>  
 
         <section key="imm">
             <speech speaker="HAM">Thanks, David. Senator Cruz, on the campaign trail you've promised
@@ -1027,7 +1028,7 @@ We want to turn now to the topic of executive orders, and for that, we're going 
                 adopting a simple flat tax to abolish the IRS. [applause]</speech>
         </section>
         
-      <!--  <section key="other">
+         <section key="other">
             <speech speaker="HAM">Mr. Trump, Senator Cruz is known for opposing deals, you literally
                 wrote the book on making them. Senator Cruz has mentioned that on the trail. What
                 would you say to those conservatives that are concerned that a deal maker will just
@@ -1591,8 +1592,7 @@ Thank you. [applause]</speech>
 
 Last week we saw a powerful illustration of that. I campaigned in the state of Iowa four-square against the ethanol mandate, something everyone said was political suicide. My two leading competitors both attacked me for it. The governor of the state said vote for anyone but Cruz, and lobbyists spent millions of dollars in attack ads, but I stood and said we should have no mandates, a level playing field, and the people of Iowa put country and our children above the cronyism and corporate welfare...[bell rings]... We can turn this country around if we get back to the Constitution. And, I will always stand with the American people against the bipartisan corruption of Washington. [applause]</speech>
 
-<speech speaker="MUIR">Thank you. Mr. Trump.</speech> </section> -->
-
+<speech speaker="MUIR">Thank you. Mr. Trump.</speech> </section> 
         <section key="imm">
             <speech speaker="TRUMP">That's because he got Ben Carson's votes, by the way, but we
                 won't [inaudible]. Our country that we love so much doesn't win anymore. We don't
@@ -1606,10 +1606,10 @@ Last week we saw a powerful illustration of that. I campaigned in the state of I
 
 
         </section>
-        <!-- <section key="other">
+          <section key="other">
 <speech speaker="MUIR">Mr. Trump, thank you. Thanks to all the candidates on the stage here tonight. We thank the people of Manchester, New Hampshire for having this debate, and to everyone at home. The New Hampshire primary is Tuesday.</speech>
 
 
-</section>-->
+</section> 
     </body>
 </debate>

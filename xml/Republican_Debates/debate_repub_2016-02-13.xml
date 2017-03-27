@@ -1,4 +1,5 @@
-<!-- <?xml-model href="../../../Users/defaultuser/Desktop/immigration_station/immigration_station/working_schema.rnc" type="application/relax-ng-compact-syntax"?> -->
+<?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
         <loc>Greenville, SC</loc>
@@ -15,7 +16,7 @@
         </participants>
     </meta>
     <body>
-        <!-- <section key="other"><speech speaker="DICKERSON">Good evening. I'm John Dickerson. This holiday weekend, as America honors our first president, we're about to hear from six men who hope to be the 45th. The candidates for the Republican nomination are here in South Carolina for their ninth debate, one week before this state holds the first-in-the-South primary.
+         <section key="other"><speech speaker="DICKERSON">Good evening. I'm John Dickerson. This holiday weekend, as America honors our first president, we're about to hear from six men who hope to be the 45th. The candidates for the Republican nomination are here in South Carolina for their ninth debate, one week before this state holds the first-in-the-South primary.
 George Washington wrote that the truth will ultimately prevail where there is pains taken to bring it to light. We hope to shed some light on the candidates' positions tonight to help voters make up their minds.
 So gentlemen, please join us on stage. [applause]
 With us tonight — with us tonight are retired neurosurgeon Ben Carson of Florida, Senator Marco Rubio of Florida. [applause]
@@ -25,7 +26,7 @@ Former Governor Jeb Bush of Florida. [applause]
 And Governor John Kasich of Ohio. [applause]
 Now, as most of you have heard by now, Supreme Court Justice Antonin Scalia died today at the age of 79. He was the longest-serving member of the court, appointed by President Reagan in 1986. Justice Scalia was the court's leading conservative, and even those who disagreed with his opinions regarded him as a brilliant legal scholar. Please join us and the candidates on our stage in a moment of silence for Justice Antonin Scalia. Thank you.
 We will talk to the candidates about Justice Scalia and the road ahead when the debate begins in a moment.</speech>
-[commercial break]
+
 
 <speech speaker="DICKERSON">Before we get started, candidates, here are the rules. When we ask you a question, you will have one minute to answer, and 30 seconds more if we ask a follow-up. If you're attacked by another candidate, you get 30 seconds to respond.
 And here's how we keep time. After we ask a question, you'll get a green light. The yellow light means you have 30 seconds left to finish your answer, and when time is up, the light turns red. That means please stop talking. If you keep talking, you'll hear this.
@@ -298,7 +299,7 @@ Hold on. Let me finish. He has had the gall to go after my mother.</speech>
 <speech speaker="DICKERSON">Why is it nuts? Talk about it. Give us your sense of...</speech></section>
 
         
-            <speech speaker="KASICH">Oh, well, listen, I think being in Iraq, look, we thought there
+            <section key="imm"><speech speaker="KASICH">Oh, well, listen, I think being in Iraq, look, we thought there
                 were weapons of mass destruction. Colin Powell, who is one of the most distinguished
                 generals in modern time, said there were weapons there. [applause] But, but, the
                 fact is we got ourselves in the middle of a civil war. The Sunni, the Shia and the
@@ -315,7 +316,7 @@ Hold on. Let me finish. He has had the gall to go after my mother.</speech>
                 business. We'll do our job. We'll tell our soldiers, our people in the service, take
                 care of your job and then come home once we've accomplished our goals. That's what
                 we need to do.</speech>
-        
+        </section>
 
      <section key="other"><speech speaker="DICKERSON">Thirty seconds, Senator Rubio.</speech>
 
@@ -491,9 +492,9 @@ And it deals with corporate tax rate, and makes it the same as everybody else...
 
 <speech speaker="DICKERSON">... Dr. Carson, I'm sorry, we have to go to a commercial. The free market wants what it wants.
 Back soon with the 2016 Republican debate in Greenville, South Carolina.
-[commercial break]</speech></section> -->
+[commercial break]</speech></section> 
 
-        <speech speaker="DICKERSON">Welcome back. We'll begin the second half of the debate with one
+       <section key="imm"> <speech speaker="DICKERSON">Welcome back. We'll begin the second half of the debate with one
             of the hottest issues in the Republican campaign, <immigration status="ambig"
                 term="immigration">immigration</immigration>. But before I turn it back to Major
             Garrett and Kim Strassel, I have one question for Mr. Trump. Mr. Trump, in the
@@ -515,7 +516,7 @@ Back soon with the 2016 Republican debate in Greenville, South Carolina.
                     <keyword term="wall">wall</keyword>. I will build a <keyword term="wall"
                     >wall</keyword>. Remember this, the <keyword term="wall">wall</keyword> will be
                 paid for by Mexico.</platform> We are not being treated right. [applause] We are not
-            being treated properly. <trope type="secure" subtype="sovereignty" attitude="anti">If we
+            being treated properly. <trope type="value" subtype="sovereignty" attitude="anti">If we
                 don't have <keyword term="border">borders</keyword>, if we don't have strength, we
                 don't have a country.</trope>
             <immigrant status="ambig" term="people">People</immigrant> are flowing across. <trope
@@ -606,7 +607,7 @@ Back soon with the 2016 Republican debate in Greenville, South Carolina.
             number of green cards. He proposed a 500 percent increase on guest workers. Now his
             position is different. Now he is a passionate opponent of all those things. So he either
             wasn't telling the truth then or he isn't telling the truth now, but to argue he is a
-            purist on <immigration>immigration</immigration> is just not true. [applause]</speech>
+            purist on <immigration status="ambig" term="immigration">immigration</immigration> is just not true. [applause]</speech>
 
         <speech speaker="CRUZ">Major, I get a response to that.</speech>
 
@@ -661,7 +662,7 @@ Back soon with the 2016 Republican debate in Greenville, South Carolina.
 
         <speech speaker="BUSH">Thank you.</speech>
 
-        <speech speaker="GARRETT">You have said <immigrant status="illeagl" term="illegal immigrant"
+        <speech speaker="GARRETT">You have said <immigrant status="illegal" term="illegal immigrant"
                 >illegal immigrants</immigrant>, quote, "broke the law, but it's not a felony,"
             still quoting you, "it's an act of love, it's an act of commitment to your family." Mr.
             Trump has, as you are well aware, denounced that statement over and over. Do you still
@@ -692,7 +693,7 @@ Back soon with the 2016 Republican debate in Greenville, South Carolina.
                 are <immigrant status="illegal" term="people">people</immigrant> that are coming to
                 provide for their families. And we should show a little more respect for the fact
                 that they're struggling. It doesn't mean we shouldn't be controlling the <keyword
-                    termn="border">border</keyword>. That's exactly what we should be
+                    term="border">border</keyword>. That's exactly what we should be
             doing.</trope></speech>
 
         <speech speaker="GARRETT">Mr. Trump...</speech>
@@ -705,7 +706,7 @@ Back soon with the 2016 Republican debate in Greenville, South Carolina.
                 >The weakest person on this stage by far on <immigration status="illegal"
                     term="illegal immigration">illegal immigration</immigration> is Jeb Bush. They
                 come out of an act of love, whether you like it or not. He is so weak on
-                    <immigration status="illegal" ternm="illegal immigration">illegal
+                    <immigration status="illegal" term="illegal immigration">illegal
                     immigration</immigration> it's laughable, and everybody knows
             it.</trope></speech>
 
@@ -765,7 +766,7 @@ Back soon with the 2016 Republican debate in Greenville, South Carolina.
             talk about what we're for, and let's sell that, and the Republican Party will be
             stronger as a result...</speech>
 
-        <speech speaker="GARRETT">... What are you for on <immigration statu="ambig"
+        <speech speaker="GARRETT">... What are you for on <immigration status="ambig"
                 term="immigration">immigration</immigration>?</speech>
 
         <speech speaker="KASICH">... [off mike] [inaudible] First of all, I'm for sealing the
@@ -778,7 +779,7 @@ Back soon with the 2016 Republican debate in Greenville, South Carolina.
             they've been here, make them pay a fine and some back taxes, and give them a path to
             legalization, never to citizenship. It is not going to happen that we're going to run
             around and try to drag 11 and a half million people out of their homes. <platform
-                type="vale" subtype="america_first">I'll tell you this. Within the first hundred
+                type="value" subtype="america_first" attitude="ambig">I'll tell you this. Within the first hundred
                 days, I will send a plan like this to the Congress of the United States, and if I'm
                 president, I'll bet you dollar to doughnuts right now, it will pass.</platform>
             [bell rings] That is a reasonable proposal that the people of this country, in my
@@ -805,15 +806,15 @@ Back soon with the 2016 Republican debate in Greenville, South Carolina.
             increasing all the regulatory burden. You know, when you consider how much regulations
             cost us each year, you know? $2 trillion dollars per family, $24,000 per family, that
             happens to be the same level as the poverty level...[bell rings]... for a family of
-            four. If you want to get rid of poverty, get rid of all the regulations.</speech>
+            four. If you want to get rid of poverty, get rid of all the regulations.</speech></section>
 
-        <!-- <section key="other"><speech speaker="DICKERSON">Senator Cruz, I have a question for you. Speaker Paul Ryan has made a big commitment to trying to lift the 50 million poor out of poverty. Arthur Brooks, who is the president of the American Enterprise Institute, says, quote, "If we are not warriors for the poor every day, free enterprise has no matter." How you have been, in your campaign, a warrior for the poor?</speech>
+         <section key="other"><speech speaker="DICKERSON">Senator Cruz, I have a question for you. Speaker Paul Ryan has made a big commitment to trying to lift the 50 million poor out of poverty. Arthur Brooks, who is the president of the American Enterprise Institute, says, quote, "If we are not warriors for the poor every day, free enterprise has no matter." How you have been, in your campaign, a warrior for the poor?</speech>
 
 <speech speaker="CRUZ">I think it is a very important question because the people who have been hurt the most in the Obama economy had been the most vulnerable. It's been young people. It's been Hispanics. It's been African-Americans. It's been single moms. We have the lowest percentage of Americans working today in any year since 1977.
 And the sad reality is big government, massive taxes, massive regulation, doesn't work. What we need to do instead is bring back booming economic growth, let — small businesses are the heart of the economy. Two-thirds of all new jobs come from small businesses. If we want to lift people out of poverty — you know, I think of these issues from the perspective of my dad.
 My dad fled Cuba in 1957. He was just 18. He couldn't speak English. He had nothing. He had $100 in his underwear. And he washed dishes making 50 cents an hour and paid his way through school. Today, my dad is a pastor. He travels the country preaching the gospel.
 Now, I think about all of these issues. How would it impact my dad when he was washing dishes? If we had Obamacare in place right now, the odds are very high my father would have been laid off, because it's teenaged kids like my dad who have gotten laid off. If he didn't get laid off, the odds are high he would have had his hours forcibly reduced to 28, 29 hours a week.
-We need to lift the burdens on small businesses so you have jobs, and we need welfare reform that gets people off of welfare and back to work.</speech></section> -->
+We need to lift the burdens on small businesses so you have jobs, and we need welfare reform that gets people off of welfare and back to work.</speech></section> 
 
         <section key="imm">
             <speech speaker="GARRETT">Mr. Trump — Mr. Trump. [applause] I was with you in Pendleton,
@@ -850,10 +851,10 @@ We need to lift the burdens on small businesses so you have jobs, and we need we
                 workers. [applause]</speech>
         </section>
 
-        <!-- <section key="other"><speech speaker="DICKERSON">All right. Mr. Trump, thank you so much. We're going to take a break for a moment. We'll be back in a moment with the CBS News Republican debate.
-[commercial break]</speech></section> -->
+         <section key="other"><speech speaker="DICKERSON">All right. Mr. Trump, thank you so much. We're going to take a break for a moment. We'll be back in a moment with the CBS News Republican debate.
+[commercial break]</speech></section> 
 
-        <speech speaker="DICKERSON">We're back now from Greenville, South Carolina, with the
+       <section key="imm"> <speech speaker="DICKERSON">We're back now from Greenville, South Carolina, with the
             candidates for the Republican presidential nomination. Mr. Trump, I have a question for
             you. Presidents have to, on the one hand, be firm, but also be flexible. You have been
             flexible and changed your opinion on a number of things, from abortion to Hillary
@@ -861,9 +862,9 @@ We need to lift the burdens on small businesses so you have jobs, and we need we
             mind on things. But at the same time, you're criticizing Senator Cruz for what you say
             is a change on <immigration status="ambig" term="immigration">immigration</immigration>.
             He disputes that, of course. So, why is your change of opinion make you like Reagan, and
-            when he changes his opinion, it's a huge character flaw? [laughter]</speech>
+            when he changes his opinion, it's a huge character flaw? [laughter]</speech></section>
 
-        <!-- <section key="other"><speech speaker="TRUMP">John, in life you have flexibility. You do have flexibility. When you're fighting wars, you're going one way, you have a plan. It's a beautiful plan. It can't lose. The enemy makes a change, and all of a sudden you have to change.
+         <section key="other"><speech speaker="TRUMP">John, in life you have flexibility. You do have flexibility. When you're fighting wars, you're going one way, you have a plan. It's a beautiful plan. It can't lose. The enemy makes a change, and all of a sudden you have to change.
 You have to have flexibility. In Ronald Reagan, though, in terms of what we're talking about, was the great example. He was a somewhat liberal Democrat who became a somewhat, pretty strong conservative. He became — most importantly, he became a great president. He made many of the changes that I've made — I mean, I've seen as I grew up, I've seen, and as I get older and wiser, and I feel that I am a conservative.
 Now, I also feel I'm a common-sense conservative, because some of the views I don't agree with. And I think a lot of people agree with me, obviously, based on what's happening.</speech>
 
@@ -1012,10 +1013,10 @@ Senator Marco Rubio, please weigh in.</speech>
 
 <speech speaker="RUBIO">I had something important.</speech>
     
-<section key="imm"><speech speaker="DICKERSON">You're on deck, sir.</speech>
+<speech speaker="DICKERSON">You're on deck, sir.</speech>
 
 <speech speaker="RUBIO">The issue of poverty is critical, because for me, poverty is the — is — is free enterprise not reaching people. Today, we have antipoverty programs that don't cure poverty. We don't cure poverty in America. Our antipoverty programs have become, in some instances, a way of life, a lifestyle.
-Now, we do need antipoverty programs, you can't have free enterprise programs without them, but not as a way of life. And so I have a very specific proposal on this and I don't — in 60 seconds, I can't describe it all, but it basically turns the program over to states. It allows states to design innovative programs that cure poverty, because I think Nikki Haley will do a better job curing poverty than Barack Obama. [applause]</speech></section> -->
+Now, we do need antipoverty programs, you can't have free enterprise programs without them, but not as a way of life. And so I have a very specific proposal on this and I don't — in 60 seconds, I can't describe it all, but it basically turns the program over to states. It allows states to design innovative programs that cure poverty, because I think Nikki Haley will do a better job curing poverty than Barack Obama. [applause]</speech></section> 
 
         <section key="imm">
             <speech speaker="DICKERSON">Senator, I wanted to ask you, just going back to
@@ -1043,7 +1044,7 @@ Now, we do need antipoverty programs, you can't have free enterprise programs wi
                 to do it until you first enforce the law.</speech>
         </section>
 
-        <!-- <section key="other"><speech speaker="DICKERSON">Dr. Carson, I have...[applause]...Dr. Carson, I have a question for you. Candidates are...</speech>
+         <section key="other"><speech speaker="DICKERSON">Dr. Carson, I have...[applause]...Dr. Carson, I have a question for you. Candidates are...</speech>
 
 <speech speaker="CARSON">Before you ask the question, can I respond to the — you know, they mentioned my name a couple of times.</speech>
 
@@ -1184,7 +1185,7 @@ And if our next president is even half the president Ronald Reagan was, America 
 <speech speaker="DICKERSON">All right. That's going to have to be it there, Senator Rubio. We have got to go to a break. We will be right back with the CBS News Republican debate in Greenville, South Carolina.
 [commercial break]</speech>
 
-<speech speaker="DICKERSON">Time now for closing statements. You will each have one minute, and we'll begin with Governor Kasich.</speech></section> -->
+<speech speaker="DICKERSON">Time now for closing statements. You will each have one minute, and we'll begin with Governor Kasich.</speech></section> 
 
         <section key="imm">
             <speech speaker="KASICH">Well, I want to thank the people of South Carolina. You've been
@@ -1207,7 +1208,7 @@ And if our next president is even half the president Ronald Reagan was, America 
                 in South Carolina. [applause]</speech>
         </section>
 
-        <!-- <section key="other"><speech speaker="DICKERSON">Dr. Carson — Dr. Carson, you're next.</speech>
+         <section key="other"><speech speaker="DICKERSON">Dr. Carson — Dr. Carson, you're next.</speech>
 
 <speech speaker="CARSON">This is the first generation not expected to do better than their parents. Some people say it's the new normal, but there's nothing normal about it in an exceptional American. I, like you, am a member of we, the people, and we know that our country is heading off the cliff.
 Joseph Stalin said if you want to bring America down you, have to undermine three things: our spiritual life, our patriotism and our morality. We, the people, can stop that decline, starting right here in South Carolina. If all the people who say, "I love Ben Carson and his policies, but he can't win," vote for me, not only can we win, but we can turn this thing around.
@@ -1229,7 +1230,7 @@ This is a difficult time in our country. Our economy's flat, it's not creating t
 All the things that once held our families together are now under constant assault. And around the world, America's reputation is in decline. Our allies don't trust us, our adversaries don't fear us, Iran captures our sailors and parades them before the world on video.
 These are difficult times, but 2016 can be a turning point. That's why I'm running for president, and that's why I'm here today to ask you for your vote. If you elect me president, we are going to re-embrace free enterprise so that everyone can go as far as their talent and their work will take them.
 We are going to be a country that says that "life begins at conception and life is worthy of the protection of our laws." We're going to be a country that says "that marriage is between one man and one woman." We are going to be a country that says, "The constitution and the rights that it talks about do not come from our president, they come from our creator." We are going to be loyal to our allies like Israel, not enemies like Iran. And we will rebuild the U.S. military so no one will there test it.
-Vote for me. I will unify this party. I will grow it. We will win this election, and we will make the 21st century a new American century. [applause]</speech></section> -->
+Vote for me. I will unify this party. I will grow it. We will win this election, and we will make the 21st century a new American century. [applause]</speech></section> 
 
         <section key="imm">
             <speech speaker="DICKERSON">Senator Cruz? Senator Cruz, your closing statement?</speech>
@@ -1268,9 +1269,9 @@ Vote for me. I will unify this party. I will grow it. We will win this election,
                 Thank you very much.</speech>
         </section>
 
-        <!-- section key="other"><speech speaker="STRASSEL">We'll be back with a few final thoughts in a moment.
+         <section key="other"><speech speaker="STRASSEL">We'll be back with a few final thoughts in a moment.
 [commercial break]</speech>
 
-<speech speaker="DICKERSON">So that's nine Republican debates knocked down and at least three to go.</speech></section> -->
+<speech speaker="DICKERSON">So that's nine Republican debates knocked down and at least three to go.</speech></section> 
     </body>
 </debate>
