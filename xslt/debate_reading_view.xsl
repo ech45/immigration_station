@@ -27,9 +27,16 @@
     </xsl:template>
     <xsl:template match="speech">
         <br/>
-        [<xsl:apply-templates select="@speaker"/>] 
-        <xsl:apply-templates/>
+        <span class="{@speaker}"> [<xsl:apply-templates select="@speaker"/>] 
+      <xsl:apply-templates/>
+        </span>
         <br/>
+            </xsl:template>
+    <xsl:template match="trope">
+       <span class="trope{@type}"> <strong><xsl:apply-templates/></strong></span>
+    </xsl:template>
+    <xsl:template match="immigrant|immigration">
+        <em><xsl:apply-templates/></em>
     </xsl:template>
     <xsl:template match="meta">
         <h2>
