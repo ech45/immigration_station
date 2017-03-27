@@ -1,21 +1,20 @@
-body{background-image: url(stage3.jpg);
+body{background-image: url(images/stage3.jpg);
 background-repeat: no-repeat;
 background-size: 100% 100%;
 background-position:center;
 background-attachment:fixed;}
 
 *{
-    font-family: "Palatino Linotype";
+    font-family: "Courier New";
 }
-.margin{
-    text-align: left;
+div.margin{
+    text-align: center;
     color: white; 
-    font-size: 300%;
-    background: rgba(17,23,87,.85);
-padding-bottom: 30px;    
+    font-size: 200%;
+    background: rgba(17,23,87,.85);    
 }
 .menu{
-    margin: 0;
+    margin-bottom: 50px;
     padding-top: 0;
     list-style-type: none;
     background-color: #991817;
@@ -88,4 +87,13 @@ a:visited{
 }
 a:hover, a:active{
     color: #2638D7;
+}
+
+div.about{
+        background: rgba(17,23,87,.85);
+        color: white;
+        font-size: 150%;
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
 }
