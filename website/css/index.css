@@ -1,10 +1,13 @@
+*{
+        font-family: "Courier New", serif;
+}
 body{
     background-image: url(../images/stage3.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
-    font-family: "Courier New", serif;
+
 }
 .margin{
     text-align: center;
@@ -38,7 +41,7 @@ body{
 .dropbtn{
     background-color: #991817;
     color: white;
-    font-size: 75%;
+    font-size: 130%;
     padding: 0 1em;
     border: none;
     cursor: pointer;
@@ -74,7 +77,7 @@ body{
     position: absolute;
     background-color: #f9f9f9;
     z-index: 1;
-    font-size: 75%;
+    font-size: 130%;
 }
 .dropdown:hover .dropdown-content{
     display: block;
