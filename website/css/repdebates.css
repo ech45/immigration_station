@@ -10,18 +10,18 @@ body{
     font-family: "Courier New", serif;
 }
 .margin{
-    text-align: left;
+    text-align: center;
     color: white;
-    font-size: 300%;
+    font-size: 150%;
     background: rgba(17, 23, 87, .85);
-    padding-bottom: 30px;
 }
 .debates{
     color: blue;
-    background-color: blue;
+    background: rgba(17, 23, 87, .85);
+    
 }
 .menu{
-    margin: 0;
+    margin-bottom: 30px;
     padding-top: 0;
     list-style-type: none;
     background-color: #991817;
@@ -96,4 +96,9 @@ a:link{
 a:visited{
     color: white;
     text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    font-size: 200%;
 }

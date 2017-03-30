@@ -7,7 +7,7 @@ body{
     font-family: "Courier New", serif;
 }
 .margin{
-    text-align: left;
+    text-align: center;
     color: white;
     font-size: 150%;
     background: rgba(17, 23, 87, .85);
@@ -38,7 +38,7 @@ body{
 .dropbtn{
     background-color: #991817;
     color: white;
-    font-size: 200%;
+    font-size: 75%;
     padding: 0 1em;
     border: none;
     cursor: pointer;
@@ -89,14 +89,14 @@ a{
  */
 a:link{
     color: white;
-    font-size: 200%;
+    font-size: 75%;
 }
 a:visited{
     color: white;
 }
 a:hover{
     color: blue;
-    font-size: 200%;
+    font-size: 75%;
 }
 
 div.about{
