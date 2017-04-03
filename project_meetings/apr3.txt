@@ -4,6 +4,17 @@ Ideas for visualization
     
 Tasks for this week
     Eric -- radar charts and parallel coordinate
-    Elaina -- mallet 
+    Elaina -- mallet and
     Chris -- javascript and methods page
     Zachary -- css design for site and flexbox for debate and candidate pages (lorem ipsum for placeholder text)
+    
+    
+    list of terms
+    principal umbrella terms (based on text.xsl file and retrieved data)
+        Undocumented
+        Illegal
+        Immigrant
+        Refugee
+        (Other pro
+        Other anti
+        Other neutral)
