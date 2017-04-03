@@ -1,0 +1,9 @@
+Ideas for visualization
+    radar chart??
+    parallel coordinate chart??
+    
+Tasks for this week
+    Eric -- radar charts and parallel coordinate
+    Elaina -- mallet 
+    Chris -- javascript and methods page
+    Zachary -- css design for site and flexbox for debate and candidate pages (lorem ipsum for placeholder text)

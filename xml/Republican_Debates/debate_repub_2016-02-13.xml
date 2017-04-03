@@ -1,4 +1,4 @@
-<?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
