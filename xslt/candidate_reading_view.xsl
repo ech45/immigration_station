@@ -3,7 +3,10 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs"
     xmlns="http://www.w3.org/1999/xhtml" version="2.0">
     <xsl:output method="xml" indent="yes" doctype-system="about:legacy=compat"/>
-    <!-- stopword list from http://www.ranks.nl/stopwords -->
+    <xsl:variable name="demDebates" as="document-node()*" select="collection('../xml/Democratic_Debates/?select=*.xml')"/>
+    <xsl:variable name="repDebates" as="document-node()*" select="collection('../xml/Republican_Debates/?select=*.xml')"/>
+    <xsl:variable name="allDebates" as="document-node()*" select="$demDebates | $repDebates"/>
+    
     <xsl:template match="/">
         <html>
             <head>
@@ -13,7 +16,7 @@
             <body>
                 <!-- find sentences with <immigration> descendants that contain the string 'immigrant' and group by speaker-->
                 <xsl:for-each-group
-                    select="//speech[ancestor::section[@key='imm']]"
+                    select="$allDebates//speech[child::*]"
                     group-by="@speaker">
                     <!-- sort by speaker -->
                     <xsl:sort select="current-grouping-key()"/>
@@ -23,13 +26,13 @@
                             <xsl:value-of select="@speaker"/>
                         </h2>
                         <!-- create a list of speeches of interest by the candidate you're looking at -->
-                        <ul>
+                        
                             <xsl:for-each select="current-group()">
-                                <li>
-                                    <xsl:value-of select="current()"/>
-                                </li>
+                               <p>
+                                    -<xsl:value-of select="current()"/>
+                               </p>
                             </xsl:for-each>
-                        </ul>
+                        
                         
                 </xsl:for-each-group>
             </body>
