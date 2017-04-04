@@ -29,9 +29,12 @@
         </html>
     </xsl:template>
     <xsl:template match="speech">
-        <xsl:variable name="readingTextURL"
+        <xsl:variable name="readingTextURL" as="xs:string"
             select="replace(tokenize(base-uri(.), '/')[last()], 'xml', 'xhtml')"/>
-        <p href="{$readingTextURL}">
+        <xsl:variable name="speechPositionWithinDebate" as="xs:integer"
+            select="count(preceding::speech)"/>
+        <p>
+            <a href="{concat($readingTextURL,'#speech',$speechPositionWithinDebate)}">[source] </a>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
