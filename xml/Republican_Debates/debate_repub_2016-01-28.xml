@@ -1,5 +1,5 @@
-<?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <debate>
     <meta>
         <loc> Des Moines, Iowa</loc>
@@ -624,7 +624,7 @@ When I am president of the United States of America, there will never be any cap
             entered, or stayed in this country illegally. [end video clip] [begin video
             clip]</speech>
 
-        <speech speaker="RUBIO">First of all, earned <keyword term="path to citizenship">path to
+        <speech speaker="RUBIO">First of all, earned <keyword term="path">path to
                 citizenship</keyword> is basically code for <keyword term="amnesty"
                 >amnesty</keyword>. It's what they call it. And, the reality of it is this, it is
             unfair to the people that have legally entered this country to create an alternative for
@@ -638,7 +638,7 @@ When I am president of the United States of America, there will never be any cap
             our country, bad for our future. [end video clip]</speech>
 
         <speech speaker="KELLY">Within two years of getting elected you were co-sponsoring
-            legislation to create a <keyword term="path to citizenship">path to
+            legislation to create a <keyword term="path">path to
                 citizenship</keyword>, in your words, amnesty. Haven't you already proven that you
             cannot be trusted on this issue?</speech>
 
@@ -656,13 +656,13 @@ When I am president of the United States of America, there will never be any cap
         <speech speaker="RUBIO">... No, I said I do not support blanket <keyword term="amnesty"
                 >amnesty</keyword>...</speech>
 
-        <speech speaker="KELLY">... You said earned <keyword term="path to citizenship">path to
+        <speech speaker="KELLY">... You said earned <keyword term="path">path to
                 citizenship</keyword> is basically code for <keyword term="amnesty"
                 >amnesty</keyword>. You...</speech>
 
         <speech speaker="RUBIO">... It was...</speech>
 
-        <speech speaker="KELLY">... supported earned <keyword term="path to citizenship">path to
+        <speech speaker="KELLY">... supported earned <keyword term="path">path to
                 citizenship</keyword>...</speech>
 
         <speech speaker="RUBIO">... It absolutely has been, and at the time in the context of that
@@ -765,7 +765,7 @@ When I am president of the United States of America, there will never be any cap
             issue.</speech>
 
         <speech speaker="KELLY">OK. Let's move on. Senator Cruz, when Senator Rubio proposed that
-            bill creating a <keyword term="path to citizenship">path to citizenship</keyword>, you proposed an amendment. It would have allowed
+            bill creating a <keyword term="path">path to citizenship</keyword>, you proposed an amendment. It would have allowed
             for legalization but not citizenship. Yes, it would. Pressed last month on why you
             supported legalization, you claimed that you didn't. Right? Like you just did. Saw that.
             [laughter] You argued that this was just a poison pill amendment, basically it's

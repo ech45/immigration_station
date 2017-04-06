@@ -3,7 +3,7 @@
 <debate>
     <meta>
         <loc>Las Vegas, NV</loc>
-        <date> 12 December, 2015</date>
+        <date>12 December, 2015</date>
         <participants>
             <candidate who="CARSON">Ben Carson</candidate>
             <candidate who="CHRISTIE">Chris Christie</candidate>
@@ -395,7 +395,7 @@
         requirements for <immigrant status="refugee" term="refugee">refugees</immigrant> or <immigrant status="ambig" term="student">students</immigrant>. Last week, I introduced another bill saying we need
         more security, we need more scrutiny. Once again, Marco opposed this. So Marco can't have it
         both ways. He thinks he wants to be this, "Oh, I'm great and strong on national defense."
-        But he's the weakest of all the candidates on <immigration status="ambig" term="immigration">immigration</immigration>. <trope type="secure" subtype="ambig" attitude="anti">He is the one for an open border
+        But he's the weakest of all the candidates on <immigration status="ambig" term="immigration">immigration</immigration>. <trope type="secure" subtype="ambig" attitude="anti">He is the one for an open <keyword term="border">border</keyword>
         that is leaving us defenseless. If we want to defend the country, we have to defend against
         who's coming in, and Marco is — has more of an allegiance to Chuck Schumer and to the
         liberals than he does to conservative policy</trope>. [applause]</speech> 
@@ -1244,11 +1244,12 @@
     <speech speaker="BASH"> Thank you, Dr. Carson. We've been talking tonight about programs and
         policy proposals that you all have to keep Americans safe and it's a big discussion on the
         campaign trail. Also about <keyword term="border">border</keyword> security and <immigration status="ambig" term="immigration">immigration</immigration>. So let's talk about <immigration status="ambig" term="immigration">immigration</immigration>.
-        Senator Rubio. You co-authored a bill with Democrats two years ago that allowed a <keyword term="path to citizenship">path to
-        citizenship</keyword> for <immigrant status="illegal" term="undocumented immigrant">undocumented immigrants</immigrant>. Do you still support that <keyword term="path to citizenship">path to citizenship</keyword>,
+        Senator Rubio. You co-authored a bill with Democrats two years ago that allowed a <keyword term="path">path to
+        citizenship</keyword> for <immigrant status="illegal" term="undocumented immigrant">undocumented immigrants</immigrant>. Do you still support that <keyword term="path">path to citizenship</keyword>,
         which means giving those <immigrant status="illegal" term="immigrant">immigrants</immigrant> rights, like the right to vote?</speech>
 
-    <speech speaker="RUBIO"> Yeah. <anecdote type="value" subtype="culture" attitude="ambig">Immigration is not an issue that I read about in the newspaper or
+            <speech speaker="RUBIO"> Yeah. <anecdote type="value" subtype="culture" attitude="ambig"><immigration status="ambig" term="immigration">
+                Immigration</immigration> is not an issue that I read about in the newspaper or
         watch a documentary on PBS or CNN. It's an issues I've lived around my whole life. My family
         are immigrants. My wife's family are immigrants. All of my neighbors are immigrants. I see
         every aspect of this problem. The good, the bad, and the ugly. And here's what we learned in
@@ -1342,7 +1343,7 @@
     <speech speaker="RUBIO"> Did Ted Cruz fight to support legalizing people that are in this
         country illegally?</speech>
 
-    <speech speaker="CRUZ"> He campaigned promising to lead the fight against amnesty.</speech>
+            <speech speaker="CRUZ"> He campaigned promising to lead the fight against <keyword term="amnesty">amnesty</keyword>.</speech>
 
     <speech speaker="FIORINA"> Ladies and gentleman, this is why the American people are standing
         up.</speech>
@@ -1459,7 +1460,7 @@
 
     <speech speaker="PAUL"> You know, I think we need to set the record straight on this, because I
         think Marco misspoke about the bill. <anecdote type="secure" subtype="terrorism" attitude="anti">On the Gang of Eight bill, there was no provisions
-        really for extra scrutiny or safety for <immigrant status="refugee" term="refugee">refugees</immigrant>. At the time the bill came up, two <immigrant status="refugee" term="iraqui refugee">Iraqi
+        really for extra scrutiny or safety for <immigrant status="refugee" term="refugee">refugees</immigrant>. At the time the bill came up, two <immigrant status="refugee" term="iraqi refugee">Iraqi
         refugees</immigrant> came to my home town, Bowling Green, Kentucky. Their fingerprints were on a bomb
         from Iraq. They were in the database, but we didn't pick them up.</anecdote> <anecdote type="econ" subtype="welfare" attitude="anti">We relocated them here,
         put them in government housing, got them on food stamps. And we began providing for them,
@@ -1543,7 +1544,7 @@
         have been human-trafficked. So when the administration tells me we have a great vetting
         process, the proof is in the pudding. They sent these miners to us. Our schools were
         disrupted. We didn't know where they were. And bad things happened to them. And now they
-        tell me that we ought to be able to admit these Syrian refugees. So, Wolf, look, people have
+        tell me that we ought to be able to admit these <immigrant status="refugee" term="syrian refugee">Syrian refugees</immigrant>. So, Wolf, look, people have
         accused me at times of having too big of a heart. You know, that's OK. But I have to also to
         say I must keep the people of my state safe. So we take a pause.</speech>
 

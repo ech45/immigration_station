@@ -1,4 +1,3 @@
-
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <debate>
@@ -6,20 +5,20 @@
         <loc> United States Ohio</loc>
         <date>August 6, 2015</date>
         <participants>
-            <candidate who="BUSH">Former Governor Jeb Bush (FL);</candidate>
-            <candidate who="CARSON">Ben Carson;</candidate>
-            <candidate who="CHRISTIE">Governor Chris Christie (NJ);</candidate>
-            <candidate who="CRUZ">Senator Ted Cruz (TX);</candidate>
-            <candidate who="HUCKABEE">Former Governor Mike Huckabee (AR);</candidate>
-            <candidate who="KASICH">Governor John Kasich (OH);</candidate>
-            <candidate who="PAUL">Senator Rand Paul (KY);</candidate>
-            <candidate who="RUBIO">Senator Marco Rubio (FL);</candidate>
-            <candidate who="TRUMP">Donald Trump;</candidate>
-            <candidate who="WALKER">Governor Scott Walker (WI); </candidate>
+            <candidate who="BUSH">Former Governor Jeb Bush</candidate>
+            <candidate who="CARSON">Ben Carson</candidate>
+            <candidate who="CHRISTIE">Governor Chris Christie</candidate>
+            <candidate who="CRUZ">Senator Ted Cruz</candidate>
+            <candidate who="HUCKABEE">Former Governor Mike Huckabee</candidate>
+            <candidate who="KASICH">Governor John Kasich</candidate>
+            <candidate who="PAUL">Senator Rand Paul</candidate>
+            <candidate who="RUBIO">Senator Marco Rubio</candidate>
+            <candidate who="TRUMP">Donald Trump</candidate>
+            <candidate who="WALKER">Governor Scott Walker</candidate>
 
-            <moderator who="BAIER">Bret Baier (Fox News);</moderator>
-            <moderator who="KELLY">Megyn Kelly (Fox News); and</moderator>
-            <moderator who="WALLACE">Chris Wallace (Fox News)</moderator>
+            <moderator who="BAIER">Bret Baier</moderator>
+            <moderator who="KELLY">Megyn Kelly</moderator>
+            <moderator who="WALLACE">Chris Wallace</moderator>
         </participants>
     </meta>
     <body>
@@ -188,9 +187,9 @@ You've called women you don't like "fat pigs, dogs, slobs, and disgusting animal
         <speech speaker="TRUMP">I think the big problem this country has is being politically
             correct. [applause] I've been challenged by so many people, and I don't frankly have
             time for total political correctness. And to be honest with you, this country doesn't
-            have time either. This country is in big trouble. We don't win anymore. We lose to
+            have time either. This country is in big trouble. <trope type="value" subtype="america_first" attitude="anti">We don't win anymore. We lose to
             China. We lose to Mexico both in trade and at the <keyword term="border"
-                >border</keyword>. We lose to everybody. And frankly, what I say, and oftentimes
+                >border</keyword>. We lose to everybody.</trope> And frankly, what I say, and oftentimes
             it's fun, it's kidding. We have a good time. What I say is what I say. And honestly
             Megyn, if you don't like it, I'm sorry. I've been very nice to you, although I could
             probably maybe not be, based on the way you have treated me. But I wouldn't do that.

@@ -1,10 +1,9 @@
-<?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <debate>
     <meta>
         <loc>Simi Valley, CA</loc>
         <date>16 Septemer 2015</date>
-
         <participants>
             <candidate who="BUSH">Jeb Bush</candidate>
             <candidate who="CARSON">Ben Carson</candidate>
@@ -969,8 +968,8 @@ Please give some applause to the candidates. [applause]
                 >wall</keyword>. We need to use electronics, we need to use drones, we need to use
             FBI, DEA, and ATF, and yes, we need to take the fingerprint of every person who comes
             into this country on a visa, and when they <keyword term="visa overstay">overstay their visa</keyword>, we need to tap them on
-            the shoulder, and say, "You have overstayed your welcome, you're taking advantage of the
-            American people. It's time for you to go." If we had that kind of system in place, we
+            the shoulder, and say, "You have overstayed your welcome, <trope type="value" subtype="ambig" attitude="anti">you're taking advantage of the
+            American people. It's time for you to go.</trope>" If we had that kind of system in place, we
             wouldn't have the 11 million people we have now. </speech>
         <speech speaker="TAPPER"> Thank you, Governor Christie... </speech>
         <speech speaker="TRUMP"> ...By the way, I agree with — with what Chris is saying, but, I
@@ -1048,7 +1047,7 @@ Please give some applause to the candidates. [applause]
         <speech speaker="BASH"> Mr. Trump... </speech>
         <speech speaker="FIORINA"> Dana, with all being said to Mr. Trump... </speech>
         <speech speaker="BASH"> Go ahead. </speech>
-        <speech speaker="FIORINA"> Immigration did not come up in 2016 because Mr. Trump brought it
+    <speech speaker="FIORINA"> <immigration status="ambig" term="immigration">Immigration</immigration> did not come up in 2016 because Mr. Trump brought it
             up. We talked about it in 2012, we talked about it in 2008. We talked about it in 2004. </speech>
         <speech speaker="TRUMP"> Not with this intensity. </speech>
         <speech speaker="FIORINA"> We have been talking about it for 25 years. This is why people
@@ -1135,7 +1134,7 @@ Please give some applause to the candidates. [applause]
             massive, I stood shoulder to shoulder with Jeff Sessions helping lead the fight. You
             know, folks here have talked about, how do you secure the <keyword term="border"
                 >borders</keyword>? Well, I've been leading the fight in the Senate to triple the
-            Border Patrol, to put in place fencings and <keyword term="wall">wall</keyword>s, to
+            Border Patrol, to put in place fencings and <keyword term="wall">walls</keyword>, to
             put in place a strong biometric exit/entry system... </speech>
         <speech speaker="TAPPER"> Thank you, Senator. Senator Rubio... </speech>
         <speech speaker="CARSON"> Can I — can I — can I just... </speech>
