@@ -1,5 +1,5 @@
 *{
-        font-family: "Courier New", serif;
+    font-family: "Courier New", serif;
 }
 body{
     background-image: url(../images/stage3.jpg);
@@ -30,6 +30,13 @@ body{
     background-color: #991817;
     margin: auto;
 }
+a.menulink{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding-left: 0;
+    font-size: 130%;
+}
 
 .menulist{
     display: inline;
@@ -52,7 +59,8 @@ body{
     position: relative;
     display: inline-block;
     margin: 0;
-  padding-left: 0;
+    padding-left: 0;
+    font-size: 130%;
 }
 
 
@@ -85,7 +93,10 @@ body{
 
 a{
     padding: 0;
+    text-decoration: none;
+    font-size: 130%;
 }
+
 /* 
  * Pseudo-selector have to be in a particular order
  * https://css-tricks.com/remember-selectors-with-love-and-hate/
@@ -103,10 +114,10 @@ a:hover{
 }
 
 div.about{
-        background: rgba(17,23,87,.85);
-        color: white;
-        font-size: 150%;
-        text-align: center;
-        margin-left: 15%;
-        margin-right: 15%;
+    background: rgba(17, 23, 87, .85);
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
