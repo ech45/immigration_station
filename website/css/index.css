@@ -21,6 +21,7 @@ body{
     list-style-type: none;
     background-color: #991817;
     text-align: center;
+    font-size: 130%;
 }
 
 .menubar{
@@ -48,11 +49,11 @@ a.menulink{
 .dropbtn{
     background-color: #991817;
     color: white;
-    font-size: 130%;
     padding: 0 1em;
     border: none;
     cursor: pointer;
     margin: 0;
+    font-size: 130%;
 }
 
 .dropdown{
