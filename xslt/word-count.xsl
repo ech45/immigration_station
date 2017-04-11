@@ -4,6 +4,11 @@
     xmlns="http://www.w3.org/1999/xhtml" version="2.0">
     <xsl:output method="xml" indent="yes" doctype-system="about:legacy=compat"/>
     <!-- stopword list from http://www.ranks.nl/stopwords -->
+    <xsl:variable name="demDebates" as="document-node()*"
+        select="collection('../xml/Democratic_Debates/?select=*.xml')"/>
+    <xsl:variable name="repDebates" as="document-node()*"
+        select="collection('../xml/Republican_Debates/?select=*.xml')"/>
+    <xsl:variable name="allDebates" as="document-node()*" select="$demDebates | $repDebates"/>
     <xsl:variable name="stopwords" as="xs:string+"
         select="
             ('a',
@@ -204,27 +209,17 @@
             <body>
                 <!-- find sentences with <immigration> descendants that contain the string 'immigrant' and group by speaker-->
                 <xsl:for-each-group
-                    select="//sentence[contains(., 'immigrant')]"
-                    group-by="ancestor::speech/@speaker">
+                    select="$allDebates//speech[contains(., 'immigra')]"
+                    group-by="@speaker">
                     <!-- sort by speaker -->
-                    <xsl:sort select="current-grouping-key()"/>
+                    <xsl:sort select="@speaker"/>
                     <!-- keep only speeches by candidates, not those by modersators -->
-                    <xsl:if test="current-grouping-key() = //candidate/@xml:id">
+                    
                         <h2>
-                            <xsl:value-of select="current-grouping-key()"/>
+                            <xsl:value-of select="@speaker"/>
                         </h2>
-                        <!-- create a list of speeches of interest by the candidate you're looking at -->
-                        <ul>
-                            <xsl:for-each select="current-group()">
-                                <li>
-                                    <xsl:value-of select="current()"/>
-                                </li>
-                            </xsl:for-each>
-                        </ul>
-                        <!-- $word-string is all nodes() in the speeches of interest except <immigration> elements -->
-                        <!--<xsl:variable name="word-string" as="node()+"
-                        select="current-group()//node() except current-group()//node()[ancestor-or-self::immigration]"/>-->
-                        <xsl:variable name="word-string" as="element(sentence)+"
+                       
+                        <xsl:variable name="word-string" as="element(speech)+"
                             select="current-group()"/>
                         <!-- $words is a sequence of all words from speeches by the candidate of interest -->
                         <xsl:variable name="words" as="xs:string+"
@@ -252,7 +247,7 @@
                                 </xsl:if>
                             </xsl:for-each>
                         </table>
-                    </xsl:if>
+                    
                 </xsl:for-each-group>
             </body>
         </html>
