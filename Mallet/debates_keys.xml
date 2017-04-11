@@ -50,6 +50,7 @@
     </topic>
     <topic>
         <number>2</number>
+        <name>justice</name>
         <words>
          <word>states</word>
          <word>united</word>
@@ -74,6 +75,7 @@
     </topic>
     <topic>
         <number>3</number>
+        <number>issues</number>
         <words>
          <word>people</word>
          <word>country</word>
@@ -122,6 +124,7 @@
     </topic>
     <topic>
         <number>5</number>
+        <number>federal</number>
         <words>
          <word>government</word>
          <word>security</word>
@@ -146,6 +149,7 @@
     </topic>
     <topic>
         <number>6</number>
+        <name>terrorism</name>
         <words>
          <word>isis</word>
          <word>war</word>
@@ -170,6 +174,7 @@
     </topic>
     <topic>
         <number>7</number>
+        <name>idealism</name>
         <words>
          <word>world</word>
          <word>america</word>
@@ -194,6 +199,7 @@
     </topic>
     <topic>
         <number>8</number>
+        <name>middle-class</name>
         <words>
          <word>people</word>
          <word>country</word>
@@ -218,6 +224,7 @@
     </topic>
     <topic>
         <number>9</number>
+        <name>foreign policy</name>
         <words>
          <word>iran</word>
          <word>deal</word>
