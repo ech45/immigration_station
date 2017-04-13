@@ -2,8 +2,8 @@
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
-        <loc>Manchester, NH</loc>
-        <date>6 February 2016</date>
+        <loc>Manchester, New Hampshire</loc>
+        <date>February 6, 2016</date>
         <participants>
             <candidate who="BUSH">Jeb Bush</candidate>
             <candidate who="CARSON">Ben Carson</candidate>

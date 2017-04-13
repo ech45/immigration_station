@@ -2,7 +2,7 @@
 <?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <debate>
     <meta>
-        <loc> University of Colorado at Boulder </loc>
+        <loc>Boulder, Colorado</loc>
         <date> October 28, 2015 </date>
         <participants>
             <candidate who="HUCKABEE">Former Arkansas Govenor Mike Huckabee;</candidate>
