@@ -12,6 +12,13 @@
                 <xsl:apply-templates select="//meta"/>
                 <hr/>
                 <xsl:apply-templates select="//body"/>
+                <div class="debateMenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis
+                    nulla augue. Vestibulum eget condimentum odio. Proin pharetra vel est eget hendrerit. Duis nec
+                    rhoncus libero. Donec auctor erat sem, vitae elementum odio accumsan vel. Vivamus sapien lorem,
+                    ornare ac massa at, maximus maximus nisl. In malesuada nisi arcu, vitae placerat turpis lobortis
+                    quis. Aliquam finibus eget purus nec suscipit. Vestibulum maximus nulla quam, gravida tempus
+                    magna convallis eget. In sagittis lacinia purus luctus elementum. Praesent vel elementum tellus.
+                    Proin a est consectetur, rutrum diam id, dapibus quam.</div>
             </body>
         </html>
     </xsl:template>
@@ -22,7 +29,7 @@
        
         
         
-        <div id="key">
+        <div class="{@key}">
             <p><xsl:apply-templates select="speech"/></p>
         </div>
     </xsl:template>
@@ -32,9 +39,9 @@
         
         <xsl:variable name="speechPositionWithinDebate" as="xs:integer"
             select="count(preceding::speech)"/>
-        <div id="{concat($readingTextURL, 'speech' , $speechPositionWithinDebate)}"> [<xsl:apply-templates select="@speaker"/>] 
+        <p id="{concat($readingTextURL, 'speech' , $speechPositionWithinDebate)}"> [<xsl:apply-templates select="@speaker"/>] 
       <xsl:apply-templates/>
-        </div>
+        </p>
             </xsl:template>
     <xsl:template match="trope">
        <div class="trope{@type}"> <strong><xsl:apply-templates/></strong></div>
@@ -48,9 +55,9 @@
             <br/>
             <xsl:apply-templates select="date"/>
         </h2>
-        <h2>
+        <h3>
            Candidates
-        </h2>
+        </h3>
         <br/>
         <ul>
             <xsl:apply-templates select="participants/candidate"/>
