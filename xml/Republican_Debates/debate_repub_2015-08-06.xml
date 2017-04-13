@@ -2,19 +2,19 @@
 <?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <debate>
     <meta>
-        <loc> United States Ohio</loc>
+        <loc> United States, Ohio</loc>
         <date>August 6, 2015</date>
         <participants>
-            <candidate who="BUSH">Former Governor Jeb Bush</candidate>
+            <candidate who="BUSH">Former Governor Jeb Bush (FL);</candidate>
             <candidate who="CARSON">Ben Carson</candidate>
-            <candidate who="CHRISTIE">Governor Chris Christie</candidate>
-            <candidate who="CRUZ">Senator Ted Cruz</candidate>
-            <candidate who="HUCKABEE">Former Governor Mike Huckabee</candidate>
-            <candidate who="KASICH">Governor John Kasich</candidate>
-            <candidate who="PAUL">Senator Rand Paul</candidate>
-            <candidate who="RUBIO">Senator Marco Rubio</candidate>
-            <candidate who="TRUMP">Donald Trump</candidate>
-            <candidate who="WALKER">Governor Scott Walker</candidate>
+            <candidate who="CHRISTIE">Governor Chris Christie (NJ);</candidate>
+            <candidate who="CRUZ">Senator Ted Cruz (TX);</candidate>
+            <candidate who="HUCKABEE">Former Governor Mike Huckabee (AR);</candidate>
+            <candidate who="KASICH">Governor John Kasich (OH);</candidate>
+            <candidate who="PAUL">Senator Rand Paul (KY);</candidate>
+            <candidate who="RUBIO">Senator Marco Rubio (FL);</candidate>
+            <candidate who="TRUMP">Donald Trump; and</candidate>
+            <candidate who="WALKER">Governor Scott Walker (WI)</candidate>
 
             <moderator who="BAIER">Bret Baier</moderator>
             <moderator who="KELLY">Megyn Kelly</moderator>

@@ -1,10 +1,10 @@
 
 
-<?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
-        <loc>Las Vegas, NA</loc>
+        <loc>Las Vegas, NV</loc>
         <date>13 October 2015</date>
 
         <participants>
@@ -123,7 +123,7 @@ All right. Let's begin. We're going to be discussing a lot of the issues, many o
 
 Secretary Clinton, I want to start with you. Plenty of politicians evolve on issues, but even some Democrats believe you change your positions based on political expediency.
 
-You were against same-sex marriage. Now you're for it. You defended President Obama's <keyword term="immigration policiy">immigration policies</keyword>. Now you say they're too harsh. You supported his trade deal dozen of times. You even called it the "gold standard". Now, suddenly, last week, you're against it.
+You were against same-sex marriage. Now you're for it. You defended President Obama's <keyword term="immigration policy">immigration policies</keyword>. Now you say they're too harsh. You supported his trade deal dozen of times. You even called it the "gold standard". Now, suddenly, last week, you're against it.
 
 Will you say anything to get elected?
 

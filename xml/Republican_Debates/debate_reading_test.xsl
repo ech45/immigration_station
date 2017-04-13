@@ -18,12 +18,14 @@
     <xsl:template match="body">
         <xsl:apply-templates select="section"/>
     </xsl:template>
-    <xsl:template match="section">
-       
-        
-        
-        <div id="key">
-            <p><xsl:apply-templates select="speech"/></p>
+    <xsl:template match="section[@key='other']"> 
+       <div class="other">
+            <xsl:apply-templates select="speech"/>
+        </div>
+    </xsl:template>
+    <xsl:template match="section[@key='imm']">
+        <div class="imm">
+            <xsl:apply-templates select="speech"/>
         </div>
     </xsl:template>
     <xsl:template match="speech">
@@ -32,15 +34,18 @@
         
         <xsl:variable name="speechPositionWithinDebate" as="xs:integer"
             select="count(preceding::speech)"/>
-        <div id="{concat($readingTextURL, 'speech' , $speechPositionWithinDebate)}"> [<xsl:apply-templates select="@speaker"/>] 
-      <xsl:apply-templates/>
-        </div>
-            </xsl:template>
+        <p id="{concat($readingTextURL, 'speech' , $speechPositionWithinDebate)}"> [<xsl:apply-templates select="@speaker"/>] 
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
     <xsl:template match="trope">
-       <div class="trope{@type}"> <strong><xsl:apply-templates/></strong></div>
+        <div class="trope{@type}"> <strong><xsl:apply-templates/></strong></div>
     </xsl:template>
     <xsl:template match="immigrant|immigration">
         <em><xsl:apply-templates/></em>
+    </xsl:template>
+    <xsl:template match="keyword">
+        <span class="keyword_{@term}"><xsl:apply-templates/></span>
     </xsl:template>
     <xsl:template match="meta">
         <h2>
@@ -48,16 +53,16 @@
             <br/>
             <xsl:apply-templates select="date"/>
         </h2>
-        <h2>
-           Candidates
-        </h2>
+        <h3>
+            Candidates
+        </h3>
         <br/>
         <ul>
             <xsl:apply-templates select="participants/candidate"/>
         </ul>
         <ul>
             <h3>
-               Moderator
+                Moderator
             </h3>
             <xsl:apply-templates select="participants/moderator"/>
         </ul>
