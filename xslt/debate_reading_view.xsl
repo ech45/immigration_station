@@ -12,7 +12,7 @@
                 <xsl:apply-templates select="//meta"/>
                 <hr/>
                 <xsl:apply-templates select="//body"/>
-                <div class="debateMenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis
+                <div class="debateMenu"><h4>Debate Options</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis
                     nulla augue. Vestibulum eget condimentum odio. Proin pharetra vel est eget hendrerit. Duis nec
                     rhoncus libero. Donec auctor erat sem, vitae elementum odio accumsan vel. Vivamus sapien lorem,
                     ornare ac massa at, maximus maximus nisl. In malesuada nisi arcu, vitae placerat turpis lobortis
@@ -45,6 +45,9 @@
             </xsl:template>
     <xsl:template match="trope">
        <div class="trope{@type}"> <strong><xsl:apply-templates/></strong></div>
+    </xsl:template>
+    <xsl:template match="keyword">
+        <span class="keyword{@term}"><xsl:apply-templates/></span>
     </xsl:template>
     <xsl:template match="immigrant|immigration">
         <em><xsl:apply-templates/></em>
