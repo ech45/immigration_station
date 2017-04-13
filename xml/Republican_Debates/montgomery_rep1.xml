@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
@@ -17,12 +17,12 @@
             <candidate who="KASICH">Governor John Kasich (OH);</candidate>
             <candidate who="PAUL">Senator Rand Paul (KY);</candidate>
             <candidate who="RUBIO">Senator Marco Rubio (FL);</candidate>
-            <candidate who="TRUMP">Donald Trump;</candidate>
+            <candidate who="TRUMP">Donald Trump; and</candidate> 
             <candidate who="WALKER">Governor Scott Walker (WI); </candidate>
 
             <moderator who="BAIER">Bret Baier (Fox News);</moderator>
             <moderator who="KELLY">Megyn Kelly (Fox News); and</moderator>
-            <moderator who="WALLACE">Chris Wallace (Fox News)</moderator>
+            <moderator who="WALLACE">Chris Wallace (Fox News);</moderator>
         </participants>
     </meta>
 

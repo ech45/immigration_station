@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  SYSTEM "about:legacy=compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Stuff about immigration</title>
+      <style type="text/css">
+                    table,
+                    tr,
+                    th,
+                    td{
+                        border-collapse: collapse;
+                        border: 1px solid black;
+                    }
+                    th,
+                    td{
+                        padding: 2px;
+                    }
+                    td:nth-child(2){
+                        text-align: right;
+                    }</style>
+   </head>

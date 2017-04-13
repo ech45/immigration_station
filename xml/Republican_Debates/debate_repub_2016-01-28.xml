@@ -3,18 +3,18 @@
 <debate>
     <meta>
         <loc> Des Moines, Iowa</loc>
-        <date> January 28th, 2016</date>
+        <date> January 28, 2016</date>
         <participants>
-            <candidate who="BUSH">Jeb Bush</candidate>
+            <candidate who="BUSH">Former Florida Govenor Jeb Bush;</candidate>
             <candidate who="CARSON">Ben Carson</candidate>
-            <candidate who="CHRISTIE">Chris Christie</candidate>
-            <candidate who="CRUZ">Ted Cruz</candidate>
-            <candidate who="KASICH">John Kasich</candidate>
-            <candidate who="PAUL">Rand Paul</candidate>
-            <candidate who="RUBIO">Marco Rubio</candidate>
-            <moderator who="BAIER">Bret Baier</moderator>
-            <moderator who="KELLY">Megyn Kelly</moderator>
-            <moderator who="WALLACE">Chris Wallace</moderator>
+            <candidate who="CHRISTIE">New Jersey Govenor Chris Christie;</candidate>
+            <candidate who="CRUZ">Texas Senator Ted Cruz;</candidate>
+            <candidate who="KASICH">Ohio Govenor John Kasich;</candidate>
+            <candidate who="PAUL">Kentucky Senator Rand Paul and</candidate>
+            <candidate who="RUBIO">Florida Senator Marco Rubio;</candidate>
+            <moderator who="BAIER">Bret Baier (FOX);</moderator>
+            <moderator who="KELLY">Megyn Kelly (FOX) and </moderator>
+            <moderator who="WALLACE">Chris Wallace (FOX)</moderator>
         </participants>
     </meta>
     <body>

@@ -2,16 +2,16 @@
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
-        <loc>Greenville, SC</loc>
+        <loc>Greenville, South Carolina</loc>
         <date>13 February 2016</date>
         <participants>
-            <candidate who="BUSH">Jeb Bush</candidate>
-            <candidate who="CARSON">Ben Carson</candidate>
-            <candidate who="CRUZ">Ted Cruz</candidate>
-            <candidate who="KASICH">John Kasich</candidate>
-            <candidate who="RUBIO">Marco Rubio</candidate>
-            <candidate who="TRUMP">Donald Trump</candidate>
-            <moderator who="DICKERSON">Jane Dickerson</moderator>
+            <candidate who="BUSH">Former Florida Govenor Jeb Bush;</candidate>
+            <candidate who="CARSON">Ben Carson;</candidate>
+            <candidate who="CRUZ">Texas Senator Ted Cruz;</candidate>
+            <candidate who="KASICH">Ohio Govenor John Kasich;</candidate>
+            <candidate who="RUBIO">Florida Senator Marco Rubio and</candidate>
+            <candidate who="TRUMP">Donald Trump;</candidate> 
+            <moderator who="DICKERSON">Jane Dickerson (CBS);</moderator>
 
         </participants>
     </meta>
