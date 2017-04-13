@@ -2,20 +2,20 @@
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
-        <loc>Las Vegas, NV</loc>
+        <loc>Las Vegas, Nevada</loc>
         <date>12 December, 2015</date>
         <participants>
             <candidate who="CARSON">Ben Carson</candidate>
-            <candidate who="CHRISTIE">Chris Christie</candidate>
-            <candidate who="CRUZ">Ted Cruz</candidate>
+            <candidate who="CHRISTIE"> New Jersey Govenor Chris Christie;</candidate>
+            <candidate who="CRUZ">Texas Senator Ted Cruz;</candidate>
             <candidate who="FIORINA">Carly Fiorina</candidate>
-            <candidate who="KASICH">John Kasich</candidate>
-            <candidate who="PAUL">Rand Paul</candidate>
-            <candidate who="RUBIO">Marco Rubio</candidate>
+            <candidate who="KASICH">Ohio Govenor John Kasich;</candidate>
+            <candidate who="PAUL">Kentucky Senator Rand Paul;</candidate>
+            <candidate who="RUBIO">Florida Senator Marco Rubio and</candidate>
             <candidate who="TRUMP">Donald Trump</candidate>
-            <moderator who="BLITZER">Wolf Blitzer</moderator>
-            <moderator who="BASH">Dana Bash</moderator>
-            <moderator who="HEWITT">Hugh Hewitt</moderator>
+            <moderator who="BLITZER">Wolf Blitzer (CNN);</moderator>
+            <moderator who="BASH">Dana Bash (CNN);</moderator>
+            <moderator who="HEWITT">Hugh Hewitt(CNN);</moderator>
         </participants>
     </meta>
  <body>  

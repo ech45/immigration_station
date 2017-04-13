@@ -3,20 +3,20 @@
 <debate>
     <meta>
         <loc> University of Colorado at Boulder </loc>
-        <date> October 28th, 2015 </date>
+        <date> October 28, 2015 </date>
         <participants>
-            <candidate who="HUCKABEE">Mike Huckabee</candidate>
-            <candidate who="BUSH">Jeb Bush</candidate>
-            <candidate who="RUBIO">Marco Rubio</candidate>
+            <candidate who="HUCKABEE">Former Arkansas Govenor Mike Huckabee;</candidate>
+            <candidate who="BUSH">Former Florida Govenor Jeb Bush;</candidate>
+            <candidate who="RUBIO">Florida Senator Marco Rubio;</candidate>
             <candidate who="TRUMP">Donald Trump</candidate>
             <candidate who="CARSON">Ben Carson</candidate>
             <candidate who="FIORINA">Carly Fiorina</candidate>
-            <candidate who="CRUZ">Ted Cruz</candidate>
-            <candidate who="CHRISTIE">Chris Christie</candidate>
+            <candidate who="CRUZ">Texas Senator Ted Cruz and</candidate>
+            <candidate who="CHRISTIE">New Jersey Govenor Chris Christie</candidate>
 
-            <moderator who="QUINTANILLA"> Carl Quintanilla </moderator>
-            <moderator who="QUICK">Becky Quick</moderator>
-            <moderator who="HARWOOD">John Harwood</moderator>
+            <moderator who="QUINTANILLA"> Carl Quintanilla (CNBC); </moderator>
+            <moderator who="QUICK">Becky Quick (CNBC) and</moderator>
+            <moderator who="HARWOOD">John Harwood (CNBC)</moderator>
         </participants>
     </meta>
     <body>
