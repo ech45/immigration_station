@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
         <loc/>
         <date/>
         <participants>
             <candidate who="CLINTON">Former Secretary of State Hillary Clinton; and</candidate>
-            <candidate who="SANDERS">Senator Bernie Sanders (VT)</candidate>
+            <candidate who="SANDERS"> Vermont Senator Bernie Sanders </candidate>
             <moderator who="BLITZER"> Wolf Blitzer (CNN);</moderator>
             <moderator who="BASH">Dana Bash (CNN); and</moderator>
             <moderator who="LOUIS"> Errol Louis (NY1)</moderator>

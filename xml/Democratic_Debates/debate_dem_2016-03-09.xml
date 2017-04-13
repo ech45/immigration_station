@@ -3,12 +3,12 @@
 <debate>
     <meta>
         <loc>Miami, Florida</loc>
-        <date> March 9th, 2016 </date>
+        <date> March 9, 2016 </date>
         <participants>
-            <candidate who="CLINTON">Former Secretary of State Hillary Clinton</candidate>
-            <candidate who="SANDERS">Senator Bernie Sanders (VT)</candidate>
+            <candidate who="CLINTON">Former Secretary of State Hillary Clinton and</candidate>
+            <candidate who="SANDERS">Vermont Senator Bernie Sanders </candidate>
             <moderator who="RAMOS">Jorge Ramos (Univision)</moderator>
-            <moderator who="SALINAS">María Elena Salinas (Univision)</moderator>
+            <moderator who="SALINAS">María Elena Salinas (Univision) and </moderator>
             <moderator who="TUMULTY">Karen Tumulty (The Washington Post)</moderator>
         </participants>
     </meta>

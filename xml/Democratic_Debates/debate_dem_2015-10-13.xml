@@ -4,20 +4,20 @@
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
-        <loc>Las Vegas, NV</loc>
+        <loc>Las Vegas Nevada</loc>
         <date>13 October 2015</date>
 
         <participants>
 
-            <candidate who="CHAFEE">Lincoln Chafee</candidate>
-            <candidate who="CLINTON">Hillary Clinton</candidate>
-            <candidate who="SANDERS">Bernie Sanders</candidate>
-            <candidate who="O'MALLEY">Martin O'Malley</candidate>
-            <candidate who="WEBB">Jim Webb</candidate>
-            <moderator who="COOPER">Anderson Cooper</moderator>
-            <moderator who="BASH">Dana Bash</moderator>
-            <moderator who="LOPEZ">Juan Carlos Lopez</moderator>
-            <moderator who="LEMON">Don Lemon</moderator>
+            <candidate who="CHAFEE">Former Rhode Island Governor Lincoln Chafee;</candidate>
+            <candidate who="CLINTON">Former Secretary of State Hillary Clinton;</candidate>
+            <candidate who="SANDERS">Vermont Senator Bernie Sanders;</candidate>
+            <candidate who="O'MALLEY">Former Maryland Govenor Martin O'Malley and </candidate>
+            <candidate who="WEBB">Former Virginia Senator Jim Webb;</candidate>
+            <moderator who="COOPER">Anderson Cooper (CNN);</moderator>
+            <moderator who="BASH">Dana Bash (CNN);</moderator>
+            <moderator who="LOPEZ">Juan Carlos Lopez (CNN Espanol) and</moderator>
+            <moderator who="LEMON">Don Lemon (CNN)</moderator>
         </participants>
     </meta>
     <body>

@@ -1,13 +1,13 @@
 
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <debate>
     <meta>
         <loc> Manchester, New Hampshire</loc>
         <date>December 19, 2015</date>
        <participants> <candidate who="CLINTON">Former Secretary of State Hillary Clinton;</candidate>
-        <candidate who="O'MALLEY">Former Governor Martin O'Malley (MD);</candidate>
-        <candidate who="SANDERS">Senator Bernie Sanders (VT);</candidate>
+        <candidate who="O'MALLEY">Former Maryland Governor Martin O'Malley and</candidate>
+        <candidate who="SANDERS">Vermont Senator Bernie Sanders; </candidate>
         <moderator who="RADDATZ">Martha Raddatz (ABC News)</moderator>
         <moderator who="MUIR">David Muir (ABC News)</moderator></participants>
     </meta>
