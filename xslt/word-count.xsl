@@ -214,7 +214,7 @@
                     <!-- sort by speaker -->
                     <xsl:sort select="@speaker"/>
                     <!-- keep only speeches by candidates, not those by modersators -->
-                    
+                    <xsl:if test="@speaker = //meta/participants/candidate/@who">
                         <h2>
                             <xsl:value-of select="@speaker"/>
                         </h2>
@@ -230,12 +230,15 @@
                                 <th>Count</th>
                             </tr>
                             <!-- for each distinct word by the candidate, count how many times it occurs -->
-                            <xsl:for-each select="distinct-values($words)">
-                                <!-- sort in descending order by word frequencies; in case of ties, subsort in lphabetical order-->
+                         <xsl:for-each select="distinct-values($words)">
+                               
+                                <!-- sort in descending order by word frequencies; in case of ties, subsort in alphabetical order-->
                                 <xsl:sort select="count($words[. eq current()])" order="descending"/>
                                 <xsl:sort/>
                                 <!-- only report for words that aren't in the stopword list -->
-                                <xsl:if test="not(current() = $stopwords)">
+                                
+                             <xsl:if test="not(current() = $stopwords) and count($words[. eq current()]) gt 3">
+                                   
                                     <tr>
                                         <td>
                                             <xsl:value-of select="current()"/>
@@ -247,7 +250,7 @@
                                 </xsl:if>
                             </xsl:for-each>
                         </table>
-                    
+                    </xsl:if>
                 </xsl:for-each-group>
             </body>
         </html>
