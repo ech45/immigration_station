@@ -8,8 +8,9 @@
         select="collection('../xml/Democratic_Debates/?select=*.xml')"/>
     <xsl:variable name="repDebates" as="document-node()*"
         select="collection('../xml/Republican_Debates/?select=*.xml')"/>
+    <xsl:variable name="genDebates" as="document-node()*" select="collection('../xml/General_Debates/?select*.xml')"/>
   <!--  <xsl:variable name="genDebates" as="document-node()*" select="collection('../xml/General_Debates/?select=*.xml')"/> -->
-    <xsl:variable name="allDebates" as="document-node()*" select="$demDebates | $repDebates "/>
+    <xsl:variable name="allDebates" as="document-node()*" select="$demDebates | $repDebates |$genDebates"/>
     <xsl:variable name="stopwords" as="xs:string+"
         select="
             ('a',
