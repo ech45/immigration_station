@@ -11,7 +11,7 @@
             </head>
             <body>
                 <xsl:apply-templates select="//meta"/>
-                <a href="repdebates.xhtml">Return to All Debates</a>
+                <a href="demdebates.xhtml">Return to All Debates</a>
                 <hr/>
                 <div class="container">
                     <div class="debate">
