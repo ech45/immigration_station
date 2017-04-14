@@ -6,7 +6,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <link rel="stylesheet" type="text/css" href="../css/debate_text.css" />
+                <link rel="stylesheet" type="text/css" href="../css/dem_debate_text.css" />
                 <title><xsl:apply-templates select="//date"/></title>
             </head>
             <body>
