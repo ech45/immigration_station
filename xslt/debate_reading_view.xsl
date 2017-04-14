@@ -6,19 +6,22 @@
     <xsl:template match="/">
         <html>
             <head>
+                <link rel="stylesheet" type="text/css" href="../css/debate_text.css" />
                 <title>Debate Reading View</title>
             </head>
             <body>
                 <xsl:apply-templates select="//meta"/>
                 <hr/>
-                <xsl:apply-templates select="//body"/>
+                <div class="container">
+                    <div class="debate">
+                <xsl:apply-templates select="//body"/></div>
                 <div class="debateMenu"><h4>Debate Options</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis
                     nulla augue. Vestibulum eget condimentum odio. Proin pharetra vel est eget hendrerit. Duis nec
                     rhoncus libero. Donec auctor erat sem, vitae elementum odio accumsan vel. Vivamus sapien lorem,
                     ornare ac massa at, maximus maximus nisl. In malesuada nisi arcu, vitae placerat turpis lobortis
                     quis. Aliquam finibus eget purus nec suscipit. Vestibulum maximus nulla quam, gravida tempus
                     magna convallis eget. In sagittis lacinia purus luctus elementum. Praesent vel elementum tellus.
-                    Proin a est consectetur, rutrum diam id, dapibus quam.</div>
+                    Proin a est consectetur, rutrum diam id, dapibus quam.</div></div>
             </body>
         </html>
     </xsl:template>
@@ -30,7 +33,7 @@
         
         
         <div class="{@key}">
-            <p><xsl:apply-templates select="speech"/></p>
+            <xsl:apply-templates select="speech"/>
         </div>
     </xsl:template>
     <xsl:template match="speech">
