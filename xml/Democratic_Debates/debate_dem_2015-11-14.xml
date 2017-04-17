@@ -1,15 +1,15 @@
 
-<?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
    <meta><loc>Des Moines, Iowa</loc>
         <date>November 14, 2015</date>
         <participants><candidate who="CLINTON">Former Secretary of State Hillary Clinton;</candidate>
-        <candidate who="O'MALLEY">Former Governor Martin O'Malley (MD);</candidate>
-        <candidate who="SANDERS">Senator Bernie Sanders (VT); </candidate>
+        <candidate who="O'MALLEY">Former Governor Martin O'Malley (MD); and</candidate>
+        <candidate who="SANDERS">Senator Bernie Sanders (VT) </candidate>
         <moderator who="CORDES">Nancy Cordes (CBS News);</moderator>
         <moderator who="COONEY">Kevin Cooney (CBS News);</moderator>
-        <moderator who="DICKERSON">John Dickerson (CBS News);</moderator> 
+        <moderator who="DICKERSON">John Dickerson (CBS News); and</moderator> 
         <moderator who="OBRADOVICH">Kathie Obradovich (The Des Moines Register)</moderator></participants>
     </meta>
     <body>

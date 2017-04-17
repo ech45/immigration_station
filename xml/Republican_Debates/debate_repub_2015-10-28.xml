@@ -2,21 +2,21 @@
 <?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <debate>
     <meta>
-        <loc> University of Colorado at Boulder </loc>
-        <date> October 28th, 2015 </date>
+        <loc>Boulder, Colorado</loc>
+        <date> October 28, 2015 </date>
         <participants>
-            <candidate who="HUCKABEE">Mike Huckabee</candidate>
-            <candidate who="BUSH">Jeb Bush</candidate>
-            <candidate who="RUBIO">Marco Rubio</candidate>
-            <candidate who="TRUMP">Donald Trump</candidate>
-            <candidate who="CARSON">Ben Carson</candidate>
-            <candidate who="FIORINA">Carly Fiorina</candidate>
-            <candidate who="CRUZ">Ted Cruz</candidate>
-            <candidate who="CHRISTIE">Chris Christie</candidate>
+            <candidate who="HUCKABEE">FormerGovenor Mike Huckabee (AK);</candidate>
+            <candidate who="BUSH">Former Govenor Jeb Bush (FL);</candidate>
+            <candidate who="RUBIO">Senator Marco Rubio (FL);</candidate>
+            <candidate who="TRUMP">Donald Trump;</candidate>
+            <candidate who="CARSON">Ben Carson;</candidate>
+            <candidate who="FIORINA">Carly Fiorina;</candidate>
+            <candidate who="CRUZ">Senator Ted Cruz (TX); and</candidate>
+            <candidate who="CHRISTIE">Govenor Chris Christie (NJ)</candidate>
 
-            <moderator who="QUINTANILLA"> Carl Quintanilla </moderator>
-            <moderator who="QUICK">Becky Quick</moderator>
-            <moderator who="HARWOOD">John Harwood</moderator>
+            <moderator who="QUINTANILLA"> Carl Quintanilla (CNBC); </moderator>
+            <moderator who="QUICK">Becky Quick; (CNBC) and</moderator>
+            <moderator who="HARWOOD">John Harwood (CNBC)</moderator>
         </participants>
     </meta>
     <body>

@@ -4,20 +4,20 @@
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
-        <loc>Las Vegas, NV</loc>
-        <date>13 October 2015</date>
+        <loc>Las Vegas, Nevada</loc>
+        <date>October 13, 2015</date>
 
         <participants>
 
-            <candidate who="CHAFEE">Lincoln Chafee</candidate>
-            <candidate who="CLINTON">Hillary Clinton</candidate>
-            <candidate who="SANDERS">Bernie Sanders</candidate>
-            <candidate who="O'MALLEY">Martin O'Malley</candidate>
-            <candidate who="WEBB">Jim Webb</candidate>
-            <moderator who="COOPER">Anderson Cooper</moderator>
-            <moderator who="BASH">Dana Bash</moderator>
-            <moderator who="LOPEZ">Juan Carlos Lopez</moderator>
-            <moderator who="LEMON">Don Lemon</moderator>
+            <candidate who="CHAFEE">Former Governor Lincoln Chafee (RI);</candidate>
+            <candidate who="CLINTON">Former Secretary of State Hillary Clinton;</candidate>
+            <candidate who="SANDERS">Senator Bernie Sanders (VT);</candidate>
+            <candidate who="O'MALLEY">Former Govenor Martin O'Malley (MD); and </candidate>
+            <candidate who="WEBB">Former Senator Jim Webb (VA)</candidate>
+            <moderator who="COOPER">Anderson Cooper (CNN);</moderator>
+            <moderator who="BASH">Dana Bash (CNN);</moderator>
+            <moderator who="LOPEZ">Juan Carlos Lopez (CNN Espanol); and</moderator>
+            <moderator who="LEMON">Don Lemon (CNN)</moderator>
         </participants>
     </meta>
     <body>
@@ -1101,8 +1101,8 @@ My view is that when you have millions of seniors in this country trying to get 
 
         <speech speaker="COOPER"> Thank you, Senator. </speech>
 
-        <speech speaker="WEBB"> . .. lost (ph) — I introduced that in 2007 — We need a comprehensive
-            reform, and we need to be able to define our borders. </speech>
+        <speech speaker="WEBB"> . .. lost (ph) — I introduced that in 2007 — We need a <keyword term="comprehensive reform">comprehensive
+            reform</keyword>, and we need to be able to define our <keyword term="border">borders</keyword>. </speech>
 
         <speech speaker="COOPER"> Secretary Clinton? </speech>
 
