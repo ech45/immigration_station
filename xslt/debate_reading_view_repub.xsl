@@ -60,8 +60,23 @@
             </strong>
         </span>
     </xsl:template>
-    <xsl:template match="keyword">
-        <span class="keyword{@term}">
+    <xsl:template match="keyword[@term = 'border']">
+        <span class="keyword_border">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'amnesty']">
+        <span class="keyword_amnesty">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'sanctuary city']">
+        <span class="keyword_sanctuary_city">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'path to citizenship']">
+        <span class="keyword_path_to_citizenship">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -77,14 +92,18 @@
     </xsl:template>
     <xsl:template match="meta">
         <h2>
-            <p><xsl:apply-templates select="loc"/></p>
-            <p><xsl:apply-templates select="date"/></p>
+            <p>
+                <xsl:apply-templates select="loc"/>
+            </p>
+            <p>
+                <xsl:apply-templates select="date"/>
+            </p>
         </h2>
-            <h3> Candidates </h3>
+        <h3> Candidates </h3>
         <ul>
             <xsl:apply-templates select="participants/candidate"/>
         </ul>
-            <h3> Moderators </h3>
+        <h3> Moderators </h3>
         <ul>
             <xsl:apply-templates select="participants/moderator"/>
         </ul>
