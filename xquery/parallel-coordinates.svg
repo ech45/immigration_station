@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%">
    <g transform="translate(20,300)">
-      <line x1="100"
-            y1="0"
-            x2="100"
-            y2="-100"
-            stroke="black"
-            stroke-width="2"/>
       <line x1="200"
-            y1="0"
+            y1="200"
             x2="200"
-            y2="-100"
+            y2="-200"
             stroke="black"
             stroke-width="2"/>
-      <line x1="300"
-            y1="0"
-            x2="300"
-            y2="-100"
+      <line x1="400"
+            y1="200"
+            x2="400"
+            y2="-200"
+            stroke="black"
+            stroke-width="2"/>
+      <line x1="600"
+            y1="200"
+            x2="600"
+            y2="-200"
             stroke="black"
             stroke-width="2"/>
    </g>
