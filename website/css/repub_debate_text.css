@@ -18,7 +18,7 @@ div.container{
     height: calc(100vh + 50px);
 }
 div.debate {
-    border-right: 2px solid yellow; 
+    border-right: 2px solid white; 
     padding-right: 1em;
     overflow-y: auto;
     flex: 1 100%;
@@ -30,6 +30,10 @@ div.debateMenu {
 h2{
     text-align: center;
     background: rgba(0, 0, 0, .70);
+}
+h3{
+    text-align: left;
+    margin: 0;
 }
 div.candidates_list div.moderators_list{
     background: rgba(0, 0, 0, .70);
