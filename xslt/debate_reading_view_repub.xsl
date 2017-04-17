@@ -54,11 +54,11 @@
         </p>
     </xsl:template>
     <xsl:template match="trope">
-        <div class="trope{@type}">
+        <span class="trope{@type}">
             <strong>
                 <xsl:apply-templates/>
             </strong>
-        </div>
+        </span>
     </xsl:template>
     <xsl:template match="keyword">
         <span class="keyword{@term}">
@@ -66,26 +66,26 @@
         </span>
     </xsl:template>
     <xsl:template match="immigrant">
-        <immigrant>
+        <span class="immigrant">
             <xsl:apply-templates/>
-        </immigrant>
+        </span>
     </xsl:template>
     <xsl:template match="immigration">
-        <immigration>
+        <span class="immigration">
             <xsl:apply-templates/>
-        </immigration>
+        </span>
     </xsl:template>
     <xsl:template match="meta">
         <h2>
             <p><xsl:apply-templates select="loc"/></p>
             <p><xsl:apply-templates select="date"/></p>
         </h2>
-        <ul>
             <h3> Candidates </h3>
+        <ul>
             <xsl:apply-templates select="participants/candidate"/>
         </ul>
-        <ul>
             <h3> Moderators </h3>
+        <ul>
             <xsl:apply-templates select="participants/moderator"/>
         </ul>
     </xsl:template>
