@@ -5,15 +5,15 @@
         <loc>Manchester, New Hampshire</loc>
         <date>February 6, 2016</date>
         <participants>
-            <candidate who="BUSH">Jeb Bush</candidate>
-            <candidate who="CARSON">Ben Carson</candidate>
-            <candidate who="CHRISTIE">Chris Christie</candidate>
-            <candidate who="CRUZ">Ted Cruz</candidate>
-            <candidate who="KASICH">John Kasich</candidate>
-            <candidate who="RUBIO">Marco Rubio</candidate>
+            <candidate who="BUSH">Former Governor Jeb Bush (FL);</candidate>
+            <candidate who="CARSON">Ben Carson;</candidate>
+            <candidate who="CHRISTIE">Governor Chris Christie (NJ);</candidate>
+            <candidate who="CRUZ">Senator Ted Cruz (TX);</candidate>
+            <candidate who="KASICH">Governor John Kasich (OH);</candidate>
+            <candidate who="RUBIO">Senator Marco Rubio (FLO); and</candidate>
             <candidate who="TRUMP">Donald Trump</candidate>
-            <moderator who="MUIR">David Muir</moderator>
-            <moderator who="RADDATZ">Martha Raddatz</moderator>
+            <moderator who="MUIR">David Muir (ABC World News); and</moderator>
+            <moderator who="RADDATZ">Martha Raddatz (ABC World News)</moderator>
         </participants>
     </meta>
     <body>

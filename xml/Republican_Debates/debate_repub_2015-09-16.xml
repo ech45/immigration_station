@@ -16,9 +16,9 @@
             <candidate who="RUBIO">Senator Marco Rubio (FL);</candidate>
             <candidate who="TRUMP">Donald Trump; and</candidate>
             <candidate who="WALKER">Governor Scott Walker (WI);</candidate>
-            <moderator who="TAPPER">Jake Tapper</moderator>
-            <moderator who="BASH">Dana Bash</moderator>
-            <moderator who="HEWITT">Hugh Hewitt</moderator>
+            <moderator who="TAPPER">Jake Tapper (CNN);</moderator>
+            <moderator who="BASH">Dana Bash (CNN); and</moderator>
+            <moderator who="HEWITT">Hugh Hewitt (CNN)</moderator>
         </participants>
     </meta>
     <body>
