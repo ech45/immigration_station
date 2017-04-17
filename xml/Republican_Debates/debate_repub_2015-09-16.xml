@@ -2,20 +2,20 @@
 <?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <debate>
     <meta>
-        <loc>Simi Valley, CA</loc>
-        <date>16 Septemer 2015</date>
+        <loc>Simi Valley, California</loc>
+        <date>September 16, 2015</date>
         <participants>
-            <candidate who="BUSH">Jeb Bush</candidate>
-            <candidate who="CARSON">Ben Carson</candidate>
-            <candidate who="CHRISTIE">Chris Christie</candidate>
-            <candidate who="CRUZ">Ted Cruz</candidate>
-            <candidate who="FIORINA">Carly Fiorina</candidate>
-            <candidate who="HUCKABEE">Mike Huckabee</candidate>
-            <candidate who="KASICH">John Kasich</candidate>
-            <candidate who="PAUL">Rand Paul</candidate>
-            <candidate who="RUBIO">Marco Rubio</candidate>
-            <candidate who="TRUMP">Donald Trump</candidate>
-            <candidate who="WALKER">Scott Walker</candidate>
+            <candidate who="BUSH">Former GovernorJeb Bush (FL);</candidate>
+            <candidate who="CARSON">Ben Carson;</candidate>
+            <candidate who="CHRISTIE">Governor Chris Christie (NJ);</candidate>
+            <candidate who="CRUZ">Senator Ted Cruz (TX);</candidate>
+            <candidate who="FIORINA">Carly Fiorina;</candidate>
+            <candidate who="HUCKABEE">Former Governor Mike Huckabee (AK);</candidate>
+            <candidate who="KASICH">Governor John Kasich (OH);</candidate>
+            <candidate who="PAUL">Senator Rand Paul (KY);</candidate>
+            <candidate who="RUBIO">Senator Marco Rubio (FL);</candidate>
+            <candidate who="TRUMP">Donald Trump; and</candidate>
+            <candidate who="WALKER">Governor Scott Walker (WI);</candidate>
             <moderator who="TAPPER">Jake Tapper</moderator>
             <moderator who="BASH">Dana Bash</moderator>
             <moderator who="HEWITT">Hugh Hewitt</moderator>

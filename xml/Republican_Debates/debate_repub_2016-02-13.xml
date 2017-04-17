@@ -5,13 +5,13 @@
         <loc>Greenville, South Carolina</loc>
         <date>February 13, 2016</date>
         <participants>
-            <candidate who="BUSH">Former Florida Govenor Jeb Bush;</candidate>
+            <candidate who="BUSH">Former Govenor Jeb Bush (FL);</candidate>
             <candidate who="CARSON">Ben Carson;</candidate>
-            <candidate who="CRUZ">Texas Senator Ted Cruz;</candidate>
-            <candidate who="KASICH">Ohio Govenor John Kasich;</candidate>
-            <candidate who="RUBIO">Florida Senator Marco Rubio; and</candidate>
+            <candidate who="CRUZ">Senator Ted Cruz (TX);</candidate>
+            <candidate who="KASICH">Govenor John Kasich (OH);</candidate>
+            <candidate who="RUBIO">Senator Marco Rubio (FL); and</candidate>
             <candidate who="TRUMP">Donald Trump;</candidate> 
-            <moderator who="DICKERSON">Jane Dickerson (CBS);</moderator>
+            <moderator who="DICKERSON">Jane Dickerson (CBS)</moderator>
 
         </participants>
     </meta>
