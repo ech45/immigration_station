@@ -2,18 +2,18 @@
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
-        <loc> North Charleston, SC</loc>
-        <date>14 January 2016</date>
+        <loc> North Charleston, South Carolina</loc>
+        <date>January 14, 2016</date>
         <participants>
-            <candidate who="BUSH">Jeb Bush</candidate>
-            <candidate who="CARSON">Ben Carson</candidate>
-            <candidate who="CHRISTIE">Chris Christie</candidate>
-            <candidate who="CRUZ">Ted Cruz</candidate>
-            <candidate who="KASICH">John Kasich</candidate>
-            <candidate who="RUBIO">Marco Rubio</candidate>
+            <candidate who="BUSH">Former Govenor Jeb Bush (FL);</candidate>
+            <candidate who="CARSON">Ben Carson;</candidate>
+            <candidate who="CHRISTIE">Govenor Chris Christie (NJ);</candidate>
+            <candidate who="CRUZ">Senator Ted Cruz (TX);</candidate>
+            <candidate who="KASICH">Govenor John Kasich (OH);</candidate>
+            <candidate who="RUBIO">Senator Marco Rubio (FL); and</candidate>
             <candidate who="TRUMP">Donald Trump</candidate>
-            <moderator who="BARTIROMO">Maria Bartiromo</moderator>
-            <moderator who="CAVUTO">Neil Cavuto</moderator>
+            <moderator who="BARTIROMO">Maria Bartiromo (FOX Business); and</moderator>
+            <moderator who="CAVUTO">Neil Cavuto (FOX Business)</moderator>
         </participants>
     </meta>
     <body>

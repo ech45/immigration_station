@@ -1,0 +1,42 @@
+*{
+    font-family: "Courier New", serif;
+    color: white;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/repub_debate_text.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    display: block;
+}
+div.container{
+    background: rgba(0, 0, 0, .70);
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    text-align: center;
+    background: rgba(0, 0, 0, .70);
+}
+div.candidates_list div.moderators_list{
+    background: rgba(0, 0, 0, .70);
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    background: rgba(0, 0, 0, .70);
+}
+a:link{
+    color: white;
+    font-size: 100%;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: blue;
+    font-size: 100%;
+}

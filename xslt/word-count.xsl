@@ -8,7 +8,9 @@
         select="collection('../xml/Democratic_Debates/?select=*.xml')"/>
     <xsl:variable name="repDebates" as="document-node()*"
         select="collection('../xml/Republican_Debates/?select=*.xml')"/>
-    <xsl:variable name="allDebates" as="document-node()*" select="$demDebates | $repDebates"/>
+    <xsl:variable name="genDebates" as="document-node()*" select="collection('../xml/General_Debates/?select*.xml')"/>
+  <!--  <xsl:variable name="genDebates" as="document-node()*" select="collection('../xml/General_Debates/?select=*.xml')"/> -->
+    <xsl:variable name="allDebates" as="document-node()*" select="$demDebates | $repDebates| $genDebates"/>
     <xsl:variable name="stopwords" as="xs:string+"
         select="
             ('a',
@@ -214,7 +216,7 @@
                     <!-- sort by speaker -->
                     <xsl:sort select="@speaker"/>
                     <!-- keep only speeches by candidates, not those by modersators -->
-                    
+                    <xsl:if test="@speaker = //meta/participants/candidate/@who">
                         <h2>
                             <xsl:value-of select="@speaker"/>
                         </h2>
@@ -230,12 +232,15 @@
                                 <th>Count</th>
                             </tr>
                             <!-- for each distinct word by the candidate, count how many times it occurs -->
-                            <xsl:for-each select="distinct-values($words)">
-                                <!-- sort in descending order by word frequencies; in case of ties, subsort in lphabetical order-->
+                         <xsl:for-each select="distinct-values($words)">
+                               
+                                <!-- sort in descending order by word frequencies; in case of ties, subsort in alphabetical order-->
                                 <xsl:sort select="count($words[. eq current()])" order="descending"/>
                                 <xsl:sort/>
                                 <!-- only report for words that aren't in the stopword list -->
-                                <xsl:if test="not(current() = $stopwords)">
+                                
+                             <xsl:if test="not(current() = $stopwords) and count($words[. eq current()]) gt 3">
+                                   
                                     <tr>
                                         <td>
                                             <xsl:value-of select="current()"/>
@@ -243,11 +248,12 @@
                                         <td>
                                             <xsl:value-of select="count($words[. eq current()])"/>
                                         </td>
+                                        <td>Mutual Information Score</td>
                                     </tr>
                                 </xsl:if>
                             </xsl:for-each>
                         </table>
-                    
+                    </xsl:if>
                 </xsl:for-each-group>
             </body>
         </html>

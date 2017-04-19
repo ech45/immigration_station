@@ -86,7 +86,7 @@ a.menulink{
     position: absolute;
     background-color: #f9f9f9;
     z-index: 1;
-    font-size: 130%;
+    font-size: 100%;
 }
 .dropdown:hover .dropdown-content{
     display: block;
@@ -95,23 +95,23 @@ a.menulink{
 a{
     padding: 0;
     text-decoration: none;
-    font-size: 130%;
+    
 }
 
 /* 
  * Pseudo-selector have to be in a particular order
  * https://css-tricks.com/remember-selectors-with-love-and-hate/
  */
-a:link{
+/* a:link{
     color: white;
-    font-size: 75%;
-}
+    font-size: 130%;
+} */
 a:visited{
     color: white;
 }
 a:hover{
     color: blue;
-    font-size: 75%;
+    font-size: 130%;
 }
 
 div.about{

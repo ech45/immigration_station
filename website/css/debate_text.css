@@ -8,13 +8,25 @@ body{
     background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
+    display: block;
 }
-span.container{
+div.container{
     background: rgba(0, 0, 0, .70);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    bottom: 0;
+    height: calc(100vh + 50px);
 }
-
+div.debate {
+    border-right: 2px solid yellow; 
+    padding-right: 1em;
+    overflow-y: auto;
+    flex: 1 100%;
+}
+div.debateMenu {
+    padding-left: 1em;
+    flex: 1 200px;
+}
 h2{
     text-align: center;
     background: rgba(0, 0, 0, .70);

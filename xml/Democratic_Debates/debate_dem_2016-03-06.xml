@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <debate>
     <meta>
         <loc>Flint, Michigan</loc>
-        <date>March 6th, 2016</date>
-        <participants><candidate who="Clinton">Former Secretary of State Hillary Clinton</candidate>
-        <candidate who="Sanders"> Senator Bernie Sanders (VT); </candidate>
-        <moderator who="Cooper">Anderson Cooper (CNN); </moderator><moderator who="Lemon">Don Lemon
+        <date>March 6, 2016</date>
+        <participants><candidate who="Clinton">Former Secretary of State Hillary Clinton; and</candidate>
+        <candidate who="Sanders">Senator Bernie Sanders (VT)</candidate>
+        <moderator who="Cooper">Anderson Cooper (CNN); and </moderator><moderator who="Lemon">Don Lemon
             (CNN)</moderator></participants>
     </meta>
 <body>

@@ -1,5 +1,5 @@
 
-<?xml-model href="../../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
@@ -156,7 +156,7 @@ And I feel strongly that the Supreme Court needs to stand on the side of the Ame
             with Mexico on trade deals.    Believe me.    The NAFTA deal signed by her husband is one of
             the worst deals ever made of any kind, signed by anybody.    It's a disaster.    Hillary
             Clinton wanted the wall.    Hillary Clinton fought for the wall in 2006 or thereabouts. 
-              Now, she never gets anything done, so naturally the wall wasn't built.    But Hillary
+              Now, she never gets anything done, so naturally <keyword term="wall">the wall</keyword> wasn't built.    But Hillary
             Clinton wanted the wall. </speech>
 
         
@@ -216,7 +216,7 @@ And I feel strongly that the Supreme Court needs to stand on the side of the Ame
 <speech speaker="wallace">  I want to. ..</speech>
 
         
-<speech speaker="TRUMP">  But what she doesn't say is that President Obama has deported
+<speech speaker="TRUMP">  But what she doesn't say is that President Obama has <keyword term="deported">deported</keyword>
             millions and millions of people just the way it is. </speech>
 
         
@@ -251,7 +251,7 @@ And I feel strongly that the Supreme Court needs to stand on the side of the Ame
 <speech speaker="wallace">  Secretary Clinton, I want to clear up your position on this issue,
             because in a speech you gave to a Brazilian bank, for which you were paid $225,000,
             we've learned from the WikiLeaks, that you said this, and I want to quote.  "  My dream is
-            a hemispheric common market with open trade and open borders. "   So that's the
+            a hemispheric common market with open trade and <keyword term="open border">open borders</keyword>. "   So that's the
             question. ..</speech>
 
         
@@ -670,7 +670,7 @@ Since this is a question for both of you, Secretary Clinton, Mr.    Trump says w
 </speech><speech speaker="TRUMP">   Thank you, Hillary.    Could I just respond?
 </speech><speech speaker="WALLACE"> Well, no, sir, because we're running out of time. ..
 </speech><speech speaker="TRUMP">   Because I did disagree with Ronald Reagan very strongly on trade.    I disagreed with him.    We should have been much tougher on trade even then.    I've been waiting for years.    Nobody does it right. 
-</speech><speech speaker="WALLACE"> OK.</speech></section> <section key="imm">
+</speech><speech speaker="WALLACE"> OK.</speech>
 <speech speaker="TRUMP">   And frankly, now we're going to do it right. 
 </speech><speech speaker="WALLACE">   All right.    The one last area I want to get into with you in this debate is the fact that the biggest driver of our debt is entitlements, which is 60 percent of all federal spending.    Now, the Committee for federal—a Responsible Federal Budget has looked at both of your plans and they say neither of you has a serious plan that is going to solve the fact that Medicare's going to run out of money in the 2020s, Social Security is going to run out of money in the 2030s, and at that time, recipients are going to take huge cuts in their benefits. 
   So, in effect, the final question I want to ask you in this regard is—and let me start with you, Mr.    Trump, would President Trump make a deal to save Medicare and Social Security that included both tax increases and benefit cuts, in effect, a grand bargain on entitlements?
@@ -695,7 +695,7 @@ Since this is a question for both of you, Secretary Clinton, Mr.    Trump says w
 </speech><speech speaker="WALLACE">   Secretary Clinton, thank you. 
   Mr. Trump?</speech>
 <speech speaker="TRUMP"> She's raising the money from the people she wants to control.    Doesn't work that way. 
-  But when I started this campaign, I started it very strongly.    It's called "Make America Great Again. "   We're going to make America great.    We have a depleted military.    It has to be helped, has to be fixed.    We have the greatest people on Earth in our military.    We don't take care of our veterans.   <trope type="econ" subtype="welfare" attitude="anti"> We take care of <immigrant status="illegal" term="illegal immigrant">illegal immigrants</immigrant>, people that come into the country illegally, better than we take care of our vets. </trope>   That can't happen. 
+  But when I started this campaign, I started it very strongly.    It's called "Make America Great Again. "   We're going to make America great.    We have a depleted military.    It has to be helped, has to be fixed.    We have the greatest people on Earth in our military.    </speech></section><section key="imm"><speech speaker="TRUMP">We don't take care of our veterans.  <trope type="econ" subtype="welfare" attitude="anti"> We take care of <immigrant status="illegal" term="illegal immigrant">illegal immigrants</immigrant>, people that come into the country illegally, better than we take care of our vets. </trope></speech></section> <section key="other"><speech speaker="TRUMP">  That can't happen. 
   Our policemen and women are disrespected.    We need law and order, but we need justice, too.    Our inner cities are a disaster.    You get shot walking to the store.    They have no education.    They have no jobs.    I will do more for African-Americans and Latinos than she can ever do in 10 lifetimes. 
   All she's done is talk to the African-Americans and to the Latinos, but they get the vote, and then they come back, they say, we'll see you in four years.    We are going to make America strong again, and we are going to make America great again, and it has to start now.    We cannot take four more years of Barack Obama, and that's what you get when you get her. </speech>
 <speech speaker="WALLACE">   Thank you both.  [applause]
