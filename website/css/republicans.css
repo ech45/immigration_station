@@ -102,12 +102,26 @@ div.container{
     height: calc(100vh + 50px);
 }
 div.debate {
-    border-right: 2px solid yellow; 
-    padding-right: 1em;
+    border-left: 2px solid yellow; 
+    padding-left: 1em;
     overflow-y: auto;
     flex: 1 100%;
+    background-color: white;
 }
 div.debateMenu {
-    padding-left: 1em;
+    padding-right: 1em;
     flex: 1 200px;
 }
+div.candidate {
+    text-align:center;
+}
+a:link div.debate {color:blue;
+    
+}
+p.speech {
+    text-align: left;
+}
+div.debate a:link { 
+color: blue;
+font-size:100%;}
+

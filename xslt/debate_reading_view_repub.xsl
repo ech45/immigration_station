@@ -51,7 +51,7 @@
 
         <xsl:variable name="speechPositionWithinDebate" as="xs:integer"
             select="count(preceding::speech)"/>
-        <p id="{concat($readingTextURL, 'speech' , $speechPositionWithinDebate)}">
+        <p id="{concat('speech' , $speechPositionWithinDebate)}">
                 [<xsl:apply-templates select="@speaker"/>] <xsl:apply-templates/>
         </p>
     </xsl:template>
