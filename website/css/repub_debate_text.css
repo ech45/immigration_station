@@ -10,6 +10,17 @@ body{
     background-attachment: fixed;
     display: block;
 }
+div.containerMeta{
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, .70);
+}
+div.candidates{
+    flex: 1 100%;
+}
+div.moderators{
+    flex: 1 100%
+}
 div.container{
     background: rgba(0, 0, 0, .70);
     display: flex;
@@ -17,13 +28,13 @@ div.container{
     bottom: 0;
     height: calc(100vh + 50px);
 }
-div.debate {
-    border-right: 2px solid white; 
+div.debate{
+    border-right: 2px solid white;
     padding-right: 1em;
     overflow-y: auto;
     flex: 1 100%;
 }
-div.debateMenu {
+div.debateMenu{
     padding-left: 1em;
     flex: 1 200px;
 }
@@ -41,7 +52,6 @@ div.candidates_list div.moderators_list{
 }
 ul{
     list-style-type: none;
-    background: rgba(0, 0, 0, .70);
 }
 a:link{
     color: white;

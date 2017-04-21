@@ -1,36 +1,76 @@
 declare variable $dem_debates as document-node()+ := collection("../xml/Democratic_Debates/?select=*.xml");
 declare variable $rep_debates as document-node()+ := collection("../xml/Republican_Debates/?select=*.xml");
 declare variable $all_debates as document-node()+ := $dem_debates | $rep_debates;
-declare variable $all_tropes as element(trope)+ := $all_debates//trope;
-declare variable $all_types as xs:string+ := distinct-values($all_tropes/@type/string());
+
 declare variable $dem_tropes as element(trope)+ := $dem_debates//trope;
 declare variable $rep_tropes as element(trope)+ := $rep_debates//trope;
+declare variable $all_tropes as element(trope)+ := $all_debates//trope;
 
-declare variable $yscale := 2; 
+declare variable $dem_tropes_count as xs:integer := count($dem_tropes);
+declare variable $rep_tropes_count as xs:integer := count($rep_tropes);
+declare variable $all_tropes_count as xs:integer := count($all_tropes);
+
+declare variable $dem_value_tropes as element(trope)* := $dem_tropes[@type eq 'value'];
+declare variable $rep_value_tropes as element(trope)* := $rep_tropes[@type eq 'value'];
+
+declare variable $dem_value_tropes_count as xs:integer := count($dem_value_tropes);
+declare variable $rep_value_tropes_count as xs:integer := count($rep_value_tropes);
+
+declare variable $dem_econ_tropes as element(trope)* := $dem_tropes[@type eq 'econ'];
+declare variable $rep_econ_tropes as element(trope)* := $rep_tropes[@type eq 'econ'];
+
+declare variable $dem_econ_tropes_count as xs:integer := count($dem_econ_tropes);
+declare variable $rep_econ_tropes_count as xs:integer := count($rep_econ_tropes);
+
+declare variable $all_value_tropes as element(trope)* := $all_tropes[@type eq 'value'];
+declare variable $all_econ_tropes as element(trope)* := $all_tropes[@type eq 'econ'];
+
+declare variable $all_value_tropes_count as xs:integer := count($all_value_tropes);
+declare variable $all_econ_tropes_count as xs:integer := count($all_econ_tropes);
+
+declare variable $dem_value_proportion as xs:decimal := $dem_value_tropes_count div $all_value_tropes_count;
+declare variable $dem_econ_proportion as xs:decimal := $dem_econ_tropes_count div $all_econ_tropes_count;
+
+declare variable $all_types as xs:string+ := distinct-values($all_tropes/@type/string());
+
+declare variable $yscale := 200;
 <svg
     xmlns="http://www.w3.org/2000/svg"
     height="100%"
     width="100%">
-    <g transform="translate(20,300)">
+    <g
+        transform="translate(20,300)">
         {
-            for $trope at $pos in $all_types
-            return                (:Each line is 100% of the trope type:)
-                <line
-                    x1="{200 * $pos}"
-                    y1="{$yscale * 100}"
-                    x2="{200 * $pos}"
-                    y2="{-$yscale * 100}"
+            for $type at $pos in $all_types
+            let $xPos as xs:integer := 200 * $pos
+            return (:Each line is 100% of the trope type:)
+                (<line
+                    x1="{$xPos}"
+                    y1="-{$yscale}"
+                    x2="{$xPos}"
+                    y2="0"
                     stroke="black"
-                    stroke-width="2"/>
-       }</g>
+                    stroke-width="2"/>,
+                <text
+                    x="{$xPos}"
+                    y="20"
+                    text-anchor="middle">{$type}</text>)
+        }
+        <!-- dem lines-->
+        <line
+            x1="200"
+            y1="-{$yscale * $dem_value_proportion}"
+            x2="400"
+            y2="-{$yscale * $dem_econ_proportion}"
+            stroke="blue"
+            stroke-width="2"/>
+        <text
+            x="165"
+            y="-{$yscale * $dem_value_proportion + 5}">{format-number(100 * $dem_value_proportion, '#0.0')}</text>
+        <text
+            x="365"
+            y="-{$yscale * $dem_econ_proportion + 5}">{format-number(100 * $dem_econ_proportion, '#0.0')}</text></g>
 </svg>
 
-(: <line 
-                    x1="{$dem_debates[.//trope div $all_tropes]}"
-                    y1="{$dem_debates[.//trope div $all_tropes]}"
-                    x2="-{$dem_debates[.//trope div $all_tropes]}"
-                    y2="-{$dem_debates[.//trope div $all_tropes]}"
-                    stroke="blue"
-                    stroke-width="2"/>
-                    
-:)
+
+
