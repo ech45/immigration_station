@@ -14,7 +14,7 @@
             </head>
             <body>
                <xsl:apply-templates select="//meta"/>
-                <div class="button"><button>Click to view participants' names</button></div>
+                <div class="button"><button>Click to toggle participants' names</button></div>
                 <a href="repdebates.xhtml">Return to All Republican Debates</a>
                 <hr/>
                 <div class="container">
@@ -51,7 +51,7 @@
 
         <xsl:variable name="speechPositionWithinDebate" as="xs:integer"
             select="count(preceding::speech)"/>
-        <p id="{concat('speech' , $speechPositionWithinDebate)}">
+        <p id="{concat($readingTextURL, 'speech' , $speechPositionWithinDebate)}">
                 [<xsl:apply-templates select="@speaker"/>] <xsl:apply-templates/>
         </p>
     </xsl:template>
@@ -79,6 +79,21 @@
     </xsl:template>
     <xsl:template match="keyword[@term = 'path to citizenship']">
         <span class="keyword_path_to_citizenship">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'asylum']">
+        <span class="asylum">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'e-verify']">
+        <span class="e-verify">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'visa overstay']">
+        <span class="visa_overstay">
             <xsl:apply-templates/>
         </span>
     </xsl:template>

@@ -21,6 +21,23 @@ div.candidates{
 div.moderators{
     flex:1 100%;
 }
+button{
+  background: #7a7a7a;
+  border-radius: 25px;
+  text-shadow: 0px 1px 0px #666666;
+  font-family: 'Courier New';
+  color: #ffffff;
+  font-size: 100%;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  float: right;
+}
+
+button:hover {
+  background: #bababa;
+  text-decoration: none;
+  float: right;
+}
 div.container{
     background: rgba(0, 0, 0, .70);
     display: flex;
