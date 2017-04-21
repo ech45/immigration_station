@@ -7,12 +7,14 @@
         <html>
             <head>
                 <link rel="stylesheet" type="text/css" href="../css/dem_debate_text.css"/>
+                <script type="text/javascript" src="debate_reading_view.js">/**/</script>
                 <title>
                     <xsl:apply-templates select="//date"/>
                 </title>
             </head>
             <body>
                 <xsl:apply-templates select="//meta"/>
+                <div class="button"><button>Click to view participants' names</button></div>
                 <a href="demdebates.xhtml">Return to All Democratic Debates</a>
                 <hr/>
                 <div class="container">
@@ -99,14 +101,14 @@
                 <xsl:apply-templates select="date"/>
             </p>
         </h2>
-        <h3> Candidates </h3>
+        <div class="containerMeta"><div class="candidates"><h3> Candidates </h3>
         <ul>
             <xsl:apply-templates select="participants/candidate"/>
-        </ul>
-        <h3> Moderators </h3>
+        </ul></div>
+        <div class="moderators"><h3> Moderators </h3>
         <ul>
             <xsl:apply-templates select="participants/moderator"/>
-        </ul>
+        </ul></div></div>
     </xsl:template>
     <xsl:template match="candidate">
         <li>

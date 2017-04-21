@@ -10,6 +10,17 @@ body{
     background-attachment: fixed;
     display: block;
 }
+div.containerMeta{
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, .70);
+}
+div.candidates{
+    flex: 1 100%;
+}
+div.moderators{
+    flex:1 100%;
+}
 div.container{
     background: rgba(0, 0, 0, .70);
     display: flex;
