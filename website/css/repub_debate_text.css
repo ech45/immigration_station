@@ -49,11 +49,13 @@ div.container{
 div.debate{
     border-right: 2px solid white;
     padding-right: 1em;
+    padding-left: 1em;
     overflow-y: auto;
     flex: 1 100%;
 }
 div.debateMenu{
     padding-left: 1em;
+    padding-right: 1em;
     flex: 1 200px;
 }
 h2{
