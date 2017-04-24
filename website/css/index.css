@@ -61,7 +61,6 @@ a.menulink{
     display: inline-block;
     margin: 0;
     padding-left: 0;
-    font-size: 130%;
 }
 
 
@@ -73,7 +72,7 @@ a.menulink{
 
 .dropdown-content a{
     background-color: #991817;
-    color: black;
+    color: white;
     padding: 12px 0;
     text-decoration: none;
     display: inline-block;

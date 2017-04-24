@@ -6,30 +6,40 @@
       <link rel="stylesheet"
             type="text/css"
             href="../css/repub_debate_text.css"/>
-      <title> October 28, 2015 </title>
+      <script type="text/javascript" src="debate_reading_view.js">/**/</script>
+      <title> October 28th, 2015 </title>
    </head>
    <body>
       <h2>
          <p>Boulder, Colorado</p>
-         <p> October 28, 2015 </p>
+         <p> October 28th, 2015 </p>
       </h2>
-      <h3> Candidates </h3>
-      <ul>
-         <li>FormerGovenor Mike Huckabee (AK);</li>
-         <li>Former Govenor Jeb Bush (FL);</li>
-         <li>Senator Marco Rubio (FL);</li>
-         <li>Donald Trump;</li>
-         <li>Ben Carson;</li>
-         <li>Carly Fiorina;</li>
-         <li>Senator Ted Cruz (TX); and</li>
-         <li>Govenor Chris Christie (NJ)</li>
-      </ul>
-      <h3> Moderators </h3>
-      <ul>
-         <li> Carl Quintanilla (CNBC); </li>
-         <li>Becky Quick; (CNBC) and</li>
-         <li>John Harwood (CNBC)</li>
-      </ul>
+      <div class="containerMeta">
+         <div class="candidates">
+            <h3> Candidates </h3>
+            <ul>
+               <li>Former Governor Mike Huckabee (AK);</li>
+               <li>Former Governor Jeb Bush (FL);</li>
+               <li>Senator Marco Rubio (FL);</li>
+               <li>Donald Trump;</li>
+               <li>Ben Carson;</li>
+               <li>Carly Fiorina;</li>
+               <li>Senator Ted Cruz (TX); and</li>
+               <li>Governor Chris Christie (NJ)</li>
+            </ul>
+         </div>
+         <div class="moderators">
+            <h3> Moderators </h3>
+            <ul>
+               <li> Carl Quintanilla (CNBC); </li>
+               <li>Becky Quick (CNBC); and</li>
+               <li>John Harwood (CNBC)</li>
+            </ul>
+         </div>
+      </div>
+      <div class="button">
+         <button>Click to toggle participants' names</button>
+      </div>
       <a href="repdebates.xhtml">Return to All Republican Debates</a>
       <hr/>
       <div class="container">
@@ -1590,14 +1600,12 @@
                <p id="debate_repub_2015-10-28.xhtmlspeech329">
                 [TRUMP]  I'm in favor of people coming into this country legally. And you
             know what? They can have it anyway you want. You can call it visas, you can call it work
-            permits, you can call it anything you want. <span class="tropeecon">
-                     <strong>I've created tens of thousands of jobs, and
+            permits, you can call it anything you want. <span class="tropeecon">I've created tens of thousands of jobs, and
             in all due respect — and actually some of these folks I really like a lot — but I'm the
             only one that can say that. I have created tens of thousands of jobs, and I'll be
             creating many millions of jobs if I'm given — if I'm given the opportunity to be
             president. As far as Mark is concerned, as far as the visas are concerned, if we need
-            people, they have — it's fine. They have to come into this country legally.</strong>
-                  </span> We have a
+            people, they have — it's fine. They have to come into this country legally.</span> We have a
             country of <span class="keyword_border">borders</span>. We have a country of laws. We have to obey the laws. It's fine if
             they come in, but they have to come in legally.</p>
                <p id="debate_repub_2015-10-28.xhtmlspeech330">
@@ -1611,15 +1619,11 @@
             in addition to what Donald was saying is we also need to talk about the legalimmigration system for permanent residents. Today, we have a legalimmigration system
             for permanent residency that is largely based on whether or not you have a relative
             living here. And that's the way my parents came legally in 1956. But in 2015, we have a
-            very different economy. <span class="tropeecon">
-                     <strong>Our legalimmigration system
-                from now on has to be merit-based.
-            It has to be based on what skills you have, what you can contribute economically</strong>
-                  </span>, <span class="tropevalue">
-                     <strong>and
+            very different economy. <span class="tropeecon">Our legalimmigration system
+                from now on has to be merit-based.</span>
+                  <span class="tropeecon">It has to be based on what skills you have, what you can contribute economically</span>, <span class="tropevalue">and
             most important of all, on whether or not you're coming here to become an American, not
-            just live in America, but be an American.</strong>
-                  </span>
+            just live in America, but be an American.</span>
                </p>
             </div>
             <div class="other">
@@ -2239,15 +2243,24 @@
             </div>
          </div>
          <div class="debateMenu">
-            <h4>Debate Options</h4>Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Morbi quis nulla augue. Vestibulum eget
-                        condimentum odio. Proin pharetra vel est eget hendrerit. Duis nec rhoncus
-                        libero. Donec auctor erat sem, vitae elementum odio accumsan vel. Vivamus
-                        sapien lorem, ornare ac massa at, maximus maximus nisl. In malesuada nisi
-                        arcu, vitae placerat turpis lobortis quis. Aliquam finibus eget purus nec
-                        suscipit. Vestibulum maximus nulla quam, gravida tempus magna convallis
-                        eget. In sagittis lacinia purus luctus elementum. Praesent vel elementum
-                        tellus. Proin a est consectetur, rutrum diam id, dapibus quam.</div>
+            <h4>Debate Options</h4>
+            <hr/>
+            <p>Select which portions of the debate to view:</p>
+            <input type="radio" name="textView" value="//div[@class='debate']"/>View all text<br/>
+            <input type="radio"
+                   name="textView"
+                   value="//div[@clas='debate']/div[@class='imm']"/>View only
+                        immigration sections
+                        <hr/>
+            <p>Choose keywords or tropes to highlight:</p>
+            <input type="checkbox" name="keyword" value="amnesty"/>Amnesty<br/>
+            <input type="checkbox" name="keyword" value="asylum"/>Asylum<br/>
+            <input type="checkbox" name="keyword" value="border"/>Border<br/>
+            <input type="checkbox" name="keyword" value="e-verify"/>E-verify<br/>
+            <input type="checkbox" name="keyword" value="pathToCitizenship"/>Path to citizenship<br/>
+            <input type="checkbox" name="keyword" value="sanctuaryCity"/>Sanctuary city<br/>
+            <input type="checkbox" name="keyword" value="visaOverstay"/>Visa overstay<br/>
+            <input type="checkbox" name="keyword" value="tropes"/>Tropes</div>
       </div>
    </body>
 </html>

@@ -1,18 +1,22 @@
+<?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
         <loc>Miami, FL</loc>
         <date>10 March 2016</date>
         <participants>
-<candidate speaker="CRUZ">Ted Cruz</candidate>
-            <candidate speaker="KASICH">John Kasich</candidate>
-            <candidate speaker="RUBIO">Marco Rubio</candidate>
-            <candidate speaker="TRUMP">Donald Trump;</candidate>
-<moderator speaker="TAPPER">Jake Tapper</moderator>
-            <moderator speaker="BASH">Dana Bash</moderator>
-            <moderator speaker="HEWITT">Hugh Hewitt</moderator>
-            <moderator speaker="DINAN">Stephen Dinan</moderator>
+<candidate who="CRUZ">Ted Cruz</candidate>
+            <candidate who="KASICH">John Kasich</candidate>
+            <candidate who="RUBIO">Marco Rubio</candidate>
+            <candidate who="TRUMP">Donald Trump;</candidate>
+<moderator who="TAPPER">Jake Tapper</moderator>
+            <moderator who="BASH">Dana Bash</moderator>
+            <moderator who="HEWITT">Hugh Hewitt</moderator>
+            <moderator who="DINAN">Stephen Dinan</moderator>
 </participants>
     </meta>
+    <body>
+    <section key="other">
 <speech speaker="TAPPER"> Live from the Bank United Center on the campus of the University of Miami, this is the CNN Republican Presidential debate. For our viewers in the United States and around the world, welcome to Miami Florida, I'm Jake Tapper.
 In just five days voters will go to the polls here in this state as well as in Ohio, Illinois, North Carolina and Missouri. The race for the Republican nomination for president could change dramatically.
 Florida and Ohio each have a large number of delegates at stake and they award all of them to the candidate who wins. They're a winner-take-all state. So that's the first time that will happen in this primary season and this is the last debate before that critical round of voting.
@@ -47,10 +51,12 @@ Thank you. [applause]
 For over two centuries, America has been an exceptional nation. And now the time has come for this generation to do what it must do to keep it that way. If we make the right choice in this election, our children are going to be the freest and most prosperous Americans that have ever lived. And the 21st century is going to be a new American century. [applause]
 </speech>
     <speech speaker="TAPPER"> Senator Cruz?
-</speech>
+</speech> </section>
+    <section key="imm">
     <speech speaker="CRUZ"> Fifty-nine years ago, Florida welcomed my father to America as he stepped off the ferry boat from Cuba onto Key West. He was 18. He was filled with hopes and dreams, and yet he was in the freest land on the face of the earth.
 This election, this debate is not about insults. It's not about attacks. It's not about any of the individuals on this stage. This election is about you and your children. It's about the freedom America has always had and making sure that that freedom is there for the next generation, that we stop Washington from standing in the way of the hard-working taxpayers of America. [applause]
-</speech>
+</speech></section>
+    <section key="other">
     <speech speaker="TAPPER"> Mr. Trump?
 </speech>
     <speech speaker="TRUMP"> One of the biggest political events anywhere in the world is happening right now with the Republican Party. Millions and millions of people are going out to the polls and they're voting. They're voting out of enthusiasm. They're voting out of love. Some of these people, frankly, have never voted before — 50 years old, 60 years old, 70 years old — never voted before.
@@ -82,10 +88,12 @@ There are good trade deals and there are bad ones. So for example, here in Flori
 On the other hand, you've seen trade deals like in Mexico that have been less than promising in some aspects, better in others. Bottom line is I believe that America, if given access to foreign markets, our workers are the most productive in the world, our people are the most innovative on this planet. If it is a free and fair trade deal, we can compete against anyone in the world, and we need to in the 21st century. [applause]
 </speech>
     <speech speaker="TAPPER"> Senator Cruz, you were a supporter of the Pacific trade deal, but after taking some heat from conservatives, you changed your position. Why should these voters who don't like these trade deals trust that you will fight for them all the time and not just in election years?
-</speech>
+</speech> </section>
+    
+    <section key="imm">
     <speech speaker="CRUZ"> Actually that's incorrect. There are two different agreements. There's TPA and TPP. I opposed TPP and have always opposed TPP, which is what you asked about. And when it comes to trade, look, free trade, when we open up foreign markets, helps Americans. But we're getting killed in international trade right now. And we're getting killed because we have an administration that's doesn't look out for American workers and jobs are going overseas. We're driving jobs overseas.
 And the people who are losing out are in manufacturing jobs, or the steel industry or the auto industry. But I'll tell you who else is going to be losing out, which is the service industry. This Obama administration is negotiating the Trade in Services Agreement which is another treaty to allow services to come in and take jobs from Americans as well.
-And you've got to understand. <troupe type="econ" subtype="jobs" attitude="anti".>Trade and <immigration status="ambig" term="immigration">immigration</immigration> are interwoven, and they are hurting the working men and women of this country.</troupe> So the question is, what's the solution? It's easy to talk about the problems. But do you have a solution to fix it? And I think the solution is several things.
+And you've got to understand. <trope type="econ" subtype="jobs" attitude="anti">Trade and <immigration status="ambig" term="immigration">immigration</immigration> are interwoven, and they are hurting the working men and women of this country.</trope> So the question is, what's the solution? It's easy to talk about the problems. But do you have a solution to fix it? And I think the solution is several things.
 Number one, we need to negotiate trade deals protecting American workers first, not the corporate board room. Number two, we need to lift the regulations on American businesses here so we see jobs coming back. And number three, we need a tax plan like the tax plan I've introduced that will not tax exports and that will tax imports, and that will bring millions of high-paying jobs back to America. [applause]
 </speech>
     <speech speaker="TAPPER"> Let's talk more about how American jobs are impacted by foreign workers. Let's go to Stephen Dinan of the Washington Times. Stephen.
@@ -110,10 +118,10 @@ They are outsourcing the entire tech division to a consulting company. They are 
 </speech>
     <speech speaker="DINAN"> Governor Kasich, I want to come to you next. Mr. Trump says that <immigration status="legal" term="legal immigration">legal immigration</immigration> is producing quote, "lower wages and higher unemployment for U.S. workers". He's calling for a pause on green cards issued to <immigrant status="legal" term="foreign workers">foreign workers</immigrant>. Wouldn't that help workers in the U.S.?
     </speech><speech speaker="KASICH"> Well look, I believe in <immigration status="ambig" term="immigration">immigration</immigration>, but it has to be controlled. The simple fact of the matter is I wouldn't be standing here. I'd be maybe running for president of Croatia if we didn't have <immigration status="legal" term="immigration">immigration</immigration>.
-<troupe type="value" subtype="culture" attitude="pro"><immigration status="ambig" term="immigration">Immigration</immigration> is something that brings youth and vibrance and energy to our country.</troupe> But we clearly have to control our <keyword term="border">borders</keyword>. We can't have people just walking in. Look, we lock our doors at night in our homes. The country has to be able to lock its doors as well. So, we — I have a comprehensive plan to deal with this problem of <immigration status="illegal" term="immigration">immigration</immigration>.
+<trope type="value" subtype="culture" attitude="pro"><immigration status="ambig" term="immigration">Immigration</immigration> is something that brings youth and vibrance and energy to our country.</trope> But we clearly have to control our <keyword term="border">borders</keyword>. We can't have people just walking in. Look, we lock our doors at night in our homes. The country has to be able to lock its doors as well. So, we — I have a comprehensive plan to deal with this problem of <immigration status="illegal" term="immigration">immigration</immigration>.
 I would say we have to absolutely finish the <keyword term="wall">wall</keyword> and guard the <keyword term="border">border</keyword>. And if anybody were to come in after that, they are going to have to go back. No excuses because we can't continue this problem. I think we ought to have a <immigrant status="legal" term="guest worker">guest worker</immigrant> program, where people come in, work and go home.
 And I think at the same time, for the 11 and a half million who are here, then in my view if they have not committed a crime since they've been here, they get a path to legalization. Not to citizenship. I believe that program can pass the Congress in the first 100 days.
-<troupe type="econ" subtype="growth" attitude="pro">But let's not lose sight of the fact that the whole key to the future of America is strong economic growth with common sense regulation, lower taxes and a balanced budget.</troupe>
+<trope type="econ" subtype="growth" attitude="pro">But let's not lose sight of the fact that the whole key to the future of America is strong economic growth with common sense regulation, lower taxes and a balanced budget.</trope>
 We can have a rising tide that lifts all the workers in America, all the people who are citizens of America, if we'll just follow the formula that works, that I used in Washington. And guess what, I've used it in Ohio to grow over 400 private sector jobs since I've been governor
     </speech><speech speaker="DINAN"> Mr. Trump, I do want to come to you. Will you also in your answer, address how long you think that pause would be and what that pause would look like.
     </speech><speech speaker="TRUMP"> I will. First of all, I think and I know the H1B very well. And it's something that I frankly use and I shouldn't be allowed to use it. We shouldn't have it. Very, very bad for workers. And second of all, I think it's very important to say, well, I'm a businessman and I have to do what I have to do.
@@ -123,7 +131,7 @@ We have to sort of take a strong, good, hard look and come up with plans that wo
 [bell rings]
 We're leading with people that don't know what they are doing in terms of our leadership. I'd say a minimum of one year, maybe two years.
     </speech><speech speaker="DINAN"> Senator Cruz, I want to bring you in very quickly on this. [applause]
-The United States averages about a million new permanent <immigrant staus="legal" term="legal immigrant">legal immigrants</immigrant> a year and hundreds of thousands more <immigrant status="legal" term="guest workers">guest workers</immigrant>. What should the right level be?
+The United States averages about a million new permanent <immigrant status="legal" term="legal immigrant">legal immigrants</immigrant> a year and hundreds of thousands more <immigrant status="legal" term="guest workers">guest workers</immigrant>. What should the right level be?
     </speech><speech speaker="CRUZ"> Well, we need to redefine our legal <keyword term="immigration system">immigration system</keyword> so that it meets the needs of the American economy. Right now, we're bringing in far too many low skilled workers. What that is doing is driving down the wages of hard-working Americans. Our system isn't working. And then on top of that, we've got a system that's allowing in millions of <immigrant status="illegal" term="people">people</immigrant> to be here illegally.
 And the answer to that, I've laid out a very, very detailed <immigration status="legal" term="immigration">immigration</immigration> plan on my website. We're going to build a <keyword term="wall">wall</keyword>, triple the border patrol. We're going to end <keyword term="sanctuary city">sanctuary cities</keyword>. And let me tell you how we're going to do that.
 We're going to cut off federal taxpayer funds to any city that defies federal <immigration status="illegal" term="immigration">immigration</immigration> laws. [applause]
@@ -132,9 +140,10 @@ The Democrats support <immigration status="illegal" term="illegal immigration">i
 We need instead leadership that works for the working men and women of this country. We need an <keyword term="immigration system">immigration system</keyword> that takes care of the jobs of the working men and women of this country. [applause]
     </speech><speech speaker="TAPPER"> Senator Rubio, did you want to weigh in?
     </speech><speech speaker="RUBIO"> Well, I would add when you talk about the millions of <immigrant status="legal" term="green card">green cards</immigrant> that are coming in, those aren't actually workers at all. They are just coming in primarily based on family connection. And let me tell you, when my parents came in 1956, I acknowledge that my parents came to the U.S. on a family-based system.
-The problem is nothing looks like it did 60 years ago. The 21st Century economy simply is not creating enough jobs for people that don't have skills. <anecdote type="econ" subtype="american_dream">When my parents came, they had a very limited education. My father stopped going to school when he was 9 years old because his mother died and he had to work. And he would work the next 70 years of his life and never go back to school. And I'm grateful every day that America welcomed them.</anecdote>
+The problem is nothing looks like it did 60 years ago. The 21st Century economy simply is not creating enough jobs for people that don't have skills. <anecdote type="value" subtype="american_dream">When my parents came, they had a very limited education. My father stopped going to school when he was 9 years old because his mother died and he had to work. And he would work the next 70 years of his life and never go back to school. And I'm grateful every day that America welcomed them.</anecdote>
 But today in the 21st Century, 60 years later, finding jobs when you don't have skills is very difficult. We need to move to a merit- based system of <keyword term="immigration system">immigration</keyword>, not just on H-1B, particularly on green cards. The primary criteria for bringing someone from abroad in the 21st Century should be, what skills do you have? What business are you going to open? What investment are you going to make? What job are you going to be able to do when you arrive in the United States? [applause]
-    </speech><speech speaker="TAPPER"> Education obviously plays a large role when it comes to jobs and the economy. The United States has long been falling behind others in the industrialized world. American students currently rank 27th out of 34 countries in math and 17th in reading.
+    </speech></section>
+    <section key="other"><speech speaker="TAPPER"> Education obviously plays a large role when it comes to jobs and the economy. The United States has long been falling behind others in the industrialized world. American students currently rank 27th out of 34 countries in math and 17th in reading.
 Mr. Trump, you've called the education standards known as Common Core a disaster. What are your specific objections to Common Core?
     </speech><speech speaker="TRUMP"> Education through Washington, D.C. I don't want that. I want local education. I want the parents, and I want all of the teachers, and I want everybody to get together around a school and to make education great.
 And it was very interesting, I was with Dr. Ben Carson today, who is endorsing me, by the way, tomorrow morning, and he is... [applause]
@@ -578,5 +587,5 @@ That's the choice I will put to her this fall. [applause]
 The Republican Party has a great chance to embrace millions of people that it's never known before. They're coming by the millions. We should seize that opportunity. These are great people. These are fantastic people. These are people that love our country. These are people that want to see America be great again.
 These are people that will win us the election and win it easily. These are people that once the election is won will be able to put Supreme Court justices up that will do a fabulous job. Because let me tell you, if we lose this election, you're going to have three, four or maybe even five justices and this country will never, ever recover. It will take centuries to recover.
 So I just say embrace these millions of people that now for the first time ever love the Republican Party. And unify. Be smart and unify. [applause]
-    </speech><speech speaker="TAPPER"> And that concludes this 12th Republican presidential debate. We want to thank the candidates, the Republican National Committee, the University of Miami and, of course, each of you for watching.
+    </speech><speech speaker="TAPPER"> And that concludes this 12th Republican presidential debate. We want to thank the candidates, the Republican National Committee, the University of Miami and, of course, each of you for watching. </speech> </section> </body>
 </debate>

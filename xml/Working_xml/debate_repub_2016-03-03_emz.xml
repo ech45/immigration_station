@@ -1,19 +1,21 @@
+<?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../working_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <debate>
     <meta>
         <loc>Detroit,MI</loc>
         <date>3 March 2016</date>
         <participants>
-            <candidate speaker="CRUZ">Ted Cruz</candidate>
-            <candidate speaker="KASICH">John Kasich</candidate>
-            <candidate speaker="RUBIO">Marco Rubio</candidate>
-            <candidate speaker="TRUMP">Donald Trump</candidate>
-            <moderator speaker="BAIER">Bret Baier</moderator>
-            <moderator speaker="KELLY">Megyn Kelly</moderator>
-            <moderator speaker="WALLACE">Chris Wallace</moderator>
+            <candidate who="CRUZ">Ted Cruz</candidate>
+            <candidate who="KASICH">John Kasich</candidate>
+            <candidate who="RUBIO">Marco Rubio</candidate>
+            <candidate who="TRUMP">Donald Trump</candidate>
+            <moderator who="BAIER">Bret Baier</moderator>
+            <moderator who="KELLY">Megyn Kelly</moderator>
+            <moderator who="WALLACE">Chris Wallace</moderator>
         </participants>
     </meta>
     <body>
-        <!--<speech speaker="KELLY"> Good evening, and welcome to the fabulous FOX Theatre in downtown
+        <section key = "other"><speech speaker="KELLY"> Good evening, and welcome to the fabulous FOX Theatre in downtown
             Detroit, the site of the 11th Republican presidential debate of the 2016 campaign. I'm
             Megyn Kelly, along with my co-moderators, Bret Baier and Chris Wallace. </speech>
         <speech speaker="BAIER"> 59 Republican delegates are at stake here in the state of Michigan
@@ -43,7 +45,8 @@
             then he listed what he said are your personal qualities. Quoting now Romney on Trump,
             quote, "the bullying, the greed, the showing off, the misogyny, the absurd, third-grade
             theatrics". [cheering] He challenged you to answer with substance, not insults. How do
-            you answer Mitt Romney, sir? </speech>
+            you answer Mitt Romney, sir? </speech> </section>
+        <section key = "imm">
         <speech speaker="TRUMP"> Well look, he was a failed candidate, he should have beaten
             president Obama very easy. He failed miserably, and it was an embarrassment to
             everybody, including the Republican party. It looked like he went away on a vacation the
@@ -58,7 +61,8 @@
             dollars. Japan, probably about, they don't know it yet, but about $109 billion dollars.
             Every country we lose money with. As far as I'm concerned, we've got to reduce — we have
             to redo our trade deals 100 percent. I have the greatest business people in the world
-            lined up to do it. We will make...[bell ringing]... great trade deals. [cheering] </speech>
+            lined up to do it. We will make...[bell ringing]... great trade deals. [cheering] </speech> </section>
+        <section key = "other">
         <speech speaker="WALLACE"> Mr. Trump, Romney also talked about your position on race, and
             the controversy over your failure to denounce David Duke on Sunday. You have repeatedly
             disavowed him since then, but I'd like to go deeper than that. What are your views on
@@ -464,7 +468,8 @@
             this stage and one person who's been a candidate for president in either party that
             restored economic strength, growth, a balanced budget, paid down debt, cut taxes, the
             things that people in this country want. No theories. Reality. [applause] </speech>
-        <speech speaker="WALLACE"> Thank you, Governor. [applause] </speech>-->
+        <speech speaker="WALLACE"> Thank you, Governor. [applause] </speech></section>
+        <section key= "imm">
         <speech speaker="KELLY"> All right. Let's talk <immigration status="ambig" term="immigration">immigration</immigration> for a little bit. Senator Cruz,
             let's start with you. You have repeatedly touted how you have stood shoulder to shoulder
             with Senator Jeff Sessions to fight <immigration status="illegal" term="illegal immigration">illegal immigration</immigration> and <keyword term="amnesty">amnesty</keyword>. But Senator
@@ -487,7 +492,8 @@
             And four of those checks were not to her Senate campaign. It wasn't that she was the New
             York senator and it was a cost of doing business. It was to her presidential campaign.
             Donald Trump in 2008 wrote four checks to elect Hillary Clinton as president. </speech>
-        <speech speaker="KELLY"> OK. </speech>
+        <speech speaker="KELLY"> OK. </speech></section>
+        <section key = "other">
         <speech speaker="CRUZ"> So I'd like to ask Donald, why did you write checks to Hillary
             Clinton to be president in 2008? It wasn't for business. And how can you stand on a
             debate stage now with her and say you don't think she should be president? [applause] </speech>
@@ -514,7 +520,8 @@
         <speech speaker="KELLY"> How are you doing? </speech>
         <speech speaker="TRUMP"> Nice to be with you, Megyn. </speech>
         <speech speaker="KELLY"> Great to have you here. </speech>
-        <speech speaker="TRUMP"> You're looking well. You're looking well. </speech>
+        <speech speaker="TRUMP"> You're looking well. You're looking well. </speech> </section>
+        <section key = "imm" >
         <speech speaker="KELLY"> As are you. [applause] Back in January, you gave an off-the-record
             interview to the New York Times. It was apparently audiotaped. Now, a recent report in
             Buzzfeed citing sources at the Times reports that in that interview you expressed
@@ -531,7 +538,7 @@
             think being off the record is a very important thing. I think it's a very, very powerful
             thing. And I will say this. These three gentlemen have gone off the record many times
             with reporters. And I think they want to honor it, and I would always honor that. I will
-            say, though, in terms of immigration — and almost anything else — there always has to be
+            say, though, in terms of <immigration status="ambig" term="immigration">immigration</immigration> — and almost anything else — there always has to be
             some, you know, tug and pull and deal. And, you know, when I watch Ted stand on the
             Senate floor, I had great respect for what he did. He stood there for a day-and-a- half
             or something. In the meantime, what came of it? Nothing. You have to be able to have
@@ -581,14 +588,15 @@
             to be much stronger on <immigration status="illegal" term="illegal immigration">illegal immigration</immigration>. Sheriff Joe Arpaio endorsed me. And if he
             endorses you, believe me, you are the strongest, from Arizona. But give and take is OK.
             And I thought what he said is OK. We may differ on the degree. But what he said to me is
-            OK. </speech>
+            OK. </speech> </section> <section key="other">
         <speech speaker="KELLY"> Will you release the tapes? </speech>
         <speech speaker="TRUMP"> No. I never do that. I would not do that. I don't think — I have
             too much respect — if I deal with you off the record, if I deal with Bret or Chris off
             the record, I have too much respect for that process to say, just release everything. I
             would not do that. </speech>
         <speech speaker="KELLY"> OK. Stand by. We're going to continue this right after the break.
-            We have more. </speech>
+            We have more. </speech> </section>
+        <section key = "imm">
         <speech speaker="BAIER"> Coming up, more with Megyn on <immigration status="ambig" term="immigration">immigration</immigration>, plus questions on other
             top issues, including the war on terror. The "FOX News Republican Presidential Debate
             Live from Detroit" continues after a quick break. [commercial break] </speech>
@@ -615,8 +623,8 @@
             you're really just playing to people's fantasies, which is a tactic... </speech>
         <speech speaker="TRUMP"> ... No, I'm not playing. </speech>
         <speech speaker="KELLY"> ... you praised in your book, The Art of the Deal. </speech>
-        <speech speaker="TRUMP"> I'm not playing to anybody's fantasies, <troupe type="secure" subtype="crime" attitude="anti">I'm playing to the fact
-            that our country is in trouble, that we have a tremendous problem with crime.</troupe> The <keyword term="border">border</keyword>
+        <speech speaker="TRUMP"> I'm not playing to anybody's fantasies, <trope type="secure" subtype="crime" attitude="anti">I'm playing to the fact
+            that our country is in trouble, that we have a tremendous problem with crime.</trope> The <keyword term="border">border</keyword>
             is a disaster, it's like a piece of Swiss cheese. We're going to stop it, we're going to
             stop people from coming into our country illegally. We're going to stop it. [applause]
             [cheering] </speech>
@@ -661,7 +669,8 @@
             we will send the people out. All done legally, all done with the process that's...[bell
             ringing]...approved by government in Palm Beach, or West Palm Beach. We bring people in,
             we bring them out. We want to hire as many Americans as we can, but they don't want
-            part-time, very short part-time jobs. </speech>
+            part-time, very short part-time jobs. </speech> </section>
+        <section key = " other"> 
         <speech speaker="KELLY"> Understood. Thank you. </speech>
         <speech speaker="RUBIO"> That's not accurate. I'm sorry, Megyn, that's not accurate. That's
             my — there were at least 300 Americans that applied last year, none of them were hired.
@@ -673,7 +682,8 @@
         <speech speaker="TRUMP"> ... Wrong... </speech>
         <speech speaker="RUBIO"> ... And, here's why he does it this way, let me explain why he
             [inaudible] H2-B... </speech>
-        <speech speaker="TRUMP"> ... Wrong... </speech>
+        <speech speaker="TRUMP"> ... Wrong... </speech> </section>
+        <section key="imm">
         <speech speaker="RUBIO"> ... Because when you bring them in this way, when you bring someone
             in on one of these visas they can't go work for anybody else. They either work for you
             or they have to go back home. You basically have them captive, so you don't have to
@@ -693,8 +703,9 @@
             same thing. And just so you understand, just again, this is a legal process. This is a
             procedure. It's part of the law. I take advantage of that. There's nothing wrong with
             it. We have no choice. </speech>
-        <speech speaker="KELLY"> All right. </speech>
-        <speech speaker="CRUZ"> Donald, you could resolve this issue very quickly by
+        <speech speaker="KELLY"> All right. </speech></section>
+        <section key="other"
+>    <speech speaker="CRUZ"> Donald, you could resolve this issue very quickly by
             simply...[audience booing]...releasing the New York Times tape. Because, listen, maybe
             it's right. </speech>
         <speech speaker="TRUMP"> This wasn't on the subject. </speech>
@@ -711,7 +722,7 @@
         <speech speaker="CRUZ"> Why don't you release the tapes? Release the tapes. </speech>
         <speech speaker="TRUMP"> You're the one. Now, let me just tell you. Let me just tell you.
             [crosstalk] Excuse me. Excuse me. I've given my answer, Lyin' Ted. I've given my answer. </speech>
-        <!--<speech speaker="KELLY"> All right. Let's leave it at that. [audience booing] Let's leave it
+       <speech speaker="KELLY"> All right. Let's leave it at that. [audience booing] Let's leave it
             at that. We have more to get to. [audience booing] </speech>
         <speech speaker="BAIER"> Gentlemen, the next topic to discuss is terrorism. Senator Rubio,
             ISIS is a big topic of conversation on Facebook. We have a map that shows the
@@ -902,9 +913,10 @@
             that point, I was always against Iraq. But Afghanistan, I felt — and in that one, if you
             notice, I corrected it the second day. OK? Second question? </speech>
         <speech speaker="KELLY"> There are several examples, Mr. Trump. </speech>
-        <speech speaker="TRUMP"> No, no. But... </speech>
+        <speech speaker="TRUMP"> No, no. But... </speech> </section>
+        <section key="imm">
         <speech speaker="KELLY"> We went through the Afghanistan being a mistake. Within one day,
-            you reversed yourself on Syrian refugees. </speech>
+            you reversed yourself on <immigrant status="refugee" term="Syrian refugee">Syrian refugees</immigrant>. </speech>
         <speech speaker="TRUMP"> Now on — let me explain that. You're right. Let me explain. First
             time the question had been put to me, it was very early on. The migration had just
             started. And I had heard that the number was a very, very small number. By the second
@@ -919,7 +931,8 @@
             time the question was ever asked to me, first time I really had known about the
             question, the migration had just started. I was very much like, OK, by the time I went
             back and studied it, and they were talking about bringing thousands and thousands, I
-            changed my tune. And I don't think there's anything wrong with that. </speech>
+            changed my tune. And I don't think there's anything wrong with that. </speech> </section>
+        <section key = "other">
         <speech speaker="KELLY"> But the point I'm going for is you change your tune on so many
             things, and that has some people saying, what is his core? </speech>
         <speech speaker="TRUMP"> Megyn, I have a very strong core. [applause] I have a very strong
@@ -1018,7 +1031,7 @@
         <speech speaker="TRUMP"> ...[inaudible] </speech>
         <speech speaker="KELLY"> ... that's the last publicly available rating in 2010, and it was
             the result of a number of complaints they had... </speech>
-        <speech speaker="TRUMP"> ... But it was elevated to an "A"... UNIDENTIFIABLE: [inaudible] </speech>
+        <speech speaker="TRUMP"> ... But it was elevated to an "A"... </speech>
         <speech speaker="KELLY"> ... That's never been publicly available. </speech>
         <speech speaker="TRUMP"> ... I can give it to you. I can give it to you tomorrow.. </speech>
         <speech speaker="KELLY"> ... Let's just bring the viewers up to speed, let's just bring the
@@ -1713,6 +1726,6 @@
             next. And remember, Fox News has the race for the White House covered, all the way to
             the conventions and onto the general election. </speech>
         <speech speaker="BAIER"> Our thanks to Detroit and the crowd here. Thank you again for
-            joining us. Have a great evening.</speech>-->
+            joining us. Have a great evening.</speech></section>
     </body>
 </debate>
