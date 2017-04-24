@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <party>
+        <immigrant></immigrant>
+        <undocumented></undocumented>
+        <illegal></illegal>
+        <refugee></refugee>
+        <other></other>
+    </party>
+    <party>
+        <immigrant></immigrant>
+        <undocumented></undocumented>
+        <illegal></illegal>
+        <refugee></refugee>
+        <other></other>
+    </party>
+</root>
