@@ -2,7 +2,7 @@
 <?xml-model href="../../test.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <debate>
     <meta>
-        <loc>Manchester, New Hampshire</loc>
+        <loc>Manchester, NH</loc>
         <date>February 6, 2016</date>
         <participants>
             <candidate who="BUSH">Former Governor Jeb Bush (FL);</candidate>
@@ -10,14 +10,16 @@
             <candidate who="CHRISTIE">Governor Chris Christie (NJ);</candidate>
             <candidate who="CRUZ">Senator Ted Cruz (TX);</candidate>
             <candidate who="KASICH">Governor John Kasich (OH);</candidate>
-            <candidate who="RUBIO">Senator Marco Rubio (FLO); and</candidate>
+            <candidate who="RUBIO">Senator Marco Rubio (FL); and</candidate>
             <candidate who="TRUMP">Donald Trump</candidate>
-            <moderator who="MUIR">David Muir (ABC World News); and</moderator>
-            <moderator who="RADDATZ">Martha Raddatz (ABC World News)</moderator>
+            <moderator who="MUIR">David Muir (ABC); and</moderator>
+            <moderator who="RADDATZ">Martha Raddatz (ABC)</moderator>
         </participants>
     </meta>
+
     <body>
-     <section key="other"><speech speaker="MUIR">Good evening, again, everyone. This is the first time since Iowa and the only time before the New Hampshire primary that the Republican candidates will have the opportunity to face each other.
+        
+         <section key="other"><speech speaker="MUIR">Good evening, again, everyone. This is the first time since Iowa and the only time before the New Hampshire primary that the Republican candidates will have the opportunity to face each other.
 The people of Iowa have been heard. Now it's New Hampshire's turn. In just three days, voters here will decide who they think should be the Republican nominee for president.</speech>
 <speech speaker="RADDATZ">Questions of leadership and character have dominated the news ever since the Iowa caucuses a few days ago. Here with us to question the candidates this evening are Josh McElveen from WMUR here in Manchester and author and commentator Mary Katherine Ham.</speech>
 <speech speaker="MUIR">So let's welcome the candidates for the Republican nomination for president.
@@ -39,7 +41,8 @@ The applause so loud here in the hall.</speech>
 Gentlemen, thank you for being here tonight, just days before voters here in New Hampshire make their decisions. The rules are simple and have been agreed to by all the campaigns. There will be 60 seconds to answer and if another candidate is mentioned in that answer, that candidate will have 30 seconds to respond. There are green, yellow and red lights that each candidate will see to signal when time is up and they will also hear this sound.</speech>
 <speech speaker="MUIR">So let's get started. We welcome you all to the debate stage here tonight. We're going to tackle the issues Americans are most concerned about, the economy, ISIS, Homeland Security. And here in New Hampshire, some of the most heated rhetoric yet over who is best suited to step in on day one, who has the experience, who has the temperament to be commander-in-chief.
 Mr. Trump, Senator Cruz has said about you right here in New Hampshire this week, quote, "I don't know anyone who would be comfortable with someone who behaves this way, having his finger on the button. We're liable to wake up one morning, and if he were president, he would nuke Denmark." Saying, quote, "That's temperament of a leader to keep this country safe."
-I wanted to give you the opportunity to respond to this and to tell the American people tonight why you do have the temperament to be commander-in-chief.</speech></section>  
+I wanted to give you the opportunity to respond to this and to tell the American people tonight why you do have the temperament to be commander-in-chief.</speech></section> 
+
         <section key="imm">
             <speech speaker="TRUMP">I actually think I have the best temperament. I built a massive
                 corporation. I employ thousands and thousands of people. I've gotten along with
@@ -57,8 +60,9 @@ I wanted to give you the opportunity to respond to this and to tell the American
                 would be a lot faster. But I'll build the mill arbitrary stronger, bigger, better
                 than anybody up here, and nobody is going to mess with us. That, I can tell you.
                 [applause]</speech>
+
         </section>
-         <section key="other"> 
+         <section key="other">
 <speech speaker="MUIR">Mr. Trump, thank you. I want to bring this to Senator Cruz, then.
 Because Senator, you did said of Trump's behavior this week, that's not the temperament of a leader to keep this country safe.
 Why not?</speech>
@@ -217,7 +221,8 @@ This president and his former secretary of State are for paying ransom for hosta
 This is unacceptable. And this is why this president is so weak and why the secretary of State, who is embracing a third Barack Obama term, would be even weaker.</speech>
 <speech speaker="RADDATZ">Thank you very much, Governor Christie. [applause]
 David?</speech> 
- </section> 
+</section> 
+
         <section key="imm">
             <speech speaker="MUIR">Martha, we're going to turn to <immigration status="ambig" term="immigration">immigration</immigration> now. And I want to
                 bring in Governor Kasich because you told us in an ABC interview, Governor, quote,
@@ -227,6 +232,7 @@ David?</speech>
                 Trump and Senator Cruz, who have made deportation central to their campaigns, top
                 the national polls. So, my question for you, are you not where the voters
                 are?</speech>
+
             <speech speaker="KASICH">Well, you know, David, I — I've just spent a lot of time here
                 in this state, as I mentioned earlier, and we have to have practical solutions, just
                 like we were just talking about a few minutes ago on North Korea. Look, the
@@ -235,7 +241,7 @@ David?</speech>
                 have a <immigrant status="legal" term="guest worker">guest worker</immigrant> program, where people can come in and out in an orderly way. <trope type="secure" subtype="crime" attitude="pro">And
                 then for the 11.5 million that are here, if they have not committed a crime since
                 they've been here, I believe they ought to pay some back taxes, pay a fine, never
-                get on the <keyword term="path">path to citizenship</keyword>, but get legalization.</trope> <trope type="value" subtype="empathy" attitude="pro">It is not — I couldn't even
+                get on the <keyword term="path to citizenship">path to citizenship</keyword>, but get legalization.</trope> <trope type="value" subtype="empathy" attitude="pro">It is not — I couldn't even
                 imagine how we would even begin to think about taking a mom or a dad out of a house
                 when they have not committed a crime since they've been here, leaving their children
                 in the house. I mean, that is not, in my opinion, the kind of values that we believe
@@ -247,12 +253,14 @@ David?</speech>
                 Congressman, and an executive, in Ohio, I can promise you that I believe you'll get
                 the votes to pass that, and we can move on with that issue and protect our <keyword term="border">border</keyword>.
                 That's what I think.</speech>
+
             <speech speaker="MUIR">Governor Kasich, thank you. [applause] I want to bring this next
                 to Senator Cruz. You heard what the governor said. He said, "We need practical
                 solutions." And you've said, "I don't intend to send jack boots to knock on doors.
                 That's not how we enforce the law for any crime." So, what is your plan? How will
                 you deport 11.5 million <immigrant status="illegal" term="undocumented people">undocumented people</immigrant>? And be specific. How would you do
                 it?</speech>
+
             <speech speaker="CRUZ">So, in terms of a practical solution, I've laid out the most
                 detailed plan for solving <immigration status="illegal" term="illegal immigration">illegal immigration</immigration>. It's 11 pages, single-spaced, chapter
                 and verse. It's on our website, tedcruz.org. <platform type="secure" subtype="ambig" attitude="ambig">In short, we're going to do, we're
@@ -268,9 +276,11 @@ David?</speech>
                 by cutting off taxpayer dollars to any jurisdiction that defies federal <keyword term="immigration law">immigration
                 law</keyword>. [applause] And we will end welfare benefits for <immigrant status="illegal" term="those">those here illegally</immigrant>.</platform>
                 [applause]</speech>
+
             <speech speaker="MUIR">Let me just ask you this, though, because Governor Kasich was
                 talking about the families and what you do with the families that you would have to
                 send home. Can you tell the American people tonight how you would do that?</speech>
+
             <speech speaker="CRUZ">What you do is, you enforce the law. You know, under the
                 Constitution, the president has an obligation to, quote, "Take care that the laws be
                 faithfully executed." Federal <keyword term="immigration law">immigration law</keyword> provides, if someone is here illegally
@@ -283,21 +293,23 @@ David?</speech>
                 missing is the political will. And when they were deporting the <immigrant status="illegal" term="people">people</immigrant>, the <keyword term="border">border</keyword>
                 wasn't secure, so they'd come right back. <trope type="econ" subtype="jobs" attitude="ambig">Once you secure the <keyword term="border">border</keyword>, enforcing the
                 law will solve this problem and that will benefit American workers.</trope></speech>
+
             <speech speaker="MUIR">Senator Cruz, thank you. I want to bring in Senator Rubio. This
                 question is about <immigration status="illegal" term="immigration">immigration</immigration>, it is also about leadership. You're aware of the
                 criticism from many candidates on this stage tonight that you co-authored the
-                so-called Gang of Eight bill that would have created a <keyword term="path">path to citizenship</keyword> for
+                so-called Gang of Eight bill that would have created a <keyword term="path to citizenship">path to citizenship</keyword> for
                 <immigrant status="illegal" term="people">people</immigrant> here illegally. Governor Christie has said of you, as soon as you felt the
                 heat, you turned tail and run. Governor Bush has said, "I don't think we need people
                 cutting and running anymore." Did you fight for your own legislation, Senator, or
                 did you run from it?</speech>
+
             <speech speaker="RUBIO">Here's the bottom line. We can't get that legislation passed.
                 The American people will not support doing anything about <immigrant status="illegal" term="people">people</immigrant> that are in this
                 country illegally until the law is enforced first, and you prove it to them. This
                 has been abundantly clear. Every effort over the last ten years to do those
                 comprehensively has failed. And it has failed because the American people have zero
                 trust that the federal government will enforce our laws. And that's why since then,
-                I have said repeatedly, if you are serious about <keyword term="immigration reform">immigration reform</keyword>, then the key
+                I have said repeatedly, if you are serious about <keyword term="immigration law">immigration reform</keyword>, then the key
                 that unlocks the door to being able to do that is not just to pass a law that says
                 it is going to enforce the law, but to actually do it. To hire the 20,000 new <keyword term="border">border</keyword>
                 agents, to finish the <keyword term="wall">fencing</keyword> and <keyword term="wall">walls</keyword>, to put in place mandatory <keyword term="e-verify">e-verify</keyword>, to put
@@ -306,8 +318,10 @@ David?</speech>
                 reasonable, but responsible approach to people that have been here a long time, who
                 are not dangerous criminals, who pay taxes and pay fines for what they did. But
                 until then, none of that is going to be possible.</trope></speech>
+
             <speech speaker="MUIR">But I'm asking, did you fight for the legislation at the time or
                 did you run from it as you're...</speech>
+
             <speech speaker="RUBIO">Well, the legislation passed, but it has no support. In essence,
                 it couldn't pass in the House, it will never pass in the United States until we
                 secure the <keyword term="border">border</keyword>, and it is not the way we're going to do when I'm president. <platform type="secure" subtype="crime" attitude="pro">When
@@ -315,8 +329,12 @@ David?</speech>
                 immigration</immigration> is under control. And then we'll see what the American people are
                 willing to support when it comes to <immigrant status="illegal" term="people">people</immigrant> that are not criminals, who have been in
                 the this country for a long time and who otherwise would like to stay.</platform></speech>
+
             <speech speaker="MUIR">Governor Christie?</speech>
+
+
         </section>
+
          <section key="other"><speech speaker="CHRISTIE">Yeah, David, I would just like you to listen, again, everybody.
 This is the difference between being a governor who actually has to be responsible for problems and not answering a question. The question was, "Did he fight for his legislation?" [applause]
 It's abundantly clear that he didn't. It's abundantly clear that he didn't fight for the legislation.
@@ -556,7 +574,8 @@ Senator Rubio, I do want to ask you, you have said that you do not want to teleg
 And, it is true, we should not be discussing in a wide spread way the exact tactics that we're going to use because that allows terrorist to know to practice how to evade us.
 But, here's the bigger problem with all this, we're not interrogating anybody right now. Guantanamo's being emptied by this president. We should be putting people into Guantanamo, not emptying it out, and we shouldn't be releasing these killers who are rejoining the battlefield against the United States. [applause]</speech>
 <speech speaker="MUIR">Senator Rubio, thank you.
-We want to turn now to the topic of executive orders, and for that, we're going to turn back to Mary Katharine Ham. Mary Katharine?</speech> </section>  
+We want to turn now to the topic of executive orders, and for that, we're going to turn back to Mary Katharine Ham. Mary Katharine?</speech> </section> 
+
         <section key="imm">
             <speech speaker="HAM">Thanks, David. Senator Cruz, on the campaign trail you've promised
                 voters a lot, in fact if you're elected president you'd say you end Common Core
@@ -588,7 +607,7 @@ We want to turn now to the topic of executive orders, and for that, we're going 
                 adopting a simple flat tax to abolish the IRS. [applause]</speech>
         </section>
         
-         <section key="other">
+        <section key="other">
             <speech speaker="HAM">Mr. Trump, Senator Cruz is known for opposing deals, you literally
                 wrote the book on making them. Senator Cruz has mentioned that on the trail. What
                 would you say to those conservatives that are concerned that a deal maker will just
@@ -940,6 +959,7 @@ Thank you. [applause]</speech>
 <speech speaker="CRUZ">You know, every candidate running for president says they will stand up to Washington. The natural follow up question is when have you ever stood up to Washington.
 Last week we saw a powerful illustration of that. I campaigned in the state of Iowa four-square against the ethanol mandate, something everyone said was political suicide. My two leading competitors both attacked me for it. The governor of the state said vote for anyone but Cruz, and lobbyists spent millions of dollars in attack ads, but I stood and said we should have no mandates, a level playing field, and the people of Iowa put country and our children above the cronyism and corporate welfare...[bell rings]... We can turn this country around if we get back to the Constitution. And, I will always stand with the American people against the bipartisan corruption of Washington. [applause]</speech>
 <speech speaker="MUIR">Thank you. Mr. Trump.</speech> </section> 
+
         <section key="imm">
             <speech speaker="TRUMP">That's because he got Ben Carson's votes, by the way, but we
                 won't [inaudible]. Our country that we love so much doesn't win anymore. We don't
@@ -950,9 +970,11 @@ Last week we saw a powerful illustration of that. I campaigned in the state of I
                 us. China. Everyone, they're killing us on trade. If I'm elected president, we will
                 win, and we will win, and we will win. Thank you, thank you very much.
                 [applause]</speech>
+
+
         </section>
-          <section key="other">
+         <section key="other">
 <speech speaker="MUIR">Mr. Trump, thank you. Thanks to all the candidates on the stage here tonight. We thank the people of Manchester, New Hampshire for having this debate, and to everyone at home. The New Hampshire primary is Tuesday.</speech>
-</section> 
+</section>
     </body>
 </debate>

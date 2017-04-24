@@ -7,27 +7,35 @@
         <html>
             <head>
                 <link rel="stylesheet" type="text/css" href="../css/repub_debate_text.css"/>
+                <script type="text/javascript" src="debate_reading_view.js">/**/</script>
                 <title>
                     <xsl:apply-templates select="//date"/>
                 </title>
             </head>
             <body>
-                <xsl:apply-templates select="//meta"/>
+               <xsl:apply-templates select="//meta"/>
+                <div class="button"><button>Click to toggle participants' names</button></div>
                 <a href="repdebates.xhtml">Return to All Republican Debates</a>
                 <hr/>
                 <div class="container">
                     <div class="debate">
                         <xsl:apply-templates select="//body"/>
                     </div>
-                    <div class="debateMenu"><h4>Debate Options</h4>Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Morbi quis nulla augue. Vestibulum eget
-                        condimentum odio. Proin pharetra vel est eget hendrerit. Duis nec rhoncus
-                        libero. Donec auctor erat sem, vitae elementum odio accumsan vel. Vivamus
-                        sapien lorem, ornare ac massa at, maximus maximus nisl. In malesuada nisi
-                        arcu, vitae placerat turpis lobortis quis. Aliquam finibus eget purus nec
-                        suscipit. Vestibulum maximus nulla quam, gravida tempus magna convallis
-                        eget. In sagittis lacinia purus luctus elementum. Praesent vel elementum
-                        tellus. Proin a est consectetur, rutrum diam id, dapibus quam.</div>
+                    <div class="debateMenu">
+                        <h4>Debate Options</h4><hr /><p>Select which portions of the debate to view:</p><input
+                            type="radio" name="textView" value="//div[@class='debate']" />View all text<br />
+                        <input type="radio" name="textView" value="//div[@clas='debate']/div[@class='imm']" />View only
+                        immigration sections
+                        <hr />
+                        <p>Choose keywords or tropes to highlight:</p>
+                        <input type="checkbox" name="keyword" value="amnesty"/>Amnesty<br/>
+                        <input type="checkbox" name="keyword" value="asylum"/>Asylum<br/>
+                        <input type="checkbox" name="keyword" value="border"/>Border<br/>
+                        <input type="checkbox" name="keyword" value="e-verify"/>E-verify<br/>
+                        <input type="checkbox" name="keyword" value="pathToCitizenship"/>Path to citizenship<br/>
+                        <input type="checkbox" name="keyword" value="sanctuaryCity"/>Sanctuary city<br/>
+                        <input type="checkbox" name="keyword" value="visaOverstay"/>Visa overstay<br/>
+                        <input type="checkbox" name="keyword" value="tropes"/>Tropes</div>
                 </div>
             </body>
         </html>
@@ -55,9 +63,7 @@
     </xsl:template>
     <xsl:template match="trope">
         <span class="trope{@type}">
-            <strong>
                 <xsl:apply-templates/>
-            </strong>
         </span>
     </xsl:template>
     <xsl:template match="keyword[@term = 'border']">
@@ -80,6 +86,21 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+    <xsl:template match="keyword[@term = 'asylum']">
+        <span class="asylum">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'e-verify']">
+        <span class="e-verify">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'visa overstay']">
+        <span class="visa_overstay">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
     <xsl:template match="immigrant">
         <span class="immigrant">
             <xsl:apply-templates/>
@@ -99,14 +120,14 @@
                 <xsl:apply-templates select="date"/>
             </p>
         </h2>
-        <h3> Candidates </h3>
+      <div class="containerMeta"> <div class="candidates"> <h3> Candidates </h3>
         <ul>
             <xsl:apply-templates select="participants/candidate"/>
-        </ul>
-        <h3> Moderators </h3>
+        </ul></div>
+        <div class="moderators"><h3> Moderators </h3>
         <ul>
             <xsl:apply-templates select="participants/moderator"/>
-        </ul>
+        </ul></div></div>
     </xsl:template>
     <xsl:template match="candidate">
         <li>

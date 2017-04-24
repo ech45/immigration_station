@@ -8,7 +8,9 @@ function init() {
 
 function show_hide() {
     var participants = document.getElementsByClassName('containerMeta');
-    if (participants.style.display == 'flex') {
-        alert('HEY');
+    if (participants[0].style.display == 'flex') {
+        participants[0].style.display = 'none';
+    } else{
+        participants[0].style.display = 'flex';
     }
 }

@@ -75,7 +75,6 @@
     </topic>
     <topic>
         <number>3</number>
-        <name>issues</name>
         <words>
             <word>people</word>
             <word>country</word>
@@ -124,7 +123,7 @@
     </topic>
     <topic>
         <number>5</number>
-        <name>federal</name>
+        <name>social welfare</name>
         <words>
             <word>government</word>
             <word>security</word>
@@ -224,7 +223,7 @@
     </topic>
     <topic>
         <number>9</number>
-        <name>foreign_policy</name>
+        <name>military foreign policy</name>
         <words>
             <word>iran</word>
             <word>deal</word>
@@ -321,6 +320,7 @@
     </topic>
     <topic>
         <number>13</number>
+        <name>democrats</name>
         <words>
             <word>clinton</word>
             <word>secretary</word>
@@ -345,6 +345,7 @@
     </topic>
     <topic>
         <number>14</number>
+        <name>economy/taxes</name>
         <words>
             <word>tax</word>
             <word>percent</word>
@@ -393,6 +394,7 @@
     </topic>
     <topic>
         <number>16</number>
+        <name>time</name>
         <words>
             <word>years</word>
             <word>time</word>
@@ -417,6 +419,7 @@
     </topic>
     <topic>
         <number>17</number>
+        <name>gun control</name>
         <words>
             <word>gun</word>
             <word>law</word>
@@ -441,6 +444,7 @@
     </topic>
     <topic>
         <number>18</number>
+        <name>congress</name>
         <words>
             <word>bill</word>
             <word>congress</word>
@@ -489,6 +493,7 @@
     </topic>
     <topic>
         <number>20</number>
+        <name>campaign</name>
         <words>
             <word>republican</word>
             <word>campaign</word>
@@ -513,6 +518,7 @@
     </topic>
     <topic>
         <number>21</number>
+        <name>character</name>
         <words>
             <word>applause</word>
             <word>country</word>
@@ -537,6 +543,7 @@
     </topic>
     <topic>
         <number>22</number>
+        <name>work</name>
         <words>
             <word>make</word>
             <word>work</word>
@@ -561,6 +568,7 @@
     </topic>
     <topic>
         <number>23</number>
+        <name>corporate finance</name>
         <words>
             <word>wall</word>
             <word>money</word>
@@ -657,6 +665,7 @@
     </topic>
     <topic>
         <number>27</number>
+        <name>flint</name>
         <words>
             <word>support</word>
             <word>children</word>
@@ -681,6 +690,7 @@
     </topic>
     <topic>
         <number>28</number>
+        <name>climate change</name>
         <words>
             <word>change</word>
             <word>applause</word>
@@ -705,6 +715,7 @@
     </topic>
     <topic>
         <number>29</number>
+        <name>obama</name>
         <words>
             <word>president</word>
             <word>obama</word>
@@ -825,6 +836,7 @@
     </topic>
     <topic>
         <number>34</number>
+        <name>nationalism</name>
         <words>
             <word>people</word>
             <word>american</word>
@@ -849,6 +861,7 @@
     </topic>
     <topic>
         <number>35</number>
+        <name>illegal immigration</name>
         <words>
             <word>immigration</word>
             <word>people</word>
@@ -897,6 +910,7 @@
     </topic>
     <topic>
         <number>37</number>
+        <name>Reproductive/abortion rights</name>
         <words>
             <word>life</word>
             <word>rights</word>
@@ -921,6 +935,7 @@
     </topic>
     <topic>
         <number>38</number>
+        <name>obamacare</name>
         <words>
             <word>care</word>
             <word>health</word>
@@ -945,6 +960,7 @@
     </topic>
     <topic>
         <number>39</number>
+        <name>geopolitics</name>
         <words>
             <word>military</word>
             <word>policy</word>
