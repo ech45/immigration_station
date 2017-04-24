@@ -4,6 +4,10 @@ function init() {
     var buttons = document.getElementsByTagName('button');
     var button = buttons[0];
     button.addEventListener('click', show_hide, false);
+    var radios = document.querySelectorAll('input[type="radio"]');
+    for (var i = 0, length = radios.length; i < length; i++) {
+        radios[i].addEventListener('change', radio_toggle, false);
+    }
 }
 
 function show_hide() {
@@ -12,5 +16,16 @@ function show_hide() {
         participants[0].style.display = 'none';
     } else {
         participants[0].style.display = 'flex';
+    }
+}
+function radio_toggle() {
+    var non_immigration = document.getElementsByClassName('other');
+    var value = this.value;
+    for (var i = 0, length = non_immigration.length; i < length; i++) {
+        if (value == 'imm') {
+            non_immigration[i].style.display = 'none';
+        } else {
+            non_immigration[i].style.display = 'block';
+        }
     }
 }
