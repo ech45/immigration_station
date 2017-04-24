@@ -14,7 +14,6 @@ declare variable $dem_american_immigrants as element(immigrant)+ := $dem_immigra
 declare variable $dem_muslim_immigrants as element(immigrant)+ := $dem_immigrant[@term eq 'muslim immigrant'];
 declare variable $dem_american_immigrant as element(immigrant)+ := $dem_immigrant[@term eq 'american immigrant'];
 
-
 declare variable $dem_undocumented as element(immigrant)+ := $dem_immigrant[@term eq 'undocumented immigrant'];
 declare variable $dem_undocumented_child as element(immigrant)+ := $dem_immigrant[@term eq 'undocumented child'];
 declare variable $dem_undocumented_worker as element(immigrant)+ := $dem_immigrant[@term eq 'undocumented worker'];
@@ -28,8 +27,8 @@ declare variable $dem_illegals as element(immigrant)+ := $dem_immigrant[@term eq
 declare variable $dem_aliens as element(immigrant)+ := $dem_immigrant[@term eq 'aliens'];
 
 declare variable $dem_refugee as element(immigrant)+ := $dem_immigrant[@term eq 'refugee'];
-declare variable $dem_syrian_refuee as element(immigrant)+ := $dem_immigrant[@term eq 'syrian refugee'];
-declare variable $dem_Syrian_refuee as element(immigrant)+ := $dem_immigrant[@term eq 'Syrian_refugee'];
+declare variable $dem_syrian_refugee as element(immigrant)+ := $dem_immigrant[@term eq 'syrian refugee'];
+declare variable $dem_Syrian_refugee as element(immigrant)+ := $dem_immigrant[@term eq 'Syrian_refugee'];
 declare variable $dem_iraqi_refugee as element(immigrant)+ := $dem_immigrant[@term eq 'iraqi refugee'];
 declare variable $dem_middle_eastern_refugee as element(immigrant)+ := $dem_immigrant[@term eq 'Middle Eastern refugee'];
 
@@ -39,6 +38,7 @@ declare variable $dem_people as element(immigrant)+ := $dem_immigrant[@term eq '
 declare variable $dem_our_neighbors as element(immigrant)+ := $dem_immigrant[@term eq 'our_neighbors'];
 declare variable $dem_student as element(immigrant)+ := $dem_immigrant[@term eq 'student'];
 declare variable $dem_those_workers as element(immigrant)+ := $dem_immigrant[@term eq 'those workers'];
+declare variable $dem_those as element(immigrant)+ := $dem_immigrant[@term eq 'those'];
 
 
 declare variable $rep_immigrant_term as element(immigrant)+ := $rep_immigrant[@term eq 'immigrant'];
@@ -62,8 +62,8 @@ declare variable $rep_illegals as element(immigrant)+ := $rep_immigrant[@term eq
 declare variable $rep_aliens as element(immigrant)+ := $rep_immigrant[@term eq 'aliens'];
 
 declare variable $rep_refugee as element(immigrant)+ := $rep_immigrant[@term eq 'refugee'];
-declare variable $rep_syrian_refuee as element(immigrant)+ := $rep_immigrant[@term eq 'syrian refugee'];
-declare variable $rep_Syrian_refuee as element(immigrant)+ := $rep_immigrant[@term eq 'Syrian_refugee'];
+declare variable $rep_syrian_refugee as element(immigrant)+ := $rep_immigrant[@term eq 'syrian refugee'];
+declare variable $rep_Syrian_refugee as element(immigrant)+ := $rep_immigrant[@term eq 'Syrian_refugee'];
 declare variable $rep_iraqi_refugee as element(immigrant)+ := $rep_immigrant[@term eq 'iraqi refugee'];
 declare variable $rep_middle_eastern_refugee as element(immigrant)+ := $rep_immigrant[@term eq 'Middle Eastern refugee'];
 
@@ -73,7 +73,5 @@ declare variable $rep_people as element(immigrant)+ := $rep_immigrant[@term eq '
 declare variable $rep_our_neighbors as element(immigrant)+ := $rep_immigrant[@term eq 'our_neighbors'];
 declare variable $rep_student as element(immigrant)+ := $rep_immigrant[@term eq 'student'];
 declare variable $rep_those_workers as element(immigrant)+ := $rep_immigrant[@term eq 'those workers'];
-
-
-$all_immigrant
+declare variable $rep_those as element(immigrant)+ := $rep_immigrant[@term eq 'those'];
 

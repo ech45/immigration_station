@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root>
-    <party>
-        <immigrant></immigrant>
-        <undocumented></undocumented>
-        <illegal></illegal>
-        <refugee></refugee>
-        <other></other>
+    <party side='republican'>
+        <immigrant>19</immigrant>
+        <undocumented>15</undocumented>
+        <illegal>17</illegal>
+        <refugee>31</refugee>
+        <other>38</other>
     </party>
-    <party>
-        <immigrant></immigrant>
-        <undocumented></undocumented>
-        <illegal></illegal>
-        <refugee></refugee>
-        <other></other>
+    <party side='democrat'>
+        <immigrant>22</immigrant>
+        <undocumented>13</undocumented>
+        <illegal>1</illegal>
+        <refugee>19</refugee>
+        <other>5</other>
     </party>
 </root>
