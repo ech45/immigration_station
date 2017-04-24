@@ -12,7 +12,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>Stuff about immigration</title>
+                <title>Candidates' utterances</title>
             </head>
             <body>
                 <!-- find sentences with <immigration> descendants that contain the string 'immigrant' and group by speaker-->
@@ -37,7 +37,7 @@
         <xsl:variable name="speechPositionWithinDebate" as="xs:integer"
             select="count(preceding::speech)"/>
         <p>
-            <a href="{concat($readingTextURL,'#speech',$speechPositionWithinDebate)}">[source] </a>
+            <a class="text" href="{concat($readingTextURL,'#speech',$speechPositionWithinDebate)}">[source] </a>
             <xsl:apply-templates/>
         </p>
     </xsl:template>

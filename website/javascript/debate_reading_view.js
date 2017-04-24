@@ -8,9 +8,10 @@ function init() {
     for (var i = 0, length = radios.length; i < length; i++) {
         radios[i].addEventListener('change', radio_toggle, false);
     }
-    var keyword_checkboxes = document.querySelectorAll('input[type="checkbox"]');
-    console.log('in init'):
-    console.log(keyword_checkboxes);
+    var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    for (var i = 0, length = checkboxes.length; i < length; i++) {
+        checkboxes[i].addEventListener('change', checkbox_toggle, false);
+    }
 }
 
 function show_hide() {
@@ -29,6 +30,25 @@ function radio_toggle() {
             non_immigration[i].style.display = 'none';
         } else {
             non_immigration[i].style.display = 'block';
+        }
+    }
+}
+function checkbox_toggle() {
+    var spans = document.getElementsByClassName(this.value);
+    if (this.name == 'keyword') {
+        for (var i = 0, length = spans.length; i < length; i++) {
+            if (this.checked == true) {
+                spans[i].style.backgroundColor = 'yellow';
+                spans[i].style.color = 'black';
+            } else {
+                spans[i].style.backgroundColor = 'black';
+                spans[i].style.color = 'white';
+            }
+        }
+    } else {
+        for (var i = 0, length = spans.length; i < length; i++) {
+            spans[i].style.backgroundColor = 'pink';
+            spans[i].style.color = 'black';
         }
     }
 }
