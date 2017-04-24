@@ -3,15 +3,15 @@
 <debate>
     <meta>
         <loc>Detroit,MI</loc>
-        <date>3 March 2016</date>
+        <date>March 3, 2016</date>
         <participants>
-            <candidate who="CRUZ">Ted Cruz</candidate>
-            <candidate who="KASICH">John Kasich</candidate>
-            <candidate who="RUBIO">Marco Rubio</candidate>
+            <candidate who="CRUZ">Senator Ted Cruz (TX);</candidate>
+            <candidate who="KASICH">Governor John Kasich</candidate>
+            <candidate who="RUBIO">Senator Marco Rubio (FL); and</candidate>
             <candidate who="TRUMP">Donald Trump</candidate>
-            <moderator who="BAIER">Bret Baier</moderator>
-            <moderator who="KELLY">Megyn Kelly</moderator>
-            <moderator who="WALLACE">Chris Wallace</moderator>
+            <moderator who="BAIER">Bret Baier (FOX);</moderator>
+            <moderator who="KELLY">Megyn Kelly (FOX); and</moderator>
+            <moderator who="WALLACE">Chris Wallace (FOX)</moderator>
         </participants>
     </meta>
     <body>

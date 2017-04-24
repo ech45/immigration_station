@@ -173,7 +173,7 @@ They are outsourcing the entire tech division to a consulting company. They are 
             [KASICH]  Well look, I believe in <span class="immigration">immigration</span>, but it has to be controlled. The simple fact of the matter is I wouldn't be standing here. I'd be maybe running for president of Croatia if we didn't have <span class="immigration">immigration</span>.
 <span class="trope value">
                      <span class="immigration">Immigration</span> is something that brings youth and vibrance and energy to our country.</span> But we clearly have to control our <span class="keyword border">borders</span>. We can't have people just walking in. Look, we lock our doors at night in our homes. The country has to be able to lock its doors as well. So, we — I have a comprehensive plan to deal with this problem of <span class="immigration">immigration</span>.
-I would say we have to absolutely finish the wall and guard the <span class="keyword border">border</span>. And if anybody were to come in after that, they are going to have to go back. No excuses because we can't continue this problem. I think we ought to have a <span class="immigrant">guest worker</span> program, where people come in, work and go home.
+I would say we have to absolutely finish the <span class="keyword wall">wall</span> and guard the <span class="keyword border">border</span>. And if anybody were to come in after that, they are going to have to go back. No excuses because we can't continue this problem. I think we ought to have a <span class="immigrant">guest worker</span> program, where people come in, work and go home.
 And I think at the same time, for the 11 and a half million who are here, then in my view if they have not committed a crime since they've been here, they get a path to legalization. Not to citizenship. I believe that program can pass the Congress in the first 100 days.
 <span class="trope econ">But let's not lose sight of the fact that the whole key to the future of America is strong economic growth with common sense regulation, lower taxes and a balanced budget.</span>
 We can have a rising tide that lifts all the workers in America, all the people who are citizens of America, if we'll just follow the formula that works, that I used in Washington. And guess what, I've used it in Ohio to grow over 400 private sector jobs since I've been governor
@@ -195,7 +195,7 @@ The United States averages about a million new permanent <span class="immigrant"
     </p>
                <p id="speech28">
             [CRUZ]  Well, we need to redefine our legal immigration system so that it meets the needs of the American economy. Right now, we're bringing in far too many low skilled workers. What that is doing is driving down the wages of hard-working Americans. Our system isn't working. And then on top of that, we've got a system that's allowing in millions of <span class="immigrant">people</span> to be here illegally.
-And the answer to that, I've laid out a very, very detailed <span class="immigration">immigration</span> plan on my website. We're going to build a wall, triple the border patrol. We're going to end <span class="keyword sanctuary_city">sanctuary cities</span>. And let me tell you how we're going to do that.
+And the answer to that, I've laid out a very, very detailed <span class="immigration">immigration</span> plan on my website. We're going to build a <span class="keyword wall">wall</span>, triple the border patrol. We're going to end <span class="keyword sanctuary_city">sanctuary cities</span>. And let me tell you how we're going to do that.
 We're going to cut off federal taxpayer funds to any city that defies federal <span class="immigration">immigration</span> laws. [applause]
 We're going to end welfare benefits for anyone who is here illegally. And the thing to understand, Stephen, we can solve these problems. It's not that we don't know how to do it. It's that we're lacking the political will. Neither of the parties in Washington wants to do this.
 The Democrats support <span class="immigration">illegal immigration</span> because they view those <span class="immigrant">illegal immigrants</span> as potential voters and far too many of the Republicans are doing the bidding of Wall Street and the special interest and they view it as cheap labor.
@@ -1025,26 +1025,69 @@ So I just say embrace these millions of people that now for the first time ever 
             <h4>Debate Options</h4>
             <hr/>
             <p>Select which portions of the debate to view:</p>
-            <input type="radio" name="textView" value="other" checked="checked"/>View all text<br/>
-            <input type="radio" name="textView" value="imm"/>View only
-                        immigration sections
-                        <hr/>
-            <p>Choose keywords  to highlight:</p>
-            <input type="checkbox" name="keyword" value="all"/>Select all<br/>
-            <input type="checkbox" name="keyword" value="amnesty"/>Amnesty<br/>
-            <input type="checkbox" name="keyword" value="asylum"/>Asylum<br/>
-            <input type="checkbox" name="keyword" value="border"/>Border<br/>
-            <input type="checkbox" name="keyword" value="e-verify"/>E-verify<br/>
-            <input type="checkbox" name="keyword" value="pathToCitizenship"/>Path to citizenship<br/>
-            <input type="checkbox" name="keyword" value="sanctuaryCity"/>Sanctuary city<br/>
-            <input type="checkbox" name="keyword" value="visaOverstay"/>Visa overstay<br/>
+            <input type="radio"
+                   id="allText"
+                   name="textView"
+                   value="other"
+                   checked="checked"/>
+            <label for="allText">View all text</label>
+            <br/>
+            <input type="radio" id="immText" name="textView" value="imm"/>
+            <label for="immText">View only
+                        immigration sections</label>
+            <hr/>
+            <p>Select keywords to highlight:</p>
+            <input type="checkbox"
+                   id="amnestyCheck"
+                   name="keyword"
+                   value="amnesty"/>
+            <label for="amnestyCheck">Amnesty</label>
+            <br/>
+            <input type="checkbox" id="asylumCheck" name="keyword" value="asylum"/>
+            <label for="asylumCheck">Asylum</label>
+            <br/>
+            <input type="checkbox" id="borderCheck" name="keyword" value="border"/>
+            <label for="borderCheck">Border</label>
+            <br/>
+            <input type="checkbox"
+                   id="everifyCheck"
+                   name="keyword"
+                   value="e-verify"/>
+            <label for="everifyCheck">E-verify</label>
+            <br/>
+            <input type="checkbox"
+                   id="pathCheck"
+                   name="keyword"
+                   value="path_to_citizenship"/>
+            <label for="pathCheck">Path to citizenship</label>
+            <br/>
+            <input type="checkbox"
+                   id="sanctuaryCheck"
+                   name="keyword"
+                   value="sanctuary_city"/>
+            <label for="sanctuaryCheck">Sanctuary city</label>
+            <br/>
+            <input type="checkbox"
+                   id="visaCheck"
+                   name="keyword"
+                   value="visa_overstay"/>
+            <label for="visaCheck">Visa overstay</label>
+            <br/>
+            <input type="checkbox" id="wallCheck" name="keyword" value="wall"/>
+            <label for="wallCheck">Wall</label>
+            <br/>
             <p/>
             <hr/>
-                        Choose tropes to Highlight: <br/>
-            <input type="checkbox" name="keyword" value="tropeecon"/>Select all <br/>
-            <input type="checkbox" name="keyword" value="tropeecon"/>Jobs/Economy <br/>
-            <input type="checkbox" name="keyword" value="tropesecure"/>National Security/Crime <br/>
-            <input type="checkbox" name="keyword" value="tropevalues"/>American Values</div>
+                        Select tropes to Highlight: <br/>
+            <input type="checkbox" id="jobCheck" name="trope" value="econ"/>
+            <label for="jobCheck">Jobs/Economy</label>
+            <br/>
+            <input type="checkbox" id="natCheck" name="trope" value="secure"/>
+            <label for="natCheck">National Security/Crime</label>
+            <br/>
+            <input type="checkbox" id="valueCheck" name="trope" value="values"/>
+            <label for="valueCheck">American Values</label>
+         </div>
       </div>
    </body>
 </html>

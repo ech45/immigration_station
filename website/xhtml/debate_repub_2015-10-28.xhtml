@@ -202,13 +202,13 @@
             way you say that. Larry Kudlow is an example, who I have a lot of respect for, who loves
             my tax plan. We're reducing taxes to 15 percent. We're bringing corporate taxes down,
             bringing money back in, corporate inversions. We have $2.5 trillion outside of the
-            United States which we want to bring back in. As far as the wall is concerned, we're
-            going to build a wall. We're going to create a <span class="keyword border">border</span>. We're going to let people in, but
+            United States which we want to bring back in. As far as the <span class="keyword wall">wall</span> is concerned, we're
+            going to build a <span class="keyword wall">wall</span>. We're going to create a <span class="keyword border">border</span>. We're going to let people in, but
             they're going to come in legally. They're going to come in legally. And it's something
-            that can be done, and I get questioned about that. They built the great wall of China.
+            that can be done, and I get questioned about that. They built the great <span class="keyword wall">wall</span> of China.
             That's 13,000 miles. Here, we actually need 1,000 because we have natural barriers. So
-            we need 1,000. We can do a wall. We're going to have a big, fat beautiful door right in
-            the middle of the wall. We're going to have people come in, but they're coming in
+            we need 1,000. We can do a <span class="keyword wall">wall</span>. We're going to have a big, fat beautiful door right in
+            the middle of the <span class="keyword wall">wall</span>. We're going to have people come in, but they're coming in
             legally. And Mexico's going to pay for the wall because Mexico — I love the Mexican
             people; I respect the Mexican leaders — but the leaders are much sharper, smarter and
             more cunning than our leaders. And just to finish, people say, how will you get Mexico
@@ -2256,26 +2256,69 @@
             <h4>Debate Options</h4>
             <hr/>
             <p>Select which portions of the debate to view:</p>
-            <input type="radio" name="textView" value="other" checked="checked"/>View all text<br/>
-            <input type="radio" name="textView" value="imm"/>View only
-                        immigration sections
-                        <hr/>
-            <p>Choose keywords  to highlight:</p>
-            <input type="checkbox" name="keyword" value="all"/>Select all<br/>
-            <input type="checkbox" name="keyword" value="amnesty"/>Amnesty<br/>
-            <input type="checkbox" name="keyword" value="asylum"/>Asylum<br/>
-            <input type="checkbox" name="keyword" value="border"/>Border<br/>
-            <input type="checkbox" name="keyword" value="e-verify"/>E-verify<br/>
-            <input type="checkbox" name="keyword" value="pathToCitizenship"/>Path to citizenship<br/>
-            <input type="checkbox" name="keyword" value="sanctuaryCity"/>Sanctuary city<br/>
-            <input type="checkbox" name="keyword" value="visaOverstay"/>Visa overstay<br/>
+            <input type="radio"
+                   id="allText"
+                   name="textView"
+                   value="other"
+                   checked="checked"/>
+            <label for="allText">View all text</label>
+            <br/>
+            <input type="radio" id="immText" name="textView" value="imm"/>
+            <label for="immText">View only
+                        immigration sections</label>
+            <hr/>
+            <p>Select keywords to highlight:</p>
+            <input type="checkbox"
+                   id="amnestyCheck"
+                   name="keyword"
+                   value="amnesty"/>
+            <label for="amnestyCheck">Amnesty</label>
+            <br/>
+            <input type="checkbox" id="asylumCheck" name="keyword" value="asylum"/>
+            <label for="asylumCheck">Asylum</label>
+            <br/>
+            <input type="checkbox" id="borderCheck" name="keyword" value="border"/>
+            <label for="borderCheck">Border</label>
+            <br/>
+            <input type="checkbox"
+                   id="everifyCheck"
+                   name="keyword"
+                   value="e-verify"/>
+            <label for="everifyCheck">E-verify</label>
+            <br/>
+            <input type="checkbox"
+                   id="pathCheck"
+                   name="keyword"
+                   value="path_to_citizenship"/>
+            <label for="pathCheck">Path to citizenship</label>
+            <br/>
+            <input type="checkbox"
+                   id="sanctuaryCheck"
+                   name="keyword"
+                   value="sanctuary_city"/>
+            <label for="sanctuaryCheck">Sanctuary city</label>
+            <br/>
+            <input type="checkbox"
+                   id="visaCheck"
+                   name="keyword"
+                   value="visa_overstay"/>
+            <label for="visaCheck">Visa overstay</label>
+            <br/>
+            <input type="checkbox" id="wallCheck" name="keyword" value="wall"/>
+            <label for="wallCheck">Wall</label>
+            <br/>
             <p/>
             <hr/>
-                        Choose tropes to Highlight: <br/>
-            <input type="checkbox" name="keyword" value="tropeecon"/>Select all <br/>
-            <input type="checkbox" name="keyword" value="tropeecon"/>Jobs/Economy <br/>
-            <input type="checkbox" name="keyword" value="tropesecure"/>National Security/Crime <br/>
-            <input type="checkbox" name="keyword" value="tropevalues"/>American Values</div>
+                        Select tropes to Highlight: <br/>
+            <input type="checkbox" id="jobCheck" name="trope" value="econ"/>
+            <label for="jobCheck">Jobs/Economy</label>
+            <br/>
+            <input type="checkbox" id="natCheck" name="trope" value="secure"/>
+            <label for="natCheck">National Security/Crime</label>
+            <br/>
+            <input type="checkbox" id="valueCheck" name="trope" value="values"/>
+            <label for="valueCheck">American Values</label>
+         </div>
       </div>
    </body>
 </html>
