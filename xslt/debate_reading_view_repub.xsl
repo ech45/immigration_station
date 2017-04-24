@@ -21,15 +21,21 @@
                     <div class="debate">
                         <xsl:apply-templates select="//body"/>
                     </div>
-                    <div class="debateMenu"><h4>Debate Options</h4>Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Morbi quis nulla augue. Vestibulum eget
-                        condimentum odio. Proin pharetra vel est eget hendrerit. Duis nec rhoncus
-                        libero. Donec auctor erat sem, vitae elementum odio accumsan vel. Vivamus
-                        sapien lorem, ornare ac massa at, maximus maximus nisl. In malesuada nisi
-                        arcu, vitae placerat turpis lobortis quis. Aliquam finibus eget purus nec
-                        suscipit. Vestibulum maximus nulla quam, gravida tempus magna convallis
-                        eget. In sagittis lacinia purus luctus elementum. Praesent vel elementum
-                        tellus. Proin a est consectetur, rutrum diam id, dapibus quam.</div>
+                    <div class="debateMenu">
+                        <h4>Debate Options</h4><hr /><p>Select which portions of the debate to view:</p><input
+                            type="radio" name="textView" value="//div[@class='debate']" />View all text<br />
+                        <input type="radio" name="textView" value="//div[@clas='debate']/div[@class='imm']" />View only
+                        immigration sections
+                        <hr />
+                        <p>Choose keywords or tropes to highlight:</p>
+                        <input type="checkbox" name="keyword" value="amnesty"/>Amnesty<br/>
+                        <input type="checkbox" name="keyword" value="asylum"/>Asylum<br/>
+                        <input type="checkbox" name="keyword" value="border"/>Border<br/>
+                        <input type="checkbox" name="keyword" value="e-verify"/>E-verify<br/>
+                        <input type="checkbox" name="keyword" value="pathToCitizenship"/>Path to citizenship<br/>
+                        <input type="checkbox" name="keyword" value="sanctuaryCity"/>Sanctuary city<br/>
+                        <input type="checkbox" name="keyword" value="visaOverstay"/>Visa overstay<br/>
+                        <input type="checkbox" name="keyword" value="tropes"/>Tropes</div>
                 </div>
             </body>
         </html>
@@ -57,9 +63,7 @@
     </xsl:template>
     <xsl:template match="trope">
         <span class="trope{@type}">
-            <strong>
                 <xsl:apply-templates/>
-            </strong>
         </span>
     </xsl:template>
     <xsl:template match="keyword[@term = 'border']">

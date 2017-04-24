@@ -23,8 +23,21 @@
                     <div class="debate">
                         <xsl:apply-templates select="//body"/>
                     </div>
-                    <div class="debateMenu"><h4>Debate Menu</h4>Toggle these buttons to view
-                        specific portions of the debate or to elicit key terms or tropes: </div>
+                    <div class="debateMenu">
+                        <h4>Debate Options</h4><hr /><p>Select which portions of the debate to view:</p><input
+                            type="radio" name="textView" value="//div[@class='debate']" />View all text<br />
+                        <input type="radio" name="textView" value="//div[@clas='debate']/div[@class='imm']" />View only
+                        immigration sections
+                        <hr />
+                        <p>Choose keywords or tropes to highlight:</p>
+                        <input type="checkbox" name="keyword" value="amnesty"/>Amnesty<br/>
+                        <input type="checkbox" name="keyword" value="asylum"/>Asylum<br/>
+                        <input type="checkbox" name="keyword" value="border"/>Border<br/>
+                        <input type="checkbox" name="keyword" value="e-verify"/>E-verify<br/>
+                        <input type="checkbox" name="keyword" value="pathToCitizenship"/>Path to citizenship<br/>
+                        <input type="checkbox" name="keyword" value="sanctuaryCity"/>Sanctuary city<br/>
+                        <input type="checkbox" name="keyword" value="visaOverstay"/>Visa overstay<br/>
+                        <input type="checkbox" name="keyword" value="tropes"/>Tropes</div>
                 </div>
             </body>
         </html>
