@@ -13,6 +13,7 @@ declare variable $kasich as element(trope)+ := $rep_debates//speech[@speaker='KA
 declare variable $paul as element(trope)+ := $rep_debates//speech[@speaker='PAUL']//trope;
 declare variable $rubio as element(trope)+ := $rep_debates//speech[@speaker='RUBIO']//trope;
 declare variable $trump as element(trope)+ := $rep_debates//speech[@speaker='TRUMP']//trope;
+declare variable $omalley as element(trope)+ := $dem_debates//speech[@speaker='O&apos;MALLEY']//trope;
 
 declare variable $all_tropes as element(trope)+ := $all_debates//trope;
 declare variable $all_tropes_count as xs:integer := count($all_tropes);
@@ -24,6 +25,13 @@ declare variable $all_secure_tropes as element(trope)* := $all_tropes[@type eq '
 declare variable $all_value_tropes_count as xs:integer := count($all_value_tropes);
 declare variable $all_econ_tropes_count as xs:integer := count($all_econ_tropes);
 declare variable $all_secure_tropes_count as xs:integer := count($all_secure_tropes);
+
+declare variable $omalley_value_tropes_count as xs:integer := count($omalley[@type eq 'value']);
+declare variable $omalley_econ_tropes_count as xs:integer := count($omalley[@type eq 'econ']);
+declare variable $omalley_secure_tropes_count as xs:integer := count($omalley[@type eq 'secure']);
+declare variable $omalley_value_proportion as xs:decimal := $omalley_value_tropes_count div $all_value_tropes_count;
+declare variable $omalley_econ_proportion as xs:decimal := $omalley_econ_tropes_count div $all_econ_tropes_count;
+declare variable $omalley_secure_proportion as xs:decimal := $omalley_secure_tropes_count div $all_secure_tropes_count;
 
 declare variable $sanders_value_tropes_count as xs:integer := count($sanders[@type eq 'value']);
 declare variable $sanders_econ_tropes_count as xs:integer := count($sanders[@type eq 'econ']);
@@ -104,7 +112,7 @@ declare variable $trump_secure_proportion as xs:decimal := $trump_secure_tropes_
 
 declare variable $all_types as xs:string+ := distinct-values($all_tropes/@type/string());
 
-declare variable $yscale := 200;
+declare variable $yscale := 400;
 
 declare variable $dem_tropes as element(trope)+ := $dem_debates//trope;
 declare variable $dem_value_tropes as element(trope)* := $dem_tropes[@type eq 'value'];
@@ -115,7 +123,7 @@ declare variable $dem_value_tropes_count as xs:integer := count($dem_value_trope
     height="100%"
     width="100%">
     <g
-        transform="translate(20,300)">
+        transform="translate(40,500)">
         {
             for $type at $pos in $all_types
             let $xPos as xs:integer := 200 * $pos
@@ -287,6 +295,20 @@ declare variable $dem_value_tropes_count as xs:integer := count($dem_value_trope
             y2="-{$yscale * $trump_secure_proportion}"
             stroke="red"
             stroke-width="2"/>
+                     <line
+            x1="200"
+            y1="-{$yscale * $omalley_value_proportion}"
+            x2="400"
+            y2="-{$yscale * $omalley_econ_proportion}"
+            stroke="blue"
+            stroke-width="2"/>
+            <line
+            x1="400"
+            y1="-{$yscale * $omalley_econ_proportion}"
+            x2="600"
+            y2="-{$yscale * $omalley_secure_proportion}"
+            stroke="blue"
+            stroke-width="2"/>
               <text
             x="165"
             y="-{$yscale * 1}">100</text>
@@ -305,9 +327,6 @@ declare variable $dem_value_tropes_count as xs:integer := count($dem_value_trope
         </g>
 
 </svg>
-
-
-
 
 
 
