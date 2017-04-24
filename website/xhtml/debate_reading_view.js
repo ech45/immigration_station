@@ -19,6 +19,13 @@ function show_hide() {
     }
 }
 function radio_toggle() {
-    var non_immigrantion = document.getElementsByClassName('other');
-    console.log(this.value);
+    var non_immigration = document.getElementsByClassName('other');
+    var value = this.value;
+    for (var i = 0, length = non_immigration.length; i < length; i++) {
+        if (value == 'imm') {
+            non_immigration[i].style.display = 'none';
+        } else {
+            non_immigration[i].style.display = 'block';
+        }
+    }
 }
