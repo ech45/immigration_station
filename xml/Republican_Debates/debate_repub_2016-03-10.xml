@@ -3,15 +3,15 @@
 <debate>
     <meta>
         <loc>Miami, FL</loc>
-        <date>10 March 2016</date>
+        <date>March 10, 2016</date>
         <participants>
-<candidate who="CRUZ">Ted Cruz</candidate>
-            <candidate who="KASICH">John Kasich</candidate>
-            <candidate who="RUBIO">Marco Rubio</candidate>
-            <candidate who="TRUMP">Donald Trump;</candidate>
-<moderator who="TAPPER">Jake Tapper</moderator>
-            <moderator who="BASH">Dana Bash</moderator>
-            <moderator who="HEWITT">Hugh Hewitt</moderator>
+<candidate who="CRUZ">Senator Ted Cruz (TX);</candidate>
+            <candidate who="KASICH">Governor John Kasich (OH);</candidate>
+            <candidate who="RUBIO">Senator Marco Rubio (FL); and</candidate>
+            <candidate who="TRUMP">Donald Trump</candidate>
+<moderator who="TAPPER">Jake Tapper (CNN);</moderator>
+            <moderator who="BASH">Dana Bash (CNN);</moderator>
+            <moderator who="HEWITT">Hugh Hewitt; and</moderator>
             <moderator who="DINAN">Stephen Dinan</moderator>
 </participants>
     </meta>
