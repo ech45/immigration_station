@@ -217,7 +217,7 @@
                     <xsl:sort select="@speaker"/>
                     <!-- keep only speeches by candidates, not those by modersators -->
                     <xsl:if test="@speaker = //meta/participants/candidate/@who">
-                        <h2>
+                       <div id="{@speaker}"> <h2>
                             <xsl:value-of select="@speaker"/>
                         </h2>
                        
@@ -253,7 +253,9 @@
                                 </xsl:if>
                             </xsl:for-each>
                         </table>
+                       </div>
                     </xsl:if>
+                
                 </xsl:for-each-group>
             </body>
         </html>
