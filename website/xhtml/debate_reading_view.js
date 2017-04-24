@@ -4,6 +4,10 @@ function init() {
     var buttons = document.getElementsByTagName('button');
     var button = buttons[0];
     button.addEventListener('click', show_hide, false);
+    var radios = document.querySelectorAll('input[type="radio"]');
+    for (var i = 0, length = radios.length; i < length; i++) {
+        radios[i].addEventListener('change', radio_toggle, false);
+    }
 }
 
 function show_hide() {
@@ -13,4 +17,7 @@ function show_hide() {
     } else {
         participants[0].style.display = 'flex';
     }
+}
+function radio_toggle() {
+    console.log('inside radio_toggle()');
 }
