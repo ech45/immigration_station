@@ -98,22 +98,21 @@ a:link{
     text-decoration: none;
     font-size: 75%;
 }
-a:visited{
-    color: white;
-    text-decoration: none;
-}
 
 a:hover{
     color: blue;
     font-size: 75%;
 }
-
-.candidate {
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+.candidate{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-li {
+li{
     display: inline;
 }
 div.container{
@@ -123,33 +122,36 @@ div.container{
     bottom: 0;
     height: calc(100vh + 50px);
 }
-div.debate {
-    border-left: 2px solid yellow; 
+div.debate{
+    border-left: 2px solid yellow;
     padding-left: 1em;
     overflow-y: auto;
     flex: 1 100%;
     background-color: white;
 }
-div.debateMenu {
+div.debateMenu{
     padding-right: 1em;
     flex: 1 200px;
 }
-div.candidate {
-    text-align:center;
+div.candidate{
+    text-align: center;
 }
-a:link div.debate {color:blue;
-    
+a:link div.debate{
+    color: blue;
+
 }
-p.speech {
+p.speech{
     text-align: left;
 }
-div.debate a:link { 
-color: blue;
-font-size:100%;}
-div.explication { 
-text-align: center; 
-color: white; 
-font-size: 210%;
-margin: 1.5%;
-background-color: blue;}
-
+div.debate a:link{
+    color: blue;
+    font-size: 100%;
+}
+div.explication{
+    text-align: center;
+    color: white;
+    font-size: 110%;
+    margin: 1.5%;
+    background: rgba(17, 23, 87, .85);
+    ;
+}
