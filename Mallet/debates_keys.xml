@@ -123,6 +123,7 @@
     </topic>
     <topic>
         <number>5</number>
+<<<<<<< Updated upstream
         <name>social welfare</name>
         <words>
             <word>government</word>
@@ -145,6 +146,30 @@
             <word>stage</word>
             <word>age</word>
         </words>
+=======
+        <name>federal</name>
+        <words>
+         <word>government</word>
+         <word>security</word>
+         <word>social</word>
+         <word>federal</word>
+         <word>money</word>
+         <word>don</word>
+         <word>trust</word>
+         <word>program</word>
+         <word>national</word>
+         <word>save</word>
+         <word>expand</word>
+         <word>year</word>
+         <word>benefits</word>
+         <word>programs</word>
+         <word>medicare</word>
+         <word>cut</word>
+         <word>fix</word>
+         <word>stage</word>
+         <word>age</word>
+      </words>
+>>>>>>> Stashed changes
     </topic>
     <topic>
         <number>6</number>
@@ -248,6 +273,7 @@
     </topic>
     <topic>
         <number>10</number>
+        <name>corporations</name>
         <words>
             <word>big</word>
             <word>power</word>
@@ -272,6 +298,7 @@
     </topic>
     <topic>
         <number>11</number>
+        <name>drugs</name>
         <words>
             <word>put</word>
             <word>people</word>
@@ -320,6 +347,7 @@
     </topic>
     <topic>
         <number>13</number>
+<<<<<<< Updated upstream
         <name>democrats</name>
         <words>
             <word>clinton</word>
@@ -367,6 +395,55 @@
             <word>wages</word>
             <word>create</word>
         </words>
+=======
+        <name>Clinton</name>
+        <words>
+         <word>clinton</word>
+         <word>secretary</word>
+         <word>hillary</word>
+         <word>record</word>
+         <word>mentioned</word>
+         <word>bernie</word>
+         <word>past</word>
+         <word>bit</word>
+         <word>judgment</word>
+         <word>beat</word>
+         <word>debates</word>
+         <word>mrs</word>
+         <word>track</word>
+         <word>benghazi</word>
+         <word>talking</word>
+         <word>shows</word>
+         <word>investigation</word>
+         <word>qualified</word>
+         <word>post</word>
+      </words>
+    </topic>
+    <topic>
+        <number>14</number>
+        <name>wages</name>
+        <words>
+         <word>tax</word>
+         <word>percent</word>
+         <word>jobs</word>
+         <word>pay</word>
+         <word>plan</word>
+         <word>taxes</word>
+         <word>income</word>
+         <word>raise</word>
+         <word>wage</word>
+         <word>rate</word>
+         <word>minimum</word>
+         <word>trillion</word>
+         <word>make</word>
+         <word>paying</word>
+         <word>business</word>
+         <word>fair</word>
+         <word>corporate</word>
+         <word>wages</word>
+         <word>create</word>
+      </words>
+>>>>>>> Stashed changes
     </topic>
     <topic>
         <number>15</number>
@@ -421,6 +498,7 @@
         <number>17</number>
         <name>gun control</name>
         <words>
+<<<<<<< Updated upstream
             <word>gun</word>
             <word>law</word>
             <word>guns</word>
@@ -466,9 +544,57 @@
             <word>needed</word>
             <word>record</word>
         </words>
+=======
+         <word>gun</word>
+         <word>law</word>
+         <word>guns</word>
+         <word>enforcement</word>
+         <word>held</word>
+         <word>information</word>
+         <word>terrorists</word>
+         <word>violence</word>
+         <word>safety</word>
+         <word>responsible</word>
+         <word>intelligence</word>
+         <word>san</word>
+         <word>killed</word>
+         <word>background</word>
+         <word>control</word>
+         <word>fbi</word>
+         <word>voted</word>
+         <word>bernardino</word>
+         <word>act</word>
+      </words>
+    </topic>
+    <topic>
+        <number>18</number>
+        <name>law-making</name>
+        <words>
+         <word>bill</word>
+         <word>congress</word>
+         <word>senate</word>
+         <word>vote</word>
+         <word>house</word>
+         <word>supported</word>
+         <word>voted</word>
+         <word>veterans</word>
+         <word>legislation</word>
+         <word>republicans</word>
+         <word>pass</word>
+         <word>wanted</word>
+         <word>committee</word>
+         <word>history</word>
+         <word>wasn</word>
+         <word>close</word>
+         <word>votes</word>
+         <word>needed</word>
+         <word>record</word>
+      </words>
+>>>>>>> Stashed changes
     </topic>
     <topic>
         <number>19</number>
+        <name>economic growth</name>
         <words>
             <word>state</word>
             <word>washington</word>
@@ -543,6 +669,7 @@
     </topic>
     <topic>
         <number>22</number>
+<<<<<<< Updated upstream
         <name>work</name>
         <words>
             <word>make</word>
@@ -590,6 +717,55 @@
             <word>industry</word>
             <word>speech</word>
         </words>
+=======
+        <name>working America</name>
+        <words>
+         <word>make</word>
+         <word>work</word>
+         <word>women</word>
+         <word>good</word>
+         <word>hard</word>
+         <word>making</word>
+         <word>clear</word>
+         <word>working</word>
+         <word>worked</word>
+         <word>support</word>
+         <word>americans</word>
+         <word>important</word>
+         <word>men</word>
+         <word>build</word>
+         <word>putting</word>
+         <word>face</word>
+         <word>progressive</word>
+         <word>decisions</word>
+         <word>specific</word>
+      </words>
+    </topic>
+    <topic>
+        <number>23</number>
+        <name>Wall Street</name>
+        <words>
+         <word>wall</word>
+         <word>money</word>
+         <word>street</word>
+         <word>applause</word>
+         <word>dollars</word>
+         <word>million</word>
+         <word>spending</word>
+         <word>year</word>
+         <word>fact</word>
+         <word>raised</word>
+         <word>reason</word>
+         <word>huge</word>
+         <word>interests</word>
+         <word>special</word>
+         <word>point</word>
+         <word>billion</word>
+         <word>difference</word>
+         <word>industry</word>
+         <word>speech</word>
+      </words>
+>>>>>>> Stashed changes
     </topic>
     <topic>
         <number>24</number>
@@ -665,6 +841,7 @@
     </topic>
     <topic>
         <number>27</number>
+<<<<<<< Updated upstream
         <name>flint</name>
         <words>
             <word>support</word>
@@ -737,6 +914,80 @@
             <word>responsibility</word>
             <word>red</word>
         </words>
+=======
+        <name>Flint crisis</name>
+        <words>
+         <word>support</word>
+         <word>children</word>
+         <word>part</word>
+         <word>including</word>
+         <word>single</word>
+         <word>agree</word>
+         <word>talked</word>
+         <word>told</word>
+         <word>flint</word>
+         <word>absolutely</word>
+         <word>lead</word>
+         <word>water</word>
+         <word>follow</word>
+         <word>crisis</word>
+         <word>happening</word>
+         <word>provide</word>
+         <word>case</word>
+         <word>michigan</word>
+         <word>set</word>
+      </words>
+    </topic>
+    <topic>
+        <number>28</number>
+        <name>energy</name>
+        <words>
+         <word>change</word>
+         <word>applause</word>
+         <word>move</word>
+         <word>forward</word>
+         <word>state</word>
+         <word>energy</word>
+         <word>climate</word>
+         <word>approach</word>
+         <word>end</word>
+         <word>oil</word>
+         <word>clean</word>
+         <word>moving</word>
+         <word>things</word>
+         <word>order</word>
+         <word>agenda</word>
+         <word>future</word>
+         <word>industry</word>
+         <word>planet</word>
+         <word>global</word>
+      </words>
+    </topic>
+    <topic>
+        <number>29</number>
+        <name>election</name>
+        <words>
+         <word>president</word>
+         <word>obama</word>
+         <word>barack</word>
+         <word>elected</word>
+         <word>day</word>
+         <word>office</word>
+         <word>made</word>
+         <word>administration</word>
+         <word>executive</word>
+         <word>husband</word>
+         <word>fact</word>
+         <word>running</word>
+         <word>action</word>
+         <word>authority</word>
+         <word>couldn</word>
+         <word>actions</word>
+         <word>focused</word>
+         <word>responsibility</word>
+         <word>red</word>
+      </words>
+>>>>>>> Stashed changes
     </topic>
     <topic>
         <number>30</number>
@@ -788,6 +1039,7 @@
     </topic>
     <topic>
         <number>32</number>
+        <name>police brutality</name>
         <words>
             <word>young</word>
             <word>kids</word>
@@ -838,6 +1090,7 @@
         <number>34</number>
         <name>nationalism</name>
         <words>
+<<<<<<< Updated upstream
             <word>people</word>
             <word>american</word>
             <word>america</word>
@@ -883,6 +1136,53 @@
             <word>country</word>
             <word>laws</word>
         </words>
+=======
+         <word>people</word>
+         <word>american</word>
+         <word>america</word>
+         <word>americans</word>
+         <word>country</word>
+         <word>make</word>
+         <word>live</word>
+         <word>protect</word>
+         <word>families</word>
+         <word>values</word>
+         <word>line</word>
+         <word>understand</word>
+         <word>bottom</word>
+         <word>promise</word>
+         <word>born</word>
+         <word>parents</word>
+         <word>elect</word>
+         <word>dream</word>
+         <word>allowed</word>
+      </words>
+    </topic>
+    <topic>
+        <number>35</number>
+        <name>laws</name>
+        <words>
+         <word>immigration</word>
+         <word>people</word>
+         <word>border</word>
+         <word>coming</word>
+         <word>illegal</word>
+         <word>reform</word>
+         <word>million</word>
+         <word>citizenship</word>
+         <word>amnesty</word>
+         <word>immigrants</word>
+         <word>issue</word>
+         <word>legal</word>
+         <word>path</word>
+         <word>comprehensive</word>
+         <word>system</word>
+         <word>control</word>
+         <word>support</word>
+         <word>country</word>
+         <word>laws</word>
+      </words>
+>>>>>>> Stashed changes
     </topic>
     <topic>
         <number>36</number>
@@ -910,6 +1210,7 @@
     </topic>
     <topic>
         <number>37</number>
+<<<<<<< Updated upstream
         <name>Reproductive/abortion rights</name>
         <words>
             <word>life</word>
@@ -982,5 +1283,79 @@
             <word>fly</word>
             <word>judgment</word>
         </words>
+=======
+        <name>women's rights</name>
+        <words>
+         <word>life</word>
+         <word>rights</word>
+         <word>child</word>
+         <word>planned</word>
+         <word>parenthood</word>
+         <word>woman</word>
+         <word>children</word>
+         <word>decision</word>
+         <word>pro</word>
+         <word>funding</word>
+         <word>favor</word>
+         <word>common</word>
+         <word>choice</word>
+         <word>entire</word>
+         <word>liberty</word>
+         <word>man</word>
+         <word>human</word>
+         <word>marriage</word>
+         <word>law</word>
+      </words>
+    </topic>
+    <topic>
+        <number>38</number>
+        <name>health care</name>
+        <words>
+         <word>care</word>
+         <word>health</word>
+         <word>college</word>
+         <word>free</word>
+         <word>debt</word>
+         <word>education</word>
+         <word>public</word>
+         <word>insurance</word>
+         <word>act</word>
+         <word>obamacare</word>
+         <word>affordable</word>
+         <word>cost</word>
+         <word>system</word>
+         <word>high</word>
+         <word>student</word>
+         <word>tuition</word>
+         <word>private</word>
+         <word>single</word>
+         <word>program</word>
+      </words>
+    </topic>
+    <topic>
+        <number>39</number>
+        <name>military</name>
+        <words>
+         <word>military</word>
+         <word>policy</word>
+         <word>chief</word>
+         <word>foreign</word>
+         <word>commander</word>
+         <word>force</word>
+         <word>russia</word>
+         <word>safe</word>
+         <word>air</word>
+         <word>putin</word>
+         <word>enemies</word>
+         <word>defense</word>
+         <word>administration</word>
+         <word>focus</word>
+         <word>political</word>
+         <word>attacks</word>
+         <word>prepared</word>
+         <word>fly</word>
+         <word>judgment</word>
+      </words>
+>>>>>>> Stashed changes
     </topic>
 </topics>
