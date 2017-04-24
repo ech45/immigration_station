@@ -87,8 +87,6 @@ declare variable $dem_e-verify as element(keyword)+ := $all_dem_keywords[@term e
 declare variable $dem_sanctuary_city as  element(keyword)+ := $all_dem_keywords[@term eq 'sanctuary city'];
 declare variable $dem_visa_overstay as  element(keyword)+ := $all_dem_keywords[@term eq 'visa overstay'];
 
-sum(count($dem_asylum))
-
 
 
 

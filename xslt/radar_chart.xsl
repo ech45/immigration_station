@@ -43,7 +43,7 @@
     <xsl:template match="/">
         <svg width="{$radius * $scaleFactor + $xShift}" height="{$radius * $scaleFactor}"
             viewBox="-{$radius} -{$radius} {2 * $radius} {2 * $radius}">
-            <g transform="translate(-{$xShift div $scaleFactor},0)">
+            <g transform="translate(-{$xShift div $scaleFactor},0">
                 <!-- perimeter -->
                 <circle r="{$radius}" cx="0" cy="0" stroke="gray" stroke-width="{1 div $scaleFactor}"
                     fill-opacity="0"/>
