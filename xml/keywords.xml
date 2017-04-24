@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <party side='republican'>
+        <immigration>28</immigration>
+        <border>107</border>
+        <pathway_to_citizenship>15</pathway_to_citizenship>
+    <wall>48</wall>
+    <amnesty>80</amnesty>
+        <other>32</other>
+    </party>
+    <party side='democrat'>
+        <immigration>49</immigration>
+        <border>1</border>
+        <pathway_to_citizenship>10</pathway_to_citizenship>
+        <wall>10</wall>
+        <amnesty>0</amnesty>
+        <other>1</other>
+    </party>
+</root>

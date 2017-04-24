@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg
+  SYSTEM "about:legacy=compat">
+<svg xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:math="http://www.w3.org/2005/xpath-functions/math"
+     xmlns:ech="http://www.immigration.obdurodon.org"
+     width="700"
+     height="500"
+     viewBox="-100 -100 200 200">
+   <g transform="translate(-40,0)">
+      <circle r="100"
+              cx="0"
+              cy="0"
+              stroke="gray"
+              stroke-width="0.2"
+              fill-opacity="0"/>
