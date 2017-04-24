@@ -10,7 +10,7 @@ function show_hide() {
     var participants = document.getElementsByClassName('containerMeta');
     if (participants[0].style.display == 'flex') {
         participants[0].style.display = 'none';
-    } else{
+    } else {
         participants[0].style.display = 'flex';
     }
 }
