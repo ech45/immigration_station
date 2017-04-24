@@ -29,7 +29,7 @@
                         <input type="radio" name="textView" value="//div[@clas='debate']/div[@class='imm']" />View only
                         immigration sections
                         <hr />
-                        <p>Choose keywords or tropes to highlight:</p>
+                        <p>Choose keywords  to highlight:</p>
                         <input type="checkbox" name="keyword" value="amnesty"/>Amnesty<br/>
                         <input type="checkbox" name="keyword" value="asylum"/>Asylum<br/>
                         <input type="checkbox" name="keyword" value="border"/>Border<br/>
@@ -37,7 +37,13 @@
                         <input type="checkbox" name="keyword" value="pathToCitizenship"/>Path to citizenship<br/>
                         <input type="checkbox" name="keyword" value="sanctuaryCity"/>Sanctuary city<br/>
                         <input type="checkbox" name="keyword" value="visaOverstay"/>Visa overstay<br/>
-                        <input type="checkbox" name="keyword" value="tropes"/>Tropes</div>
+                        <p/>
+                        <hr/>
+                        Choose tropes to Highlight: <br/> 
+                        <input type="checkbox" name="keyword" value="tropeecon"/>Jobs/Economy <br/>
+                        <input type="checkbox" name="keyword" value="tropesecure"/>National Security/Crime <br/>
+                        <input type="checkbox" name="keyword" value="tropes"/>Jobs/Economy <br/>
+                        <input type="checkbox" name="keyword" value="tropevalues"/>American Values</div>
                 </div>
             </body>
         </html>
@@ -59,7 +65,7 @@
 
         <xsl:variable name="speechPositionWithinDebate" as="xs:integer"
             select="count(preceding::speech)"/>
-        <p id="{concat($readingTextURL, 'speech' , $speechPositionWithinDebate)}">
+        <p id="{concat('speech' , $speechPositionWithinDebate)}">
                 [<xsl:apply-templates select="@speaker"/>] <xsl:apply-templates/>
         </p>
     </xsl:template>
