@@ -123,7 +123,7 @@
             'shes',
             'should',
             'shouldnt',
-            'so',
+            'so', 'immigrant', 'immgration', 'immigrants', 'refugee', 'refugees', 
             'some',
             'such',
             'than',
