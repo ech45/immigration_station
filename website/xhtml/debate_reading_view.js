@@ -19,5 +19,6 @@ function show_hide() {
     }
 }
 function radio_toggle() {
-    console.log('inside radio_toggle()');
+    var non_immigrantion = document.getElementsByClassName('other');
+    console.log(this.value);
 }
