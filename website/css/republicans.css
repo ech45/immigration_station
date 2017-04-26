@@ -97,6 +97,7 @@ a:link{
     color: white;
     text-decoration: none;
     font-size: 75%;
+    cursor: pointer;
 }
 
 a:hover{
@@ -115,10 +116,11 @@ a:visited{
 li{
     display: inline;
 }
-div.container{
+div.containerTwo{
     background: rgba(0, 0, 0, .70);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: nowrap;
     bottom: 0;
     height: calc(100vh + 50px);
 }
@@ -129,9 +131,11 @@ div.debate{
     flex: 1 100%;
     background-color: white;
 }
-div.debateMenu{
+div.photos{
     padding-right: 1em;
     flex: 1 200px;
+    overflow-x: scroll;
+    height: 250px;
 }
 div.candidate{
     text-align: center;
