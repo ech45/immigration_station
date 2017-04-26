@@ -25,26 +25,25 @@
                     </div>
                     <div class="debateMenu">
                         <h4>Debate Options</h4><hr /><p>Select which portions of the debate to view:</p><input
-                            type="radio" name="textView" value="other" checked="checked"/>View all text<br />
-                        <input type="radio" name="textView" value="imm" />View only
-                        immigration sections
+                            type="radio" id="allText" name="textView" value="other" checked="checked"/><label for="allText">View all text</label><br />
+                        <input type="radio" id="immText" name="textView" value="imm" /><label for="immText">View only
+                            immigration sections</label>
                         <hr />
-                        <p>Choose keywords  to highlight:</p>
-                        <input type="checkbox" name="keyword" value="all" />Select all<br />
-                        <input type="checkbox" name="keyword" value="amnesty"/>Amnesty<br/>
-                        <input type="checkbox" name="keyword" value="asylum"/>Asylum<br/>
-                        <input type="checkbox" name="keyword" value="border"/>Border<br/>
-                        <input type="checkbox" name="keyword" value="e-verify"/>E-verify<br/>
-                        <input type="checkbox" name="keyword" value="pathToCitizenship"/>Path to citizenship<br/>
-                        <input type="checkbox" name="keyword" value="sanctuaryCity"/>Sanctuary city<br/>
-                        <input type="checkbox" name="keyword" value="visaOverstay"/>Visa overstay<br/>
+                        <p>Select keywords to highlight:</p>
+                        <input type="checkbox" id="amnestyCheck" name="keyword" value="amnesty"/><label for="amnestyCheck">Amnesty</label><br/>
+                        <input type="checkbox" id="asylumCheck" name="keyword" value="asylum"/><label for="asylumCheck">Asylum</label><br/>
+                        <input type="checkbox" id="borderCheck" name="keyword" value="border"/><label for="borderCheck">Border</label><br/>
+                        <input type="checkbox" id="everifyCheck" name="keyword" value="e-verify"/><label for="everifyCheck">E-verify</label><br/>
+                        <input type="checkbox" id="pathCheck" name="keyword" value="path_to_citizenship"/><label for="pathCheck">Path to citizenship</label><br/>
+                        <input type="checkbox" id="sanctuaryCheck" name="keyword" value="sanctuary_city"/><label for="sanctuaryCheck">Sanctuary city</label><br/>
+                        <input type="checkbox" id="visaCheck" name="keyword" value="visa_overstay"/><label for="visaCheck">Visa overstay</label><br/>
+                        <input type="checkbox" id="wallCheck" name="keyword" value="wall"/><label for="wallCheck">Wall</label><br/>
                         <p/>
                         <hr/>
-                        Choose tropes to Highlight: <br/> 
-                        <input type="checkbox" name="keyword" value="tropeecon" />Select all <br />
-                        <input type="checkbox" name="keyword" value="tropeecon"/>Jobs/Economy <br/>
-                        <input type="checkbox" name="keyword" value="tropesecure"/>National Security/Crime <br/>
-                        <input type="checkbox" name="keyword" value="tropevalues"/>American Values</div>
+                        Select tropes to Highlight: <br/> 
+                        <input type="checkbox" id="jobCheck" name="trope" value="econ"/><label for="jobCheck">Jobs/Economy</label> <br/>
+                        <input type="checkbox" id="natCheck" name="trope" value="secure"/><label for="natCheck">National Security/Crime</label> <br/>
+                        <input type="checkbox" id="valueCheck" name="trope" value="values"/><label for="valueCheck">American Values</label></div>
                 </div>
             </body>
         </html>
@@ -53,9 +52,9 @@
         <xsl:apply-templates select="section"/>
     </xsl:template>
     <xsl:template match="section">
-
-
-
+        
+        
+        
         <div class="{@key}">
             <xsl:apply-templates select="speech"/>
             <hr style="margin-bottom: 50px; margin-top: 50px;"/>
@@ -64,16 +63,16 @@
     <xsl:template match="speech">
         <xsl:variable name="readingTextURL" as="xs:string"
             select="replace(tokenize(base-uri(.), '/')[last()], 'xml', 'xhtml')"/>
-
+        
         <xsl:variable name="speechPositionWithinDebate" as="xs:integer"
             select="count(preceding::speech)"/>
         <p id="{concat('speech' , $speechPositionWithinDebate)}">
-                [<xsl:apply-templates select="@speaker"/>] <xsl:apply-templates/>
+            [<xsl:apply-templates select="@speaker"/>] <xsl:apply-templates/>
         </p>
     </xsl:template>
     <xsl:template match="trope">
         <span class="trope {@type}">
-                <xsl:apply-templates/>
+            <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="platform">
@@ -106,6 +105,21 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+    <xsl:template match="keyword[@term = 'wall']">
+        <span class="keyword wall">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'asylum']">
+        <span class="keyword asylum">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'visa overstay']">
+        <span class="keyword visa_overstay">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
     <xsl:template match="immigrant">
         <span class="immigrant">
             <xsl:apply-templates/>
@@ -118,8 +132,8 @@
     </xsl:template>
     <xsl:template match="meta">
         <h2>
-                <xsl:apply-templates select="loc"/><br/>
-                <xsl:apply-templates select="date"/>
+            <xsl:apply-templates select="loc"/><br/>
+            <xsl:apply-templates select="date"/>
         </h2>
         <div class="containerMeta">
             <div class="candidates">
