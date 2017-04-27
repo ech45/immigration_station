@@ -30,6 +30,8 @@
                             immigration sections</label>
                         <hr />
                         <p>Select keywords to highlight:</p>
+                        <input type="checkbox" id="immigrationCheck" name="keyword" value="immigrant"/><label for="Immigration">Immigration</label><br/>
+                        <input type="checkbox" id="immigrantCheck" name="keyword" value="immigrant"/><label for="immigrantCheck">Immigrant</label><br/>
                         <input type="checkbox" id="amnestyCheck" name="keyword" value="amnesty"/><label for="amnestyCheck">Amnesty</label><br/>
                         <input type="checkbox" id="asylumCheck" name="keyword" value="asylum"/><label for="asylumCheck">Asylum</label><br/>
                         <input type="checkbox" id="borderCheck" name="keyword" value="border"/><label for="borderCheck">Border</label><br/>
