@@ -120,11 +120,10 @@ div.container{
 }
 div.debateMenu{
     flex: 0 1 100%;
-    padding-left: 20px;
-    border-left: 1px solid white;
     background: rgba(17, 23, 87, .85);
     color: white;
     overflow-y: auto;
+    bottom: 300px;
 }
 div.containerTwo{
     background: rgba(0, 0, 0, .70);
@@ -134,6 +133,7 @@ div.containerTwo{
     height: calc(100vh + 50px);
     width: 85%;
 margin: auto;
+margin-right: 30px;
 }
 div.debate{
     padding-left: 1em;
@@ -171,4 +171,7 @@ div.explication{
     margin: 1.5%;
     background: rgba(17, 23, 87, .85);
     ;
+}
+h4{
+    text-align: center;
 }
