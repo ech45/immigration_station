@@ -12,9 +12,9 @@ body{
 .margin{
     text-align: center;
     color: white;
-    font-size: 150%;
+    font-size: 130%;
     background: rgba(17, 23, 87, .85);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .debates{
     color: blue;
@@ -25,7 +25,6 @@ body{
     margin-right: 15%;
 }
 .menu{
-    margin-bottom: 50px;
     padding-top: 0;
     list-style-type: none;
     background-color: #991817;
@@ -115,40 +114,56 @@ a:visited{
 li{
     display: inline;
 }
+div.container{
+    display: flex;
+    flex-direction: row;
+}
+div.debateMenu{
+    flex: 0 1 100%;
+    padding-left: 20px;
+    border-left: 1px solid white;
+    background: rgba(17, 23, 87, .85);
+    color: white;
+    overflow-y: auto;
+}
 div.containerTwo{
     background: rgba(0, 0, 0, .70);
     display: flex;
     flex-direction: column;
     bottom: 0;
     height: calc(100vh + 50px);
+    width: 85%;
+margin: auto;
 }
 div.debate{
-    border-left: 2px solid yellow;
     padding-left: 1em;
     overflow-y: auto;
     flex: 1 100%;
-    background-color: white;
+    color: white;
+    background: rgba(153, 24, 23, .70);
 }
 div.photos{
     padding-right: 1em;
-    flex: 0 1 50%;
+    flex: 0 1 280px;
     overflow-x: scroll;
     white-space: nowrap;
 }
 div.candidate{
     text-align: center;
-}
-a:link div.debate{
-    color: blue;
-
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 p.speech{
     text-align: left;
 }
 div.debate a:link{
-    color: blue;
-    font-size: 100%;
+    color: white;
+    font-size: 110%;
 }
+div.debate a:hover{
+    color: blue;
+}
+
 div.explication{
     text-align: center;
     color: white;
