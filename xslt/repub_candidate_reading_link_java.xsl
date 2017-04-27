@@ -37,7 +37,7 @@
         <xsl:variable name="speechPositionWithinDebate" as="xs:integer"
             select="count(preceding::speech)"/>
         <p>
-            <a class="text" href="{concat($readingTextURL,'#speech',$speechPositionWithinDebate)}">[source] </a>
+            <a id="{concat('speech', $speechPositionWithinDebate)}" href="{concat($readingTextURL,'#speech',$speechPositionWithinDebate)}">[source] </a>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
