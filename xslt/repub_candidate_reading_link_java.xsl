@@ -36,7 +36,7 @@
             select="replace(tokenize(base-uri(.), '/')[last()], 'xml', 'xhtml')"/>
         <xsl:variable name="speechPositionWithinDebate" as="xs:integer"
             select="count(preceding::speech)"/>
-        <p>
+        <p id="{@speaker}{count(preceding::speech)}">
             <a id="{concat('speech', $speechPositionWithinDebate)}" href="{concat($readingTextURL,'#speech',$speechPositionWithinDebate)}">[source] </a>
             <xsl:apply-templates/>
         </p>
