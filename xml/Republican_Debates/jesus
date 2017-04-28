@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  SYSTEM "about:legacy=compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Stuff about immigration</title>
+      <style type="text/css">
+                    table,
+                    tr,
+                    th,
+                    td{
+                        border-collapse: collapse;
+                        border: 1px solid black;
+                    }
+                    th,
+                    td{
+                        padding: 2px;
+                    }
+                    td:nth-child(2){
+                        text-align: right;
+                    }</style>
+   </head>
+   <body>
+      <div id="BUSH">
+         <h2>BUSH</h2>
+         <table>
+            <tr>
+               <th>Word</th>
+               <th>Count</th>
+            </tr>
+         </table>
+      </div>
+      <div id="CRUZ">
+         <h2>CRUZ</h2>
+         <table>
+            <tr>
+               <th>Word</th>
+               <th>Count</th>
+            </tr>
+            <tr>
+               <td>amnesty</td>
+               <td>5</td>
+               <td>Mutual Information Score</td>
+            </tr>
+            <tr>
+               <td>senate</td>
+               <td>4</td>
+               <td>Mutual Information Score</td>
+            </tr>
+         </table>
+      </div>
+      <div id="KASICH">
+         <h2>KASICH</h2>
+         <table>
+            <tr>
+               <th>Word</th>
+               <th>Count</th>
+            </tr>
+            <tr>
+               <td>want</td>
+               <td>3</td>
+               <td>Mutual Information Score</td>
+            </tr>
+         </table>
+      </div>
+      <div id="RUBIO">
+         <h2>RUBIO</h2>
+         <table>
+            <tr>
+               <th>Word</th>
+               <th>Count</th>
+            </tr>
+            <tr>
+               <td>people</td>
+               <td>6</td>
+               <td>Mutual Information Score</td>
+            </tr>
+         </table>
+      </div>
+      <div id="TRUMP">
+         <h2>TRUMP</h2>
+         <table>
+            <tr>
+               <th>Word</th>
+               <th>Count</th>
+            </tr>
+            <tr>
+               <td>need</td>
+               <td>3</td>
+               <td>Mutual Information Score</td>
+            </tr>
+         </table>
+      </div>
+      <div id="WALKER">
+         <h2>WALKER</h2>
+         <table>
+            <tr>
+               <th>Word</th>
+               <th>Count</th>
+            </tr>
+            <tr>
+               <td>border</td>
+               <td>4</td>
+               <td>Mutual Information Score</td>
+            </tr>
+            <tr>
+               <td>actually</td>
+               <td>3</td>
+               <td>Mutual Information Score</td>
+            </tr>
+            <tr>
+               <td>people</td>
+               <td>3</td>
+               <td>Mutual Information Score</td>
+            </tr>
+         </table>
+      </div>
+   </body>
+</html>

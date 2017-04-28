@@ -238,15 +238,15 @@
                                 <xsl:sort select="count($words[. eq current()])" order="descending"/>
                                 <xsl:sort/>
                                 <!-- only report for words that aren't in the stopword list -->
-                                
-                             <xsl:if test="not(current() = $stopwords) and count($words[. eq current()])">
+                             <xsl:variable name="tr" as="item()*"> 
+                             <xsl:if test="not(current() = $stopwords) and count($words[. eq current()]) and position() lt 10">
                                    
                                     <tr>
                                         <td>
                                             <xsl:value-of select="current()"/>
                                         </td>
                                         <td>
-                                            
+                                            <xsl:value-of select="count($words[. eq current()])"/>
                                         </td>
                                         <td>Mutual Information Score</td>
                                     </tr>
