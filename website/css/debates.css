@@ -1,13 +1,13 @@
+*{
+    font-family: "Courier New", serif;
+}
 body{
     background-image: url(../images/stage3.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
-}
 
-*{
-    font-family: "Courier New", serif;
 }
 .margin{
     text-align: center;
@@ -15,20 +15,13 @@ body{
     font-size: 150%;
     background: rgba(17, 23, 87, .85);
 }
-.debates{
-    color: blue;
-    background: rgba(17, 23, 87, .85);
-    font-size: 150%;
-    list-style-type: none;
-    margin-left: 15%;
-    margin-right: 15%;
-}
 .menu{
     margin-bottom: 50px;
     padding-top: 0;
     list-style-type: none;
     background-color: #991817;
     text-align: center;
+    font-size: 130%;
 }
 
 .menubar{
@@ -49,11 +42,11 @@ body{
 .dropbtn{
     background-color: #991817;
     color: white;
-    font-size: 130%;
     padding: 0 1em;
     border: none;
     cursor: pointer;
     margin: 0;
+    font-size: 100%;
 }
 
 .dropdown{
@@ -61,18 +54,19 @@ body{
     display: inline-block;
     margin: 0;
     padding-left: 0;
+    font-size: 130%;
 }
 
 
 .dropdown-content{
-    position: relative;
+    margin: auto;
     display: block;
     width: 100%;
 }
 
 .dropdown-content a{
     background-color: #991817;
-    color: black;
+    color: white;
     padding: 12px 0;
     text-decoration: none;
     display: inline-block;
@@ -84,26 +78,44 @@ body{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    font-size: 130%;
+    font-size: 100%;
 }
 .dropdown:hover .dropdown-content{
     display: block;
 }
 
-a:link{
-    color: white;
+a{
+    padding: 0;
     text-decoration: none;
-    font-size: 75%;
-}
-a:visited{
-    color: white;
-    text-decoration: none;
+    
 }
 
+/* 
+ * Pseudo-selector have to be in a particular order
+ * https://css-tricks.com/remember-selectors-with-love-and-hate/
+ */
+/* a:link{
+    color: white;
+    font-size: 130%;
+} */
+a:visited{
+    color: white;
+}
 a:hover{
     color: blue;
-    font-size: 75%;
+    font-size: 100%;
+}
+
+div.about{
+    background: rgba(17, 23, 87, .85);
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 18%;
+    margin-right:18%;
+    
+}
+div.about a {
+    color:white;
 }
