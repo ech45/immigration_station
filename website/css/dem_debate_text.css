@@ -10,6 +10,12 @@ body{
     background-attachment: fixed;
     display: block;
 }
+#linkExp{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 20px;
+}
 div.containerMeta{
     display: none;
     flex-direction: row;

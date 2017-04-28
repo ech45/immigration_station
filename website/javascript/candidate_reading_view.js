@@ -47,8 +47,13 @@ function checkbox_toggle() {
         }
     } else {
         for (var i = 0, length = spans.length; i < length; i++) {
-            spans[i].style.backgroundColor = 'pink';
-            spans[i].style.color = 'black';
+            if (this.checked == true) {
+                spans[i].style.backgroundColor = 'pink';
+                spans[i].style.color = 'black';
+            } else {
+                spans[i].style.backgroundColor = 'rgba(153, 24, 23, .70)';
+                spans[i].style.color = 'white';
+            }
         }
     }
 }
