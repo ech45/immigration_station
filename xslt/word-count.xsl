@@ -211,7 +211,7 @@
             <body>
                 <!-- find sentences with <immigration> descendants that contain the string 'immigrant' and group by speaker-->
                 <xsl:for-each-group
-                    select="$allDebates//speech[contains(., 'immigra')]"
+                    select="//speech[contains(., 'immigra')]"
                     group-by="@speaker">
                     <!-- sort by speaker -->
                     <xsl:sort select="@speaker"/>
@@ -239,14 +239,14 @@
                                 <xsl:sort/>
                                 <!-- only report for words that aren't in the stopword list -->
                                 
-                             <xsl:if test="not(current() = $stopwords) and count($words[. eq current()]) gt 3">
+                             <xsl:if test="not(current() = $stopwords) and count($words[. eq current()])">
                                    
                                     <tr>
                                         <td>
                                             <xsl:value-of select="current()"/>
                                         </td>
                                         <td>
-                                            <xsl:value-of select="count($words[. eq current()])"/>
+                                            
                                         </td>
                                         <td>Mutual Information Score</td>
                                     </tr>
