@@ -1,5 +1,6 @@
 *{
     font-family: "Courier New", serif;
+    cursor: pointer;
 }
 body{
     background-image: url(../images/stage3.jpg);
@@ -119,3 +120,5 @@ div.about{
 div.about a {
     color:white;
 }
+
+div.about a:hover {color: red;}
