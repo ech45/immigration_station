@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      width="700"
      height="500"
-     viewBox="-100 -100 200 200">
+     viewBox="-100 -100 200 200"
+     style='stroke-width: 0px; background-color: white;'>
    <g transform="translate(-40,0)">
       <circle r="100"
               cx="0"
@@ -13,8 +14,8 @@
               cx="0"
               cy="0"
               stroke="gray"
-              stroke-width="0.2"
-              fill-opacity="0"/>
+              stroke-width="1.2"
+              fill-opacity="1"/>
       <line x1="0"
             y1="0"
             x2="30.901699437494745"
@@ -50,23 +51,23 @@
             stroke-width="0.2"
             stroke="gray"/>
       <text x="101" y="2.9999999999999756" font-size="10">other</text>
-      <path id=""
+      <path id="republican"
             d="M 15.847025352561406 48.7721290407771 L -33.19044079486963 24.11426676071685 L -37.33924589422834 -27.128550105806447 L 25.35524056409823 -78.03540646524337 L 100 -2.4492935982947064E-14 Z"
             stroke="red"
             stroke-width="0.2"
             fill="red"
             fill-opacity=".25"/>
-      <g class="legend" id="_rect" transform="translate(100,-88)">
+      <g class="legend" id="republican_rect" transform="translate(100,-88)">
          <rect x="0" y="0" width="10" height="10" fill="red"/>
          <text x="12" y="8.5" font-size="10" fill="red">republican</text>
       </g>
-      <path id=""
+      <path id="democrat"
             d="M 18.22407915544562 56.08794839689367 L -29.04163569551093 21.099983415627246 L -4.148805099358705 -3.014283345089605 L 15.847025352561396 -48.7721290407771 L 15.384615384615385 -3.768143997376472E-15 Z"
             stroke="blue"
             stroke-width="0.2"
             fill="blue"
             fill-opacity=".25"/>
-      <g class="legend" id="_rect" transform="translate(100,-76)">
+      <g class="legend" id="democrat_rect" transform="translate(100,-76)">
          <rect x="0" y="0" width="10" height="10" fill="blue"/>
          <text x="12" y="8.5" font-size="10" fill="blue">democrat</text>
       </g>

@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/2000/svg" version="2.0"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" xmlns:djb="http://www.obdurodon.org"
     exclude-result-prefixes="#all">
-    <xsl:output method="xml" indent="yes" doctype-system="about:legacy=compat"/>
+    <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
 
     <xsl:variable name="root" as="document-node()" select="/"/>
     <!-- $scaleFactor scales entire SVG image -->
@@ -73,10 +73,10 @@
                 replace(concat(string-join(for $number in 1 to count(*)
                 return
                     djb:coordinates($number, current()/*[$number]), ' '), ' Z'), '^L', 'M')"/>
-        <path id="{@name}" d="{$path}" stroke="{$color}" stroke-width="{$true1}" fill="{$color}"
+        <path id="{@side}" d="{$path}" stroke="{$color}" stroke-width="{$true1}" fill="{$color}"
             fill-opacity=".25"/>
         <!-- legend entry -->
-        <g class="legend" id="{concat(@name,'_rect')}"
+        <g class="legend" id="{concat(@side,'_rect')}"
             transform="translate({$radius},{-100 + $partyPosition * 12})">
             <rect x="0" y="0" width="10" height="10" fill="{$color}"/>
             <text x="12" y="8.5" font-size="10" fill="{$color}">

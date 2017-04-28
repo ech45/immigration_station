@@ -108,8 +108,223 @@
             "wages", which may refer to immigrant jobs.<br />
          </p>
          <p class="main">
-            <strong>Plots</strong>
-            <br /> Plot things <br />
+            <strong>Radar Plots and Parallel Coordinates</strong>
+            <br />The reason for using radar plots is to have a simple comparison for 
+            the number of times candidates use a word. As you can see, there are substantial 
+            differences in the language that democratic and republic candidates use.<br />
+            <br />
+           
+            <svg xmlns="http://www.w3.org/2000/svg"
+               width="700"
+               height="400"
+               viewBox="-100 -100 200 200"
+               style='stroke-width: 0px; background-color: white'>
+               <g transform="translate(-40,0)">
+                  <circle r="100"
+                     cx="0"
+                     cy="0"
+                     stroke="gray"
+                     stroke-width="0.2"
+                     fill-opacity="0"/>
+                  <circle r="2.5641025641025643"
+                     cx="0"
+                     cy="0"
+                     stroke="gray"
+                     stroke-width="1.2"
+                     fill-opacity="1"/>
+                  <line x1="0"
+                     y1="0"
+                     x2="30.901699437494745"
+                     y2="95.10565162951535"
+                     stroke-width="0.2"
+                     stroke="gray"/>
+                  <text x="31.901699437494745" y="98.10565162951535" font-size="10">immigrant</text>
+                  <line x1="0"
+                     y1="0"
+                     x2="-80.90169943749473"
+                     y2="58.77852522924732"
+                     stroke-width="0.2"
+                     stroke="gray"/>
+                  <text x="-79.90169943749473" y="61.77852522924732" font-size="10">undocumented</text>
+                  <line x1="0"
+                     y1="0"
+                     x2="-80.90169943749474"
+                     y2="-58.7785252292473"
+                     stroke-width="0.2"
+                     stroke="gray"/>
+                  <text x="-79.90169943749474" y="-55.7785252292473" font-size="10">illegal</text>
+                  <line x1="0"
+                     y1="0"
+                     x2="30.901699437494724"
+                     y2="-95.10565162951536"
+                     stroke-width="0.2"
+                     stroke="gray"/>
+                  <text x="31.901699437494724" y="-92.10565162951536" font-size="10">refugee</text>
+                  <line x1="0"
+                     y1="0"
+                     x2="100"
+                     y2="-2.4492935982947064E-14"
+                     stroke-width="0.2"
+                     stroke="gray"/>
+                  <text x="101" y="2.9999999999999756" font-size="10">other</text>
+                  <path id="republican"
+                     d="M 15.847025352561406 48.7721290407771 L -33.19044079486963 24.11426676071685 L -37.33924589422834 -27.128550105806447 L 25.35524056409823 -78.03540646524337 L 100 -2.4492935982947064E-14 Z"
+                     stroke="red"
+                     stroke-width="0.2"
+                     fill="red"
+                     fill-opacity=".25"/>
+                  <g class="legend" id="Republican_rect" transform="translate(100,-88)">
+                     <rect x="0" y="0" width="10" height="10" fill="red"/>
+                     <text x="12" y="8.5" font-size="10" fill="red">republican</text>
+                  </g>
+                  <path id="democrat"
+                     d="M 18.22407915544562 56.08794839689367 L -29.04163569551093 21.099983415627246 L -4.148805099358705 -3.014283345089605 L 15.847025352561396 -48.7721290407771 L 15.384615384615385 -3.768143997376472E-15 Z"
+                     stroke="blue"
+                     stroke-width="0.2"
+                     fill="blue"
+                     fill-opacity=".25"/>
+                  <g class="legend" id="democrat_rect" transform="translate(100,-76)">
+                     <rect x="0" y="0" width="10" height="10" fill="blue"/>
+                     <text x="12" y="8.5" font-size="10" fill="blue">democrat</text>
+                  </g>
+               </g>
+            </svg>
+           <br />The specific figures for the amount of times the republican party used immigration terms are:<br />
+            19 for immigrant <br />
+            15 for undocumented immigrants <br />
+            17 for illegal immigrant <br />
+            31 for refugee <br />
+            and 38 other terms  <br />
+                        
+            The figures for the democrats are as follows: <br />
+            22 for immigrant <br />
+            13 for undocumented immigrants <br />
+            1 for illegal immigrants <br />
+            19 for refugees <br />
+            and 5 times for other <br/> <br/>
+            
+            These terms are simplified categories for the terms the parties used. Below are all the 
+            specific terms the candidates used in the debates.<br/>
+            <br />
+            Immigrant-immigrant(s), Mexican immigrants, American immigrants, Muslim immigrant <br/>
+            Undocumented-undocu. immigrant, undoc. child, undoc. worker, undoc. people,
+            these who were undocumented, and undoc. tomato picker.<br />
+            Illegal-Illegal immigrant, illegal alien, illegals, and aliens. <br />
+            Refugee-refugee, syrian refugee, iraqi refugee, and Middle Eastern refugee<br/>
+            Other-Guest worker, people, our neighbors, student, those who live in the shadows <br /> <br />
+            
+            The radar plot evidently shows the republican party spoke immigrant terms more than democrats. In fact,
+            they said these immigrant terms twice the amount of times democrats did. <br /> <br />
+            
+            <svg xmlns="http://www.w3.org/2000/svg"
+               width="700"
+               height="400"
+               viewBox="-100 -100 200 200"
+               style='stroke-width: 0px; background-color: white'>
+               <g transform="translate(-40, 0)">
+                  <circle r="100"
+                     cx="0"
+                     cy="0"
+                     stroke="gray"
+                     stroke-width="0.2"
+                     fill-opacity="0"/>
+                  <circle r="0.9259259259259259"
+                     cx="0"
+                     cy="0"
+                     stroke="gray"
+                     stroke-width="0.2"
+                     fill-opacity="0"/>
+                  <line x1="0"
+                     y1="0"
+                     x2="50.000000000000014"
+                     y2="86.60254037844386"
+                     stroke-width="0.2"
+                     stroke="gray"/>
+                  <text x="51.000000000000014" y="89.60254037844386" font-size="10">immigration</text>
+                  <line x1="0"
+                     y1="0"
+                     x2="-49.99999999999998"
+                     y2="86.60254037844388"
+                     stroke-width="0.2"
+                     stroke="gray"/>
+                  <text x="-48.99999999999998" y="89.60254037844388" font-size="10">border</text>
+                  <line x1="0"
+                     y1="0"
+                     x2="-100"
+                     y2="1.2246467991473532E-14"
+                     stroke-width="0.2"
+                     stroke="gray"/>
+                  <text x="-99" y="3.0000000000000124" font-size="10">pathway_to_citizenship</text>
+                  <line x1="0"
+                     y1="0"
+                     x2="-50.00000000000004"
+                     y2="-86.60254037844385"
+                     stroke-width="0.2"
+                     stroke="gray"/>
+                  <text x="-49.00000000000004" y="-83.60254037844385" font-size="10">wall</text>
+                  <line x1="0"
+                     y1="0"
+                     x2="50.000000000000014"
+                     y2="-86.60254037844386"
+                     stroke-width="0.2"
+                     stroke="gray"/>
+                  <text x="51.000000000000014" y="-83.60254037844386" font-size="10">amnesty</text>
+                  <line x1="0"
+                     y1="0"
+                     x2="100"
+                     y2="-2.4492935982947064E-14"
+                     stroke-width="0.2"
+                     stroke="gray"/>
+                  <text x="101" y="2.9999999999999756" font-size="10">other</text>
+                  <path id="Republican"
+                     d="M 13.425925925925931 23.254385842359927 L -49.99999999999998 86.60254037844388 L -14.814814814814813 1.814291554292375E-15 L -22.685185185185208 -39.29189331984953 L 37.50000000000001 -64.9519052838329 L 30.555555555555557 -7.483952661456048E-15 Z"
+                     stroke="red"
+                     stroke-width="0.2"
+                     fill="red"
+                     fill-opacity=".25"/>
+                  <g class="legend" id="republican_rect" transform="translate(100,-88)">
+                     <rect x="0" y="0" width="10" height="10" fill="red"/>
+                     <text x="12" y="8.5" font-size="10" fill="red">republican</text>
+                  </g>
+                  <path id="Democrat"
+                     d="M 23.148148148148152 40.09376869372401 L -0.9259259259259254 1.6037507477489603 L -10.185185185185185 1.247325443576008E-15 L -5.092592592592597 -8.820629112619281 L 0.462962962962963 -0.80187537387448 L 1.8518518518518516 -4.535728885730938E-16 Z"
+                     stroke="blue"
+                     stroke-width="0.2"
+                     fill="blue"
+                     fill-opacity=".25"/>
+                  <g class="legend" id="Democrat_rect" transform="translate(100,-76)">
+                     <rect x="0" y="0" width="10" height="10" fill="blue"/>
+                     <text x="12" y="8.5" font-size="10" fill="blue">democrat</text>
+                  </g>
+               </g>
+            </svg>
+            
+            <br />
+            
+            Keywords were significant repeated terms that candidates emphasized. Interestingly,
+amnesty is not used at all by democrats; thus, amnesty is a primary issue in immigration discourse for republicans. <br /><br />
+           
+           The number for repblicans are: <br/> <br/>
+             28 for immigration <br/>
+            107 for border <br/>
+            15 for pathway to citizenship <br/>
+            48 for wall <br/>
+            80 for amnesty <br/>
+            32 for other <br/> <br />
+           
+           The number for democrats are: <br/> <br/>
+            49 for immigration <br/>
+            1 for border <br/>
+            10 for pathway to citizenship <br/>
+            10 for wall <br/>
+            0 for amnesty <br/>
+            1 for other <br/> <br />
+            
+            Obviously, the democrats do not generally use the same keywords republicans use. The only 'other'
+            keyword democrats had was asylum which republicans did not use at all. 
+            There were many variations of immigration: <br /><br />
+            
+            
          </p>
          <p class="main">
             <strong>Conclusion</strong>

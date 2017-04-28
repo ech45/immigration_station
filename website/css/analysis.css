@@ -86,3 +86,6 @@ a:visited{
     color: white;
     text-decoration: none;
 }
+.svg {
+    transform: translate(74px,0px);
+}

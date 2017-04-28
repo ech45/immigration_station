@@ -46,7 +46,7 @@
                     fill-opacity="0"/>
                 <!-- 0 values -->
                 <circle r="{$radius * 1 div ($maxValue + 1)}" cx="0" cy="0" stroke="gray"
-                    stroke-width="{1 div $scaleFactor}" fill-opacity="0"/>
+                    stroke-width="{(1 div $scaleFactor) + 1}" fill-opacity="1"/>
                 <!-- axes -->
                 <xsl:for-each select="1 to $spokeCount">
                     <xsl:variable name="fraction" as="xs:double" select=". div $spokeCount"/>
@@ -75,10 +75,10 @@
             replace(concat(string-join(for $number in 1 to count(*)
             return
             djb:coordinates($number, current()/*[$number]), ' '), ' Z'), '^L', 'M')"/>
-        <path id="{@name}" d="{$path}" stroke="{$color}" stroke-width="{$true1}" fill="{$color}"
+        <path id="{@side}" d="{$path}" stroke="{$color}" stroke-width="{$true1}" fill="{$color}"
             fill-opacity=".25"/>
         <!-- legend entry -->
-        <g class="legend" id="{concat(@name,'_rect')}"
+        <g class="legend" id="{concat(@side,'_rect')}"
             transform="translate({$radius},{-100 + $partyPosition * 12})">
             <rect x="0" y="0" width="10" height="10" fill="{$color}"/>
             <text x="12" y="8.5" font-size="10" fill="{$color}">

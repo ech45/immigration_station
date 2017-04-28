@@ -75,3 +75,4 @@ declare variable $rep_student as element(immigrant)+ := $rep_immigrant[@term eq 
 declare variable $rep_those_workers as element(immigrant)+ := $rep_immigrant[@term eq 'those workers'];
 declare variable $rep_those as element(immigrant)+ := $rep_immigrant[@term eq 'those'];
 
+count($rep_people)
