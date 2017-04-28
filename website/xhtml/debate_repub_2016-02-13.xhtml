@@ -33,7 +33,7 @@
       <div class="button">
          <button>Click to toggle participants' names</button>
       </div>
-      <a href="demdebates.xhtml">Return to All Republican Debates</a>
+      <a href="repdebates.xhtml">Return to All Republican Debates</a>
       <hr/>
       <div class="container">
          <div class="debate">
@@ -535,7 +535,7 @@ Back soon with the 2016 Republican debate in Greenville, South Carolina.
             people in this country. We're not taking care of our people. We have no <span class="keyword border">border</span>. We have no control. <span class="immigrant">People</span> are flooding across. We can't have it. We either
             have a <span class="keyword border">border</span>, and I'm very strongly — I'm not
             proposing. <span class="platform secure">I will build a
-                    wall. I will build a wall. Remember this, the wall will be
+                    <span class="keyword wall">wall</span>. I will build a <span class="keyword wall">wall</span>. Remember this, the <span class="keyword wall">wall</span> will be
                 paid for by Mexico.</span> We are not being treated right. [applause] We are not
             being treated properly. <span class="trope value">If we
                 don't have <span class="keyword border">borders</span>, if we don't have strength, we
@@ -558,11 +558,11 @@ Back soon with the 2016 Republican debate in Greenville, South Carolina.
             have lost trust in the federal government. It is now clear that the only way to make
             progress on <span class="immigration">immigration</span> is
             not just to pass a law that enforces the law, but actually prove to people that it's
-            working. They want to see the wall built. They want to
+            working. They want to see the <span class="keyword wall">wall</span> built. They want to
             see the additional border agents. They want to
             see E-Verify. They want to see an entry-exit tracking
             system. Forty percent of the <span class="immigrant">people in this
-                country illegally</span> are entering legally and overstaying visas. And only after all of that is in place, then we'll see
+                country illegally</span> are entering legally and <span class="keyword visa_overstay">overstaying visas</span>. And only after all of that is in place, then we'll see
             what the American people are willing to support on this issue. I think the American
             people will be very reasonable, but responsible, about how you handle someone who has
             been here a long time, who can pass a background check, who pays a fine and starts
@@ -676,7 +676,7 @@ Back soon with the 2016 Republican debate in Greenville, South Carolina.
             senators talk about arcane amendments to bills that didn't pass. [applause] This is —
             this is the problem. We need a leader to fix this problem. And I have a detailed plan to
             do just that, including controlling the <span class="keyword border">border</span>, dealing
-            with the visa over-stayers, making sure that we
+            with the <span class="keyword visa_overstay">visa over-stayers</span>, making sure that we
             have a path to legal status, not to citizenship, for <span class="immigrant">those that come out from the shadows</span> and pay a fine, learn
             English, don't commit crimes, work and pay taxes. That is the better approach.</p>
                <p id="speech187">
@@ -1042,7 +1042,7 @@ Now, we do need antipoverty programs, you can't have free enterprise programs wi
                 You will not pass comprehensive immigration
                     reform. People do not trust the federal government. They want to see
                 the law being enforced. They want to see <span class="immigration">illegal immigration</span> come under control.
-                They want to see that wall. They want to see E-Verify. They want to see all of these things
+                They want to see that <span class="keyword wall">wall</span>. They want to see E-Verify. They want to see all of these things
                 working, and then they will have a conversation with you about what do you do with
                     <span class="immigrant">people that have been here a long time
                     that are otherwise, you know, not criminals</span>. But they're not going
@@ -1293,26 +1293,81 @@ Vote for me. I will unify this party. I will grow it. We will win this election,
             <h4>Debate Options</h4>
             <hr/>
             <p>Select which portions of the debate to view:</p>
-            <input type="radio" name="textView" value="other" checked="checked"/>View all text<br/>
-            <input type="radio" name="textView" value="imm"/>View only
-                        immigration sections
-                        <hr/>
-            <p>Choose keywords  to highlight:</p>
-            <input type="checkbox" name="keyword" value="all"/>Select all<br/>
-            <input type="checkbox" name="keyword" value="amnesty"/>Amnesty<br/>
-            <input type="checkbox" name="keyword" value="asylum"/>Asylum<br/>
-            <input type="checkbox" name="keyword" value="border"/>Border<br/>
-            <input type="checkbox" name="keyword" value="e-verify"/>E-verify<br/>
-            <input type="checkbox" name="keyword" value="pathToCitizenship"/>Path to citizenship<br/>
-            <input type="checkbox" name="keyword" value="sanctuaryCity"/>Sanctuary city<br/>
-            <input type="checkbox" name="keyword" value="visaOverstay"/>Visa overstay<br/>
+            <input type="radio"
+                   id="allText"
+                   name="textView"
+                   value="other"
+                   checked="checked"/>
+            <label for="allText">View all text</label>
+            <br/>
+            <input type="radio" id="immText" name="textView" value="imm"/>
+            <label for="immText">View only
+                        immigration sections</label>
+            <hr/>
+            <p>Select keywords to highlight:</p>
+            <input type="checkbox"
+                   id="immigrantCheck"
+                   name="keyword"
+                   value="immigrant"/>
+            <label for="Immigration">Immigration</label>
+            <br/>
+            <input type="checkbox"
+                   id="immigrationCheck"
+                   name="keyword"
+                   value="immigrant"/>
+            <label for="immigrantCheck">Immigrant</label>
+            <br/>
+            <input type="checkbox"
+                   id="amnestyCheck"
+                   name="keyword"
+                   value="amnesty"/>
+            <label for="amnestyCheck">Amnesty</label>
+            <br/>
+            <input type="checkbox" id="asylumCheck" name="keyword" value="asylum"/>
+            <label for="asylumCheck">Asylum</label>
+            <br/>
+            <input type="checkbox" id="borderCheck" name="keyword" value="border"/>
+            <label for="borderCheck">Border</label>
+            <br/>
+            <input type="checkbox"
+                   id="everifyCheck"
+                   name="keyword"
+                   value="e-verify"/>
+            <label for="everifyCheck">E-verify</label>
+            <br/>
+            <input type="checkbox"
+                   id="pathCheck"
+                   name="keyword"
+                   value="path_to_citizenship"/>
+            <label for="pathCheck">Path to citizenship</label>
+            <br/>
+            <input type="checkbox"
+                   id="sanctuaryCheck"
+                   name="keyword"
+                   value="sanctuary_city"/>
+            <label for="sanctuaryCheck">Sanctuary city</label>
+            <br/>
+            <input type="checkbox"
+                   id="visaCheck"
+                   name="keyword"
+                   value="visa_overstay"/>
+            <label for="visaCheck">Visa overstay</label>
+            <br/>
+            <input type="checkbox" id="wallCheck" name="keyword" value="wall"/>
+            <label for="wallCheck">Wall</label>
+            <br/>
             <p/>
             <hr/>
-                        Choose tropes to Highlight: <br/>
-            <input type="checkbox" name="keyword" value="tropeecon"/>Select all <br/>
-            <input type="checkbox" name="keyword" value="tropeecon"/>Jobs/Economy <br/>
-            <input type="checkbox" name="keyword" value="tropesecure"/>National Security/Crime <br/>
-            <input type="checkbox" name="keyword" value="tropevalues"/>American Values</div>
+                        Select tropes to Highlight: <br/>
+            <input type="checkbox" id="jobCheck" name="trope" value="econ"/>
+            <label for="jobCheck">Jobs/Economy</label>
+            <br/>
+            <input type="checkbox" id="natCheck" name="trope" value="secure"/>
+            <label for="natCheck">National Security/Crime</label>
+            <br/>
+            <input type="checkbox" id="valueCheck" name="trope" value="values"/>
+            <label for="valueCheck">American Values</label>
+         </div>
       </div>
    </body>
 </html>

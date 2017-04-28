@@ -36,7 +36,7 @@
       <div class="button">
          <button>Click to toggle participants' names</button>
       </div>
-      <a href="demdebates.xhtml">Return to All Republican Debates</a>
+      <a href="repdebates.xhtml">Return to All Republican Debates</a>
       <hr/>
       <div class="container">
          <div class="debate">
@@ -1011,7 +1011,7 @@
                   <span class="anecdote secure">I am the son and grandson of
                     immigrants. And I know that securing our <span class="keyword border">borders</span> is not anti-immigrant and we will do it.</span> We'll
                 hire 20,000 new border agents instead of 20,000 new IRS agents. We will finish the
-                700 miles of fencing and walls our nation needs. We'll have mandatory E-verify, a mandatory entry/exit tracking system and until all of
+                700 miles of <span class="keyword wall">fencing</span> and <span class="keyword wall">walls</span> our nation needs. We'll have mandatory E-verify, a mandatory entry/exit tracking system and until all of
                 that is in place and all of that is working and we can prove to the people of this
                 country that <span class="immigration">illegal
                     immigration</span> is under control, nothing else is going to happen. We
@@ -1059,7 +1059,7 @@
                     legalization.<span class="trope secure"> And the
                     bottom line is this, we are not going to be able to do anything on this issue
                     until we first bring <span class="immigration">illegal immigration</span> under control. The American people have
-                    been told for 30 years they're going to enforce the <span class="keyword border">border</span>, they're going to build a wall and it never gets built and it never happens. It is very
+                    been told for 30 years they're going to enforce the <span class="keyword border">border</span>, they're going to build a <span class="keyword wall">wall</span> and it never gets built and it never happens. It is very
                     clear there will be no progress on this issue in any way, shape or form, until
                     you prove to the people of this country that <span class="immigration">illegal immigration</span> is under
                     control. And when I'm president, we are going to bring it under control once and
@@ -1137,7 +1137,7 @@
                 Listen, we can solve <span class="immigration">immigration</span>. We just heard an argument back and forth that we
                 can't solve <span class="immigration">immigration</span>. I have a detailed immigration plan that is on my website, tedcruz.org. It was designed
                 with Iowa's own Congressman Steve King and Jeff Sessions, and... [applause] ... we
-                have the tools in federal law to do this now. We can build the fence. <span class="trope econ">We can
+                have the tools in federal law to do this now. We can build the <span class="keyword wall">fence</span>. <span class="trope econ">We can
                     triple the border patrol. We can end
                         <span class="keyword sanctuary_city">sanctuary cities</span> by cutting off...
                     [bell rings] ... funding to them. We can end welfare for those here
@@ -1893,26 +1893,81 @@
             <h4>Debate Options</h4>
             <hr/>
             <p>Select which portions of the debate to view:</p>
-            <input type="radio" name="textView" value="other" checked="checked"/>View all text<br/>
-            <input type="radio" name="textView" value="imm"/>View only
-                        immigration sections
-                        <hr/>
-            <p>Choose keywords  to highlight:</p>
-            <input type="checkbox" name="keyword" value="all"/>Select all<br/>
-            <input type="checkbox" name="keyword" value="amnesty"/>Amnesty<br/>
-            <input type="checkbox" name="keyword" value="asylum"/>Asylum<br/>
-            <input type="checkbox" name="keyword" value="border"/>Border<br/>
-            <input type="checkbox" name="keyword" value="e-verify"/>E-verify<br/>
-            <input type="checkbox" name="keyword" value="pathToCitizenship"/>Path to citizenship<br/>
-            <input type="checkbox" name="keyword" value="sanctuaryCity"/>Sanctuary city<br/>
-            <input type="checkbox" name="keyword" value="visaOverstay"/>Visa overstay<br/>
+            <input type="radio"
+                   id="allText"
+                   name="textView"
+                   value="other"
+                   checked="checked"/>
+            <label for="allText">View all text</label>
+            <br/>
+            <input type="radio" id="immText" name="textView" value="imm"/>
+            <label for="immText">View only
+                        immigration sections</label>
+            <hr/>
+            <p>Select keywords to highlight:</p>
+            <input type="checkbox"
+                   id="immigrantCheck"
+                   name="keyword"
+                   value="immigrant"/>
+            <label for="Immigration">Immigration</label>
+            <br/>
+            <input type="checkbox"
+                   id="immigrationCheck"
+                   name="keyword"
+                   value="immigrant"/>
+            <label for="immigrantCheck">Immigrant</label>
+            <br/>
+            <input type="checkbox"
+                   id="amnestyCheck"
+                   name="keyword"
+                   value="amnesty"/>
+            <label for="amnestyCheck">Amnesty</label>
+            <br/>
+            <input type="checkbox" id="asylumCheck" name="keyword" value="asylum"/>
+            <label for="asylumCheck">Asylum</label>
+            <br/>
+            <input type="checkbox" id="borderCheck" name="keyword" value="border"/>
+            <label for="borderCheck">Border</label>
+            <br/>
+            <input type="checkbox"
+                   id="everifyCheck"
+                   name="keyword"
+                   value="e-verify"/>
+            <label for="everifyCheck">E-verify</label>
+            <br/>
+            <input type="checkbox"
+                   id="pathCheck"
+                   name="keyword"
+                   value="path_to_citizenship"/>
+            <label for="pathCheck">Path to citizenship</label>
+            <br/>
+            <input type="checkbox"
+                   id="sanctuaryCheck"
+                   name="keyword"
+                   value="sanctuary_city"/>
+            <label for="sanctuaryCheck">Sanctuary city</label>
+            <br/>
+            <input type="checkbox"
+                   id="visaCheck"
+                   name="keyword"
+                   value="visa_overstay"/>
+            <label for="visaCheck">Visa overstay</label>
+            <br/>
+            <input type="checkbox" id="wallCheck" name="keyword" value="wall"/>
+            <label for="wallCheck">Wall</label>
+            <br/>
             <p/>
             <hr/>
-                        Choose tropes to Highlight: <br/>
-            <input type="checkbox" name="keyword" value="tropeecon"/>Select all <br/>
-            <input type="checkbox" name="keyword" value="tropeecon"/>Jobs/Economy <br/>
-            <input type="checkbox" name="keyword" value="tropesecure"/>National Security/Crime <br/>
-            <input type="checkbox" name="keyword" value="tropevalues"/>American Values</div>
+                        Select tropes to Highlight: <br/>
+            <input type="checkbox" id="jobCheck" name="trope" value="econ"/>
+            <label for="jobCheck">Jobs/Economy</label>
+            <br/>
+            <input type="checkbox" id="natCheck" name="trope" value="secure"/>
+            <label for="natCheck">National Security/Crime</label>
+            <br/>
+            <input type="checkbox" id="valueCheck" name="trope" value="values"/>
+            <label for="valueCheck">American Values</label>
+         </div>
       </div>
    </body>
 </html>

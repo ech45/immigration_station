@@ -1388,11 +1388,11 @@
                         ><immigration status="ambig" term="immigration"> Immigration</immigration>
                     is not an issue that I read about in the newspaper or watch a documentary on PBS
                     or CNN. It's an issues I've lived around my whole life. My family are
-                    immigrants. My wife's family are immigrants. All of my neighbors are immigrants.
+                    immigrants. My wife's family are <immigrant status="ambig" term="immigrant">immigrants</immigrant>. All of my neighbors are <immigrant status="ambig" term="immigrant">immigrants</immigrant>.
                     I see every aspect of this problem. The good, the bad, and the ugly. And here's
                     what we learned in 2013. The American people don't trust the Federal Government
                     to enforce our immigration laws, and we will not be able to do anything on
-                    immigration until we first prove to the American people that illegal immigration
+                    immigration until we first prove to the American people that <immigration status="illegal" term="illegal immigration">illegal immigration</immigration>
                     is under control. And we can do that. We know what it takes to do
                     that.</anecdote> It takes at least 20,000 more additional <keyword term="border"
                     >border</keyword> agents. It takes completing those 700 miles of fencing. It

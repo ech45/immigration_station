@@ -17,7 +17,7 @@
                 <div class="button">
                     <button>Click to toggle participants' names</button>
                 </div>
-                <a href="repdebates.xhtml">Return to All Republican Debates</a>
+                <a href="gendebates.xhtml">Return to All Republican Debates</a>
                 <hr/>
                 <div class="container">
                     <div class="debate">

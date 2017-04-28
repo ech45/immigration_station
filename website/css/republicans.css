@@ -1,13 +1,13 @@
+*{
+    font-family: "Courier New", serif;
+}
 body{
     background-image: url(../images/stage3.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
-}
 
-*{
-    font-family: "Courier New", serif;
 }
 .margin{
     text-align: center;
@@ -15,20 +15,13 @@ body{
     font-size: 150%;
     background: rgba(17, 23, 87, .85);
 }
-.debates{
-    color: blue;
-    background: rgba(17, 23, 87, .85);
-    font-size: 150%;
-    list-style-type: none;
-    margin-left: 15%;
-    margin-right: 15%;
-}
 .menu{
     margin-bottom: 50px;
     padding-top: 0;
     list-style-type: none;
     background-color: #991817;
     text-align: center;
+    font-size: 130%;
 }
 
 .menubar{
@@ -49,11 +42,11 @@ body{
 .dropbtn{
     background-color: #991817;
     color: white;
-    font-size: 130%;
     padding: 0 1em;
     border: none;
     cursor: pointer;
     margin: 0;
+    font-size: 100%;
 }
 
 .dropdown{
@@ -61,18 +54,19 @@ body{
     display: inline-block;
     margin: 0;
     padding-left: 0;
+    font-size: 130%;
 }
 
 
 .dropdown-content{
-    position: relative;
+    margin: auto;
     display: block;
     width: 100%;
 }
 
 .dropdown-content a{
     background-color: #991817;
-    color: black;
+    color: white;
     padding: 12px 0;
     text-decoration: none;
     display: inline-block;
@@ -84,28 +78,33 @@ body{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    font-size: 130%;
+    font-size: 100%;
 }
 .dropdown:hover .dropdown-content{
     display: block;
 }
 
-a:link{
-    color: white;
+a{
+    padding: 0;
     text-decoration: none;
-    font-size: 75%;
+    
 }
 
-a:hover{
-    color: blue;
-    font-size: 75%;
-}
+/* 
+ * Pseudo-selector have to be in a particular order
+ * https://css-tricks.com/remember-selectors-with-love-and-hate/
+ */
+/* a:link{
+    color: white;
+    font-size: 130%;
+} */
 a:visited{
     color: white;
-    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    font-size: 100%;
 }
 .candidate{
     list-style-type: none;
@@ -116,37 +115,55 @@ li{
     display: inline;
 }
 div.container{
-    background: rgba(0, 0, 0, .70);
     display: flex;
     flex-direction: row;
+}
+div.debateMenu{
+    flex: 0 1 100%;
+    background: rgba(17, 23, 87, .85);
+    color: white;
+    overflow-y: auto;
+    bottom: 300px;
+}
+div.containerTwo{
+    background: rgba(0, 0, 0, .70);
+    display: flex;
+    flex-direction: column;
     bottom: 0;
     height: calc(100vh + 50px);
+    width: 85%;
+margin: auto;
+margin-right: 30px;
 }
 div.debate{
-    border-left: 2px solid yellow;
     padding-left: 1em;
     overflow-y: auto;
     flex: 1 100%;
-    background-color: white;
+    color: white;
+    background: rgba(153, 24, 23, .70);
 }
-div.debateMenu{
+div.photos{
     padding-right: 1em;
-    flex: 1 200px;
+    flex: 0 1 280px;
+    overflow-x: scroll;
+    white-space: nowrap;
 }
 div.candidate{
     text-align: center;
-}
-a:link div.debate{
-    color: blue;
-
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 p.speech{
     text-align: left;
 }
 div.debate a:link{
-    color: blue;
-    font-size: 100%;
+    color: white;
+    font-size: 110%;
 }
+div.debate a:hover{
+    color: blue;
+}
+
 div.explication{
     text-align: center;
     color: white;
@@ -154,4 +171,15 @@ div.explication{
     margin: 1.5%;
     background: rgba(17, 23, 87, .85);
     ;
+}
+h4{
+    text-align: center;
+}
+.debates{
+    color: blue;
+    background: rgba(17, 23, 87, .85);
+    font-size: 150%;
+    list-style-type: none;
+    margin-left: 15%;
+    margin-right: 15%;
 }

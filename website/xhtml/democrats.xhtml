@@ -1,69 +1,65 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
+        <script type="text/javascript" src="../javascript/candidate_reading_view.js">/**/</script>
         <link rel="stylesheet" type="text/css" href="../css/republicans.css"/>
         <title>Democrats</title>
     </head>
     <body>
-        <div class="margin">"You know, I came to Las Vegas in, I think, May. Early may. Met with a group of DREAMers, I wish everybody in America could meet with this young people, to hear their stories, to know their incredible talent"</div>
+        <div class="margin">
+            <h1>Immigration Station</h1>
+            <h2>A Critical discourse analysis of immigration in the 2016 Presidential Election</h2>
+        </div>
         <div class="menu">
-            
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Home</button>
-                <div id="home" class="dropdown-content">
-                    
-                    <a href="../../index.xhtml"><strong>Home</strong></a>
-                </div>
-            </div>    
+                <a class="dropbtn" href="index.xhtml">Home</a>
+            </div>
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Methodology</button>
-                <div id="Methodology" class="dropdown-content">
-                    
-                    <a href="methodology.xhtml"><strong>Methods</strong></a>
-                </div>
+                <a class="dropbtn" href="methodology.xhtml">Methodology</a>
             </div>
             
             <div class="dropdown">
                 <button onclick="myFunction()" class="dropbtn">Candidates</button>
                 <div id="candidates" class="dropdown-content">
                     
-                    <a href="democrats.xhtml"><strong>Democrats</strong></a>
-                    <a href="republicans.xhtml"><strong>Republicans</strong></a>
+                    <a href="democrats.xhtml">Democrats</a>
+                    <a href="republicans.xhtml">Republicans</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button onclick="myFunction()" class="dropbtn">Debates</button>
                 <div id="debates" class="dropdown-content">
                     
-                    <a href="demdebates.xhtml"><strong>Democratic Debates</strong></a>
-                    <a href="repdebates.xhtml"><strong>Republican Debates</strong></a>
-                    <a href="gendebates.xhtml"><strong>General Election Debates</strong></a>
+                    <a href="demdebates.xhtml">Democratic Debates</a>
+                    <a href="repdebates.xhtml">Republican Debates</a>
+                    <a href="gendebates.xhtml">General Election Debates</a>
                 </div>
             </div>
             
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Analysis</button>
-                <div id="analysis" class="dropdown-content">
-                    
-                    <a href="analysis.xhtml"><strong>Analysis</strong></a>
-                </div>
+                <a class="dropbtn" href="website/xhtml/analysis.xhtml">Analysis</a>
             </div>
         </div>
-        <div class ="explication">
-            Below is an aggregated list of in debate speeches pertaining to immigration from each candidate. We encourage you to click a candidate image of your choice to view their listed immigration speeches. Enjoy!
-        </div>
+        <div class="explication"> Below is an aggregated list of in debate speeches pertaining to
+            immigration from each candidate. We encourage you to click a candidate image of your
+            choice to view their listed immigration speeches and click on the [source] link to read
+            the utterance within the context of its debate. The debate menu is also available for
+            textual analysis on an individual basis with each candidate. </div>
         <div class="container">
-            <div class="debateMenu">     <ul class="candidate">
-                <li><img src="../images/clinton.jpg" width="225" height="250"/><br/> </li>
-                <li><img src="../images/omalley.jpg" width="225" height="250"/> </li>
-                <li><img src="../images/sanders.jpg" width="225" height="250"/></li>
-                <li><img src="../images/webb.jpg" width="225" height="250"/></li>
+            <div class="containerTwo">
+                <div class="photos">
+                    <ul class="candidate">
+                <li><a href="#CLINTON"><img src="../images/clinton.jpg" width="225" height="250"/></a><br/> </li>
+                <li><a href="#OMALLEY"><img src="../images/omalley.jpg" width="225" height="250"/></a> </li>
+                <li><a href="#SANDERS"><img src="../images/sanders.jpg" width="225" height="250"/></a></li>
+                <li><a href="#WEBB"><img src="../images/webb.jpg" width="225" height="250"/></a></li>
             </ul></div>
             <div class="debate">
                 <!--#include virtual="Dems.html" -->
                 
             </div>
             
+        </div>
         </div>
     </body>
 </html>

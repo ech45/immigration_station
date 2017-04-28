@@ -7,33 +7,33 @@
             type="text/css"
             href="../css/repub_debate_text.css"/>
       <script type="text/javascript" src="../javascript/debate_reading_view.js">/**/</script>
-      <title>3 March 2016</title>
+      <title>March 3, 2016</title>
    </head>
    <body>
-      <h2>Detroit,MI<br/>3 March 2016</h2>
+      <h2>Detroit,MI<br/>March 3, 2016</h2>
       <div class="containerMeta">
          <div class="candidates">
             <h3> Candidates </h3>
             <ul>
-               <li>Ted Cruz</li>
-               <li>John Kasich</li>
-               <li>Marco Rubio</li>
+               <li>Senator Ted Cruz (TX);</li>
+               <li>Governor John Kasich</li>
+               <li>Senator Marco Rubio (FL); and</li>
                <li>Donald Trump</li>
             </ul>
          </div>
          <div class="moderators">
             <h3> Moderators </h3>
             <ul>
-               <li>Bret Baier</li>
-               <li>Megyn Kelly</li>
-               <li>Chris Wallace</li>
+               <li>Bret Baier (FOX);</li>
+               <li>Megyn Kelly (FOX); and</li>
+               <li>Chris Wallace (FOX)</li>
             </ul>
          </div>
       </div>
       <div class="button">
          <button>Click to toggle participants' names</button>
       </div>
-      <a href="demdebates.xhtml">Return to All Republican Debates</a>
+      <a href="repdebates.xhtml">Return to All Republican Debates</a>
       <hr/>
       <div class="container">
          <div class="debate">
@@ -723,7 +723,7 @@
             flexibility when it comes to your <span class="immigration">immigration</span> policy, specifically with respect to your
             promise to deport the 11 million people who are now living here illegally. You have
             suggested that you may have expressed some flexibility when it comes to the size of the
-            wall that you want to build. But did you tell them, specifically, that you are flexible
+            <span class="keyword wall">wall</span> that you want to build. But did you tell them, specifically, that you are flexible
             when it comes to your deportation plan? </p>
                <p id="speech162">
             [TRUMP]  I don't know exactly what — when you talk about off the record.
@@ -746,11 +746,11 @@
             [KELLY]  How flexible are you on this issue? [audience booing] </p>
                <p id="speech164">
             [TRUMP]  Not very flexible. No, not very flexible. I give the example — I'm
-            going to build a wall. I'm the one that wants the wall. I'm the one that can build the
-            wall. [applause] It's going to get built. And by the way, Mexico is going to pay for the
-            wall. I can tell you that. Mexico is going to pay for the wall. [applause] But — and I
+            going to build a <span class="keyword wall">wall</span>. I'm the one that wants the <span class="keyword wall">wall</span>. I'm the one that can build the
+            <span class="keyword wall">wall</span>. [applause] It's going to get built. And by the way, Mexico is going to pay for the
+            <span class="keyword wall">wall</span>. I can tell you that. Mexico is going to pay for the <span class="keyword wall">wall</span>. [applause] But — and I
             used an example. And this isn't necessarily what was said, but whatever was said, the
-            wall's 50 feet high. Is it going to be 45 feet or 40 feet? That could very well be. That
+            <span class="keyword wall">wall</span>'s 50 feet high. Is it going to be 45 feet or 40 feet? That could very well be. That
             could very well — he wants it to be higher. [laughter] That could very well be. But
             there's always give and take. There's always negotiation. And the best negotiator that
             knows what he's doing will make a great deal. But we need give and take in government.
@@ -875,7 +875,7 @@
             those jobs? [bell ringing] Roughly 300 applied, Donald hired 17. And, that's why this
             New York Times tape is so troubling because what's been reported is that Donald told the
             Editorial Board of the New York Times what I'm saying on <span class="immigration">immigration</span>, I don't believe.
-            I'm not going to build a wall, I'm not going to deport <span class="immigrant">people</span>, this is all just rhetoric
+            I'm not going to build a <span class="keyword wall">wall</span>, I'm not going to deport <span class="immigrant">people</span>, this is all just rhetoric
             for the voters. Now, if he didn't say that, he has an easy solution. Simply release the
             tape. But, for everyone at home who's mad at politicians that lied to us, Donald's
             record right now as he standing here... </p>
@@ -2312,26 +2312,81 @@
             <h4>Debate Options</h4>
             <hr/>
             <p>Select which portions of the debate to view:</p>
-            <input type="radio" name="textView" value="other" checked="checked"/>View all text<br/>
-            <input type="radio" name="textView" value="imm"/>View only
-                        immigration sections
-                        <hr/>
-            <p>Choose keywords  to highlight:</p>
-            <input type="checkbox" name="keyword" value="all"/>Select all<br/>
-            <input type="checkbox" name="keyword" value="amnesty"/>Amnesty<br/>
-            <input type="checkbox" name="keyword" value="asylum"/>Asylum<br/>
-            <input type="checkbox" name="keyword" value="border"/>Border<br/>
-            <input type="checkbox" name="keyword" value="e-verify"/>E-verify<br/>
-            <input type="checkbox" name="keyword" value="pathToCitizenship"/>Path to citizenship<br/>
-            <input type="checkbox" name="keyword" value="sanctuaryCity"/>Sanctuary city<br/>
-            <input type="checkbox" name="keyword" value="visaOverstay"/>Visa overstay<br/>
+            <input type="radio"
+                   id="allText"
+                   name="textView"
+                   value="other"
+                   checked="checked"/>
+            <label for="allText">View all text</label>
+            <br/>
+            <input type="radio" id="immText" name="textView" value="imm"/>
+            <label for="immText">View only
+                        immigration sections</label>
+            <hr/>
+            <p>Select keywords to highlight:</p>
+            <input type="checkbox"
+                   id="immigrantCheck"
+                   name="keyword"
+                   value="immigrant"/>
+            <label for="Immigration">Immigration</label>
+            <br/>
+            <input type="checkbox"
+                   id="immigrationCheck"
+                   name="keyword"
+                   value="immigrant"/>
+            <label for="immigrantCheck">Immigrant</label>
+            <br/>
+            <input type="checkbox"
+                   id="amnestyCheck"
+                   name="keyword"
+                   value="amnesty"/>
+            <label for="amnestyCheck">Amnesty</label>
+            <br/>
+            <input type="checkbox" id="asylumCheck" name="keyword" value="asylum"/>
+            <label for="asylumCheck">Asylum</label>
+            <br/>
+            <input type="checkbox" id="borderCheck" name="keyword" value="border"/>
+            <label for="borderCheck">Border</label>
+            <br/>
+            <input type="checkbox"
+                   id="everifyCheck"
+                   name="keyword"
+                   value="e-verify"/>
+            <label for="everifyCheck">E-verify</label>
+            <br/>
+            <input type="checkbox"
+                   id="pathCheck"
+                   name="keyword"
+                   value="path_to_citizenship"/>
+            <label for="pathCheck">Path to citizenship</label>
+            <br/>
+            <input type="checkbox"
+                   id="sanctuaryCheck"
+                   name="keyword"
+                   value="sanctuary_city"/>
+            <label for="sanctuaryCheck">Sanctuary city</label>
+            <br/>
+            <input type="checkbox"
+                   id="visaCheck"
+                   name="keyword"
+                   value="visa_overstay"/>
+            <label for="visaCheck">Visa overstay</label>
+            <br/>
+            <input type="checkbox" id="wallCheck" name="keyword" value="wall"/>
+            <label for="wallCheck">Wall</label>
+            <br/>
             <p/>
             <hr/>
-                        Choose tropes to Highlight: <br/>
-            <input type="checkbox" name="keyword" value="tropeecon"/>Select all <br/>
-            <input type="checkbox" name="keyword" value="tropeecon"/>Jobs/Economy <br/>
-            <input type="checkbox" name="keyword" value="tropesecure"/>National Security/Crime <br/>
-            <input type="checkbox" name="keyword" value="tropevalues"/>American Values</div>
+                        Select tropes to Highlight: <br/>
+            <input type="checkbox" id="jobCheck" name="trope" value="econ"/>
+            <label for="jobCheck">Jobs/Economy</label>
+            <br/>
+            <input type="checkbox" id="natCheck" name="trope" value="secure"/>
+            <label for="natCheck">National Security/Crime</label>
+            <br/>
+            <input type="checkbox" id="valueCheck" name="trope" value="values"/>
+            <label for="valueCheck">American Values</label>
+         </div>
       </div>
    </body>
 </html>
