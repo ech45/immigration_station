@@ -13,6 +13,8 @@
     <!--  <xsl:variable name="genDebates" as="document-node()*" select="collection('../xml/General_Debates/?select=*.xml')"/> -->
     <xsl:variable name="allDebates" as="document-node()*"
         select="$demDebates | $repDebates | $genDebates"/>
+    <xsl:variable name="allCandidates" as="xs:string+"
+        select="distinct-values($allDebates//candidate/@who)"/>
     <xsl:variable name="stopwords" as="xs:string+"
         select="
             ('a',
@@ -222,10 +224,9 @@
                 <xsl:for-each-group select="$allDebates//speech[contains(., 'immigra')]"
                     group-by="@speaker">
                     <!-- sort by speaker -->
-                    <xsl:sort select="@speaker"/>
+                    <xsl:sort select="current-grouping-key()"/>
                     <!-- keep only speeches by candidates, not those by modersators -->
-                    <xsl:if
-                        test="@speaker = current-group()/ancestor::debate/meta/participants/candidate/@who">
+                    <xsl:if test="@speaker = $allCandidates">
                         <div id="{@speaker}">
                             <h2>
                                 <xsl:value-of select="@speaker"/>
