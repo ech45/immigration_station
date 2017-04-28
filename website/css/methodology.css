@@ -1,25 +1,27 @@
-body{background-image: url(../images/stage3.jpg);
-background-repeat: no-repeat;
-background-size: 100% 100%;
-background-position:center;
-background-attachment:fixed;}
-
 *{
-    font-family: "Palatino Linotype";
+    font-family: "Courier New", serif;
+}
+body{
+    background-image: url(../images/stage3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+
 }
 .margin{
-    text-align: left;
-    color: white; 
-    font-size: 300%;
-    background: rgba(17,23,87,.85);
-padding-bottom: 30px;    
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    background: rgba(17, 23, 87, .85);
 }
 .menu{
-    margin: 0;
+    margin-bottom: 50px;
     padding-top: 0;
     list-style-type: none;
     background-color: #991817;
     text-align: center;
+    font-size: 130%;
 }
 
 .menubar{
@@ -35,54 +37,85 @@ padding-bottom: 30px;
     margin: auto;
     padding: 160px 5%;
     position: relative;
-    
-}
-.dropbtn {background-color: #991817;
-color: white;
-font-size: 200%;
-padding:16px;
-border:none;
-cursor:pointer;
-margin:0;}
 
-.dropdown {
+}
+.dropbtn{
+    background-color: #991817;
+    color: white;
+    padding: 0 1em;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    font-size: 100%;
+}
+
+.dropdown{
     position: relative;
     display: inline-block;
-    margin:0;
-    padding-left:10%
+    margin: 0;
+    padding-left: 0;
+    font-size: 130%;
 }
 
 
-.dropdown-content{position:relative;
-display: inline-block;}
-
-.dropdown-content a {
-background-color: #991817;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+.dropdown-content{
+    margin: auto;
     display: block;
-    
+    width: 100%;
 }
 
-.dropdown-content {
+.dropdown-content a{
+    background-color: #991817;
+    color: white;
+    padding: 12px 0;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.dropdown-content{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    font-size:75%;
+    font-size: 100%;
 }
-.dropdown:hover .dropdown-content {
-    display: block;}
-    
-a:link{
-    color: white;
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+a{
+    padding: 0;
     text-decoration: none;
-    font-size: 200%;
+    
 }
+
+/* 
+ * Pseudo-selector have to be in a particular order
+ * https://css-tricks.com/remember-selectors-with-love-and-hate/
+ */
+/* a:link{
+    color: white;
+    font-size: 130%;
+} */
 a:visited{
     color: white;
-    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    font-size: 100%;
+}
+
+div.about{
+    background: rgba(17, 23, 87, .85);
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+div.about a {
+    font-size: 100%;
+    color: red;
 }
