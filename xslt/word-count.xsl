@@ -8,9 +8,11 @@
         select="collection('../xml/Democratic_Debates/?select=*.xml')"/>
     <xsl:variable name="repDebates" as="document-node()*"
         select="collection('../xml/Republican_Debates/?select=*.xml')"/>
-    <xsl:variable name="genDebates" as="document-node()*" select="collection('../xml/General_Debates/?select*.xml')"/>
-  <!--  <xsl:variable name="genDebates" as="document-node()*" select="collection('../xml/General_Debates/?select=*.xml')"/> -->
-    <xsl:variable name="allDebates" as="document-node()*" select="$demDebates | $repDebates| $genDebates"/>
+    <xsl:variable name="genDebates" as="document-node()*"
+        select="collection('../xml/General_Debates/?select*.xml')"/>
+    <!--  <xsl:variable name="genDebates" as="document-node()*" select="collection('../xml/General_Debates/?select=*.xml')"/> -->
+    <xsl:variable name="allDebates" as="document-node()*"
+        select="$demDebates | $repDebates | $genDebates"/>
     <xsl:variable name="stopwords" as="xs:string+"
         select="
             ('a',
@@ -123,7 +125,7 @@
             'shes',
             'should',
             'shouldnt',
-            'so', 'immigrant', 'immgration', 'immigrants', 'refugee', 'refugees', 
+            'so', 'immigrant', 'immgration', 'immigrants', 'refugee', 'refugees',
             'some',
             'such',
             'than',
@@ -202,60 +204,65 @@
                     }
                     th,
                     td{
-                        padding: 2px;
+                        padding: .25em;
                     }
                     td:nth-child(2){
                         text-align: right;
+                    }
+                    div{
+                        display: inline-block;
+                        padding: 0 1em;
+                    }
+                    h2{
+                        text-align: center;
                     }</style>
             </head>
             <body>
                 <!-- find sentences with <immigration> descendants that contain the string 'immigrant' and group by speaker-->
-                <xsl:for-each-group
-                    select="//speech[contains(., 'immigra')]"
+                <xsl:for-each-group select="$allDebates//speech[contains(., 'immigra')]"
                     group-by="@speaker">
                     <!-- sort by speaker -->
                     <xsl:sort select="@speaker"/>
                     <!-- keep only speeches by candidates, not those by modersators -->
-                    <xsl:if test="@speaker = //meta/participants/candidate/@who">
-                       <div id="{@speaker}"> <h2>
-                            <xsl:value-of select="@speaker"/>
-                        </h2>
-                       
-                        <xsl:variable name="word-string" as="element(speech)+"
-                            select="current-group()"/>
-                        <!-- $words is a sequence of all words from speeches by the candidate of interest -->
-                        <xsl:variable name="words" as="xs:string+"
-                            select="tokenize(lower-case(normalize-space(replace(string-join($word-string, ' '), '\p{P}', ''))), '\s+')"/>
-                        <table>
-                            <tr>
-                                <th>Word</th>
-                                <th>Count</th>
-                            </tr>
-                            <!-- for each distinct word by the candidate, count how many times it occurs -->
-                         <xsl:for-each select="distinct-values($words)">
-                               
-                                <!-- sort in descending order by word frequencies; in case of ties, subsort in alphabetical order-->
-                                <xsl:sort select="count($words[. eq current()])" order="descending"/>
-                                <xsl:sort/>
-                                <!-- only report for words that aren't in the stopword list -->
-                             <xsl:variable name="tr" as="item()*"> 
-                             <xsl:if test="not(current() = $stopwords) and count($words[. eq current()]) and position() lt 10">
-                                   
-                                    <tr>
-                                        <td>
-                                            <xsl:value-of select="current()"/>
-                                        </td>
-                                        <td>
-                                            <xsl:value-of select="count($words[. eq current()])"/>
-                                        </td>
-                                        <td>Mutual Information Score</td>
-                                    </tr>
-                                </xsl:if>
-                            </xsl:for-each>
-                        </table>
-                       </div>
+                    <xsl:if
+                        test="@speaker = current-group()/ancestor::debate/meta/participants/candidate/@who">
+                        <div id="{@speaker}">
+                            <h2>
+                                <xsl:value-of select="@speaker"/>
+                            </h2>
+                            <xsl:variable name="word-string" as="element(speech)+"
+                                select="current-group()"/>
+                            <!-- $words is a sequence of all words from speeches by the candidate of interest -->
+                            <xsl:variable name="words" as="xs:string+"
+                                select="tokenize(lower-case(normalize-space(replace(string-join($word-string, ' '), '\p{P}', ''))), '\s+')"/>
+                            <table>
+                                <tr>
+                                    <th>Word</th>
+                                    <th>Count</th>
+                                </tr>
+                                <!-- for each distinct word by the candidate, count how many times it occurs -->
+                                <xsl:for-each select="distinct-values($words)[not(. = $stopwords)]">
+                                    <!-- sort in descending order by word frequencies; in case of ties, subsort in alphabetical order-->
+                                    <xsl:sort select="count($words[. eq current()])"
+                                        order="descending"/>
+                                    <xsl:sort/>
+                                    <!-- only report for words that aren't in the stopword list -->
+                                    <xsl:if test="position() lt 16">
+                                        <tr>
+                                            <td>
+                                                <xsl:value-of select="current()"/>
+                                            </td>
+                                            <td>
+                                                <xsl:value-of select="count($words[. eq current()])"
+                                                />
+                                            </td>
+                                            <!--<td>Mutual Information Score</td>-->
+                                        </tr>
+                                    </xsl:if>
+                                </xsl:for-each>
+                            </table>
+                        </div>
                     </xsl:if>
-                
                 </xsl:for-each-group>
             </body>
         </html>
