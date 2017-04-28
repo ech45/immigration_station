@@ -15,17 +15,19 @@
                 <title>Candidates' utterances</title>
             </head>
             <body>
+                <xsl:variable name="apos">'</xsl:variable>
+                <xsl:variable name="OMALLEY" select="string-join(('O', 'MALLEY'), $apos)"/>
                 <!-- find sentences with <immigration> descendants that contain the string 'immigrant' and group by speaker-->
                 <xsl:for-each-group select="$allDebates//speech[child::*]" group-by="@speaker">
                     <!-- sort by speaker -->
                     <xsl:sort select="current-grouping-key()"/>
                     <!-- keep only speeches by candidates, not those by moderators -->
-                 <xsl:if test="@speaker = ('SANDERS', 'CLINTON', 'OMALLEY', 'WEBB', 'KAINE')"> 
-                    <h2>
+                 <xsl:if test="@speaker = ('SANDERS', 'CLINTON', $OMALLEY, 'WEBB', 'KAINE')"> 
+                    <div class="candidate" id="{@speaker}"><h2>
                         <xsl:value-of select="@speaker"/>
                     </h2>
                     <!-- create a list of speeches of interest by the candidate you're looking at -->
-                    <xsl:apply-templates select="current-group()"/>
+                    <xsl:apply-templates select="current-group()"/></div>
                   </xsl:if> 
                 </xsl:for-each-group>
             </body>
@@ -36,18 +38,58 @@
             select="replace(tokenize(base-uri(.), '/')[last()], 'xml', 'xhtml')"/>
         <xsl:variable name="speechPositionWithinDebate" as="xs:integer"
             select="count(preceding::speech)"/>
-        <p>
-            <a class="text" href="{concat($readingTextURL,'#speech',$speechPositionWithinDebate)}">[source] </a>
+        <p id="{concat($readingTextURL, @speaker, count(preceding::speech))}">
+            <a href="{concat($readingTextURL,'#speech',$speechPositionWithinDebate)}">[source] </a>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
     <xsl:template match="trope">
-        <span class="trope">
+        <span class="trope {@type}">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="immigration">
-        <span class="immigration">
+    <xsl:template match="platform">
+        <span class="platform {@type}">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="anecdote">
+        <span class="anecdote {@type}">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'border']">
+        <span class="keyword border">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'amnesty']">
+        <span class="keyword amnesty">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'sanctuary city']">
+        <span class="keyword sanctuary_city">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'path to citizenship']">
+        <span class="keyword path_to_citizenship">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'wall']">
+        <span class="keyword wall">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'asylum']">
+        <span class="keyword asylum">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="keyword[@term = 'visa overstay']">
+        <span class="keyword visa_overstay">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -56,21 +98,10 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="keyword">
-        <span class="keyword">
+    <xsl:template match="immigration">
+        <span class="immigration">
             <xsl:apply-templates/>
         </span>
-    </xsl:template>
-    <xsl:template match="anecdote">
-        <span class="anecdote">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    <xsl:template match="platform">
-        <span class="platform">
-            <xsl:apply-templates/>
-        </span>
-        
     </xsl:template>
     <!--
         speech -> p

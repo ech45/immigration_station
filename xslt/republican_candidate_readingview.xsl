@@ -21,11 +21,11 @@
                     <xsl:sort select="current-grouping-key()"/>
                     <!-- keep only speeches by candidates, not those by moderators -->
                  <xsl:if test="@speaker = ('BUSH', 'CARSON', 'CHRISTIE', 'CRUZ', 'FIORINA' , 'HUCKABEE' , 'KASICH', 'RUBIO' , 'TRUMP' , 'PENCE' , 'WALKER' , 'PAUL' )"> 
-                    <h2>
+                    <div class="candidate" id="{@speaker}"><h2>
                         <xsl:value-of select="@speaker"/>
                     </h2>
                     <!-- create a list of speeches of interest by the candidate you're looking at -->
-                    <xsl:apply-templates select="current-group()"/>
+                    <xsl:apply-templates select="current-group()"/></div>
                   </xsl:if> 
                 </xsl:for-each-group>
             </body>
@@ -36,8 +36,8 @@
             select="replace(tokenize(base-uri(.), '/')[last()], 'xml', 'xhtml')"/>
         <xsl:variable name="speechPositionWithinDebate" as="xs:integer"
             select="count(preceding::speech)"/>
-        <p>
-            <a class="text" href="{concat($readingTextURL,'#speech',$speechPositionWithinDebate)}">[source] </a>
+        <p id="{concat($readingTextURL, @speaker, count(preceding::speech))}">
+            <a href="{concat($readingTextURL,'#speech',$speechPositionWithinDebate)}">[source] </a>
             <xsl:apply-templates/>
         </p>
     </xsl:template>

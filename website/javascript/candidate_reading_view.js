@@ -41,7 +41,7 @@ function checkbox_toggle() {
                 spans[i].style.backgroundColor = 'yellow';
                 spans[i].style.color = 'black';
             } else {
-                spans[i].style.backgroundColor = 'black';
+                spans[i].style.backgroundColor = 'rgba(153, 24, 23, .70)';
                 spans[i].style.color = 'white';
             }
         }
