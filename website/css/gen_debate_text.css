@@ -1,0 +1,93 @@
+*{
+    font-family: "Courier New", serif;
+    color: white;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/gen_debate_text.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    display: block;
+}
+#linkExp{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 20px;
+}
+div.containerMeta{
+    display: none;
+    flex-direction: row;
+    background: rgba(0, 0, 0, .70);
+}
+div.candidates{
+    flex: 1 100%;
+}
+div.moderators{
+    flex: 1 100%
+}
+button{
+    background: #7a7a7a;
+    border-radius: 25px;
+    text-shadow: 0px 1px 0px #666666;
+    font-family: 'Courier New';
+    color: #ffffff;
+    font-size: 100%;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    float: right;
+}
+
+button:hover{
+    background: #bababa;
+    text-decoration: none;
+    float: right;
+}
+
+div.container{
+    background: rgba(0, 0, 0, .70);
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    height: calc(100vh + 50px);
+}
+div.debate{
+    border-right: 2px solid white;
+    padding-right: 1em;
+    padding-left: 1em;
+    overflow-y: auto;
+    flex: 1 100%;
+}
+div.debateMenu{
+    padding-left: 1em;
+    padding-right: 1em;
+    flex: 1 200px;
+}
+h2{
+    text-align: center;
+    background: rgba(0, 0, 0, .70);
+}
+h3{
+    text-align: left;
+    margin: 0;
+}
+div.candidates_list div.moderators_list{
+    background: rgba(0, 0, 0, .70);
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+a:link{
+    color: white;
+    font-size: 100%;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: blue;
+    font-size: 100%;
+}
