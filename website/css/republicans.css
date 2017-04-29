@@ -88,6 +88,7 @@ body{
 a{
     padding: 0;
     text-decoration: none;
+    color: white;
     
 }
 
@@ -104,6 +105,9 @@ a:visited{
 }
 a:hover{
     color: blue;
+}
+ul.debates a:hover{
+    color: #991817;;
     font-size: 100%;
 }
 .candidate{
