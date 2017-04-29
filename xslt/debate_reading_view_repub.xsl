@@ -85,6 +85,7 @@
         </div>
     </xsl:template>
     <xsl:template match="speech">
+        
         <xsl:variable name="readingTextURL" as="xs:string"
             select="replace(tokenize(base-uri(.), '/')[last()], 'xml', 'xhtml')"/>
         <xsl:variable name="speechPositionWithinDebate" as="xs:integer"
